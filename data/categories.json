@@ -1,0 +1,118 @@
+[
+  {
+    "name": "O1 / A1 Code",
+    "id": "o1-a1-code"
+  },
+  {
+    "name": "O1 / A1 Model",
+    "id": "o1-a1-model"
+  },
+  {
+    "name": "O1 / A2",
+    "id": "o1-a2"
+  },
+  {
+    "name": "O1 / A3",
+    "id": "o1-a3"
+  },
+  {
+    "name": "O2 / A1 Code",
+    "id": "o2-a1-code"
+  },
+  {
+    "name": "O2 / A1 Model",
+    "id": "o2-a1-model"
+  },
+  {
+    "name": "O2 / A2",
+    "id": "o2-a2"
+  },
+  {
+    "name": "O2 / A3",
+    "id": "o2-a3"
+  },
+  {
+    "name": "O3 / A1 Code",
+    "id": "o3-a1-code"
+  },
+  {
+    "name": "O3 / A1 Model",
+    "id": "o3-a1-model"
+  },
+  {
+    "name": "O3 / A2",
+    "id": "o3-a2"
+  },
+  {
+    "name": "O3 / A3",
+    "id": "o3-a3"
+  },
+  {
+    "name": "Infrastructure / Environment Generation",
+    "id": "infrastructure-environment-generation"
+  },
+  {
+    "name": "Infrastructure / Dataset Construction",
+    "id": "infrastructure-dataset-construction"
+  },
+  {
+    "name": "Infrastructure / Training",
+    "id": "infrastructure-training"
+  },
+  {
+    "name": "Infrastructure / Evaluation",
+    "id": "infrastructure-evaluation"
+  },
+  {
+    "name": "Infrastructure / Diagnosis",
+    "id": "infrastructure-diagnosis"
+  },
+  {
+    "name": "Self-Evolver / Programs and Skills",
+    "id": "self-evolver-programs-and-skills"
+  },
+  {
+    "name": "Self-Evolver / Knowledge and Memory",
+    "id": "self-evolver-knowledge-and-memory"
+  },
+  {
+    "name": "Self-Evolver / Rewards",
+    "id": "self-evolver-rewards"
+  },
+  {
+    "name": "Self-Evolver / Environments and Datasets",
+    "id": "self-evolver-environments-and-datasets"
+  },
+  {
+    "name": "Self-Evolver / Robot morphology",
+    "id": "self-evolver-robot-morphology"
+  },
+  {
+    "name": "Self-Evolver / Model",
+    "id": "self-evolver-model"
+  },
+  {
+    "name": "Self-Evolver / Code",
+    "id": "self-evolver-code"
+  },
+  {
+    "name": "Self-Evolver / Representation",
+    "id": "self-evolver-representation"
+  },
+  {
+    "name": "Self-Evolver / State Management",
+    "id": "self-evolver-state-management"
+  },
+  {
+    "name": "Self-Evolver / Tool Interface",
+    "id": "self-evolver-tool-interface"
+  },
+  {
+    "name": "Self-Evolver / Execution Workflows",
+    "id": "self-evolver-execution-workflows"
+  },
+  {
+    "name": "Self-Evolver / Successor AI R&D",
+    "id": "self-evolver-successor-ai-r-d"
+  }
+]

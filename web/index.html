@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="RoboAgentLab: an open research platform for agents that act, build, and evolve robotic systems.">
+  <meta property="og:title" content="RoboAgentLab — Agents that act, build, and evolve">
+  <meta property="og:description" content="An open research platform connecting agents, robots, services, and skills.">
+  <meta property="og:image" content="https://roboagentlab.github.io/assets/logo.png">
+  <title>RoboAgentLab — Agents that act, build, and evolve</title>
+  <link rel="icon" href="assets/logo.png">
+  <link rel="stylesheet" href="site.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="nav-wrap">
+  <nav class="nav" aria-label="Main navigation">
+    <a class="brand" href="./"><img src="assets/logo.png" alt="" width="34" height="34">RoboAgentLab</a>
+    <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">Menu</button>
+    <div class="nav-links">
+      <a href="#demos">Demos</a><a href="#platform">Platform</a><a href="library.html">Research</a>
+      <a href="docs/">Docs</a><a href="#datasets">Datasets</a>
+      <a class="nav-github" href="https://github.com/RoboAgentLab" aria-label="RoboAgentLab on GitHub"><img src="assets/github.svg" width="22" height="22" alt=""></a>
+    </div>
+  </nav>
+</header>
+<main id="main">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-wall" aria-hidden="true">
+      <div class="wall-col">
+        <img src="assets/media/stack.png" alt=""><img src="assets/media/cloth.jpg" alt=""><img src="assets/media/tabletop.jpg" alt="">
+      </div>
+      <div class="wall-col">
+        <img src="assets/media/tabletop.jpg" alt=""><video autoplay muted loop playsinline poster="assets/media/pour.png" data-src="assets/media/pour.mp4"></video><img src="assets/media/basketball.png" alt="">
+      </div>
+      <div class="wall-col">
+        <img src="assets/media/kitchen.jpg" alt=""><video autoplay muted loop playsinline poster="assets/media/stack.png" data-src="assets/media/stack.mp4"></video><img src="assets/media/so101.jpg" alt="">
+      </div>
+    </div>
+    <div class="hero-shade"></div>
+    <div class="hero-content">
+      <div class="eyebrow"><span class="status-dot"></span> OPEN RESEARCH PLATFORM</div>
+      <h1 id="hero-title">Agents that<br><span>act, build,</span><br>and <em>evolve.</em></h1>
+      <p class="hero-description">One workspace for agentic robotics.<br>Connect models, tools, and robots.<br>Turn ideas into experiments.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="docs/quickstart.html">Get started <span>↗</span></a>
+        <a class="button secondary" href="https://github.com/RoboAgentLab/RoboAgentLab"><img src="assets/github.svg" width="17" height="17" alt="">Platform code</a>
+        <a class="button secondary" href="https://github.com/RoboAgentLab/awesome-agentic-robotics">Awesome list</a>
+        <a class="button secondary" href="https://huggingface.co/RoboAgentLab/datasets">Datasets</a>
+      </div>
+      <div class="terminal"><span class="terminal-label">YOUR FIRST EXPERIMENT</span><div><code>/embodied-setup</code><button data-copy="/embodied-setup" aria-label="Copy setup command">Copy</button></div><p>Choose a robot. Pick a model. Start a session.</p></div>
+    </div>
+    <a class="scroll-cue" href="#demos"><span>↓</span> EXPLORE THE LAB</a>
+    <button class="motion-toggle" id="motion-toggle" aria-pressed="false">Pause background videos</button>
+  </section>
+
+  <section class="section demos-section" id="demos">
+    <div class="section-top"><div><p class="eyebrow">FROM CODE TO PHYSICAL INTERACTION</p><h2>A world of experiments.</h2></div><p class="section-intro">Manipulation, assembly, and everyday tasks.<br>Explore a selection of environment replays.</p></div>
+    <div class="filter-row" role="group" aria-label="Filter demonstrations">
+      <button class="active" data-demo-filter="all" aria-pressed="true">All demos</button>
+      <button data-demo-filter="manipulation" aria-pressed="false">Manipulation</button>
+      <button data-demo-filter="household" aria-pressed="false">Household</button>
+      <button data-demo-filter="deformable" aria-pressed="false">Deformable objects</button>
+      <button data-demo-filter="humanoid" aria-pressed="false">Humanoids</button>
+      <button data-demo-filter="precision" aria-pressed="false">Precision & assembly</button>
+    </div>
+    <div class="demo-grid" id="demo-grid"></div>
+    <button class="load-more" id="more-demos" hidden>Show all demos</button>
+    <p class="source-note">Environment replays from <a href="https://pearl-self-improving-agents.linslabnus.chatgpt.site/demos">Alchedata × PEARL Replay Studio ↗</a></p>
+  </section>
+
+  <section class="platform-section" id="platform">
+    <div class="section">
+      <div class="section-top"><div><p class="eyebrow">A SHARED HARNESS. OPEN ENDED RESEARCH.</p><h2>Build once.<br>Compose across robots.</h2></div><p class="section-intro">pi supplies the agent loop and sessions. Robotics capabilities connect through extensions, run as downstream services, and come with skills that explain how to use them.</p></div>
+      <div class="architecture" aria-label="RoboAgentLab architecture">
+        <div class="architecture-agent"><span class="tiny-label">REASON · WRITE · INSPECT · REVISE</span><strong>Coding agent</strong><span>pi loop + sessions</span></div>
+        <div class="architecture-arrow"><span>Skills describe the workflow</span><b>↓ ↑</b><span>Tools return observations & feedback</span></div>
+        <div class="architecture-interface"><div><span class="tiny-label">ONE DECLARATION</span><strong>Robot & algorithm extensions</strong></div><div class="interface-pills"><span>Agent tool calls</span><span>Generated Python</span></div></div>
+        <div class="architecture-services"><div><b>Environments</b><span>Simulation & benchmarks</span></div><div><b>Robot adapters</b><span>Physical hardware</span></div><div><b>Policy backends</b><span>Learned controllers</span></div><div><b>Toolchain</b><span>Perception, planning & data</span></div></div>
+      </div>
+      <div class="platform-links"><a href="docs/development.html">Develop an integration <span>↗</span></a><a href="docs/services.html">Configure services <span>↗</span></a><a href="docs/evaluation.html">Run an evaluation <span>↗</span></a></div>
+    </div>
+  </section>
+
+  <section class="section" id="research">
+    <div class="section-top"><div><p class="eyebrow">A FRAMEWORK FOR AGENTIC ROBOTICS</p><h2>Three roles.<br>A connected research agenda.</h2></div><a class="text-link" href="library.html">Explore the research library ↗</a></div>
+    <div class="roles">
+      <a class="role" href="library.html?role=policy"><span class="role-num">1 / ACT</span><h3>Agent as<br>Policy</h3><p>Select behaviors, orchestrate tools, or write programs that control a robot.</p><span class="role-bottom">Observation × execution <b>↗</b></span></a>
+      <a class="role" href="library.html?role=infrastructure"><span class="role-num">2 / BUILD</span><h3>Agent as<br>Infrastructure</h3><p>Construct collection, training, evaluation, and diagnosis workflows.</p><span class="role-bottom">Development lifecycle <b>↗</b></span></a>
+      <a class="role" href="library.html?role=evolver"><span class="role-num">3 / EVOLVE</span><h3>Agent as<br>Self-Evolver</h3><p>Use feedback to revise and retain artifacts, components, and research capabilities.</p><span class="role-bottom">Retained update targets <b>↗</b></span></a>
+    </div>
+    <article class="paper-strip"><div><span class="tiny-label">THE PAPER · FORTHCOMING</span><h3>Agents that Act, Build, and Evolve:<br>A Unified Framework and Platform for Agentic Robotics</h3></div><a href="https://github.com/RoboAgentLab/awesome-agentic-robotics">Read the companion list ↗</a></article>
+  </section>
+
+  <section class="section data-section" id="datasets">
+    <div class="section-top"><div><p class="eyebrow">LEARN FROM BOTH SIDES OF THE EXPERIMENT</p><h2>Interaction becomes<br>research data.</h2></div><p class="section-intro">Two complementary collections connect robot execution with the software engineering that makes it possible.</p></div>
+    <div class="data-grid">
+      <a class="data-card" href="https://huggingface.co/datasets/RoboAgentLab/pi-embodied-policy-interactions"><span class="tiny-label">AGENT ↔ ROBOT</span><h3>Policy interactions</h3><p>Observations, decisions, tool calls, and feedback from task execution. A foundation for distilling compact, fast policy agents.</p><span>Explore on Hugging Face ↗</span></a>
+      <a class="data-card" href="https://huggingface.co/datasets/RoboAgentLab/pi-embodied-rd-interactions"><span class="tiny-label">AGENT ↔ DEVELOPMENT</span><h3>Robotics R&D interactions</h3><p>Coding, testing, debugging, and experiment development traces. Data for specializing open models in Robotics R&D.</p><span>Explore on Hugging Face ↗</span></a>
+    </div>
+  </section>
+  <section class="start-section"><div class="closing-wall" aria-hidden="true"></div><div class="start-content"><p class="eyebrow">MAKE YOUR NEXT EXPERIMENT REUSABLE</p><h2>Bring your agent.<br>Build with RoboAgentLab.</h2><a class="button primary" href="docs/quickstart.html">Get started <span>↗</span></a></div></section>
+</main>
+<footer><a class="brand" href="./"><img src="assets/logo.png" alt="" width="30" height="30">RoboAgentLab</a><p>An open research platform for agentic robotics.</p><div><a href="docs/">Docs</a><a href="https://github.com/RoboAgentLab">GitHub</a><a href="https://huggingface.co/RoboAgentLab">Hugging Face</a><a href="credits.html">Media sources</a></div><small>© 2026 RoboAgentLab contributors</small></footer>
+<dialog id="demo-dialog"><div class="dialog-top"><h2 id="demo-title">Environment replay</h2><button aria-label="Close replay" id="close-demo">×</button></div><video id="demo-video" controls playsinline></video><a id="demo-source" href="https://pearl-self-improving-agents.linslabnus.chatgpt.site/demos">View source replay ↗</a></dialog>
+</body>
+</html>

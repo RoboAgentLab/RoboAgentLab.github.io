@@ -1,0 +1,13 @@
+:root {--pst-color-primary:#286b63;--pst-color-link:#286b63;--pst-font-family-base:Inter,ui-sans-serif,system-ui,sans-serif;--pst-font-size-base:16px}
+.bd-header {box-shadow:0 1px 0 #dfe5e3}
+.navbar-brand img {max-height:36px;border-radius:9px}
+.navbar-brand .logo__title {font-weight:720;font-size:1.15rem}
+.bd-main .bd-content .bd-article-container {max-width:850px}
+h1 {font-weight:750;letter-spacing:-.04em}
+h2,h3 {font-weight:650;letter-spacing:-.02em}
+.sd-card {border:1px solid var(--pst-color-border);border-radius:12px;box-shadow:none!important}
+.sd-card:hover {border-color:var(--pst-color-primary)}
+.sd-card-title {font-size:1.1rem!important}
+.bd-sidebar-primary {font-size:.92rem}
+pre {font-size:.84rem!important}
+table {font-size:.9rem}

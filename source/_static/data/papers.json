@@ -1,0 +1,4332 @@
+[
+  {
+    "id": "agenticreal2sim2026",
+    "title": "Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2607.19190",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation"
+    ],
+    "code_url": "https://github.com/agentic-real2sim/agentic_real2sim"
+  },
+  {
+    "id": "agenticrobot",
+    "title": "Agentic Robot: A Brain-Inspired Framework for Vision-Language-Action Models in Embodied Agents",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2505.23450",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "code_url": "https://github.com/Agentic-Robot/agentic-robot"
+  },
+  {
+    "id": "agp",
+    "title": "Agent as Policy for Robotic Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.12541",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A3",
+      "O2 / A3"
+    ],
+    "code_url": "https://github.com/agent-as-policy-2026/agent-as-policy"
+  },
+  {
+    "id": "aha2024",
+    "title": "AHA: A Vision-Language-Model for Detecting and Reasoning Over Failures in Robotic Manipulation",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2410.00371",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ],
+    "code_url": "https://github.com/NVlabs/AHA"
+  },
+  {
+    "id": "ahn2025nesyro",
+    "title": "Towards Reliable Code-as-Policies: A Neuro-Symbolic Framework for Embodied Task Planning",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2510.21302",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3"
+    ]
+  },
+  {
+    "id": "almondrobotautoresearch2026",
+    "title": "robot-autoresearch",
+    "year": 2026,
+    "url": "https://github.com/AlmondGod/robotics-autoresearch",
+    "source_type": "Repository",
+    "categories": [
+      "Infrastructure / Training",
+      "Infrastructure / Evaluation"
+    ],
+    "code_url": "https://github.com/AlmondGod/robotics-autoresearch"
+  },
+  {
+    "id": "anytask2025",
+    "title": "AnyTask: an Automated Task and Data Generation Framework for Advancing Sim-to-Real Policy Learning",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2512.17853",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Dataset Construction",
+      "Infrastructure / Training"
+    ]
+  },
+  {
+    "id": "arstag2026",
+    "title": "ARSTAG: An Agentic Real2Sim2Real System for Task-Specific Robot Data Generation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.24563",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Dataset Construction",
+      "Infrastructure / Training",
+      "Infrastructure / Evaluation",
+      "Self-Evolver / Environments and Datasets"
+    ]
+  },
+  {
+    "id": "art2026",
+    "title": "Evolve Vision-Language-Action Model into an Agent with On-the-fly Tool-use",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2608.14047",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ]
+  },
+  {
+    "id": "articraft2026",
+    "title": "Articraft: An Agentic System for Scalable Articulated 3D Asset Generation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2605.15187",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation"
+    ],
+    "code_url": "https://github.com/articraftresearch/Articraft"
+  },
+  {
+    "id": "artificialanalysis2026robotics",
+    "title": "Welcome to the Era of Embodied AI: Introducing AA-Robotics v0.1",
+    "year": 2026,
+    "url": "https://artificialanalysis.ai/articles/aa-robotics",
+    "source_type": "Project / report",
+    "categories": [
+      "O1 / A3"
+    ]
+  },
+  {
+    "id": "audit260213591",
+    "title": "AgentRob: From Virtual Forum Agents to Hijacked Physical Robots",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2602.13591v1",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ]
+  },
+  {
+    "id": "audit260938948",
+    "title": "DrivingBench: Can Vision-Language Models Drive a Toyota Corolla?",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.38948v1",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "code_url": "https://github.com/aditya-ramabadran/drivingbench_harness_v1"
+  },
+  {
+    "id": "audit261002196",
+    "title": "InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.02196v1",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Rewards"
+    ]
+  },
+  {
+    "id": "audit261002459",
+    "title": "OpenRUA: Robot-Use Agents Are Zero-Shot Visuomotor Policies",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.02459v1",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A3"
+    ],
+    "code_url": "https://github.com/terminalworld/OpenRUA"
+  },
+  {
+    "id": "auracurriculum2025",
+    "title": "AURA: Autonomous Upskilling with Retrieval-Augmented Agents",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2506.02507",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ]
+  },
+  {
+    "id": "auradiagnostics2025",
+    "title": "A Collaborative Reasoning Framework for Anomaly Diagnostics in Underwater Robotics",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2511.03075",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Diagnosis"
+    ]
+  },
+  {
+    "id": "autoresearchgym2026",
+    "title": "Autoresearch Gym",
+    "year": 2026,
+    "url": "https://github.com/gabec-slop/autoresearch-gym",
+    "source_type": "Repository",
+    "categories": [
+      "Infrastructure / Training",
+      "Infrastructure / Evaluation"
+    ],
+    "code_url": "https://github.com/gabec-slop/autoresearch-gym"
+  },
+  {
+    "id": "autoresearchrobotics2026",
+    "title": "autoresearch-robotics: Autonomous Robotics Research with Simulation Feedback",
+    "year": 2026,
+    "url": "https://github.com/jellyheadandrew/autoresearch-robotics/tree/ff30cc481af9343b9c96f448b5ed72b75bfcd562",
+    "source_type": "Repository",
+    "categories": [
+      "Infrastructure / Training",
+      "Infrastructure / Evaluation",
+      "Infrastructure / Diagnosis"
+    ],
+    "code_url": "https://github.com/jellyheadandrew/autoresearch-robotics"
+  },
+  {
+    "id": "autort2024",
+    "title": "AutoRT: Embodied Foundation Models for Large Scale Orchestration of Robotic Agents",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2401.12963",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Dataset Construction"
+    ]
+  },
+  {
+    "id": "banwasi2026messymem",
+    "title": "MessyMem: Learning-from-Doing Memory for Mobile Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.15976",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Knowledge and Memory"
+    ]
+  },
+  {
+    "id": "benamor2025sasprompt",
+    "title": "SAS-Prompt: Large Language Models as Numerical Optimizers for Robot Self-Improvement",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2504.20459",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Programs and Skills"
+    ]
+  },
+  {
+    "id": "bincequ2026roboharness",
+    "title": "RoboHarness: A Simple Harness Outperforms VLA and World Action Models",
+    "year": 2026,
+    "url": "https://bincequ.github.io/RoboHarness/",
+    "source_type": "Project / report",
+    "categories": [
+      "O2 / A2"
+    ],
+    "code_url": "https://github.com/BinceQu/RoboHarness"
+  },
+  {
+    "id": "bumble",
+    "title": "BUMBLE: Unifying Reasoning and Acting with Vision-Language Models for Building-wide Mobile Manipulation",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2410.06237",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "code_url": "https://github.com/UT-Austin-RobIn/BUMBLE"
+  },
+  {
+    "id": "capx",
+    "title": "CaP-X: A Framework for Benchmarking and Improving Coding Agents for Robot Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2603.22435",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3",
+      "O3 / A3",
+      "Self-Evolver / Programs and Skills"
+    ],
+    "code_url": "https://github.com/capgym/cap-x"
+  },
+  {
+    "id": "card2024",
+    "title": "A Large Language Model-Driven Reward Design Framework via Dynamic Feedback for Reinforcement Learning",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2410.14660",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ]
+  },
+  {
+    "id": "cardenas2026rosclaw",
+    "title": "ROSClaw: An OpenClaw ROS 2 Framework for Agentic Robot Control and Interaction",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2603.26997",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A2",
+      "O2 / A2"
+    ],
+    "code_url": "https://github.com/ROSClaw/rosclaw"
+  },
+  {
+    "id": "chan2026intelligenceexplosion",
+    "title": "What if automating AI R&D triggers an intelligence explosion?",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.36054",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Successor AI R&D"
+    ]
+  },
+  {
+    "id": "chan2026measuringairda",
+    "title": "Measuring AI R&D Automation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2603.03992",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Successor AI R&D"
+    ]
+  },
+  {
+    "id": "chen2022nlmap",
+    "title": "Open-vocabulary Queryable Scene Representations for Real World Planning",
+    "year": 2022,
+    "url": "https://arxiv.org/abs/2209.09874",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Model"
+    ]
+  },
+  {
+    "id": "chen2023autotamp",
+    "title": "AutoTAMP: Autoregressive Task and Motion Planning with LLMs as Translators and Checkers",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2306.06531",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A1 Code"
+    ],
+    "code_url": "https://github.com/yongchao98/AutoTAMP"
+  },
+  {
+    "id": "chen2026agps",
+    "title": "Accelerating Robotic Reinforcement Learning with Agent Guidance",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2602.11978",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ]
+  },
+  {
+    "id": "chen2026aidsr",
+    "title": "Bridging Language and Physics: Automated Design of Continuum Robots with Large Language Models",
+    "year": 2026,
+    "url": "https://www.roboticsproceedings.org/rss22/p194.html",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Robot morphology"
+    ]
+  },
+  {
+    "id": "chen2026architect",
+    "title": "A Few Words Go a Long Way: Language Guided Robot Policy Synthesis",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2607.23784",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "code_url": "https://github.com/robo-architect/architect-franka"
+  },
+  {
+    "id": "chen2026gap",
+    "title": "GaP: A Graph-as-Policy Multi-Agent Self-Learning Harness For Variational Automation Tasks",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2607.05369",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3",
+      "O3 / A3",
+      "Self-Evolver / Programs and Skills"
+    ],
+    "code_url": "https://github.com/graph-robots/graph-as-policy"
+  },
+  {
+    "id": "chen2026harnessvln",
+    "title": "HarnessVLN: Unifying Training-Free Embodied Navigation through an Agent Harness",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.15195",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
+    ]
+  },
+  {
+    "id": "chen2026kino",
+    "title": "KINO: A Keyframe Interface for VLM Planning and Whole-Body Control in Humanoid Loco-Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.18869",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Model"
+    ]
+  },
+  {
+    "id": "chen2026manipevalagent",
+    "title": "ManipEvalAgent: Promptable and Efficient Evaluation Framework for Robotic Manipulation Policies",
+    "year": 2026,
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/8833c8aa10542d24d693bbaf6a4598f5-Paper-Conference.pdf",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Evaluation"
+    ]
+  },
+  {
+    "id": "chen2026roborouter",
+    "title": "RoboRouter: Training-Free Policy Routing for Robotic Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2603.07892",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Knowledge and Memory"
+    ]
+  },
+  {
+    "id": "chen2026robosimstudio",
+    "title": "RoboSimStudio: An Interactive Toolkit for Human and Agent Rapid Real2Sim of Robot Manipulation Tasks",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.18835",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A3",
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Diagnosis",
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Environments and Datasets"
+    ],
+    "code_url": "https://github.com/robosimstudio/robosimstudio"
+  },
+  {
+    "id": "cheng2026asena",
+    "title": "ASENA: Self-evolving Agents for Embodied Navigation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.39207",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Knowledge and Memory"
+    ]
+  },
+  {
+    "id": "choi2025craft",
+    "title": "CRAFT: Coaching Reinforcement Learning Autonomously using Foundation Models for Multi-Robot Coordination Tasks",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2509.14380",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ]
+  },
+  {
+    "id": "choi2026vlaeval",
+    "title": "vla-eval: A Unified Evaluation Harness for Vision-Language-Action Models",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2603.13966",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Evaluation",
+      "Infrastructure / Diagnosis"
+    ],
+    "code_url": "https://github.com/allenai/vla-evaluation-harness"
+  },
+  {
+    "id": "codebotler2026",
+    "title": "Deploying and Evaluating LLMs to Program Service Mobile Robots",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2311.11183",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3"
+    ],
+    "code_url": "https://github.com/ut-amrl/codebotler"
+  },
+  {
+    "id": "coela",
+    "title": "Building Cooperative Embodied Agents Modularly with Large Language Models",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2307.02485",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code",
+      "O3 / A1 Code"
+    ],
+    "code_url": "https://github.com/UMass-Embodied-AGI/CoELA"
+  },
+  {
+    "id": "copal2023",
+    "title": "CoPAL: Corrective Planning of Robot Actions with Large Language Models",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2310.07263",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ]
+  },
+  {
+    "id": "core2026",
+    "title": "CoRe: Combined Rewards with Vision-Language Model Feedback for Preference-Aligned Reinforcement Learning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2607.01721",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ],
+    "code_url": "https://github.com/nihx9919/CoRe"
+  },
+  {
+    "id": "cunningham2026economicsrsi",
+    "title": "The Economics of Recursive Self-Improvement",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.15802",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Successor AI R&D"
+    ]
+  },
+  {
+    "id": "curricullm2024",
+    "title": "CurricuLLM: Automatic Task Curricula Design for Learning Complex Robot Skills using Large Language Models",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2409.18382",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ],
+    "code_url": "https://github.com/labicon/CurricuLLM"
+  },
+  {
+    "id": "demo2reward2026",
+    "title": "From Demonstrations to Rewards: Test-Time Prompt Optimization for VLM Reward Models",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.00083",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ]
+  },
+  {
+    "id": "diaggen2026",
+    "title": "DiagGen: Agentic Generation of Deformable Assets with Sim-based Diagnostics for Robotic Simulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.23103",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation"
+    ],
+    "code_url": "https://github.com/diaggen/diaggen"
+  },
+  {
+    "id": "dynaharness2026",
+    "title": "DynaHarness: A Dynamic Physical Harness for Self-Evolving Robot Agents",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.40306",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2",
+      "O3 / A2"
+    ]
+  },
+  {
+    "id": "elemental2025",
+    "title": "ELEMENTAL: Interactive Learning from Demonstrations and Vision-Language Models for Reward Design in Robotics",
+    "year": 2025,
+    "url": "https://proceedings.mlr.press/v267/chen25at.html",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ]
+  },
+  {
+    "id": "embodiedbench",
+    "title": "EmbodiedBench: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2502.09560",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "code_url": "https://github.com/EmbodiedBench/EmbodiedBench"
+  },
+  {
+    "id": "embodiedclaw2026",
+    "title": "EmbodiedClaw: Conversational Workflow Execution for Embodied AI Development",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2604.13800",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Dataset Construction",
+      "Infrastructure / Training",
+      "Infrastructure / Evaluation"
+    ]
+  },
+  {
+    "id": "embodiedfirstexam2026",
+    "title": "Embodied First Exam",
+    "year": 2026,
+    "url": "https://github.com/mll-lab-nu/embodied-first-exam",
+    "source_type": "Repository",
+    "categories": [
+      "O1 / A3",
+      "O3 / A3"
+    ],
+    "code_url": "https://github.com/mll-lab-nu/embodied-first-exam"
+  },
+  {
+    "id": "embodiedjev",
+    "title": "EmbodiedJev",
+    "year": null,
+    "url": "https://github.com/FBddcz/embodied-jev",
+    "source_type": "Repository",
+    "categories": [
+      "O1 / A1 Code",
+      "O2 / A1 Code",
+      "O3 / A1 Code"
+    ],
+    "code_url": "https://github.com/FBddcz/embodied-jev"
+  },
+  {
+    "id": "embodiedswe2026",
+    "title": "EmbodiedSWE: Coding Agents for Long Horizon Dexterous Robotics",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.27308",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A3",
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Dataset Construction",
+      "Infrastructure / Training",
+      "Self-Evolver / Programs and Skills"
+    ],
+    "code_url": "https://github.com/EmbodiedSWE/EmbodiedSWE"
+  },
+  {
+    "id": "embodirsi2026",
+    "title": "EmbodiRSI: Recursive Self-Improvement for Data-Efficient Robot Adaptation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.38905",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A2",
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Dataset Construction",
+      "Infrastructure / Training",
+      "Infrastructure / Evaluation",
+      "Self-Evolver / Environments and Datasets",
+      "Self-Evolver / Model"
+    ]
+  },
+  {
+    "id": "embodiskill2026",
+    "title": "EmbodiSkill: Skill-Aware Reflection for Self-Evolving Embodied Agents",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2605.10332",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "code_url": "https://github.com/air-embodied-brain/EmbodiSkill"
+  },
+  {
+    "id": "evonav2026",
+    "title": "EvoNav: Evolutionary Reward Function Design for Robot Navigation with Large Language Models",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2605.11859",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ]
+  },
+  {
+    "id": "f4r2026",
+    "title": "F4R: Failure-Driven Recognition, Reconstruction, Refinement, and Redeployment for Continual Robot Self-Improvement",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.35575",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Self-Evolver / Environments and Datasets"
+    ]
+  },
+  {
+    "id": "fang2025kalm",
+    "title": "KALM: Keypoint Abstraction Using Large Models for Object-Relative Imitation Learning",
+    "year": 2025,
+    "url": "https://doi.org/10.1109/ICRA55743.2025.11128681",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ]
+  },
+  {
+    "id": "favaro2026whenai",
+    "title": "When AI Builds Itself: Our Progress toward Recursive Self-Improvement, and Its Implications",
+    "year": 2026,
+    "url": "https://www.anthropic.com/institute/recursive-self-improvement",
+    "source_type": "Project / report",
+    "categories": [
+      "Self-Evolver / Successor AI R&D"
+    ]
+  },
+  {
+    "id": "gameon2024",
+    "title": "Game On: Towards Language Models as RL Experimenters",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2409.03402",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ]
+  },
+  {
+    "id": "gao2026_3dcodeverse",
+    "title": "3DCodeVerse: Exploring 3D Worlds as Code",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.22341",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation"
+    ],
+    "code_url": "https://github.com/gaoypeng/3dcodeverse"
+  },
+  {
+    "id": "gao2026hexashell",
+    "title": "HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents",
+    "year": 2026,
+    "url": "https://github.com/HexaFuture/HexaShell",
+    "source_type": "Repository",
+    "categories": [
+      "O2 / A3",
+      "Self-Evolver / Knowledge and Memory",
+      "Self-Evolver / Code"
+    ],
+    "code_url": "https://github.com/HexaFuture/HexaShell"
+  },
+  {
+    "id": "ge2026urai",
+    "title": "Make Code as Policy Great Again: Frontier Agents Write, Call, and Evolve Robot Tools",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.39018",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code",
+      "O2 / A3",
+      "Self-Evolver / Code"
+    ]
+  },
+  {
+    "id": "gen2sim2023",
+    "title": "Gen2Sim: Scaling up Robot Learning in Simulation with Generative Models",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2310.18308",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Training"
+    ],
+    "code_url": "https://github.com/pushkalkatara/Gen2Sim"
+  },
+  {
+    "id": "geniesim2026",
+    "title": "Genie Sim 3.0 : A High-Fidelity Comprehensive Simulation Platform for Humanoid Robot",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2601.02078",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Dataset Construction"
+    ],
+    "code_url": "https://github.com/AgibotTech/genie_sim"
+  },
+  {
+    "id": "gensim2023",
+    "title": "GenSim: Generating Robotic Simulation Tasks via Large Language Models",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2310.01361",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Dataset Construction"
+    ],
+    "code_url": "https://github.com/liruiw/GenSim"
+  },
+  {
+    "id": "gigaworldpolicy052026",
+    "title": "GigaWorld-Policy-0.5: A Faster and Stronger WAM Empowered by AutoResearch",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2607.13960",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ]
+  },
+  {
+    "id": "gptpolicy2026",
+    "title": "In-Context Robot Learning with VLM Agents",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.19138",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "code_url": "https://github.com/cheng-haha/GPT-Policy"
+  },
+  {
+    "id": "grid22",
+    "title": "Hi Robot: Open-Ended Instruction Following with Hierarchical Vision-Language-Action Models",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2502.19417",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ]
+  },
+  {
+    "id": "grid23",
+    "title": "VoLo: A Physical Orchestrator for Open-Vocabulary Long-Horizon Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.07723",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A2"
+    ],
+    "code_url": "https://github.com/NVlabs/VoLoAgent"
+  },
+  {
+    "id": "grid24",
+    "title": "DeCo: Task Decomposition and Skill Composition for Zero-Shot Generalization in Long-Horizon 3D Manipulation",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2505.00527",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "code_url": "https://github.com/chenzixuan99/RoboHiMan"
+  },
+  {
+    "id": "grid25",
+    "title": "Goal2Skill: Long-Horizon Manipulation with Adaptive Planning and Reflection",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2604.13942",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ]
+  },
+  {
+    "id": "grid26",
+    "title": "Guava: Distilling Frontier VLM Agents into a Compact Model with a Manipulation Harness",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.18363",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code",
+      "O2 / A3"
+    ],
+    "code_url": "https://github.com/hdacnw/guava-release"
+  },
+  {
+    "id": "grid27",
+    "title": "RoboHarness: Memory-Driven Orchestration of Heterogeneous Robot Policies for Long-Horizon Planning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2607.18060",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2",
+      "O3 / A2"
+    ]
+  },
+  {
+    "id": "grid28",
+    "title": "CLASP: Language-Driven Robot Skill Selection and Composition using Task-Parameterized Learning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.08169",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
+    ]
+  },
+  {
+    "id": "grid29",
+    "title": "FluxVLA Engine: A One-Stop VLA Engineering Platform for Embodied Intelligence",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.17210",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "code_url": "https://github.com/FluxVLA/FluxVLA"
+  },
+  {
+    "id": "grid30",
+    "title": "Embodied Agents Take Control: Minimal-Interface Zero-Shot Agents Rival Industrial-Scale Policies in Vision-and-Language Navigation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2607.26148",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "code_url": "https://github.com/jianzhou0420/MIP"
+  },
+  {
+    "id": "grid31",
+    "title": "AgentVLN: Towards Agentic Vision-and-Language Navigation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2603.17670",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "code_url": "https://github.com/Allenxinn/AgentVLN"
+  },
+  {
+    "id": "grid32",
+    "title": "SpaceVLN: A Zero-Shot Vision-and-Language Navigation Agent with Online Spatial Cognitive Memory and Reasoning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.08992",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ]
+  },
+  {
+    "id": "grid33",
+    "title": "SysNav: Multi-Level Systematic Cooperation Enables Real-World, Cross-Embodiment Object Navigation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2603.06914",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "code_url": "https://github.com/zwandering/SysNav"
+  },
+  {
+    "id": "grid34",
+    "title": "Embodied-Navigator: Point, Think, Memorize, and Align for Efficient Navigation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2608.17512",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "code_url": "https://github.com/ZJU-OmniAI/Embodied-Navigator"
+  },
+  {
+    "id": "grid35",
+    "title": "Co-NavGPT: Multi-Robot Cooperative Visual Semantic Navigation Using Vision Language Models",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2310.07937",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "code_url": "https://github.com/ybgdgh/Co-NavGPT2"
+  },
+  {
+    "id": "grid37",
+    "title": "SPINE: Online Semantic Planning for Missions with Incomplete Natural Language Specifications in Unstructured Environments",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2410.03035",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "code_url": "https://github.com/KumarRobotics/spine"
+  },
+  {
+    "id": "grid38",
+    "title": "Language-Grounded Dynamic Scene Graphs for Interactive Object Search with Mobile Manipulation",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2403.08605",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code",
+      "O3 / A1 Code"
+    ],
+    "code_url": "https://github.com/robot-learning-freiburg/MoMa-LLM"
+  },
+  {
+    "id": "grid39",
+    "title": "SMART-LLM: Smart Multi-Agent Robot Task Planning using Large Language Models",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2309.10062",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A3"
+    ],
+    "code_url": "https://github.com/SMARTlab-Purdue/SMART-LLM"
+  },
+  {
+    "id": "grid40",
+    "title": "LLaMAR: Long-Horizon Planning for Multi-Agent Robots in Partially Observable Environments",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2407.10031",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A1 Code"
+    ],
+    "code_url": "https://github.com/nsidn98/LLaMAR"
+  },
+  {
+    "id": "grid41",
+    "title": "EMOS: Embodiment-aware Heterogeneous Multi-robot Operating System with LLM Agents",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2410.22662",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A1 Code"
+    ],
+    "code_url": "https://github.com/SgtVincent/EMOS"
+  },
+  {
+    "id": "grid42",
+    "title": "ROS-LLM: A ROS framework for embodied AI with task feedback and structured reasoning",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2406.19741",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code",
+      "O2 / A1 Model",
+      "O2 / A3"
+    ],
+    "code_url": "https://github.com/huawei-noah/HEBO/tree/master/ROSLLM"
+  },
+  {
+    "id": "grid43",
+    "title": "ALRM: Agentic LLM for Robotic Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2601.19510",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A2",
+      "O3 / A3"
+    ]
+  },
+  {
+    "id": "grid44",
+    "title": "RoBridge: A Hierarchical Architecture Bridging Cognition and Execution for General Robotic Manipulation",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2505.01709",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Model"
+    ],
+    "code_url": "https://github.com/abliao/RoBridge"
+  },
+  {
+    "id": "grid45",
+    "title": "CLEA: Closed-Loop Embodied Agent for Enhancing Task Execution in Dynamic Environments",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2503.00729",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "code_url": "https://github.com/SP4595/CLEA-Closed-Loop-Embodied-Agent"
+  },
+  {
+    "id": "grid46",
+    "title": "DoReMi: Grounding Language Model by Detecting and Recovering from Plan-Execution Misalignment",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2307.00329",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code",
+      "O2 / A1 Model"
+    ]
+  },
+  {
+    "id": "grid47",
+    "title": "REFLECT: Summarizing Robot Experiences for Failure Explanation and Correction",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2306.15724",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A1 Code",
+      "Infrastructure / Diagnosis"
+    ],
+    "code_url": "https://github.com/columbia-ai-robotics/reflect"
+  },
+  {
+    "id": "grid49",
+    "title": "Robots That Ask For Help: Uncertainty Alignment for Large Language Model Planners",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2307.01928",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Model",
+      "O3 / A1 Code"
+    ],
+    "code_url": "https://github.com/google-research/google-research/tree/master/language_model_uncertainty"
+  },
+  {
+    "id": "grid50",
+    "title": "LLM3:Large Language Model-based Task and Motion Planning with Motion Failure Reasoning",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2403.11552",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code",
+      "O3 / A1 Code"
+    ],
+    "code_url": "https://github.com/AssassinWS/LLM-TAMP"
+  },
+  {
+    "id": "grid52",
+    "title": "Wonderful Team: Zero-Shot Physical Task Planning with Visual LLMs",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2407.19094",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "code_url": "https://github.com/wonderful-team-robotics/wonderful_team_robotics"
+  },
+  {
+    "id": "grid53",
+    "title": "Multi-Modal Grounded Planning and Efficient Replanning For Learning Embodied Agents with A Few Examples",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2412.17288",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "code_url": "https://github.com/snumprlab/flare"
+  },
+  {
+    "id": "grid54",
+    "title": "LLM-State: Open World State Representation for Long-horizon Task Planning with Large Language Model",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2311.17406",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Model",
+      "O3 / A1 Code"
+    ]
+  },
+  {
+    "id": "grid56",
+    "title": "LLM-Planner: Few-Shot Grounded Planning for Embodied Agents with Large Language Models",
+    "year": 2022,
+    "url": "https://arxiv.org/abs/2212.04088",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code",
+      "O2 / A1 Model"
+    ],
+    "code_url": "https://github.com/OSU-NLP-Group/LLM-Planner"
+  },
+  {
+    "id": "grid57",
+    "title": "Instruct2Act: Mapping Multi-modality Instructions to Robotic Actions with Large Language Model",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2305.11176",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3"
+    ],
+    "code_url": "https://github.com/OpenGVLab/Instruct2Act"
+  },
+  {
+    "id": "grid58",
+    "title": "RoboScript: Code Generation for Free-Form Manipulation Tasks across Real and Simulation",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2402.14623",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3",
+      "O3 / A3"
+    ],
+    "code_url": "https://github.com/SgtVincent/RoboScript"
+  },
+  {
+    "id": "grid59",
+    "title": "Robi Butler: Multimodal Remote Interaction with a Household Robot Assistant",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2409.20548",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code",
+      "O2 / A1 Model"
+    ],
+    "code_url": "https://github.com/threefruits/zoom_robot_interface"
+  },
+  {
+    "id": "grid60",
+    "title": "Look Before You Leap: Unveiling the Power of GPT-4V in Robotic Vision-Language Planning",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2311.17842",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ]
+  },
+  {
+    "id": "grid61",
+    "title": "Large Language Models for Orchestrating Bimanual Robots",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2404.02018",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A1 Code"
+    ],
+    "code_url": "https://github.com/Kchu/LABOR-Agent"
+  },
+  {
+    "id": "grid62",
+    "title": "Self-Evolving Embodied Agents via Skill-Harness Evolution",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2608.11350",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code",
+      "O1 / A1 Model",
+      "O1 / A3",
+      "Self-Evolver / Knowledge and Memory",
+      "Self-Evolver / Representation"
+    ]
+  },
+  {
+    "id": "grid63",
+    "title": "HATS: A Human-Agent Teleoperation System for Multi-Arm Data Collection",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.16491",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ]
+  },
+  {
+    "id": "grid64",
+    "title": "Scaling Up and Distilling Down: Language-Guided Robot Skill Acquisition",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2307.14535",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A1 Code",
+      "Infrastructure / Dataset Construction"
+    ],
+    "code_url": "https://github.com/columbia-ai-robotics/scalingup"
+  },
+  {
+    "id": "grid65",
+    "title": "ProgPrompt: Generating Situated Robot Task Plans using Large Language Models",
+    "year": 2022,
+    "url": "https://arxiv.org/abs/2209.11302",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3",
+      "O3 / A3"
+    ]
+  },
+  {
+    "id": "grid66",
+    "title": "Code as Policies: Language Model Programs for Embodied Control",
+    "year": 2022,
+    "url": "https://arxiv.org/abs/2209.07753",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3",
+      "O3 / A3"
+    ],
+    "code_url": "https://github.com/google-research/google-research/tree/master/code_as_policies"
+  },
+  {
+    "id": "grid67",
+    "title": "Text2Motion: From Natural Language Instructions to Feasible Plans",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2303.12153",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Model"
+    ]
+  },
+  {
+    "id": "grid68",
+    "title": "TidyBot: Personalized Robot Assistance with Large Language Models",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2305.05658",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "code_url": "https://github.com/jimmyyhwu/tidybot"
+  },
+  {
+    "id": "grid79",
+    "title": "quackd",
+    "year": null,
+    "url": "https://github.com/rokbenko/quackd",
+    "source_type": "Repository",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "code_url": "https://github.com/rokbenko/quackd"
+  },
+  {
+    "id": "grid83",
+    "title": "robo-harness",
+    "year": null,
+    "url": "https://github.com/grmkris/robo-harness",
+    "source_type": "Repository",
+    "categories": [
+      "O1 / A3"
+    ],
+    "code_url": "https://github.com/grmkris/robo-harness"
+  },
+  {
+    "id": "grs2024",
+    "title": "GRS: Generating Robotic Simulation Tasks from Real-World Images",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2410.15536",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation"
+    ]
+  },
+  {
+    "id": "gu2023conceptgraphs",
+    "title": "ConceptGraphs: Open-Vocabulary 3D Scene Graphs for Perception and Planning",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2309.16650",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "code_url": "https://github.com/concept-graphs/concept-graphs"
+  },
+  {
+    "id": "ham2026spinediagnosis",
+    "title": "SPINE: Bridging the Cyber-Physical Gap with Agentic AI",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2607.13049",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Diagnosis"
+    ]
+  },
+  {
+    "id": "han2024interpret",
+    "title": "InterPreT: Interactive Predicate Learning from Language Feedback for Generalizable Task Planning",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2405.19758",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code",
+      "Self-Evolver / Knowledge and Memory",
+      "Self-Evolver / Code"
+    ],
+    "code_url": "https://github.com/hmz-15/interactive-predicate-learning"
+  },
+  {
+    "id": "harnessvla",
+    "title": "Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2607.08448",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A2",
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "code_url": "https://github.com/RLinf/RPent"
+  },
+  {
+    "id": "he2026vdreamer",
+    "title": "V-Dreamer: Automating Robotic Simulation and Trajectory Synthesis via Video Generation Priors",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2603.18811",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Dataset Construction"
+    ]
+  },
+  {
+    "id": "hermesembodied2026",
+    "title": "Hermes Embodied: Self-Improving Robotics via Hermes Agent",
+    "year": 2026,
+    "url": "https://github.com/bryercowan/hermes-embodied",
+    "source_type": "Repository",
+    "categories": [
+      "Infrastructure / Training",
+      "Infrastructure / Evaluation"
+    ],
+    "code_url": "https://github.com/bryercowan/hermes-embodied"
+  },
+  {
+    "id": "hero2026",
+    "title": "Practice Makes Policies: Bootstrapping and Consolidating Robotic Capabilities from Zero Human Demonstrations",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2607.26809",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Dataset Construction"
+    ]
+  },
+  {
+    "id": "holoagent",
+    "title": "HoloAgent-0: A Unified Embodied Agent Framework with 3D Spatial Memory",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.23565",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
+    ],
+    "code_url": "https://github.com/HorizonRobotics/HoloAgent"
+  },
+  {
+    "id": "hu20262am",
+    "title": "2AM: Grounding Agent-Side Memory as Guidance for Steerable Action Models in Long-Horizon Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.11308",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ]
+  },
+  {
+    "id": "hu2026ars",
+    "title": "ARS: Agentic Reward System for Robot Learning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.34484",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Dataset Construction",
+      "Infrastructure / Evaluation"
+    ],
+    "code_url": "https://github.com/midea-ai/ars"
+  },
+  {
+    "id": "hu2026coap",
+    "title": "Embodied Turing Machines: Stateful Code for Robot Recursive Self-Improvement",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.12369",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A3",
+      "O3 / A3",
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Code"
+    ]
+  },
+  {
+    "id": "hu2026recovla",
+    "title": "ReCoVLA: VLM-Guided Reward Compilation for Failure Recovery in Vision-Language-Action Policies",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.09630",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training",
+      "Infrastructure / Diagnosis",
+      "Self-Evolver / Model"
+    ]
+  },
+  {
+    "id": "hua2024gensim2",
+    "title": "GenSim2: Scaling Robot Data Generation with Multi-modal and Reasoning LLMs",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2410.03645",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Dataset Construction",
+      "Infrastructure / Training"
+    ],
+    "code_url": "https://github.com/GenSim2/GenSim2"
+  },
+  {
+    "id": "huang2026rax",
+    "title": "Scaling Online Exploration for Robot Agents",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.22496",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A3",
+      "O2 / A3",
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "code_url": "https://github.com/robot-agent-exploration/rax/tree/real/franka"
+  },
+  {
+    "id": "huh2026homebody",
+    "title": "HomeBody: A Humanoid That Explores, Remembers, and Acts on Its Own",
+    "year": 2026,
+    "url": "https://tml.stanford.edu/homebody/",
+    "source_type": "Project / report",
+    "categories": [
+      "O2 / A1 Code",
+      "Infrastructure / Environment Generation"
+    ],
+    "code_url": "https://github.com/Stanford-TML/homebody"
+  },
+  {
+    "id": "humanclaw",
+    "title": "HumanCLAW: Can Vision-Language Models Act Through a Body?",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2607.27180",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "code_url": "https://github.com/Human-CLAW/HumanCLAW"
+  },
+  {
+    "id": "humanoidgen2025",
+    "title": "HumanoidGen: Data Generation for Bimanual Dexterous Manipulation via LLM Reasoning",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2507.00833",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Dataset Construction"
+    ],
+    "code_url": "https://github.com/TeleHuman/HumanoidGen"
+  },
+  {
+    "id": "hxwxss2026glmskills",
+    "title": "GLM-5.3-Flash Skills: Embodied Data Engine",
+    "year": 2026,
+    "url": "https://github.com/hxwxss/glm-skills-embodied",
+    "source_type": "Repository",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Dataset Construction"
+    ],
+    "code_url": "https://github.com/hxwxss/glm-skills-embodied"
+  },
+  {
+    "id": "innermonologue",
+    "title": "Inner Monologue: Embodied Reasoning through Planning with Language Models",
+    "year": 2022,
+    "url": "https://arxiv.org/abs/2207.05608",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Model"
+    ]
+  },
+  {
+    "id": "ishibashi2025selfdeveloping",
+    "title": "Can Large Language Models Invent Algorithms to Improve Themselves?: Algorithm Discovery for Recursive Self-Improvement through Reinforcement Learning",
+    "year": 2025,
+    "url": "https://aclanthology.org/2025.naacl-long.519/",
+    "source_type": "Project / report",
+    "categories": [
+      "Self-Evolver / Successor AI R&D"
+    ]
+  },
+  {
+    "id": "jevdrone2026",
+    "title": "jev-drone",
+    "year": 2026,
+    "url": "https://github.com/RomanSlack/jev-drone",
+    "source_type": "Repository",
+    "categories": [
+      "O3 / A1 Code"
+    ],
+    "code_url": "https://github.com/RomanSlack/jev-drone"
+  },
+  {
+    "id": "jevevaluation2026",
+    "title": "Code Owns the Simulation, Jev Owns the Evaluation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.01834",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A1 Code"
+    ]
+  },
+  {
+    "id": "jevlibero2026",
+    "title": "jev-libero",
+    "year": 2026,
+    "url": "https://github.com/Dimweaker/jev-libero",
+    "source_type": "Repository",
+    "categories": [
+      "O3 / A1 Code"
+    ],
+    "code_url": "https://github.com/Dimweaker/jev-libero"
+  },
+  {
+    "id": "jiang2026appl",
+    "title": "Agent Priors-guided Policy Learning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.35690",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A1 Model",
+      "Infrastructure / Training"
+    ]
+  },
+  {
+    "id": "jiang2026halter",
+    "title": "From Rollout to Reset: A Graph-Based Harness for Autonomous Long-Horizon Manipulation Evaluation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.19413",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Evaluation"
+    ]
+  },
+  {
+    "id": "jin2026nautilus",
+    "title": "Nautilus: From One Prompt to Plug-and-Play Robot Learning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2605.11665",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training",
+      "Infrastructure / Evaluation"
+    ]
+  },
+  {
+    "id": "kawaharazuka2026efficient",
+    "title": "Efficient Robot Design with Multi-Objective Black-Box Optimization and Large Language Models",
+    "year": 2026,
+    "url": "https://haraduka.github.io/urdf-llm-opt/",
+    "source_type": "Project / report",
+    "categories": [
+      "Self-Evolver / Robot morphology"
+    ]
+  },
+  {
+    "id": "khandelwal2026agentrl",
+    "title": "Agent-Driven Autonomous Reinforcement Learning Research: Iterative Policy Improvement for Quadruped Locomotion",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2603.27416",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training",
+      "Infrastructure / Diagnosis"
+    ]
+  },
+  {
+    "id": "kim2026rhd",
+    "title": "Recursive Harness Distillation across Agents for Robot Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.33378",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Knowledge and Memory"
+    ]
+  },
+  {
+    "id": "kirk2026stars",
+    "title": "STARS: extending interactive task learning with large language models",
+    "year": 2026,
+    "url": "https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2026.1848830/full",
+    "source_type": "Project / report",
+    "categories": [
+      "Self-Evolver / Knowledge and Memory"
+    ]
+  },
+  {
+    "id": "kumar2026aor",
+    "title": "Act-Observe-Rewrite: Multimodal Coding Agents as In-Context Policy Learners for Robot Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2603.04466",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A3",
+      "Self-Evolver / Programs and Skills"
+    ]
+  },
+  {
+    "id": "kuroki2026closedloop",
+    "title": "Learning and Transferring Closed-Loop Robot Software",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.19906",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Programs and Skills"
+    ]
+  },
+  {
+    "id": "lange2025arna",
+    "title": "General-Purpose Robotic Navigation via LVLM-Orchestrated Perception, Reasoning, and Acting",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2506.17462",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
+    ]
+  },
+  {
+    "id": "le2024articulateanything",
+    "title": "Articulate-Anything: Automatic Modeling of Articulated Objects via a Vision-Language Foundation Model",
+    "year": 2025,
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/2c8047bf3ed8ef6905351608d641f02f-Abstract-Conference.html",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Self-Evolver / Environments and Datasets"
+    ],
+    "code_url": "https://github.com/vlongle/articulate-anything"
+  },
+  {
+    "id": "lee2026rda",
+    "title": "RDA: Reward Design Agent for Reinforcement Learning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.01672",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training",
+      "Self-Evolver / Rewards"
+    ]
+  },
+  {
+    "id": "li2024robocoder",
+    "title": "RoboCoder: Robotic Learning from Basic Skills to General Tasks with Large Language Models",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2406.03757",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Programs and Skills"
+    ]
+  },
+  {
+    "id": "li2025propriomllm",
+    "title": "Towards Proprioception-Aware Embodied Planning for Dual-Arm Humanoid Robots",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2510.07882",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "code_url": "https://github.com/ds199895/DualTHOR"
+  },
+  {
+    "id": "li2025reflectiveadaptation",
+    "title": "Reflection-Based Task Adaptation for Self-Improving VLA",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2510.12710",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training",
+      "Infrastructure / Diagnosis",
+      "Self-Evolver / Rewards",
+      "Self-Evolver / Model"
+    ]
+  },
+  {
+    "id": "li2026agenticrsr",
+    "title": "Agentic RSR: Real-to-Sim-to-Real through Scene Reconstruction and Execution-Grounded Robot Policies",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.10479",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3",
+      "O3 / A3",
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Diagnosis",
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Knowledge and Memory",
+      "Self-Evolver / Environments and Datasets"
+    ]
+  },
+  {
+    "id": "li2026embodiedevo",
+    "title": "EmbodiedEvo: Self-Evolving Coding Agent For Physical Intelligence",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.18867",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A3",
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Knowledge and Memory"
+    ]
+  },
+  {
+    "id": "li2026harbor",
+    "title": "HARBOR: A Harness Framework for Agentic Robot Reinforcement Learning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.08610",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Training",
+      "Infrastructure / Evaluation",
+      "Infrastructure / Diagnosis",
+      "Self-Evolver / Knowledge and Memory",
+      "Self-Evolver / Rewards"
+    ],
+    "code_url": "https://github.com/supersglzc/harbor-rl"
+  },
+  {
+    "id": "li2026roboharnessk1",
+    "title": "Robo-Harness K1: Harnessing Robot-Use Agents via Perception Augmentation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.29389",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
+    ],
+    "code_url": "https://github.com/Robo-Harness/k1"
+  },
+  {
+    "id": "li2026spotter",
+    "title": "Spotter: Let the Embodied Model Lead, and the VLM Reflect for It",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.36808",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A2",
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "code_url": "https://github.com/zqc3117/Spotter"
+  },
+  {
+    "id": "liang2024eurekaverse",
+    "title": "Eurekaverse: Environment Curriculum Generation via Large Language Models",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2411.01775",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Training",
+      "Self-Evolver / Environments and Datasets"
+    ],
+    "code_url": "https://github.com/eureka-research/eurekaverse"
+  },
+  {
+    "id": "liang2026robofoundry",
+    "title": "RoboFoundry: System-as-Policy Evolution for Self-Learning Embodied Agents",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.32862",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A3",
+      "O2 / A3",
+      "O3 / A3",
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Representation",
+      "Self-Evolver / State Management",
+      "Self-Evolver / Tool Interface",
+      "Self-Evolver / Execution Workflows"
+    ]
+  },
+  {
+    "id": "liang2026tether",
+    "title": "Tether: Autonomous Functional Play with Correspondence-Driven Trajectory Warping",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2603.03278",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Dataset Construction"
+    ],
+    "code_url": "https://github.com/tether-research/tether"
+  },
+  {
+    "id": "lim2026lithe",
+    "title": "LITHE: Bridging Best-Effort Python and Real-Time C++ for Hot-Swapping Robotic Control Laws on Commodity Linux",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2603.07442",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A3",
+      "Self-Evolver / Code"
+    ]
+  },
+  {
+    "id": "liu2024moka",
+    "title": "MOKA: Open-World Robotic Manipulation through Mark-Based Visual Prompting",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2403.03174",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code",
+      "Infrastructure / Dataset Construction"
+    ],
+    "code_url": "https://github.com/moka-manipulation/moka"
+  },
+  {
+    "id": "liu2026robotaembed",
+    "title": "Robota-Embed: Unified VLA Embeddings for Robot In-Context Learning and Evolution",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.19495",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ]
+  },
+  {
+    "id": "liu2026scene2demo",
+    "title": "Scene2Demo: Self-Evolving Embodied Data Generation via Object-Action Graph",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2602.12065",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Dataset Construction",
+      "Self-Evolver / Programs and Skills"
+    ]
+  },
+  {
+    "id": "llmpersonalize2024",
+    "title": "LLM-Personalize: Aligning LLM Planners with Human Preferences via Reinforced Self-Training for Housekeeping Robots",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2404.14285",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A1 Code"
+    ],
+    "code_url": "https://github.com/gdg94/codellmpersonalize"
+  },
+  {
+    "id": "lou2026knowbody",
+    "title": "Know Your Body: A Harness for Direct and Self-Improving Robot Control with VLMs",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.28530",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code",
+      "Self-Evolver / Knowledge and Memory"
+    ]
+  },
+  {
+    "id": "lu2026aiscientist",
+    "title": "Towards end-to-end automation of AI research",
+    "year": 2026,
+    "url": "https://www.nature.com/articles/s41586-026-10265-5",
+    "source_type": "Project / report",
+    "categories": [
+      "Self-Evolver / Successor AI R&D"
+    ]
+  },
+  {
+    "id": "lu2026annotateanything",
+    "title": "AnnotateAnything: Automatic Annotation of 3D Assets for Robot Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.17446",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Dataset Construction"
+    ]
+  },
+  {
+    "id": "luo2026robolineage",
+    "title": "RoboLineage: Agent-Native Data Lifecycle Governance Across Robot Policy Iterations",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.22142",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Dataset Construction",
+      "Infrastructure / Training",
+      "Infrastructure / Evaluation",
+      "Infrastructure / Diagnosis"
+    ],
+    "code_url": "https://github.com/robolineage/robolineage"
+  },
+  {
+    "id": "ma2023eureka",
+    "title": "Eureka: Human-Level Reward Design via Coding Large Language Models",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2310.12931",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training",
+      "Self-Evolver / Rewards"
+    ],
+    "code_url": "https://github.com/eureka-research/Eureka"
+  },
+  {
+    "id": "ma2024dreureka",
+    "title": "DrEureka: Language Model Guided Sim-To-Real Transfer",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2406.01967",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ],
+    "code_url": "https://github.com/eureka-research/DrEureka"
+  },
+  {
+    "id": "ma2026cyclevla",
+    "title": "CycleVLA: Proactive Self-Correcting Vision-Language-Action Models via Subtask Backtracking and Minimum Bayes Risk Decoding",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2601.02295",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "code_url": "https://github.com/dannymcy/cyclevla_code"
+  },
+  {
+    "id": "ma2026rlebench",
+    "title": "RLE-Bench: A Qualifying Exam for Coding Agents as Robot Learning Engineers",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.34210",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training",
+      "Self-Evolver / Model"
+    ],
+    "code_url": "https://github.com/RLE-Bench/RLE-Bench"
+  },
+  {
+    "id": "meng2025lyra",
+    "title": "Robotic Ultra-Long-Horizon Manipulation Skills via Human-guided Lifelong Code Generation",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2509.18597",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Programs and Skills"
+    ],
+    "code_url": "https://github.com/Ghiara/LYRA"
+  },
+  {
+    "id": "motormind2026",
+    "title": "MotorMind: Scaffolding General Vision Language Models for Zero-Shot Robot Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.38078",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "code_url": "https://github.com/Motor-Mind/MotorMind-Code"
+  },
+  {
+    "id": "nasiriany2024pivot",
+    "title": "PIVOT: Iterative Visual Prompting Elicits Actionable Knowledge for VLMs",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2402.07872",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ]
+  },
+  {
+    "id": "nie2026teachandgrow",
+    "title": "Teach and Grow: An Agent-Centered Architecture for General Robot Learning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2608.17209",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "code_url": "https://github.com/IRMVLab/TGL"
+  },
+  {
+    "id": "noematrix2026roborsi",
+    "title": "RoboRSI: Stable, Efficient, and Reusable Robot Self-Evolution in Complex Real-World Environments",
+    "year": 2026,
+    "url": "https://robo-rsi.com/blog/2-roborsi/",
+    "source_type": "Project / report",
+    "categories": [
+      "Self-Evolver / Programs and Skills"
+    ],
+    "code_url": "https://github.com/nssmd/RoboRSI"
+  },
+  {
+    "id": "nvlabs2026aspirecode",
+    "title": "ASPIRE: Public Robot Skill Discovery Implementation",
+    "year": 2026,
+    "url": "https://github.com/NVlabs/ASPIRE/tree/fa00f0ef2bc1d91d594b9aa502c22133c9f538f7",
+    "source_type": "Repository",
+    "categories": [
+      "O2 / A1 Code",
+      "O2 / A3",
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "code_url": "https://github.com/NVlabs/ASPIRE"
+  },
+  {
+    "id": "oikawa2026wetrobo",
+    "title": "WetRobo: A Reproducible Robot Kit for Coding Agents in Biological Laboratories",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.18435",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A3",
+      "Self-Evolver / Programs and Skills"
+    ],
+    "code_url": "https://github.com/tsudalab/WetRobo"
+  },
+  {
+    "id": "openeta",
+    "title": "ETA: A New Agentic Paradigm for Embodied Tasks",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2608.03924",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code",
+      "O2 / A2"
+    ],
+    "code_url": "https://github.com/OpenMOSS/OpenETA"
+  },
+  {
+    "id": "openroboto2026",
+    "title": "jev-robot-control",
+    "year": 2026,
+    "url": "https://github.com/openroboto-ai/jev-robot-control",
+    "source_type": "Repository",
+    "categories": [
+      "O3 / A1 Code"
+    ],
+    "code_url": "https://github.com/openroboto-ai/jev-robot-control"
+  },
+  {
+    "id": "ord2026dynamics",
+    "title": "The Dynamics of Intelligence Explosions",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2608.14426",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Successor AI R&D"
+    ]
+  },
+  {
+    "id": "parakh2023halp",
+    "title": "Lifelong Robot Learning with Human Assisted Language Planners",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2309.14321",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3",
+      "Self-Evolver / Programs and Skills"
+    ]
+  },
+  {
+    "id": "partnr",
+    "title": "PARTNR: A Benchmark for Planning and Reasoning in Embodied Multi-agent Tasks",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2411.00081",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A1 Code",
+      "O3 / A1 Model"
+    ],
+    "code_url": "https://github.com/facebookresearch/partnr-planner"
+  },
+  {
+    "id": "peng2024lga",
+    "title": "Learning with Language-Guided State Abstractions",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2402.18759",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ]
+  },
+  {
+    "id": "peng2026slowbrain",
+    "title": "Slow Brain, Fast Planner: Latency-Resilient VLM-Augmented Urban Navigation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.20458",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ]
+  },
+  {
+    "id": "perez2023larg2",
+    "title": "LARG, Language-based Automatic Reward and Goal Generation",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2306.10985",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ]
+  },
+  {
+    "id": "phyagentos2026",
+    "title": "PhyAgentOS: A Self-Evolving Operating System for Embodied Agents with Decoupled Cognitive Planning and Physical Execution",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2607.16636",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "code_url": "https://github.com/PhyAgentOS/PhyAgentOS-core"
+  },
+  {
+    "id": "phyagentos2026core",
+    "title": "PhyAgentOS-core: Public Runtime and Robot Configuration Documentation",
+    "year": 2026,
+    "url": "https://github.com/PhyAgentOS/PhyAgentOS-core/tree/74546aba45733cf102211e2f13dbf2c80ff6df8b",
+    "source_type": "Repository",
+    "categories": [
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "code_url": "https://github.com/PhyAgentOS/PhyAgentOS-core"
+  },
+  {
+    "id": "physcensis2026",
+    "title": "PhyScensis: Physics-Augmented LLM Agents for Complex Physical Scene Arrangement",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2602.14968",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation"
+    ]
+  },
+  {
+    "id": "physicalcoding2026",
+    "title": "Self-Evolving Coding Agents: From Digital Programs to Physical-World Intelligence",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.35432",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2",
+      "O2 / A3",
+      "Self-Evolver / Code"
+    ]
+  },
+  {
+    "id": "physicalrsi2026",
+    "title": "PhysicalRSI 1.0: Recursive Self-Harness for Scaling Embodied Skills",
+    "year": 2026,
+    "url": "https://mmlab.hk/research/PhysicalRSI",
+    "source_type": "Project / report",
+    "categories": [
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Knowledge and Memory",
+      "Self-Evolver / Representation",
+      "Self-Evolver / State Management"
+    ],
+    "code_url": "https://github.com/PhysicalRSI/PhysicalRSI"
+  },
+  {
+    "id": "physicalrsiteam2026awomo",
+    "title": "Awomo-SimDataEngine: Agentic Simulation-ReadyWorld Generation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.02274",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Dataset Construction"
+    ]
+  },
+  {
+    "id": "pigey",
+    "title": "Addressing the Orchestration Gap in Generalist Robots via Physical Agency",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2607.21725",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
+    ],
+    "code_url": "https://github.com/lianegalanti/Pigey"
+  },
+  {
+    "id": "prompt2policy2026",
+    "title": "Prompt-to-Policy: Agentic Engineering for Reinforcement Learning",
+    "year": 2026,
+    "url": "https://github.com/krafton-ai/Prompt2Policy",
+    "source_type": "Repository",
+    "categories": [
+      "Infrastructure / Training"
+    ],
+    "code_url": "https://github.com/krafton-ai/Prompt2Policy"
+  },
+  {
+    "id": "qin2026embodiedsmithscalingembodieddata",
+    "title": "EmbodiedSmith: Scaling Embodied Data through Recursive Self-Improvement Flywheel in Simulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.07969",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Environments and Datasets"
+    ]
+  },
+  {
+    "id": "qiu2026debate2create",
+    "title": "Debate2Create: Robot Co-design via Multi-Agent LLM Debate",
+    "year": 2026,
+    "url": "https://proceedings.mlr.press/v306/qiu26c.html",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Rewards",
+      "Self-Evolver / Robot morphology"
+    ]
+  },
+  {
+    "id": "qu2025pragmabot",
+    "title": "A Pragmatist Robot: Learning to Plan Tasks by Experiencing the Real World",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2507.16713",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code",
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "code_url": "https://github.com/leggedrobotics/pragmabot"
+  },
+  {
+    "id": "racap2026",
+    "title": "RACaP: Agentic Reasoning, Acting, and Coding as Policies for Evolvable Robot Learning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.29394",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2",
+      "O2 / A3",
+      "Self-Evolver / Knowledge and Memory",
+      "Self-Evolver / Model",
+      "Self-Evolver / Code",
+      "Self-Evolver / Tool Interface",
+      "Self-Evolver / Execution Workflows"
+    ],
+    "code_url": "https://github.com/Robo-Harness/racap"
+  },
+  {
+    "id": "rai",
+    "title": "RAI: Flexible Agent Framework for Embodied AI",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2505.07532",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
+    ],
+    "code_url": "https://github.com/RobotecAI/rai"
+  },
+  {
+    "id": "rank2026posttrainbench",
+    "title": "PostTrainBench: Can LLM Agents Automate LLM Post-Training?",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2603.08640",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Successor AI R&D"
+    ]
+  },
+  {
+    "id": "rao2026argon",
+    "title": "Gemini 4 Argon for Robotics",
+    "year": 2026,
+    "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+    "source_type": "Project / report",
+    "categories": [
+      "O1 / A3",
+      "O3 / A3",
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Dataset Construction",
+      "Infrastructure / Training",
+      "Infrastructure / Diagnosis",
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Environments and Datasets"
+    ]
+  },
+  {
+    "id": "rapid2026",
+    "title": "RAPID: Robot Agentic Programming from Demonstrations",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.30249",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3",
+      "Infrastructure / Environment Generation",
+      "Self-Evolver / Programs and Skills"
+    ]
+  },
+  {
+    "id": "rats2026",
+    "title": "Playful Agentic Robot Learning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.19419",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3",
+      "O3 / A3",
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "code_url": "https://github.com/Playful-RATs/rats"
+  },
+  {
+    "id": "real2026",
+    "title": "Exploratory, Communicative, and Deployable: Vision-Driven Embodied Agents for Open-World Mobile Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2607.13653",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code",
+      "O2 / A1 Model"
+    ],
+    "code_url": "https://github.com/InternRobotics/REAL"
+  },
+  {
+    "id": "real2gym2026",
+    "title": "Real2Gym: Building Gyms from Videos, Bringing Skills to Robots",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.37089",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3",
+      "Infrastructure / Environment Generation",
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "code_url": "https://github.com/real2gym/R2G_Agent"
+  },
+  {
+    "id": "recova2026",
+    "title": "Recova: Agent-Guided Failure Recovery for Autonomous Robotic Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.01178",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A2",
+      "O2 / A3",
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Dataset Construction",
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Environments and Datasets"
+    ]
+  },
+  {
+    "id": "regot2025",
+    "title": "Reward Evolution with Graph-of-Thoughts: A Bi-Level Language Model Framework for Reinforcement Learning",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2509.16136",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ]
+  },
+  {
+    "id": "revolve2024",
+    "title": "REvolve: Reward Evolution with Large Language Models using Human Feedback",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2406.01309",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training",
+      "Self-Evolver / Rewards"
+    ],
+    "code_url": "https://github.com/RishiHazra/Revolve"
+  },
+  {
+    "id": "revolvecollection2026",
+    "title": "REVOLVE: An Automated Closed-Loop Framework for Evolving Robot Manipulation with Minimal Human Intervention",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.14633",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Dataset Construction"
+    ]
+  },
+  {
+    "id": "rho2026",
+    "title": "RHO: Your Coding Agent is Secretly a Roboticist",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.16458",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2",
+      "O2 / A3",
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Code"
+    ],
+    "code_url": "https://github.com/KE7/HELIX"
+  },
+  {
+    "id": "robobridge2026",
+    "title": "RoboBridge: A Self-Evolving Embodied Agent Framework for Sim-to-Real Transfer",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.02717",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Knowledge and Memory"
+    ]
+  },
+  {
+    "id": "roboclaw",
+    "title": "RoboClaw: An Agentic Framework for Scalable Long-Horizon Robotic Tasks",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2603.11558",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2",
+      "Infrastructure / Dataset Construction"
+    ],
+    "code_url": "https://github.com/RoboClaw-Robotics/RoboClaw"
+  },
+  {
+    "id": "robocoliseum2026agent2act",
+    "title": "Frontier LLMs Enter the World of Robotics: A Cross-Model Evaluation on RoboColiseum",
+    "year": 2026,
+    "url": "https://robocoliseum.ai/techreport/agent2act",
+    "source_type": "Project / report",
+    "categories": [
+      "O1 / A1 Code"
+    ]
+  },
+  {
+    "id": "robogene2026",
+    "title": "RoboGene: Boosting VLA Pre-training via Diversity-Driven Agentic Framework for Real-World Task Generation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2602.16444",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Dataset Construction"
+    ]
+  },
+  {
+    "id": "roboharnevo2026",
+    "title": "RoboHarn-Evo: Evolving Hierarchical Physical Knowledge for Self-Improving Robotic Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.37583",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2",
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "code_url": "https://github.com/RUCKBReasoning/RoboHarn-Evo"
+  },
+  {
+    "id": "roboicl2026",
+    "title": "RoboICL: Embodied In-Context Learning with GPT-6 Astra",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.34261",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "code_url": "https://github.com/Mosi-AI/RoboICL"
+  },
+  {
+    "id": "robojev2026",
+    "title": "RoboJEV",
+    "year": 2026,
+    "url": "https://github.com/lykycy123/RoboJEV",
+    "source_type": "Repository",
+    "categories": [
+      "O3 / A1 Code"
+    ],
+    "code_url": "https://github.com/lykycy123/RoboJEV"
+  },
+  {
+    "id": "roboplayground2026",
+    "title": "RoboPlayground: Democratizing Robotic Evaluation through Structured Physical Domains",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2604.05226",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation"
+    ]
+  },
+  {
+    "id": "roboprobe2026",
+    "title": "An Unexpected Robot Policy: Early Evaluations of GPT-6 Astra on RoboDojo and Beyond",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.24170",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "code_url": "https://github.com/RoboProbe/RoboProbe"
+  },
+  {
+    "id": "roboskill2026",
+    "title": "Explore, Execute, Evolve: A Skill Acquisition and Reuse Loop for Embodied Agents",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.37810",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "code_url": "https://github.com/SII-dannyXSC/RoboSkill"
+  },
+  {
+    "id": "robotwin2agent2025",
+    "title": "RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2506.18088",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Dataset Construction"
+    ],
+    "code_url": "https://github.com/RoboTwin-Platform/RoboTwin"
+  },
+  {
+    "id": "robowits2026",
+    "title": "RoboWits: Unexpected Challenges for Robotic Creative Problem Solving",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2605.30326",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation"
+    ],
+    "code_url": "https://github.com/UMass-Embodied-AGI/RoboWits"
+  },
+  {
+    "id": "roco",
+    "title": "RoCo: Dialectic Multi-Robot Collaboration with Large Language Models",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2307.04738",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code",
+      "O3 / A1 Code"
+    ],
+    "code_url": "https://github.com/MandiZhao/robot-collab"
+  },
+  {
+    "id": "roshelpdesk2025",
+    "title": "ROS Help Desk: GenAI Powered, User-Centric Framework for ROS Error Diagnosis and Debugging",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2507.07846",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Diagnosis"
+    ]
+  },
+  {
+    "id": "rpg2026",
+    "title": "Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.02204",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3",
+      "O3 / A3",
+      "Infrastructure / Environment Generation",
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Execution Workflows"
+    ]
+  },
+  {
+    "id": "rui2026semantichandoff",
+    "title": "Diagnosing Semantic Handoff Failures in Agent-Orchestrated Vision-Language-Action Skill Composition",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2607.06256",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ]
+  },
+  {
+    "id": "sage2026",
+    "title": "SAGE: Scalable Agentic 3D Scene Generation for Embodied AI",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2602.10116",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation"
+    ]
+  },
+  {
+    "id": "sail2026",
+    "title": "SAIL: Test-Time Scaling for In-Context Imitation Learning with VLM",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2603.08269",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ]
+  },
+  {
+    "id": "saycan2022",
+    "title": "Do As I Can, Not As I Say: Grounding Language in Robotic Affordances",
+    "year": 2022,
+    "url": "https://arxiv.org/abs/2204.01691",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Model"
+    ],
+    "code_url": "https://github.com/google-research/google-research/tree/master/saycan"
+  },
+  {
+    "id": "sayplan2023",
+    "title": "SayPlan: Grounding Large Language Models using 3D Scene Graphs for Scalable Robot Task Planning",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2307.06135",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ]
+  },
+  {
+    "id": "scenesmith2026",
+    "title": "SceneSmith: Agentic Generation of Simulation-Ready Indoor Scenes",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2602.09153",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Evaluation"
+    ],
+    "code_url": "https://github.com/nepfaff/scenesmith"
+  },
+  {
+    "id": "schakkal2025hierarchical",
+    "title": "Hierarchical Vision-Language Planning for Multi-Step Humanoid Manipulation",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2506.22827",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ]
+  },
+  {
+    "id": "schroeder2025rover",
+    "title": "ROVER: Recursive Reasoning Over Videos with Vision-Language Models for Embodied Tasks",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2508.01943",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Evaluation"
+    ],
+    "code_url": "https://github.com/Philip-MIT/rover-vlm"
+  },
+  {
+    "id": "sds2024",
+    "title": "SDS – See it, Do it, Sorted: Quadruped Skill Synthesis from Single Video Demonstration",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2410.11571",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ],
+    "code_url": "https://github.com/RPL-CS-UCL/SDS"
+  },
+  {
+    "id": "self240618746",
+    "title": "Lifelong Robot Library Learning: Bootstrapping Composable and Generalizable Skills for Embodied Control with Language Models",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2406.18746",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3",
+      "O3 / A3",
+      "Self-Evolver / Programs and Skills"
+    ]
+  },
+  {
+    "id": "self260509423",
+    "title": "SimWorld Studio: Automatic Environment Generation with Evolving Coding Agent for Embodied Agent Learning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2605.09423",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Training",
+      "Self-Evolver / Knowledge and Memory",
+      "Self-Evolver / Environments and Datasets"
+    ]
+  },
+  {
+    "id": "self260619980",
+    "title": "ENPIRE: Agentic Robot Policy Self-Improvement in the Real World",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.19980",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training",
+      "Infrastructure / Evaluation",
+      "Infrastructure / Diagnosis"
+    ],
+    "code_url": "https://github.com/NVlabs/ENPIRE"
+  },
+  {
+    "id": "self260700272",
+    "title": "ASPIRE: Agentic /Skills Discovery for Robotics",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2607.00272",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3",
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "code_url": "https://github.com/NVlabs/ASPIRE"
+  },
+  {
+    "id": "selfrefinedreward2023",
+    "title": "Self-Refined Large Language Model as Automated Reward Function Designer for Deep Reinforcement Learning in Robotics",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2309.06687",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ]
+  },
+  {
+    "id": "selp2024",
+    "title": "SELP: Generating Safe and Efficient Task Plans for Robot Agents with Large Language Models",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2409.19471",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A1 Code"
+    ],
+    "code_url": "https://github.com/lt-asset/selp"
+  },
+  {
+    "id": "sensenova2026embodied",
+    "title": "Has GPT-6-Astra Achieved Embodied Intelligence?",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.22471",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code",
+      "O1 / A1 Model"
+    ],
+    "code_url": "https://github.com/OpenSenseNova/SenseNova-RoboRSI"
+  },
+  {
+    "id": "shi2025maestro",
+    "title": "Maestro: Orchestrating Robotics Modules with Vision-Language Models for Zero-Shot Generalist Robots",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2511.00917",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3",
+      "Self-Evolver / Programs and Skills"
+    ]
+  },
+  {
+    "id": "showharness",
+    "title": "Show-Harness: Just a VLM Agent Can Play Robots",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.10522",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "code_url": "https://github.com/showlab/Show-Harness"
+  },
+  {
+    "id": "si2026fewer",
+    "title": "Fewer Tokens, Better Action: GPT-6 Astra Robot Agents with 14% Higher Success Rate but 65% Fewer Tokens",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.01939",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3"
+    ],
+    "code_url": "https://github.com/DAGroup-PKU/PyRUA-Lean"
+  },
+  {
+    "id": "si240515568",
+    "title": "OMNI-EPIC: Open-endedness via Models of human Notions of Interestingness with Environments Programmed in Code",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2405.15568",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Self-Evolver / Environments and Datasets"
+    ],
+    "code_url": "https://github.com/maxencefaldor/omni-epic"
+  },
+  {
+    "id": "si240708626",
+    "title": "RoboMorph: Evolving Robot Morphology using Large Language Models",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2407.08626",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Robot morphology"
+    ],
+    "code_url": "https://github.com/kevinxqiu/robomorph"
+  },
+  {
+    "id": "si241213492",
+    "title": "Efficient Language-instructed Skill Acquisition via Reward-Policy Co-Evolution",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2412.13492",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Rewards"
+    ],
+    "code_url": "https://github.com/NextMyLove/ROSKA"
+  },
+  {
+    "id": "si250600276",
+    "title": "RoboMoRe: LLM-based Robot Co-design via Joint Optimization of Morphology and Reward",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2506.00276",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Rewards",
+      "Self-Evolver / Robot morphology"
+    ]
+  },
+  {
+    "id": "si250921543",
+    "title": "Self-CriTeach: LLM Self-Teaching and Self-Critiquing for Improving Robotic Planning via Automated Domain Generation",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2509.21543",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Environments and Datasets"
+    ],
+    "code_url": "https://github.com/markli1hoshipu/Plan_LLM"
+  },
+  {
+    "id": "si260206366",
+    "title": "Towards Adaptive Environment Generation for Training Embodied Agents",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2602.06366",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Self-Evolver / Environments and Datasets"
+    ]
+  },
+  {
+    "id": "si260413533",
+    "title": "Evolvable Embodied Agent for Robotic Manipulation via Long Short-Term Reflection and Optimization",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2604.13533",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Knowledge and Memory"
+    ]
+  },
+  {
+    "id": "si260414399",
+    "title": "SpaceMind: A Modular and Self-Evolving Embodied Vision-Language Agent Framework for Autonomous On-orbit Servicing",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2604.14399",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "code_url": "https://github.com/wuaodi/SpaceMind"
+  },
+  {
+    "id": "si260514504",
+    "title": "When Robots Do the Chores: A Benchmark and Agent for Long-Horizon Household Task Execution",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2605.14504",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Knowledge and Memory"
+    ]
+  },
+  {
+    "id": "si260518729",
+    "title": "Robo-Cortex: A Self-Evolving Embodied Agent via Dual-Grain Cognitive Memory and Autonomous Knowledge Induction",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2605.18729",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Knowledge and Memory"
+    ]
+  },
+  {
+    "id": "si260525832",
+    "title": "When Search Becomes Memory: Accelerating Robot Design Discovery with Self-Evolving Skills",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2605.25832",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Knowledge and Memory",
+      "Self-Evolver / Robot morphology"
+    ],
+    "code_url": "https://github.com/wangyf9/Auto-Robotist"
+  },
+  {
+    "id": "si260603509",
+    "title": "EvoMemNav: Efficient Self-Evolving Fine-Grained Memory for Zero-Shot Embodied Navigation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.03509",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code",
+      "Self-Evolver / Knowledge and Memory"
+    ]
+  },
+  {
+    "id": "si260603963",
+    "title": "AgenticRL: Agentic Reinforcement Learning with Self-Refinement for Complex UAV Navigation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.03963",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Rewards"
+    ]
+  },
+  {
+    "id": "si260605395",
+    "title": "VASO: Formally Verifiable Self-Evolving Skills for Physical AI Agents",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.05395",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Knowledge and Memory"
+    ]
+  },
+  {
+    "id": "si260618235",
+    "title": "EvolveNav: Proactive Preflection and Self-Evolving Memory for Zero-Shot Object Goal Navigation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.18235",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Knowledge and Memory"
+    ]
+  },
+  {
+    "id": "si260630109",
+    "title": "TacEvo: Self-Evolving Architecture Discovery for Robotic Tactile Perception via LLM-Driven Quality-Diversity Search",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.30109",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Model"
+    ],
+    "code_url": "https://github.com/LannWei/TacEvo"
+  },
+  {
+    "id": "si260807555",
+    "title": "You Don't Need To Stay in The Loop: An Agentic Robotics Loop for Robot-Policy Improvement",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2608.07555",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Knowledge and Memory"
+    ]
+  },
+  {
+    "id": "si260816889",
+    "title": "Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2608.16889",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Knowledge and Memory"
+    ]
+  },
+  {
+    "id": "si260830760",
+    "title": "PRACTICE: From Experience to Expertise in Self-Evolving Embodied Agents",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2608.30760",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Knowledge and Memory"
+    ]
+  },
+  {
+    "id": "si260913082",
+    "title": "Embodied-BenchForge: A Closed-Loop Agentic Workflow for Embodied Benchmark Construction",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.13082",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Evaluation",
+      "Self-Evolver / Environments and Datasets"
+    ]
+  },
+  {
+    "id": "si260924271",
+    "title": "ME-Brain-1.0: Memory, Cognition and Action for Evolving Embodied Intelligence",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.24271",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Model",
+      "Self-Evolver / Knowledge and Memory"
+    ]
+  },
+  {
+    "id": "si260927612",
+    "title": "RegenHarness: A Robot Agent Harness with Evidence-Gated Recursive Self-Improvement",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.27612",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
+    ]
+  },
+  {
+    "id": "si260929166",
+    "title": "HarnessPAI: An Evolving Harness for Physical AI",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.29166",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Knowledge and Memory"
+    ]
+  },
+  {
+    "id": "si260929204",
+    "title": "AdaHVLA: Adaptive Harnesses for Long-Horizon Vision-Language-Action Execution",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.29204",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Knowledge and Memory",
+      "Self-Evolver / Representation",
+      "Self-Evolver / State Management",
+      "Self-Evolver / Execution Workflows"
+    ],
+    "code_url": "https://github.com/Haaareally/AdaHVLA-Adaptive_Harness_VLA"
+  },
+  {
+    "id": "si260931760",
+    "title": "What Stops Recursive Self-Improvement in Robotics? Lessons from 123 Rounds of Agentic Skill Discovery",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.31760",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Code"
+    ]
+  },
+  {
+    "id": "si260932698",
+    "title": "SEES: A Self-Evolving Embodied System via Failure-Guided VLA Policy Adaptation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.32698",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Training",
+      "Self-Evolver / Environments and Datasets"
+    ]
+  },
+  {
+    "id": "si260938178",
+    "title": "Skill-Space Shooting for Autonomous Robot Policy Improvement",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.38178",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Environments and Datasets"
+    ]
+  },
+  {
+    "id": "simex2026",
+    "title": "SimEX: Simulation-Integrated Robotics AutoResearch",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.38982",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Self-Evolver / Knowledge and Memory",
+      "Self-Evolver / Environments and Datasets",
+      "Self-Evolver / Code"
+    ]
+  },
+  {
+    "id": "simfoundry2026",
+    "title": "SimFoundry: Modular and Automated Scene Generation for Policy Learning and Evaluation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.28276",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation"
+    ],
+    "code_url": "https://github.com/NVlabs/SimFoundry"
+  },
+  {
+    "id": "skill2real2026",
+    "title": "Skill2Real: Agentic Skill Learning for Zero-Shot Sim-to-Real Robot Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.02788",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Knowledge and Memory"
+    ]
+  },
+  {
+    "id": "skillclaw2026",
+    "title": "SkillClaw: Collectively Self-Improving Robot Agents",
+    "year": 2026,
+    "url": "https://github.com/lilyzhng/SkillClaw",
+    "source_type": "Repository",
+    "categories": [
+      "O3 / A3",
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "code_url": "https://github.com/lilyzhng/SkillClaw"
+  },
+  {
+    "id": "soar2024",
+    "title": "Autonomous Improvement of Instruction Following Skills via Foundation Models",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2407.20635",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Dataset Construction"
+    ],
+    "code_url": "https://github.com/rail-berkeley/soar"
+  },
+  {
+    "id": "song2026embodiedrsiactivecontinualrobot",
+    "title": "EmbodiedRSI: Active Continual Robot Learning Through Hypothesis-Guided Co-Evolution",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.10498",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Knowledge and Memory"
+    ]
+  },
+  {
+    "id": "sref251221220",
+    "title": "RoboSafe: Safeguarding Embodied Agents via Executable Safety Logic",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2512.21220",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A3",
+      "Self-Evolver / Knowledge and Memory"
+    ]
+  },
+  {
+    "id": "sref260118492",
+    "title": "DV-VLN: Dual Verification for Reliable LLM-Based Vision-and-Language Navigation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2601.18492",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A1 Code"
+    ]
+  },
+  {
+    "id": "sref260201662",
+    "title": "PLanAR: Planning-Language-Grounded Agentic Reasoning for Robot Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2602.01662",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ]
+  },
+  {
+    "id": "sref260219983",
+    "title": "Contextual Safety Reasoning and Grounding for Open-World Robots",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2602.19983",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ]
+  },
+  {
+    "id": "sref260305185",
+    "title": "Critic in the Loop: A Tri-System VLA Framework for Robust Long-Horizon Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2603.05185",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ]
+  },
+  {
+    "id": "sref260312939",
+    "title": "RoboStream: Weaving Spatio-Temporal Reasoning with Memory in Vision-Language Models for Robotics",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2603.12939",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ]
+  },
+  {
+    "id": "sref260407774",
+    "title": "RoboAgent: Chaining Basic Capabilities for Embodied Task Planning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2604.07774",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ]
+  },
+  {
+    "id": "sref260411975",
+    "title": "M2HRI: An LLM-Driven Multimodal Multi-Agent Framework for Personalized Human-Robot Interaction",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2604.11975",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code",
+      "Self-Evolver / Knowledge and Memory"
+    ]
+  },
+  {
+    "id": "sref260514398",
+    "title": "ChronoAgentic: A Code-based Multi-Agent World Simulator for Physically Grounded Simulation Construction",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2605.14398",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Self-Evolver / Environments and Datasets"
+    ]
+  },
+  {
+    "id": "sref260602951",
+    "title": "SCOPE: Real-Time Natural Language Camera Agent at the Edge",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.02951",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
+    ]
+  },
+  {
+    "id": "sref260612299",
+    "title": "Learning What to Say to Your VLA: Mostly Harmless Vision Language Action Model Steering",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.12299",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ]
+  },
+  {
+    "id": "sref260623280",
+    "title": "Causal Reward World Models: Zero-shot Reward Design for Automated Skill Generation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.23280",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ]
+  },
+  {
+    "id": "sref260705377",
+    "title": "Cortex: A Bidirectionally Aligned Embodied Agent Framework for Long-horizon Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2607.05377",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ]
+  },
+  {
+    "id": "sref260829379",
+    "title": "Bridging Semantics and Physics with Constrained LLMs for Safe and Trustworthy Robotic Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2608.29379",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ]
+  },
+  {
+    "id": "sref260902653",
+    "title": "HINT: Human-Intent Inception for Long-Horizon Robot Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.02653",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ]
+  },
+  {
+    "id": "sygkounas2026memento",
+    "title": "MEMENTO: Memory-Guided Memetic Code-as-Policy Evolution",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2607.22832",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Evaluation",
+      "Self-Evolver / Programs and Skills"
+    ],
+    "code_url": "https://github.com/sygkounas/MEMENTO"
+  },
+  {
+    "id": "tacharness2026",
+    "title": "TacHarness: Agentic Infrastructure for Continually Improving Visuotactile Robot Policies",
+    "year": 2026,
+    "url": "https://openreview.net/forum?id=V8hQBmyydD",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Dataset Construction",
+      "Infrastructure / Training",
+      "Infrastructure / Evaluation",
+      "Infrastructure / Diagnosis"
+    ]
+  },
+  {
+    "id": "tanaka2026taczero",
+    "title": "TacZero: Training-Free Peg Insertion Using a General-Purpose Vision-Language Model with Tactile Feedback",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.07621",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ]
+  },
+  {
+    "id": "tang2026video2world",
+    "title": "Video2World: Benchmarking Coding Agents for Interactive World Modeling from Embodied Videos",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.04432",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Self-Evolver / Environments and Datasets"
+    ],
+    "code_url": "https://github.com/AetherLabsAI/Video2World"
+  },
+  {
+    "id": "text2reward2023",
+    "title": "Text2Reward: Reward Shaping with Language Models for Reinforcement Learning",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2309.11489",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ],
+    "code_url": "https://github.com/xlang-ai/text2reward"
+  },
+  {
+    "id": "thea2026",
+    "title": "Towards the Harness of Embodied Agents",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2608.11246",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
+    ],
+    "code_url": "https://github.com/EIT-HAI/Thea"
+  },
+  {
+    "id": "tian2026abotagentos",
+    "title": "ABot-AgentOS: A General Robotic Agent OS with Lifelong Multi-modal Memory",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2607.10350",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ]
+  },
+  {
+    "id": "vcage2026",
+    "title": "V-CAGE: Vision-Closed-Loop Agentic Generation Engine for Robotic Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2604.09036",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Dataset Construction"
+    ]
+  },
+  {
+    "id": "vemprala2024chatgpt",
+    "title": "ChatGPT for Robotics: Design Principles and Model Abilities",
+    "year": 2024,
+    "url": "https://doi.org/10.1109/ACCESS.2024.3387941",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3",
+      "O3 / A3"
+    ]
+  },
+  {
+    "id": "venuto2024codeasreward",
+    "title": "Code as Reward: Empowering Reinforcement Learning with VLMs",
+    "year": 2024,
+    "url": "https://proceedings.mlr.press/v235/venuto24a.html",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ]
+  },
+  {
+    "id": "via",
+    "title": "VIA: Visual Interface Agent for Robot Control",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2607.11119",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "code_url": "https://github.com/hengyuan-hu/via"
+  },
+  {
+    "id": "video2reward2024",
+    "title": "Video2Reward: Generating Reward Function from Videos for Legged Robot Behavior Learning",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2412.05515",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training",
+      "Self-Evolver / Rewards"
+    ]
+  },
+  {
+    "id": "vlaastools2026",
+    "title": "Towards Long-horizon Embodied Agents with Tool-Aligned Vision-Language-Action Models",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2605.13119",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ]
+  },
+  {
+    "id": "waa",
+    "title": "World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.29964",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2",
+      "Self-Evolver / Knowledge and Memory"
+    ]
+  },
+  {
+    "id": "waddle2026introducing",
+    "title": "Introducing Waddle: Agents that Control Robots",
+    "year": 2026,
+    "url": "https://waddlelabs.ai/research/introducing-waddle",
+    "source_type": "Project / report",
+    "categories": [
+      "O2 / A3",
+      "Infrastructure / Dataset Construction",
+      "Infrastructure / Training",
+      "Self-Evolver / Programs and Skills"
+    ]
+  },
+  {
+    "id": "wang2023robogen",
+    "title": "RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2311.01455",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Dataset Construction",
+      "Infrastructure / Training"
+    ],
+    "code_url": "https://github.com/Genesis-Embodied-AI/RoboGen"
+  },
+  {
+    "id": "wang2026dexagent",
+    "title": "DexAgent: An Agentic Human2Sim2Robot Framework for Dexterous Manipulation with Self-Evolving Tool Library",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.35318",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Dataset Construction",
+      "Self-Evolver / Code"
+    ],
+    "code_url": "https://github.com/dexagent1/DexAgent"
+  },
+  {
+    "id": "wang2026embodiedgenv2",
+    "title": "EmbodiedGen V2: An Agentic, Simulation-Ready 3D World Engine for Embodied AI",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2607.07459",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation"
+    ],
+    "code_url": "https://github.com/HorizonRobotics/EmbodiedGen"
+  },
+  {
+    "id": "wang2026gavel",
+    "title": "GAVEL: Graph World Models for Verified and Efficient Long-Horizon LLM Task Planning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.19315",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A1 Code"
+    ]
+  },
+  {
+    "id": "wang2026genphri",
+    "title": "GenPHRI: Agentic Generative Simulation for Physical Human-Robot Interaction",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2604.08664",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Dataset Construction",
+      "Infrastructure / Training",
+      "Self-Evolver / Environments and Datasets"
+    ]
+  },
+  {
+    "id": "wang2026kpi",
+    "title": "KPI: A Promptable Kernel for Physical Interaction on Humanoids",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.36151",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code",
+      "O2 / A1 Model"
+    ]
+  },
+  {
+    "id": "wang2026sear",
+    "title": "SEAR: Self-Evolving Agentic Robotics",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.18792",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3",
+      "Infrastructure / Dataset Construction",
+      "Infrastructure / Training",
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Knowledge and Memory",
+      "Self-Evolver / Model"
+    ]
+  },
+  {
+    "id": "wang2026sunagenticrobotpolicy",
+    "title": "SUN: Agentic Robot Policy Learning with Persistent Task Programs",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2608.31167",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training",
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Rewards"
+    ]
+  },
+  {
+    "id": "wang2026zero2skill",
+    "title": "Zero2Skill: Bootstrapping Robot Skills through Autonomous Data Collection, Training, and Deployment",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2607.14047",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Dataset Construction",
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "code_url": "https://github.com/open-gigaai/Zero2Skill"
+  },
+  {
+    "id": "wei2026fate",
+    "title": "FATE: Closed-Loop Feasibility-Aware Task Generation with Active Repair for Physically Grounded Robotic Curricula",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2603.01505",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Self-Evolver / Environments and Datasets"
+    ]
+  },
+  {
+    "id": "wei2026scaleselection",
+    "title": "Scale and Selection: What Makes Automatic Harness Evolution Work for Visual-Interface Robot Agents",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.39304",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Tool Interface",
+      "Self-Evolver / Execution Workflows"
+    ]
+  },
+  {
+    "id": "wen2026automatedw2s",
+    "title": "Automated Weak-to-Strong Researcher",
+    "year": 2026,
+    "url": "https://alignment.anthropic.com/2026/automated-w2s-researcher/",
+    "source_type": "Project / report",
+    "categories": [
+      "Self-Evolver / Successor AI R&D"
+    ]
+  },
+  {
+    "id": "wijk2024rebench",
+    "title": "RE-Bench: Evaluating frontier AI R&D capabilities of language model agents against human experts",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2411.15114",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Successor AI R&D"
+    ]
+  },
+  {
+    "id": "woods2026skillcomposer",
+    "title": "SkillComposer: Learning Reusable Skills for Natural-Language Robot Programming",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2608.14944",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Programs and Skills"
+    ]
+  },
+  {
+    "id": "xia2025phoenix",
+    "title": "Phoenix: A Motion-based Self-Reflection Framework for Fine-grained Robotic Action Correction",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2504.14588",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model",
+      "Infrastructure / Dataset Construction"
+    ],
+    "code_url": "https://github.com/GeWu-Lab/Motion-based-Self-Reflection-Framework"
+  },
+  {
+    "id": "xie2026codimrecon",
+    "title": "CoDimRecon: Agentic Reconstruction of Sim-Ready 3D Scenes with Deformable Curves, Surfaces, and Volumes",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.36024",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Evaluation",
+      "Infrastructure / Diagnosis",
+      "Self-Evolver / Environments and Datasets"
+    ]
+  },
+  {
+    "id": "xpolicylab2026",
+    "title": "XPolicyLab: A Unified Standard and Open Ecosystem for Robot Policy Evaluation and Deployment",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2608.09892",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Evaluation",
+      "Infrastructure / Diagnosis"
+    ],
+    "code_url": "https://github.com/XPolicyLab/XPolicyLab"
+  },
+  {
+    "id": "xref230516986",
+    "title": "NavGPT: Explicit Reasoning in Vision-and-Language Navigation with Large Language Models",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2305.16986",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A1 Code"
+    ],
+    "code_url": "https://github.com/GengzeZhou/NavGPT"
+  },
+  {
+    "id": "xref230915943",
+    "title": "Scalable Multi-Robot Collaboration with Large Language Models: Centralized or Decentralized Systems?",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2309.15943",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A1 Code"
+    ],
+    "code_url": "https://github.com/yongchao98/multi-agent-framework"
+  },
+  {
+    "id": "xref240104157",
+    "title": "RePLan: Robotic Replanning with Perception and Language Models",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2401.04157",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3"
+    ]
+  },
+  {
+    "id": "xref240107314",
+    "title": "MapGPT: Map-Guided Prompting with Adaptive Path Planning for Vision-and-Language Navigation",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2401.07314",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A1 Code"
+    ],
+    "code_url": "https://github.com/chen-judge/MapGPT"
+  },
+  {
+    "id": "xref240406645",
+    "title": "GenCHiP: Generating Robot Policy Code for High-Precision and Contact-Rich Manipulation Tasks",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2404.06645",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3"
+    ]
+  },
+  {
+    "id": "xref240618915",
+    "title": "Manipulate-Anything: Automating Real-World Robots using Vision-Language Models",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2406.18915",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A3",
+      "Infrastructure / Dataset Construction"
+    ],
+    "code_url": "https://github.com/Robot-MA/manipulate-anything"
+  },
+  {
+    "id": "xref240903966",
+    "title": "Automating Robot Failure Recovery Using Vision-Language Models With Optimized Prompts",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2409.03966",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "code_url": "https://github.com/hychen-naza/Robot_ErrorRecovery_VLM"
+  },
+  {
+    "id": "xref240913682",
+    "title": "ReMEmbR: Building and Reasoning Over Long-Horizon Spatio-Temporal Memory for Robot Navigation",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2409.13682",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "code_url": "https://github.com/NVIDIA-AI-IOT/remembr"
+  },
+  {
+    "id": "xref240915146",
+    "title": "COHERENT: Collaboration of Heterogeneous Multi-Robot System with Large Language Models",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2409.15146",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "code_url": "https://github.com/MrKeee/COHERENT"
+  },
+  {
+    "id": "xref240918794",
+    "title": "Open-Nav: Exploring Zero-Shot Vision-and-Language Navigation in Continuous Environment with Open-Source LLMs",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2409.18794",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "code_url": "https://github.com/YanyuanQiao/Open-Nav"
+  },
+  {
+    "id": "xref241117636",
+    "title": "MALMM: Multi-Agent Large Language Models for Zero-Shot Robotics Manipulation",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2411.17636",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3",
+      "O3 / A3"
+    ]
+  },
+  {
+    "id": "xref250104268",
+    "title": "Robotic Programmer: Video Instructed Policy Code Generation for Robotic Manipulation",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2501.04268",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A3"
+    ]
+  },
+  {
+    "id": "xref250109307",
+    "title": "RoboReflect: A Robotic Reflective Reasoning Framework for Grasping Ambiguous-Condition Objects",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2501.09307",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code",
+      "Self-Evolver / Knowledge and Memory"
+    ]
+  },
+  {
+    "id": "xref250204692",
+    "title": "STRIDE: Automating Reward Design, Deep Reinforcement Learning Training and Feedback Optimization in Humanoid Robotics Locomotion",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2502.04692",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training",
+      "Self-Evolver / Rewards"
+    ]
+  },
+  {
+    "id": "xref250301700",
+    "title": "Code-as-Symbolic-Planner: Foundation Model-Based Robot Planning via Symbolic Code Generation",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2503.01700",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3"
+    ],
+    "code_url": "https://github.com/yongchao98/Code-as-Symbolic-Planner"
+  },
+  {
+    "id": "xref250302247",
+    "title": "WMNav: Integrating Vision-Language Models into World Models for Object Goal Navigation",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2503.02247",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "code_url": "https://github.com/B0B8K1ng/WMNavigation"
+  },
+  {
+    "id": "xref250321969",
+    "title": "Robotic Long-Horizon Manipulation with Progressive In-Context Code Generation and Episodic Feedback",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2503.21969",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3"
+    ],
+    "code_url": "https://github.com/Ghiara/DAHLIA"
+  },
+  {
+    "id": "xref250421716",
+    "title": "LLM-Empowered Embodied Agent for Memory-Augmented Task Planning in Household Robotics",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2504.21716",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "code_url": "https://github.com/marc1198/chat-hsr"
+  },
+  {
+    "id": "xref250801415",
+    "title": "RoboMemory: A Brain-inspired Multi-memory Agentic Framework for Interactive Environmental Learning in Physical Embodied Systems",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2508.01415",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code",
+      "Self-Evolver / Knowledge and Memory"
+    ]
+  },
+  {
+    "id": "xref250924160",
+    "title": "Memory Transfer Planning: LLM-driven Context-Aware Code Adaptation for Robot Manipulation",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2509.24160",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3",
+      "Self-Evolver / Programs and Skills"
+    ]
+  },
+  {
+    "id": "xref260220119",
+    "title": "NovaPlan: Zero-Shot Long-Horizon Manipulation via Closed-Loop Video Language Planning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2602.20119",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "code_url": "https://github.com/jiahui-fu/NovaPlan"
+  },
+  {
+    "id": "xref260305621",
+    "title": "RACAS: Controlling Diverse Robots With a Single Agentic System",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2603.05621",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "code_url": "https://github.com/janprz11/robot-agnostic-control"
+  },
+  {
+    "id": "xref260314807",
+    "title": "HiMemVLN: Enhancing Reliability of Open-Source Zero-Shot Vision-and-Language Navigation with Hierarchical Memory System",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2603.14807",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "code_url": "https://github.com/lvkailin0118/HiMemVLN"
+  },
+  {
+    "id": "xref260416331",
+    "title": "BrainMem: Brain-Inspired Evolving Memory for Embodied Agent Task Planning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2604.16331",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Knowledge and Memory"
+    ]
+  },
+  {
+    "id": "xref260816978",
+    "title": "VLCP: Vision Language Control Policy Closed-Loop Code Replanning for Robot Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2608.16978",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A3",
+      "Self-Evolver / Programs and Skills"
+    ]
+  },
+  {
+    "id": "xref261015814",
+    "title": "ReTrace: Cross-Stage Failure Attribution for Self-Improving Robotic Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.15814",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code",
+      "Self-Evolver / Knowledge and Memory"
+    ]
+  },
+  {
+    "id": "xref261017350",
+    "title": "Can a Frontier VLM Serve as a Robot Policy for Memory-Dependent Manipulation?",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.17350",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "code_url": "https://github.com/jackbjed/embodied-astra-robomme"
+  },
+  {
+    "id": "xu2026agentchord",
+    "title": "From Reaction to Anticipation: Proactive Failure Recovery through Agentic Task Graph for Robotic Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2605.11951",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Dataset Construction"
+    ],
+    "code_url": "https://github.com/EDEM-AI/AgentChord"
+  },
+  {
+    "id": "xu2026gif",
+    "title": "GIF: Agentic Generation of Interactive and Functional Object Compositions for Robot Learning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.05927",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Dataset Construction"
+    ]
+  },
+  {
+    "id": "yang2026astranomy",
+    "title": "Astranomy: An Empirical Study of GPT-6 Astra as a Native Robot Policy",
+    "year": 2026,
+    "url": "https://research.nvidia.com/labs/srl/projects/astranomy/",
+    "source_type": "Project / report",
+    "categories": [
+      "O1 / A1 Code",
+      "O1 / A2"
+    ]
+  },
+  {
+    "id": "yang2026robolabhighfidelitysimulationbenchmark",
+    "title": "RoboLab: A High-Fidelity Simulation Benchmark for Analysis of Task Generalist Policies",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2604.09860",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation"
+    ]
+  },
+  {
+    "id": "yang2026robotworld",
+    "title": "RobotWorld: Benchmarking Multimodal Agents for Robot Use Across Diverse Tasks and Embodiments",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.10409",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code",
+      "O3 / A1 Code"
+    ],
+    "code_url": "https://github.com/robotworldai/robotworld"
+  },
+  {
+    "id": "yang2026tactalent",
+    "title": "GPT-6 Astra Is a Native Visuo-Tactile Policy for Contact-Rich Manipulation",
+    "year": 2026,
+    "url": "https://tactalent.github.io/",
+    "source_type": "Project / report",
+    "categories": [
+      "O1 / A1 Code"
+    ]
+  },
+  {
+    "id": "ye2025robofac",
+    "title": "RoboFAC: A Comprehensive Framework for Robotic Failure Analysis and Correction",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2505.12224",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model",
+      "Infrastructure / Diagnosis"
+    ],
+    "code_url": "https://github.com/MINT-SJTU/RoboFAC"
+  },
+  {
+    "id": "ye2025video2policy",
+    "title": "Video2Policy: Scaling up Manipulation Tasks in Simulation through Internet Videos",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2502.09886",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Dataset Construction",
+      "Self-Evolver / Rewards"
+    ]
+  },
+  {
+    "id": "yoneda2023statler",
+    "title": "Statler: State-Maintaining Language Models for Embodied Reasoning",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2306.17840",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3"
+    ],
+    "code_url": "https://github.com/ripl/statler"
+  },
+  {
+    "id": "yu2026maniskillformer",
+    "title": "ManiSkillFormer: Demonstration-Free Compositional Manipulation via Geometric Contracts and Agentic Skill Graph",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.16331",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code",
+      "Self-Evolver / Programs and Skills"
+    ]
+  },
+  {
+    "id": "yu2026memora",
+    "title": "MEMORA: Embodied Action Memory from Egocentric Videos for Reasoning and Planning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2607.14252",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code",
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "code_url": "https://github.com/yuzihaowashu/MEMORA"
+  },
+  {
+    "id": "zeng2024selfalignment",
+    "title": "Learning Reward for Robot Skills Using Large Language Models via Self-Alignment",
+    "year": 2024,
+    "url": "https://proceedings.mlr.press/v235/zeng24d.html",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ]
+  },
+  {
+    "id": "zeng2026dexsim2real",
+    "title": "DexSim2Real: Foundation Model-Guided Sim-to-Real Transfer for Generalizable Dexterous Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2605.05241",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ]
+  },
+  {
+    "id": "zetta2026",
+    "title": "Zetta ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2608.16590",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3",
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Code",
+      "Self-Evolver / Execution Workflows"
+    ],
+    "code_url": "https://github.com/air-embodied-brain/Zetta-Embodiment"
+  },
+  {
+    "id": "zha2023droc",
+    "title": "Distilling and Retrieving Generalizable Knowledge for Robot Manipulation via Language Corrections",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2311.10678",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3",
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "code_url": "https://github.com/Stanford-ILIAD/droc"
+  },
+  {
+    "id": "zhang2026benchmend",
+    "title": "BenchMend: Agent-Guided Instruction Repair for Robotics Benchmarks",
+    "year": 2026,
+    "url": "https://tianqi-zh.github.io/BenchMend/",
+    "source_type": "Project / report",
+    "categories": [
+      "Infrastructure / Evaluation",
+      "Infrastructure / Diagnosis",
+      "Self-Evolver / Environments and Datasets"
+    ]
+  },
+  {
+    "id": "zhang2026bigym2",
+    "title": "BiGym 2.0: Benchmarking Learned and Agent-Developed Policies for Humanoid Household Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.07594",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A3",
+      "Self-Evolver / Programs and Skills"
+    ],
+    "code_url": "https://github.com/swirl-uk/BiGym2"
+  },
+  {
+    "id": "zhang2026robocop",
+    "title": "Co-Evolving Robot Orchestrators and Policies through Deployment",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.09228",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2",
+      "O2 / A3",
+      "Infrastructure / Dataset Construction",
+      "Infrastructure / Training",
+      "Infrastructure / Evaluation",
+      "Self-Evolver / Knowledge and Memory",
+      "Self-Evolver / Model"
+    ]
+  },
+  {
+    "id": "zhao2024agenticskilldiscovery",
+    "title": "Agentic Skill Discovery",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2405.15019",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training",
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Rewards"
+    ],
+    "code_url": "https://github.com/xf-zhao/Agentic-Skill-Discovery"
+  },
+  {
+    "id": "zhao2026hymes",
+    "title": "Skills in Weights, Memory in Code: Hybrid Learning for Memory-Dependent Robot Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2608.09410",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / State Management",
+      "Self-Evolver / Execution Workflows"
+    ]
+  },
+  {
+    "id": "zhao2026navharness",
+    "title": "NavHarness: Towards Lifelong Embodied Navigation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.34276",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Knowledge and Memory"
+    ]
+  },
+  {
+    "id": "zhao2026retriever",
+    "title": "Retriever: Composing the Perception-Reasoning-Action Loop for Long-Horizon Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2607.17213",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3"
+    ],
+    "code_url": "https://github.com/openretriever/retriever"
+  },
+  {
+    "id": "zhi2024comerobot",
+    "title": "Closed-Loop Open-Vocabulary Mobile Manipulation with GPT-4V",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2404.10220",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3"
+    ]
+  },
+  {
+    "id": "zhong2026discoveryrsi",
+    "title": "DiscoveryRSI: Recursively Learning to Discover Valuable Hypotheses",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.23839",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Successor AI R&D"
+    ]
+  },
+  {
+    "id": "zhou2026agentcanvas",
+    "title": "Automating the Design of Embodied Agent Architectures",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.30111",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Representation",
+      "Self-Evolver / State Management",
+      "Self-Evolver / Execution Workflows"
+    ],
+    "code_url": "https://github.com/jianzhou0420/AgentCanvas"
+  },
+  {
+    "id": "zhou2026embodiedtool",
+    "title": "Enabling Extensible Embodied Capabilities with Tools",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2605.26637",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
+    ]
+  },
+  {
+    "id": "zhou2026navgpt3",
+    "title": "NavGPT-3: Harnessing Context in a Hierarchical Navigation Runtime",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.10787",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code",
+      "O1 / A1 Model",
+      "Self-Evolver / Representation",
+      "Self-Evolver / Tool Interface"
+    ],
+    "code_url": "https://github.com/metacognitionai/NavGPT-3"
+  }
+]
