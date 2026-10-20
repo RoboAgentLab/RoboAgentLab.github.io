@@ -72,7 +72,7 @@ if (grid) {
     const closingWall = document.querySelector(".closing-wall");
     demos.slice(-6).forEach((demo) => closingWall.append(previewVideo(demo)));
     for (const demo of demos) {
-      const { group, title, category } = demo;
+      const { title, category } = demo;
       const card = document.createElement("button");
       card.className = "demo-card";
       card.dataset.category = category;
@@ -87,17 +87,14 @@ if (grid) {
       frame.append(play);
       const meta = document.createElement("div");
       meta.className = "demo-meta";
-      const label = document.createElement("span");
-      label.textContent = group;
       const heading = document.createElement("h3");
       heading.textContent = title;
-      meta.append(label, heading);
+      meta.append(heading);
       card.append(frame, meta);
       card.addEventListener("click", () => {
         const dialog = document.getElementById("demo-dialog");
         const video = document.getElementById("demo-video");
-        document.getElementById("demo-title").textContent = demo.name;
-        document.getElementById("demo-source").href = demo.page;
+        document.getElementById("demo-title").textContent = title;
         video.src = demo.video;
         video.poster = demo.poster;
         dialog.showModal();
@@ -117,7 +114,7 @@ if (grid) {
         if (match) count++;
       });
       more.hidden = expanded || count <= 12;
-      more.textContent = `Show all ${count} demos`;
+      more.textContent = "Show all demos";
     }
     more.addEventListener("click", () => { expanded = true; filterDemos(); });
     document.querySelectorAll("[data-demo-filter]").forEach((button) => button.addEventListener("click", () => {
@@ -131,7 +128,7 @@ if (grid) {
     }));
     filterDemos();
   }).catch(() => {
-    grid.textContent = "The demo library could not load. Reload this page or visit Replay Studio below.";
+    grid.textContent = "The demo library could not load. Please reload this page.";
   });
   const dialog = document.getElementById("demo-dialog");
   document.getElementById("close-demo").addEventListener("click", () => dialog.close());

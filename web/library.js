@@ -72,9 +72,15 @@ function categories() {
 }
 fetch("data/papers.json").then(r=>{if(!r.ok) throw new Error();return r.json();}).then(data=>{
   papers = data.sort((a,b)=>b.year-a.year||a.title.localeCompare(b.title));
-  const requested = new URLSearchParams(location.search).get("role");
+  const params = new URLSearchParams(location.search);
+  const requested = params.get("role");
   if (["policy","infrastructure","evolver"].includes(requested)) role.value = requested;
+  const requestedCategory = params.get("category");
+  if (requestedCategory && papers.some(p=>p.categories.includes(requestedCategory))) {
+    role.value = roleOf(requestedCategory);
+  }
   categories();
+  if ([...category.options].some(o=>o.value===requestedCategory)) category.value = requestedCategory;
   filter();
 }).catch(()=>{document.getElementById("result-count").textContent="The library could not load. You can browse the complete Awesome list on GitHub above.";});
 search.addEventListener("input",filter);
