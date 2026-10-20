@@ -15,6 +15,9 @@
   <script src="taxonomy.js" defer></script>
   <link rel="stylesheet" href="architecture.css">
   <script src="architecture.js" defer></script>
+  <link rel="stylesheet" href="data-routes.css">
+  <script src="data-routes.js" defer></script>
+  <script src="flow-motion.js" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -511,11 +514,172 @@
   </section>
 
   <section class="section data-section" id="datasets">
-    <div class="section-top"><div><p class="eyebrow">LEARN FROM BOTH SIDES OF THE EXPERIMENT</p><h2>Interaction becomes<br>research data.</h2></div><p class="section-intro">Two complementary collections connect robot execution with the software engineering that makes it possible.</p></div>
-    <div class="data-grid">
-      <a class="data-card" href="https://huggingface.co/datasets/RoboAgentLab/pi-embodied-policy-interactions"><span class="tiny-label">AGENT ↔ ROBOT</span><h3>Policy interactions</h3><p>Observations, decisions, tool calls, and feedback from task execution. A foundation for distilling compact, fast policy agents.</p><span>Explore on Hugging Face ↗</span></a>
-      <a class="data-card" href="https://huggingface.co/datasets/RoboAgentLab/pi-embodied-rd-interactions"><span class="tiny-label">AGENT ↔ DEVELOPMENT</span><h3>Robotics R&D interactions</h3><p>Coding, testing, debugging, and experiment development traces. Data for specializing open models in Robotics R&D.</p><span>Explore on Hugging Face ↗</span></a>
-    </div>
+    <div class="section-top"><div><p class="eyebrow">LEARN FROM BOTH SIDES OF THE EXPERIMENT</p><h2>Interaction becomes<br>research data.</h2></div><p class="section-intro">Two training routes: distill fast policy agents from robot interactions, and specialize open models through Robotics R&D interactions.</p></div>
+<div class="dr-controls">
+<span>Explore each stage of the two training routes.</span>
+<button type="button" id="diagram-motion-toggle" aria-pressed="false">Pause diagram animation</button>
+</div>
+<div class="data-routes">
+<article class="data-route dr-policy" data-flow-sequence="policy">
+<header class="dr-heading">
+<div>
+<span class="dr-kicker">AGENT ↔ ROBOT</span>
+<h3>Distill a compact policy agent</h3>
+</div>
+<p>Large-model decisions → fast robot task execution</p>
+</header>
+<div class="dr-stages">
+<button type="button" class="dr-stage" data-route="policy" data-data-stage="interactions" data-flow-node="0" aria-haspopup="dialog" aria-expanded="false">
+<span class="dr-stage-type">EXPERIENCE</span>
+<svg class="dr-art" viewBox="0 0 150 95" aria-hidden="true">
+<ellipse class="dr-art-halo" cx="75" cy="48" rx="69" ry="44"/>
+<g fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+<rect x="10" y="14" width="45" height="32" rx="5"/>
+<path d="m20 36 8-12 9 9 8-6M20 52h25M32 46v6M80 75V54l15-23 23 10 13-9m-47 45h27m-16-46 3-11 23 13m10-1 10 6-7 10-12-6"/>
+<circle cx="90" cy="53" r="5"/>
+<circle cx="99" cy="26" r="5"/>
+<path class="dr-dash" d="M61 30h15v24"/>
+</g>
+</svg>
+<strong>Teacher interactions</strong>
+<span class="dr-stage-caption">Observe · decide · act</span>
+<span class="dr-inspect">Explore ↗</span>
+</button>
+<span class="dr-connector" data-flow-order="0" aria-hidden="true">
+</span>
+<button type="button" class="dr-stage" data-route="policy" data-data-stage="dataset" data-flow-node="1" aria-haspopup="dialog" aria-expanded="false">
+<span class="dr-stage-type">DATASET</span>
+<svg class="dr-art" viewBox="0 0 150 95" aria-hidden="true">
+<ellipse class="dr-art-halo" cx="75" cy="48" rx="69" ry="44"/>
+<g fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+<path d="M25 18h65v41H50L35 72V59H25zM39 30h38M39 41h26M97 33h30v42H93L80 86V75H64v-9"/>
+<circle cx="103" cy="46" r="3"/>
+<path d="M111 46h8m-16 12h16"/>
+</g>
+</svg>
+<strong>Policy interaction data</strong>
+<span class="dr-stage-caption">Messages · images · tool calls</span>
+<span class="dr-inspect">Explore ↗</span>
+</button>
+<span class="dr-connector" data-flow-order="1" aria-hidden="true">
+</span>
+<button type="button" class="dr-stage" data-route="policy" data-data-stage="training" data-flow-node="2" aria-haspopup="dialog" aria-expanded="false">
+<span class="dr-stage-type">TRAINING</span>
+<svg class="dr-art" viewBox="0 0 150 95" aria-hidden="true">
+<ellipse class="dr-art-halo" cx="75" cy="48" rx="69" ry="44"/>
+<g fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+<rect x="13" y="15" width="52" height="58" rx="6"/>
+<circle cx="28" cy="31" r="3"/>
+<circle cx="50" cy="31" r="3"/>
+<circle cx="39" cy="48" r="3"/>
+<path d="m28 31 11 17 11-17M28 60h23M74 44h22m-7-6 7 6-7 6"/>
+<rect x="104" y="30" width="30" height="30" rx="5"/>
+<path d="M113 23v7m13-7v7m-13 30v7m13-7v7m-29-28h7m-7 12h7m30-12h7m-7 12h7"/>
+</g>
+</svg>
+<strong>Policy distillation</strong>
+<span class="dr-stage-caption">Large teacher → small student</span>
+<span class="dr-inspect">Explore ↗</span>
+</button>
+<span class="dr-connector" data-flow-order="2" aria-hidden="true">
+</span>
+<button type="button" class="dr-stage" data-route="policy" data-data-stage="model" data-flow-node="3" aria-haspopup="dialog" aria-expanded="false">
+<span class="dr-stage-type">MODEL OBJECTIVE</span>
+<svg class="dr-art" viewBox="0 0 150 95" aria-hidden="true">
+<ellipse class="dr-art-halo" cx="75" cy="48" rx="69" ry="44"/>
+<g fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+<path d="M23 70a48 48 0 1 1 99 0M36 66a35 35 0 1 1 72 0M73 61l30-27"/>
+<circle cx="73" cy="61" r="7"/>
+<path d="m67 16 6-6 6 6M28 39l7 4m76 0 7-4M60 82h27"/>
+</g>
+</svg>
+<strong>Compact policy agent</strong>
+<span class="dr-stage-caption">Target: fast, accurate decisions</span>
+<span class="dr-inspect">Explore ↗</span>
+</button>
+</div>
+<footer class="dr-footer">
+<span>Learning to execute robot tasks</span>
+<a href="https://huggingface.co/datasets/RoboAgentLab/pi-embodied-policy-interactions">Explore dataset on Hugging Face ↗</a>
+</footer>
+</article>
+<article class="data-route dr-rd" data-flow-sequence="rd">
+<header class="dr-heading">
+<div>
+<span class="dr-kicker">AGENT ↔ DEVELOPMENT</span>
+<h3>Post-train a Robotics R&D model</h3>
+</div>
+<p>General-model expertise → robotics-specialized development</p>
+</header>
+<div class="dr-stages">
+<button type="button" class="dr-stage" data-route="rd" data-data-stage="interactions" data-flow-node="0" aria-haspopup="dialog" aria-expanded="false">
+<span class="dr-stage-type">EXPERIENCE</span>
+<svg class="dr-art" viewBox="0 0 150 95" aria-hidden="true">
+<ellipse class="dr-art-halo" cx="75" cy="48" rx="69" ry="44"/>
+<g fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+<rect x="12" y="13" width="122" height="66" rx="5"/>
+<path d="M12 28h122M21 21h2m6 0h2m6 0h2M44 40 33 50l11 10m23-20 11 10-11 10m-7-24-9 30M91 42h30m-30 10h20m-20 10h26"/>
+</g>
+</svg>
+<strong>Coding-agent interactions</strong>
+<span class="dr-stage-caption">Implement · test · debug</span>
+<span class="dr-inspect">Explore ↗</span>
+</button>
+<span class="dr-connector" data-flow-order="0" aria-hidden="true">
+</span>
+<button type="button" class="dr-stage" data-route="rd" data-data-stage="dataset" data-flow-node="1" aria-haspopup="dialog" aria-expanded="false">
+<span class="dr-stage-type">DATASET</span>
+<svg class="dr-art" viewBox="0 0 150 95" aria-hidden="true">
+<ellipse class="dr-art-halo" cx="75" cy="48" rx="69" ry="44"/>
+<g fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+<path d="M25 18h65v41H50L35 72V59H25zM39 30h38M39 41h26M97 33h30v42H93L80 86V75H64v-9"/>
+<circle cx="103" cy="46" r="3"/>
+<path d="M111 46h8m-16 12h16"/>
+</g>
+</svg>
+<strong>Robotics R&D data</strong>
+<span class="dr-stage-caption">Development conversations & feedback</span>
+<span class="dr-inspect">Explore ↗</span>
+</button>
+<span class="dr-connector" data-flow-order="1" aria-hidden="true">
+</span>
+<button type="button" class="dr-stage" data-route="rd" data-data-stage="training" data-flow-node="2" aria-haspopup="dialog" aria-expanded="false">
+<span class="dr-stage-type">TRAINING</span>
+<svg class="dr-art" viewBox="0 0 150 95" aria-hidden="true">
+<ellipse class="dr-art-halo" cx="75" cy="48" rx="69" ry="44"/>
+<g fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+<rect x="15" y="14" width="39" height="51" rx="5"/>
+<path d="M24 27h21m-21 10h21m-21 10h13M65 37h22m-11-11v22M98 34h39v43H98zM105 46h25m-25 10h25m-25 10h16"/>
+<path d="M22 78h53l11-13m-8 0h8v8"/>
+</g>
+</svg>
+<strong>Domain post-training</strong>
+<span class="dr-stage-caption">Open-weight base + R&D traces</span>
+<span class="dr-inspect">Explore ↗</span>
+</button>
+<span class="dr-connector" data-flow-order="2" aria-hidden="true">
+</span>
+<button type="button" class="dr-stage" data-route="rd" data-data-stage="model" data-flow-node="3" aria-haspopup="dialog" aria-expanded="false">
+<span class="dr-stage-type">MODEL OBJECTIVE</span>
+<svg class="dr-art" viewBox="0 0 150 95" aria-hidden="true">
+<ellipse class="dr-art-halo" cx="75" cy="48" rx="69" ry="44"/>
+<g fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+<rect x="57" y="28" width="36" height="36" rx="6"/>
+<path d="M65 20v8m19-8v8m-19 36v8m19-8v8M49 37h8m-8 17h8m36-17h8m-8 17h8M15 22h22v20H15zM116 22h22v20h-22zM22 52v27h35m43 0h27V52M37 32h13m50 0h16"/>
+<path d="m68 44 6 6 9-10"/>
+</g>
+</svg>
+<strong>Robotics R&D agent</strong>
+<span class="dr-stage-caption">Target: drive the RoboAgentLab harness</span>
+<span class="dr-inspect">Explore ↗</span>
+</button>
+</div>
+<footer class="dr-footer">
+<span>Learning to develop robotics systems</span>
+<a href="https://huggingface.co/datasets/RoboAgentLab/pi-embodied-rd-interactions">Explore dataset on Hugging Face ↗</a>
+</footer>
+</article>
+</div>
   </section>
   <section class="start-section"><div class="closing-wall" aria-hidden="true"></div><div class="start-content"><p class="eyebrow">MAKE YOUR NEXT EXPERIMENT REUSABLE</p><h2>Bring your agent.<br>Build with RoboAgentLab.</h2><a class="button primary" href="docs/quickstart.html">Get started <span>↗</span></a></div></section>
 </main>
@@ -529,5 +693,6 @@
 <dialog id="arch-dialog" class="arch-dialog" aria-labelledby="arch-detail-title"><button type="button" id="arch-dialog-close" aria-label="Close architecture details">×</button>
   <section class="arch-detail" aria-labelledby="arch-detail-title"><div class="arch-detail-copy"><p class="arch-kicker" id="arch-detail-label">pi RUNTIME</p><h3 id="arch-detail-title">The loop that connects it all</h3><p id="arch-detail-description">pi runs the model–tool–feedback cycle. The agent reads a skill, chooses an action, inspects the returned observations, and decides what to do next.</p><a id="arch-detail-link" class="text-link" href="docs/modes.html">Explore agent interfaces ↗</a></div><div id="arch-detail-content"><div class="arch-detail-sequence"><span>Read the procedure</span><b>→</b><span>Execute an action</span><b>→</b><span>Use the feedback</span></div></div></section>
 </dialog>
+<dialog id="data-route-dialog" class="dr-dialog" aria-labelledby="dr-dialog-title"><button type="button" id="dr-dialog-close" aria-label="Close training route">×</button><p class="dr-kicker" id="dr-dialog-route"></p><h2 id="dr-dialog-title"></h2><div class="dr-stage-nav" role="group" aria-label="Training route stages"><button data-dr-view="interactions">Interactions</button><button data-dr-view="dataset">Dataset</button><button data-dr-view="training">Training</button><button data-dr-view="model">Model objective</button></div><p id="dr-dialog-description"></p><div id="dr-dialog-details"></div><div class="dr-dialog-links"><a id="dr-dataset-link" href="https://huggingface.co/RoboAgentLab/datasets">Explore dataset ↗</a><a href="docs/data.html">Data collection documentation ↗</a></div></dialog>
 </body>
 </html>
