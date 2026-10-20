@@ -22,7 +22,17 @@
     const loop=arch.querySelector('.arch-loop-return');
     if(loop){const path=svgElement('path',{d:'M380 2v14H40V2',fill:'none',stroke:'none'}),dot=svgElement('circle',{r:2.5,class:'flow-dot',stroke:'none'});loop.append(path,dot);flows.push({path,dot,group:arch,order:0,target:null,offset:1800});}
   }
-  const taxonomy=document.getElementById('taxonomy');
+  const taxonomy=document.querySelector('.taxonomy');
+  const lifecycle=document.querySelector('.tx-lifecycle');
+  if(lifecycle){
+    lifecycle.setAttribute('data-flow-sequence','lifecycle');
+    lifecycle.dataset.flowCycle='5900';
+    const columns=[...lifecycle.querySelectorAll('.tx-column')];
+    columns.slice(0,-1).forEach((column,i)=>{
+      const connector=document.createElement('span');connector.className='tx-flow-connector';connector.setAttribute('aria-hidden','true');column.append(connector);
+      addArrow(connector,'right',lifecycle,i,columns[i+1]);
+    });
+  }
   document.querySelectorAll('.tx-bridge b').forEach((host,i)=>addArrow(host,host.classList.contains('tx-up')?'up':'down',taxonomy||host.parentElement,0,null,i*1100));
   const observer=new IntersectionObserver(entries=>{entries.forEach(e=>groups.set(e.target,e.isIntersecting));restart();},{threshold:0});
   groups.forEach((_,group)=>observer.observe(group));
@@ -33,7 +43,7 @@
     flows.forEach(flow=>{
       if(!groups.get(flow.group)){flow.dot.style.opacity=0;return;}
       const sequence=flow.group.hasAttribute('data-flow-sequence');
-      const phase=(elapsed+flow.offset)%(sequence?8400:3600);
+      const phase=(elapsed+flow.offset)%(sequence?Number(flow.group.dataset.flowCycle||8400):3600);
       const local=sequence?phase-flow.order*2500:phase;
       const active=local>=0&&local<1800;
       flow.dot.style.opacity=active?'0.95':'0';

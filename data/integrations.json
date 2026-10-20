@@ -34,32 +34,32 @@
     },
     {
       "title": "Genesis",
-      "image": null
+      "image": "assets/integrations/genesis.png"
     },
     {
       "title": "RoboCasa",
-      "image": null
+      "image": "assets/integrations/robocasa.png"
     },
     {
       "title": "BEHAVIOR-1K",
-      "image": null
+      "image": "assets/integrations/behavior-1k.png"
     }
   ],
   "robots": [
     {
-      "title": "Franka \u00b7 Single arm",
+      "title": "Franka · Single arm",
       "image": "assets/integrations/franka-single.png"
     },
     {
-      "title": "Franka \u00b7 Dual arm",
+      "title": "Franka · Dual arm",
       "image": "assets/integrations/franka-dual.png"
     },
     {
-      "title": "Piper \u00b7 Single arm",
+      "title": "Piper · Single arm",
       "image": "assets/integrations/piper-single.png"
     },
     {
-      "title": "Piper \u00b7 Dual arm",
+      "title": "Piper · Dual arm",
       "image": "assets/integrations/piper-dual.png"
     },
     {
@@ -69,24 +69,24 @@
   ],
   "policies": [
     {
-      "title": "\u03c00.5",
-      "image": null
+      "title": "π0.5",
+      "image": "assets/integrations/pi05.png"
     },
     {
       "title": "LingBot-VLA",
-      "image": null
+      "image": "assets/integrations/lingbot-vla.png"
     },
     {
       "title": "RLDX-1",
-      "image": null
+      "image": "assets/integrations/rldx-1.png"
     },
     {
       "title": "OpenVLA",
-      "image": null
+      "image": "assets/integrations/openvla.png"
     },
     {
       "title": "OpenVLA-OFT",
-      "image": null
+      "image": "assets/integrations/openvla-oft.png"
     },
     {
       "title": "Isaac GR00T",
@@ -94,37 +94,37 @@
     },
     {
       "title": "XPolicyLab",
-      "image": null
+      "image": "assets/integrations/xpolicylab.png"
     }
   ],
   "toolchain": [
     {
       "title": "SAM3",
-      "image": null
+      "image": "assets/integrations/sam3.png"
     },
     {
       "title": "Molmo",
-      "image": null
+      "image": "assets/integrations/molmo.png"
     },
     {
       "title": "MolmoPoint",
-      "image": null
+      "image": "assets/integrations/molmopoint.png"
     },
     {
       "title": "UniDepth",
-      "image": null
+      "image": "assets/integrations/unidepth.png"
     },
     {
       "title": "Contact-GraspNet",
-      "image": null
+      "image": "assets/integrations/contact-graspnet.png"
     },
     {
       "title": "AnyGrasp",
-      "image": null
+      "image": "assets/integrations/anygrasp.png"
     },
     {
       "title": "GraspGenX",
-      "image": null
+      "image": "assets/integrations/graspgenx.png"
     },
     {
       "title": "GSNet",
@@ -136,19 +136,19 @@
     },
     {
       "title": "PyRoKi",
-      "image": null
+      "image": "assets/integrations/pyroki.png"
     },
     {
       "title": "cuRobo",
-      "image": null
+      "image": "assets/integrations/curobo.png"
     },
     {
       "title": "LeRobot",
-      "image": null
+      "image": "assets/integrations/lerobot.png"
     },
     {
       "title": "LLaMA-Factory",
-      "image": null
+      "image": "assets/integrations/llama-factory.png"
     },
     {
       "title": "Data export",

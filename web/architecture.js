@@ -34,7 +34,7 @@ function archRenderContent(key,detail) {
   const gallery=document.createElement('div');gallery.className='arch-gallery';
   for (const item of archCatalog[key] || []) {
     const tile=document.createElement('div');tile.className='arch-tile';
-    if (item.image) {const img=document.createElement('img');img.src=item.image;img.alt='';img.loading='lazy';tile.append(img);}
+    if (item.image) {const img=document.createElement('img');img.src=item.image;img.alt='';img.loading='lazy';const media=document.createElement('div');media.className='arch-tile-media';if(item.title==='Isaac GR00T')media.classList.add('arch-tile-groot');media.append(img);tile.append(media);}
     const name=document.createElement('span');name.textContent=item.title;tile.append(name);gallery.append(tile);
   }
   content.append(gallery);
