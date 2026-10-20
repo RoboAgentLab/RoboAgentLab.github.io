@@ -60,7 +60,7 @@ function filter() {
   matched = papers.filter(p => (role.value === "all" || p.categories.some(c=>roleOf(c)===role.value))
     && (!category.value || p.categories.includes(category.value))
     && (!code.checked || p.code_url)
-    && (!query || `${p.title} ${p.categories.join(" ")}`.toLowerCase().includes(query)));
+    && (!query || `${p.id} ${p.title} ${p.url} ${p.code_url || ""} ${p.categories.join(" ")}`.toLowerCase().includes(query)));
   document.getElementById("successor-note").hidden = category.value !== "Self-Evolver / Successor AI R&D";
   render();
 }
