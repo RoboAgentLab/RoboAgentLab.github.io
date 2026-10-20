@@ -7,14 +7,6 @@ document.querySelectorAll(".nav-links a").forEach((link) => link.addEventListene
   nav.classList.remove("open");
   document.querySelector(".nav-toggle")?.setAttribute("aria-expanded", "false");
 }));
-document.querySelectorAll("[data-copy]").forEach((button) => button.addEventListener("click", async () => {
-  try {
-    await navigator.clipboard.writeText(button.dataset.copy);
-    button.textContent = "Copied";
-  } catch {
-    button.textContent = "Select command";
-  }
-}));
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 let motionPaused = reduceMotion.matches;
 const visibleVideos = new Set();
