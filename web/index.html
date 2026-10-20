@@ -13,6 +13,8 @@
   <script src="site.js" defer></script>
   <link rel="stylesheet" href="taxonomy.css">
   <script src="taxonomy.js" defer></script>
+  <link rel="stylesheet" href="architecture.css">
+  <script src="architecture.js" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -72,18 +74,30 @@
   <section class="platform-section" id="platform">
     <div class="section">
       <div class="section-top"><div><p class="eyebrow">A SHARED HARNESS. OPEN ENDED RESEARCH.</p><h2>Build once.<br>Compose across robots.</h2></div><p class="section-intro">pi supplies the agent loop and sessions. Robotics capabilities connect through extensions, run as downstream services, and come with skills that explain how to use them.</p></div>
-      <div class="architecture" aria-label="RoboAgentLab architecture">
-        <div class="architecture-agent"><span class="tiny-label">REASON · WRITE · INSPECT · REVISE</span><strong>Coding agent</strong><span>pi loop + sessions</span></div>
-        <div class="architecture-arrow"><span>Skills describe the workflow</span><b>↓ ↑</b><span>Tools return observations & feedback</span></div>
-        <div class="architecture-interface"><div><span class="tiny-label">ONE DECLARATION</span><strong>Robot & algorithm extensions</strong></div><div class="interface-pills"><span>Agent tool calls</span><span>Generated Python</span></div></div>
-        <div class="architecture-services"><div><b>Environments</b><span>Simulation & benchmarks</span></div><div><b>Robot adapters</b><span>Physical hardware</span></div><div><b>Policy backends</b><span>Learned controllers</span></div><div><b>Toolchain</b><span>Perception, planning & data</span></div></div>
-      </div>
+<div class="arch-explorer" id="architecture-map" data-interface="tools">
+  <div class="arch-toolbar"><span>Explore the architecture</span><div class="arch-modes" role="group" aria-label="Execution interface"><button type="button" data-arch-mode="tools" aria-pressed="true">Agent tool calls</button><button type="button" data-arch-mode="python" aria-pressed="false">Generated Python</button></div></div>
+  <div class="arch-top">
+<button type="button" class="arch-node arch-skills" data-arch-node="skills" aria-pressed="false"><span class="arch-kicker">UPSTREAM · PROCEDURES</span><svg viewBox="0 0 74 74" class="arch-icon" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 12c12-4 22-2 28 3 6-5 16-7 28-3v42c-12-4-22-2-28 3-6-5-16-7-28-3zM36 15v42M16 24h12m-12 9h12m16-9h12m-12 9h12M17 43l3 3 7-8"/></svg><strong>Skills</strong><span class="arch-summary">Setup · tool sequences<br>Interpret feedback</span><span class="arch-side-arrow" aria-hidden="true">→</span></button>
+  <button type="button" class="arch-node arch-runtime is-selected" data-arch-node="runtime" aria-pressed="true"><span class="arch-kicker">BUILT ON pi</span><strong>The agent loop</strong><span class="arch-loop"><span class="arch-loop-step">Reason<span>Model</span></span><b aria-hidden="true">→</b><span class="arch-loop-step" id="arch-act-label">Call tools<span>Execute</span></span><b aria-hidden="true">→</b><span class="arch-loop-step">Observe<span>Feedback</span></span></span><svg class="arch-loop-return" viewBox="0 0 420 24" fill="none" aria-hidden="true"><path d="M380 2v14H40V2m-5 6 5-6 5 6"/></svg><span class="arch-summary">Read skills. Act. Inspect the result. Continue.</span></button>
+  <button type="button" class="arch-node arch-sessions" data-arch-node="sessions" aria-pressed="false"><span class="arch-kicker">CONTEXT ACROSS TURNS</span><svg viewBox="0 0 74 74" class="arch-icon" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="11" y="8" width="43" height="43" rx="5"/><path d="M20 51v10h43V19h-9M20 20h25M20 29h25M20 38h17"/><circle cx="51" cy="49" r="12"/><path d="M51 42v7l5 3"/></svg><strong>Sessions</strong><span class="arch-summary">Messages · tool results<br>Resume the experiment</span><span class="arch-side-arrow" aria-hidden="true">↔</span></button>
+  </div>
+  <div class="arch-wire"><span><b aria-hidden="true">↓</b><span id="arch-request-label">The agent selects a registered tool</span></span><span>Observations & results <b aria-hidden="true">↑</b></span></div>
+  <button type="button" class="arch-node arch-extension" data-arch-node="extensions" aria-pressed="false"><svg viewBox="0 0 74 74" class="arch-icon" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 14h19c-4-13 18-13 14 0h19v18c-13-4-13 18 0 14v17H43c4-13-18-13-14 0H10V46c13 4 13-18 0-14z"/></svg><span class="arch-extension-title"><span class="arch-kicker">ROBOAGENTLAB · INTEGRATIONS</span><strong>Robot & algorithm extensions</strong><span class="arch-summary">Register tools, observations and lifecycle hooks with pi.</span></span><span class="arch-contract"><span class="arch-kicker">SHARED PRIMITIVE DECLARATIONS</span><span class="arch-contract-branches"><span data-arch-branch="tools" class="is-active">Tool descriptions</span><span data-arch-branch="python">Python API</span></span></span></button>
+  <div class="arch-wire arch-service-wire"><span><b aria-hidden="true">↓</b><span id="arch-dispatch-label">Dispatch an operation over HTTP</span></span><span>Images · state · outcomes <b aria-hidden="true">↑</b></span></div>
+  <div class="arch-downstream"><div class="arch-downstream-heading"><span class="arch-kicker">DOWNSTREAM · EXECUTABLE CAPABILITIES</span><span>Local or remote services</span></div><div class="arch-service-grid">
+<button type="button" class="arch-node arch-service arch-environments" data-arch-node="environments" aria-pressed="false"><span class="arch-service-image"><img src="assets/integrations/libero-wide.png" alt="" loading="lazy"></span><strong>Environments</strong><span class="arch-summary">Simulation & benchmarks</span><span class="arch-explore">Explore ↗</span></button>
+<button type="button" class="arch-node arch-service arch-robots" data-arch-node="robots" aria-pressed="false"><span class="arch-service-image"><img src="assets/integrations/franka-single.png" alt="" loading="lazy"></span><strong>Real robots</strong><span class="arch-summary">Hardware adapters</span><span class="arch-explore">Explore ↗</span></button>
+<button type="button" class="arch-node arch-service arch-policies" data-arch-node="policies" aria-pressed="false"><span class="arch-service-image arch-groot"><img src="assets/integrations/isaac-groot-logo.png" alt="" loading="lazy"></span><strong>Policy backends</strong><span class="arch-summary">Learned controllers</span><span class="arch-explore">Explore ↗</span></button>
+<button type="button" class="arch-node arch-service arch-toolchain" data-arch-node="toolchain" aria-pressed="false"><span class="arch-service-image"><img src="assets/integrations/data-export.png" alt="" loading="lazy"></span><strong>Toolchain</strong><span class="arch-summary">Perception · planning · data</span><span class="arch-explore">Explore ↗</span></button>
+</div><p id="arch-execution-note" class="arch-execution-note">Service results return through the extension to the next agent turn.</p></div>
+  <p class="sr-only" id="arch-announcement" aria-live="polite"></p>
+</div>
       <div class="platform-links"><a href="docs/development.html">Develop an integration <span>↗</span></a><a href="docs/services.html">Configure services <span>↗</span></a><a href="docs/evaluation.html">Run an evaluation <span>↗</span></a></div>
     </div>
   </section>
 
   <section class="section" id="research">
-    <div class="section-top"><div><p class="eyebrow">A FRAMEWORK FOR AGENTIC ROBOTICS</p><h2>Three roles.<br>A connected research agenda.</h2></div><a class="text-link" href="library.html">Explore the research library ↗</a></div>
+    <div class="section-top"><div><p class="eyebrow">A FRAMEWORK FOR AGENTIC ROBOTICS</p><h2>One framework.<br>Three agent roles.</h2></div><a class="text-link" href="library.html">Explore the research library ↗</a></div>
 <div class="taxonomy" aria-label="Interactive taxonomy of agentic robotics">
 <p class="tx-instruction">
 <span aria-hidden="true">↗</span> Select a category to explore papers and code.</p>
@@ -511,6 +525,9 @@
   <div class="tx-dialog-top"><div><span id="tx-dialog-role" class="tiny-label"></span><h2 id="tx-dialog-title"></h2></div><button type="button" id="tx-dialog-close" aria-label="Close category">×</button></div>
   <p id="tx-dialog-description"></p><div class="tx-dialog-toolbar"><span id="tx-dialog-count" aria-live="polite"></span><a id="tx-dialog-library" class="text-link" href="library.html">Open in research library ↗</a></div>
   <div id="tx-dialog-papers"></div><button type="button" id="tx-dialog-more" class="load-more" hidden>Show more papers</button>
+</dialog>
+<dialog id="arch-dialog" class="arch-dialog" aria-labelledby="arch-detail-title"><button type="button" id="arch-dialog-close" aria-label="Close architecture details">×</button>
+  <section class="arch-detail" aria-labelledby="arch-detail-title"><div class="arch-detail-copy"><p class="arch-kicker" id="arch-detail-label">pi RUNTIME</p><h3 id="arch-detail-title">The loop that connects it all</h3><p id="arch-detail-description">pi runs the model–tool–feedback cycle. The agent reads a skill, chooses an action, inspects the returned observations, and decides what to do next.</p><a id="arch-detail-link" class="text-link" href="docs/modes.html">Explore agent interfaces ↗</a></div><div id="arch-detail-content"><div class="arch-detail-sequence"><span>Read the procedure</span><b>→</b><span>Execute an action</span><b>→</b><span>Use the feedback</span></div></div></section>
 </dialog>
 </body>
 </html>

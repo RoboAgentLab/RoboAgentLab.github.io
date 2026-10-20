@@ -127,6 +127,10 @@ if (grid) {
       filterDemos();
     }));
     filterDemos();
+    // The gallery changes page height after loading; keep section links aligned.
+    if (location.hash) {
+      document.getElementById(location.hash.slice(1))?.scrollIntoView({ behavior: "instant", block: "start" });
+    }
   }).catch(() => {
     grid.textContent = "The demo library could not load. Please reload this page.";
   });

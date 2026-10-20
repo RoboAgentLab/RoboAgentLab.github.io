@@ -1,0 +1,158 @@
+{
+  "environments": [
+    {
+      "title": "LIBERO",
+      "image": "assets/integrations/libero-wide.png"
+    },
+    {
+      "title": "ManiSkill",
+      "image": "assets/integrations/maniskill-wide.png"
+    },
+    {
+      "title": "MetaWorld",
+      "image": "assets/integrations/metaworld-wide.png"
+    },
+    {
+      "title": "robosuite",
+      "image": "assets/integrations/robosuite-wide.png"
+    },
+    {
+      "title": "RoboTwin",
+      "image": "assets/integrations/robotwin-wide.png"
+    },
+    {
+      "title": "RoboDojo",
+      "image": "assets/integrations/robodojo-wide.png"
+    },
+    {
+      "title": "RoboLab",
+      "image": "assets/integrations/robolab-wide.png"
+    },
+    {
+      "title": "HumanCLAW",
+      "image": "assets/integrations/humanclaw-wide.png"
+    },
+    {
+      "title": "Genesis",
+      "image": null
+    },
+    {
+      "title": "RoboCasa",
+      "image": null
+    },
+    {
+      "title": "BEHAVIOR-1K",
+      "image": null
+    }
+  ],
+  "robots": [
+    {
+      "title": "Franka \u00b7 Single arm",
+      "image": "assets/integrations/franka-single.png"
+    },
+    {
+      "title": "Franka \u00b7 Dual arm",
+      "image": "assets/integrations/franka-dual.png"
+    },
+    {
+      "title": "Piper \u00b7 Single arm",
+      "image": "assets/integrations/piper-single.png"
+    },
+    {
+      "title": "Piper \u00b7 Dual arm",
+      "image": "assets/integrations/piper-dual.png"
+    },
+    {
+      "title": "UR5e",
+      "image": "assets/integrations/ur5e.png"
+    }
+  ],
+  "policies": [
+    {
+      "title": "\u03c00.5",
+      "image": null
+    },
+    {
+      "title": "LingBot-VLA",
+      "image": null
+    },
+    {
+      "title": "RLDX-1",
+      "image": null
+    },
+    {
+      "title": "OpenVLA",
+      "image": null
+    },
+    {
+      "title": "OpenVLA-OFT",
+      "image": null
+    },
+    {
+      "title": "Isaac GR00T",
+      "image": "assets/integrations/isaac-groot-logo.png"
+    },
+    {
+      "title": "XPolicyLab",
+      "image": null
+    }
+  ],
+  "toolchain": [
+    {
+      "title": "SAM3",
+      "image": null
+    },
+    {
+      "title": "Molmo",
+      "image": null
+    },
+    {
+      "title": "MolmoPoint",
+      "image": null
+    },
+    {
+      "title": "UniDepth",
+      "image": null
+    },
+    {
+      "title": "Contact-GraspNet",
+      "image": null
+    },
+    {
+      "title": "AnyGrasp",
+      "image": null
+    },
+    {
+      "title": "GraspGenX",
+      "image": null
+    },
+    {
+      "title": "GSNet",
+      "image": "assets/integrations/gsnet-scene108.jpeg"
+    },
+    {
+      "title": "AnyPlace",
+      "image": "assets/integrations/anyplace-cup-placement.png"
+    },
+    {
+      "title": "PyRoKi",
+      "image": null
+    },
+    {
+      "title": "cuRobo",
+      "image": null
+    },
+    {
+      "title": "LeRobot",
+      "image": null
+    },
+    {
+      "title": "LLaMA-Factory",
+      "image": null
+    },
+    {
+      "title": "Data export",
+      "image": "assets/integrations/data-export.png"
+    }
+  ]
+}
