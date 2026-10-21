@@ -18,7 +18,7 @@ function render() {
     card.className = "paper-card";
     const year = document.createElement("span");
     year.className = "paper-year";
-    year.textContent = `${paper.year} · ${paper.source_type}`;
+    year.textContent = [paper.year, paper.source_type].filter(Boolean).join(" · ");
     const title = document.createElement("h2");
     const link = document.createElement("a");
     link.href = safeURL(paper.url) || "#";
@@ -29,10 +29,12 @@ function render() {
     tags.textContent = paper.categories.join(" · ");
     const links = document.createElement("div");
     links.className = "paper-links";
-    const source = document.createElement("a");
-    source.href = link.href;
-    source.textContent = "Read paper ↗";
-    links.append(source);
+    if (paper.source_type !== "Repository") {
+      const source = document.createElement("a");
+      source.href = link.href;
+      source.textContent = paper.source_type === "Paper" ? "Read paper ↗" : "Project / report ↗";
+      links.append(source);
+    }
     if (paper.code_url && safeURL(paper.code_url)) {
       const repo = document.createElement("a");
       repo.href = safeURL(paper.code_url);
