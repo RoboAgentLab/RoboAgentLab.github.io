@@ -460,18 +460,6 @@
     ]
   },
   {
-    "id": "choi2026vlaeval",
-    "title": "vla-eval: A Unified Evaluation Harness for Vision-Language-Action Models",
-    "year": 2026,
-    "url": "https://arxiv.org/abs/2603.13966",
-    "source_type": "Paper",
-    "categories": [
-      "Infrastructure / Evaluation",
-      "Infrastructure / Diagnosis"
-    ],
-    "code_url": "https://github.com/allenai/vla-evaluation-harness"
-  },
-  {
     "id": "codebotler2026",
     "title": "Deploying and Evaluating LLMs to Program Service Mobile Robots",
     "year": 2023,
@@ -688,16 +676,6 @@
     "categories": [
       "Infrastructure / Environment Generation",
       "Self-Evolver / Environments and Datasets"
-    ]
-  },
-  {
-    "id": "fang2025kalm",
-    "title": "KALM: Keypoint Abstraction Using Large Models for Object-Relative Imitation Learning",
-    "year": 2025,
-    "url": "https://doi.org/10.1109/ICRA55743.2025.11128681",
-    "source_type": "Paper",
-    "categories": [
-      "Infrastructure / Training"
     ]
   },
   {
@@ -1935,16 +1913,6 @@
     ]
   },
   {
-    "id": "lu2026annotateanything",
-    "title": "AnnotateAnything: Automatic Annotation of 3D Assets for Robot Manipulation",
-    "year": 2026,
-    "url": "https://arxiv.org/abs/2606.17446",
-    "source_type": "Paper",
-    "categories": [
-      "Infrastructure / Dataset Construction"
-    ]
-  },
-  {
     "id": "luo2026robolineage",
     "title": "RoboLineage: Agent-Native Data Lifecycle Governance Across Robot Policy Iterations",
     "year": 2026,
@@ -2139,16 +2107,6 @@
       "O3 / A1 Model"
     ],
     "code_url": "https://github.com/facebookresearch/partnr-planner"
-  },
-  {
-    "id": "peng2024lga",
-    "title": "Learning with Language-Guided State Abstractions",
-    "year": 2024,
-    "url": "https://arxiv.org/abs/2402.18759",
-    "source_type": "Paper",
-    "categories": [
-      "Infrastructure / Training"
-    ]
   },
   {
     "id": "peng2026slowbrain",
@@ -2702,17 +2660,6 @@
     "categories": [
       "O1 / A1 Model"
     ]
-  },
-  {
-    "id": "schroeder2025rover",
-    "title": "ROVER: Recursive Reasoning Over Videos with Vision-Language Models for Embodied Tasks",
-    "year": 2025,
-    "url": "https://arxiv.org/abs/2508.01943",
-    "source_type": "Paper",
-    "categories": [
-      "Infrastructure / Evaluation"
-    ],
-    "code_url": "https://github.com/Philip-MIT/rover-vlm"
   },
   {
     "id": "sds2024",
