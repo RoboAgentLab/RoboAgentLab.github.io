@@ -34,7 +34,13 @@ function archRenderContent(key,detail) {
   const gallery=document.createElement('div');gallery.className='arch-gallery';
   for (const item of archCatalog[key] || []) {
     const tile=document.createElement('div');tile.className='arch-tile';
-    if (item.image) {const img=document.createElement('img');img.src=item.image;img.alt='';img.loading='lazy';const media=document.createElement('div');media.className='arch-tile-media';if(item.title==='Isaac GR00T')media.classList.add('arch-tile-groot');media.append(img);tile.append(media);}
+    if (item.image) {const img=document.createElement('img');img.src=item.image;img.alt='';img.loading='lazy';const media=document.createElement('div');media.className='arch-tile-media';if(item.title==='Isaac GR00T')media.classList.add('arch-tile-groot');if(item.crop){
+        const [left,top,right,bottom]=item.crop,visibleWidth=1-left-right,visibleHeight=1-top-bottom;
+        const ratio=item.image_size[0]*visibleWidth/(item.image_size[1]*visibleHeight);
+        const crop=document.createElement('div');crop.className='arch-image-crop';crop.style.aspectRatio=String(ratio);crop.style.width=`min(100%, ${96*ratio}px)`;
+        img.style.width=`${100/visibleWidth}%`;img.style.height=`${100/visibleHeight}%`;img.style.left=`${-100*left/visibleWidth}%`;img.style.top=`${-100*top/visibleHeight}%`;
+        crop.append(img);media.append(crop);
+      }else{media.append(img);}tile.append(media);}
     const name=document.createElement('span');name.textContent=item.title;tile.append(name);gallery.append(tile);
   }
   content.append(gallery);

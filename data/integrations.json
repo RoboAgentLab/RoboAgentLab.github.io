@@ -100,11 +100,31 @@
   "toolchain": [
     {
       "title": "SAM3",
-      "image": "assets/integrations/sam3.png"
+      "image": "assets/integrations/sam3.png",
+      "crop": [
+        0.833,
+        0.102,
+        0.025,
+        0.642
+      ],
+      "image_size": [
+        1400,
+        441
+      ]
     },
     {
       "title": "Molmo",
-      "image": "assets/integrations/molmo.png"
+      "image": "assets/integrations/molmo.png",
+      "crop": [
+        0.529,
+        0.611,
+        0.367,
+        0.261
+      ],
+      "image_size": [
+        1400,
+        747
+      ]
     },
     {
       "title": "MolmoPoint",
@@ -112,7 +132,17 @@
     },
     {
       "title": "UniDepth",
-      "image": "assets/integrations/unidepth.png"
+      "image": "assets/integrations/unidepth.png",
+      "crop": [
+        0.7,
+        0.513,
+        0.25,
+        0.362
+      ],
+      "image_size": [
+        1400,
+        419
+      ]
     },
     {
       "title": "Contact-GraspNet",

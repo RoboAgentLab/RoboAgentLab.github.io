@@ -735,8 +735,8 @@
     "id": "gao2026hexashell",
     "title": "HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents",
     "year": 2026,
-    "url": "https://github.com/HexaFuture/HexaShell",
-    "source_type": "Repository",
+    "url": "https://arxiv.org/abs/2610.23479",
+    "source_type": "Paper",
     "categories": [
       "O2 / A3",
       "Self-Evolver / Knowledge and Memory",
