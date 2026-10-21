@@ -1,0 +1,18 @@
+[
+  {
+    "id": "sensenova-roborsi-joint-rsi",
+    "title": "SenseNova-RoboRSI: Model–Harness Co-Evolution",
+    "year": 2026,
+    "source_type": "Project update",
+    "role": "evolver",
+    "url": "https://github.com/OpenSenseNova/SenseNova-RoboRSI/blob/006207674a61a2d7a36ed7469bf97dc7920f9099/README.md#sensenova-roborsi-27b-preview",
+    "code_url": "https://github.com/OpenSenseNova/SenseNova-RoboRSI",
+    "topics": [
+      "Self-Evolver",
+      "Model training",
+      "Harness improvement",
+      "Joint RSI"
+    ],
+    "description": "The project reports converting validated robot interactions into multimodal supervision and returning updated models to the runtime for evaluation and further exploration. Released code supports execution traces, version snapshots, and matched result comparisons. The public materials do not yet establish agent-directed training or joint model–harness update selection, so this remains a research lead outside the classified Self-Evolver methods."
+  }
+]
