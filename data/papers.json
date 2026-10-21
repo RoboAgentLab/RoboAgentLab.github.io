@@ -370,6 +370,17 @@
     "code_url": "https://github.com/robo-architect/architect-franka"
   },
   {
+    "id": "chen2026embodiedplayground",
+    "title": "Embodied Playground: A Long-Horizon Agentic Robotics Benchmark for Physical, Strategic, and Spatial Reasoning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.27039",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A3"
+    ],
+    "code_url": null
+  },
+  {
     "id": "chen2026gap",
     "title": "GaP: A Graph-as-Policy Multi-Agent Self-Learning Harness For Variational Automation Tasks",
     "year": 2026,
