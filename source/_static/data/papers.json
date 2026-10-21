@@ -691,16 +691,6 @@
     ]
   },
   {
-    "id": "fang2025kalm",
-    "title": "KALM: Keypoint Abstraction Using Large Models for Object-Relative Imitation Learning",
-    "year": 2025,
-    "url": "https://doi.org/10.1109/ICRA55743.2025.11128681",
-    "source_type": "Paper",
-    "categories": [
-      "Infrastructure / Training"
-    ]
-  },
-  {
     "id": "favaro2026whenai",
     "title": "When AI Builds Itself: Our Progress toward Recursive Self-Improvement, and Its Implications",
     "year": 2026,
@@ -735,8 +725,8 @@
     "id": "gao2026hexashell",
     "title": "HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents",
     "year": 2026,
-    "url": "https://github.com/HexaFuture/HexaShell",
-    "source_type": "Repository",
+    "url": "https://arxiv.org/abs/2610.23479",
+    "source_type": "Paper",
     "categories": [
       "O2 / A3",
       "Self-Evolver / Knowledge and Memory",
@@ -1935,16 +1925,6 @@
     ]
   },
   {
-    "id": "lu2026annotateanything",
-    "title": "AnnotateAnything: Automatic Annotation of 3D Assets for Robot Manipulation",
-    "year": 2026,
-    "url": "https://arxiv.org/abs/2606.17446",
-    "source_type": "Paper",
-    "categories": [
-      "Infrastructure / Dataset Construction"
-    ]
-  },
-  {
     "id": "luo2026robolineage",
     "title": "RoboLineage: Agent-Native Data Lifecycle Governance Across Robot Policy Iterations",
     "year": 2026,
@@ -2139,16 +2119,6 @@
       "O3 / A1 Model"
     ],
     "code_url": "https://github.com/facebookresearch/partnr-planner"
-  },
-  {
-    "id": "peng2024lga",
-    "title": "Learning with Language-Guided State Abstractions",
-    "year": 2024,
-    "url": "https://arxiv.org/abs/2402.18759",
-    "source_type": "Paper",
-    "categories": [
-      "Infrastructure / Training"
-    ]
   },
   {
     "id": "peng2026slowbrain",
@@ -2702,17 +2672,6 @@
     "categories": [
       "O1 / A1 Model"
     ]
-  },
-  {
-    "id": "schroeder2025rover",
-    "title": "ROVER: Recursive Reasoning Over Videos with Vision-Language Models for Embodied Tasks",
-    "year": 2025,
-    "url": "https://arxiv.org/abs/2508.01943",
-    "source_type": "Paper",
-    "categories": [
-      "Infrastructure / Evaluation"
-    ],
-    "code_url": "https://github.com/Philip-MIT/rover-vlm"
   },
   {
     "id": "sds2024",
@@ -4036,6 +3995,7 @@
     "url": "https://arxiv.org/abs/2605.11951",
     "source_type": "Paper",
     "categories": [
+      "O2 / A3",
       "Infrastructure / Dataset Construction"
     ],
     "code_url": "https://github.com/EDEM-AI/AgentChord"
