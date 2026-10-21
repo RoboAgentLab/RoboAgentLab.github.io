@@ -4124,6 +4124,18 @@
     "code_url": "https://github.com/yuzihaowashu/MEMORA"
   },
   {
+    "id": "yu2026robodoctor",
+    "title": "RoboDoctor: Training-Free Recursive Self-Improvement for Robot Policies",
+    "year": 2026,
+    "url": "https://robodoctor-rsi.github.io/",
+    "source_type": "Project / report",
+    "categories": [
+      "O2 / A2",
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "code_url": null
+  },
+  {
     "id": "zeng2024selfalignment",
     "title": "Learning Reward for Robot Skills Using Large Language Models via Self-Alignment",
     "year": 2024,
