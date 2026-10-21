@@ -3624,6 +3624,17 @@
     ]
   },
   {
+    "id": "wang2026tactileeta",
+    "title": "Embodied Task Agents Can Perform Fine Manipulation through Tactile In-Context Learning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.27613",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "code_url": "https://github.com/No-518/Tactile-ETA"
+  },
+  {
     "id": "wang2026zero2skill",
     "title": "Zero2Skill: Bootstrapping Robot Skills through Autonomous Data Collection, Training, and Deployment",
     "year": 2026,
