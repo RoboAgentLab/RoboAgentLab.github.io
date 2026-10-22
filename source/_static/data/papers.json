@@ -3376,6 +3376,17 @@
     "code_url": "https://github.com/AetherLabsAI/Video2World"
   },
   {
+    "id": "text2mujoco2026",
+    "title": "Text2MuJoCo",
+    "year": 2026,
+    "url": "https://github.com/ShawnJoeng/Text2Mujoco",
+    "source_type": "Repository",
+    "categories": [
+      "Infrastructure / Environment Generation"
+    ],
+    "code_url": "https://github.com/ShawnJoeng/Text2Mujoco"
+  },
+  {
     "id": "text2reward2023",
     "title": "Text2Reward: Reward Shaping with Language Models for Reinforcement Learning",
     "year": 2023,
