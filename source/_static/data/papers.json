@@ -1882,6 +1882,17 @@
     "code_url": "https://github.com/moka-manipulation/moka"
   },
   {
+    "id": "liu2026aw0",
+    "title": "Agentic World Action Models",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.30136",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Dataset Construction"
+    ],
+    "code_url": "https://github.com/ZhuoyangLiu2005/agentic-wam"
+  },
+  {
     "id": "liu2026robotaembed",
     "title": "Robota-Embed: Unified VLA Embeddings for Robot In-Context Learning and Evolution",
     "year": 2026,
@@ -2026,6 +2037,17 @@
     "categories": [
       "O1 / A1 Code"
     ]
+  },
+  {
+    "id": "nebiusphysicalai2026",
+    "title": "Nebius Physical AI",
+    "year": 2026,
+    "url": "https://github.com/nebius/nebius-physical-ai",
+    "source_type": "Software",
+    "categories": [
+      "Infrastructure / Training"
+    ],
+    "code_url": "https://github.com/nebius/nebius-physical-ai"
   },
   {
     "id": "nie2026teachandgrow",
