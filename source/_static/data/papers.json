@@ -681,6 +681,17 @@
     "code_url": "https://github.com/air-embodied-brain/EmbodiSkill"
   },
   {
+    "id": "espinola2026llmlibero",
+    "title": "From Reasoning to Action: Benchmarking Frontier AI Models on LIBERO-10 Robot Manipulation Tasks",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.30051",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "code_url": "https://github.com/IRVLUTD/LLM_LIBERO"
+  },
+  {
     "id": "evonav2026",
     "title": "EvoNav: Evolutionary Reward Function Design for Robot Navigation with Large Language Models",
     "year": 2026,
@@ -1880,6 +1891,19 @@
       "Infrastructure / Dataset Construction"
     ],
     "code_url": "https://github.com/moka-manipulation/moka"
+  },
+  {
+    "id": "liu2026agenticroborl",
+    "title": "AgenticRoboRL: Bringing Coding-Agent Post-Training to Agentic Robotics",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.28589",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A2",
+      "O3 / A3",
+      "Infrastructure / Dataset Construction"
+    ],
+    "code_url": "https://github.com/xinxinliu-ai/AgenticRoboRL"
   },
   {
     "id": "liu2026aw0",
