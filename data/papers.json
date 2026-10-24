@@ -481,9 +481,9 @@
     "categories": [
       "Self-Evolver / Robot morphology"
     ],
-    "short_name": "AI-DSR",
+    "short_name": "AID-SR",
     "aliases": [
-      "AID-SR"
+      "AI-DSR"
     ]
   },
   {
@@ -4259,9 +4259,9 @@
     "categories": [
       "O1 / A1 Model"
     ],
-    "short_name": "VLA-as-Tools",
+    "short_name": "VLAs-as-Tools",
     "aliases": [
-      "VLAs-as-Tools"
+      "VLA-as-Tools"
     ]
   },
   {
@@ -5292,9 +5292,9 @@
       "Self-Evolver / State Management",
       "Self-Evolver / Execution Workflows"
     ],
-    "short_name": "HyMES",
+    "short_name": "HyMeS",
     "aliases": [
-      "HyMeS"
+      "HyMES"
     ]
   },
   {
