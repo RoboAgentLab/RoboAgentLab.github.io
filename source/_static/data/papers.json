@@ -350,6 +350,17 @@
     ]
   },
   {
+    "id": "boiko2023coscientist",
+    "short_name": "Coscientist",
+    "categories": [
+      "O1 / A3"
+    ],
+    "title": "Autonomous chemical research with large language models",
+    "year": 2023,
+    "url": "https://doi.org/10.1038/s41586-023-06792-0",
+    "source_type": "Paper"
+  },
+  {
     "id": "bumble",
     "title": "BUMBLE: Unifying Reasoning and Acting with Vision-Language Models for Building-wide Mobile Manipulation",
     "year": 2024,
@@ -2265,6 +2276,17 @@
     ],
     "code_url": "https://github.com/eureka-research/eurekaverse",
     "short_name": "Eurekaverse"
+  },
+  {
+    "id": "liang2024lmpc",
+    "short_name": "LMPC",
+    "categories": [
+      "O3 / A3"
+    ],
+    "title": "Learning to Learn Faster from Human Feedback with Language Model Predictive Control",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2402.11450",
+    "source_type": "Paper"
   },
   {
     "id": "liang2026robofoundry",
@@ -5267,6 +5289,18 @@
       "Self-Evolver / Model"
     ],
     "short_name": "Robo-COP"
+  },
+  {
+    "id": "zhang2026veritas",
+    "short_name": "VERITAS",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "code_url": "https://github.com/princeton-prism/veritas",
+    "title": "Visual Verification Enables Inference-time Steering and Autonomous Policy Improvement",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.18247",
+    "source_type": "Paper"
   },
   {
     "id": "zhao2024agenticskilldiscovery",
