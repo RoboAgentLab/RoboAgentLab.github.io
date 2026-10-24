@@ -20,8 +20,12 @@ function render() {
     const title = document.createElement("h2");
     const link = document.createElement("a");
     link.href = safeURL(paper.url) || "#";
-    const needsPrefix = paper.short_name && !paper.title.toLowerCase().startsWith(`${paper.short_name.toLowerCase()}:`);
-    link.textContent = needsPrefix ? `${paper.short_name}: ${paper.title}` : paper.title;
+    const shortName = paper.short_name;
+    const titleMatchesName = shortName && paper.title.toLowerCase() === shortName.toLowerCase();
+    const titleStartsWithName = shortName && paper.title.toLowerCase().startsWith(`${shortName.toLowerCase()}:`);
+    link.textContent = !shortName ? paper.title : titleMatchesName ? shortName
+      : titleStartsWithName ? shortName + paper.title.slice(shortName.length)
+      : `${shortName}: ${paper.title}`;
     title.append(link);
     const tags = document.createElement("div");
     tags.className = "paper-tags";

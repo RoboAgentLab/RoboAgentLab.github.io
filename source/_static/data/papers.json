@@ -8,7 +8,8 @@
     "categories": [
       "Infrastructure / Environment Generation"
     ],
-    "code_url": "https://github.com/agentic-real2sim/agentic_real2sim"
+    "code_url": "https://github.com/agentic-real2sim/agentic_real2sim",
+    "short_name": "Agentic Real2Sim"
   },
   {
     "id": "agenticrobot",
@@ -19,7 +20,8 @@
     "categories": [
       "O1 / A1 Model"
     ],
-    "code_url": "https://github.com/Agentic-Robot/agentic-robot"
+    "code_url": "https://github.com/Agentic-Robot/agentic-robot",
+    "short_name": "Agentic Robot"
   },
   {
     "id": "agp",
@@ -31,7 +33,8 @@
       "O1 / A3",
       "O2 / A3"
     ],
-    "code_url": "https://github.com/agent-as-policy-2026/agent-as-policy"
+    "code_url": "https://github.com/agent-as-policy-2026/agent-as-policy",
+    "short_name": "AGP"
   },
   {
     "id": "aha2024",
@@ -42,7 +45,8 @@
     "categories": [
       "Infrastructure / Training"
     ],
-    "code_url": "https://github.com/NVlabs/AHA"
+    "code_url": "https://github.com/NVlabs/AHA",
+    "short_name": "AHA"
   },
   {
     "id": "ahn2025nesyro",
@@ -52,7 +56,8 @@
     "source_type": "Paper",
     "categories": [
       "O2 / A3"
-    ]
+    ],
+    "short_name": "NeSyRo"
   },
   {
     "id": "ali2026jevarm",
@@ -77,7 +82,8 @@
       "Infrastructure / Training",
       "Infrastructure / Evaluation"
     ],
-    "code_url": "https://github.com/AlmondGod/robotics-autoresearch"
+    "code_url": "https://github.com/AlmondGod/robotics-autoresearch",
+    "short_name": "robot-autoresearch"
   },
   {
     "id": "anytask2025",
@@ -89,7 +95,8 @@
       "Infrastructure / Environment Generation",
       "Infrastructure / Dataset Construction",
       "Infrastructure / Training"
-    ]
+    ],
+    "short_name": "AnyTask"
   },
   {
     "id": "arstag2026",
@@ -103,7 +110,8 @@
       "Infrastructure / Training",
       "Infrastructure / Evaluation",
       "Self-Evolver / Environments and Datasets"
-    ]
+    ],
+    "short_name": "ARSTAG"
   },
   {
     "id": "art2026",
@@ -113,7 +121,8 @@
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code"
-    ]
+    ],
+    "short_name": "ART"
   },
   {
     "id": "articraft2026",
@@ -124,7 +133,8 @@
     "categories": [
       "Infrastructure / Environment Generation"
     ],
-    "code_url": "https://github.com/articraftresearch/Articraft"
+    "code_url": "https://github.com/articraftresearch/Articraft",
+    "short_name": "Articraft"
   },
   {
     "id": "artificialanalysis2026robotics",
@@ -134,7 +144,8 @@
     "source_type": "Project / report",
     "categories": [
       "O1 / A3"
-    ]
+    ],
+    "short_name": "AA-Robotics"
   },
   {
     "id": "audit260213591",
@@ -144,7 +155,8 @@
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Code"
-    ]
+    ],
+    "short_name": "AgentRob"
   },
   {
     "id": "audit260220323",
@@ -155,7 +167,8 @@
     "categories": [
       "Self-Evolver / Knowledge and Memory"
     ],
-    "code_url": "https://github.com/haoyangli16/PhysMem"
+    "code_url": "https://github.com/haoyangli16/PhysMem",
+    "short_name": "PhysMem"
   },
   {
     "id": "audit260938948",
@@ -166,7 +179,8 @@
     "categories": [
       "O1 / A1 Code"
     ],
-    "code_url": "https://github.com/aditya-ramabadran/drivingbench_harness_v1"
+    "code_url": "https://github.com/aditya-ramabadran/drivingbench_harness_v1",
+    "short_name": "DrivingBench"
   },
   {
     "id": "audit261002196",
@@ -176,7 +190,8 @@
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Rewards"
-    ]
+    ],
+    "short_name": "InterEvolve"
   },
   {
     "id": "audit261002459",
@@ -187,7 +202,8 @@
     "categories": [
       "O1 / A3"
     ],
-    "code_url": "https://github.com/terminalworld/OpenRUA"
+    "code_url": "https://github.com/terminalworld/OpenRUA",
+    "short_name": "OpenRUA"
   },
   {
     "id": "audit261003476",
@@ -200,7 +216,8 @@
       "Infrastructure / Dataset Construction",
       "Self-Evolver / Model"
     ],
-    "code_url": "https://github.com/kaiknower/MobiAgent"
+    "code_url": "https://github.com/kaiknower/MobiAgent",
+    "short_name": "MobiAgent"
   },
   {
     "id": "auracurriculum2025",
@@ -210,6 +227,10 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Training"
+    ],
+    "short_name": "AURA (Zhu)",
+    "aliases": [
+      "AURA"
     ]
   },
   {
@@ -220,6 +241,10 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Diagnosis"
+    ],
+    "short_name": "AURA (Buchholz)",
+    "aliases": [
+      "AURA"
     ]
   },
   {
@@ -232,7 +257,8 @@
       "Infrastructure / Training",
       "Infrastructure / Evaluation"
     ],
-    "code_url": "https://github.com/gabec-slop/autoresearch-gym"
+    "code_url": "https://github.com/gabec-slop/autoresearch-gym",
+    "short_name": "Autoresearch Gym"
   },
   {
     "id": "autoresearchrobotics2026",
@@ -245,7 +271,8 @@
       "Infrastructure / Evaluation",
       "Infrastructure / Diagnosis"
     ],
-    "code_url": "https://github.com/jellyheadandrew/autoresearch-robotics"
+    "code_url": "https://github.com/jellyheadandrew/autoresearch-robotics",
+    "short_name": "autoresearch-robotics"
   },
   {
     "id": "autort2024",
@@ -255,7 +282,8 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Dataset Construction"
-    ]
+    ],
+    "short_name": "AutoRT"
   },
   {
     "id": "bai2026skillrsi",
@@ -268,7 +296,8 @@
       "Self-Evolver / Programs and Skills",
       "Self-Evolver / Code"
     ],
-    "code_url": "https://github.com/Orillusion/embodied-skill-rsi"
+    "code_url": "https://github.com/Orillusion/embodied-skill-rsi",
+    "short_name": "Skill-RSI"
   },
   {
     "id": "banwasi2026messymem",
@@ -278,7 +307,8 @@
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Knowledge and Memory"
-    ]
+    ],
+    "short_name": "MessyMem"
   },
   {
     "id": "benamor2025sasprompt",
@@ -288,7 +318,8 @@
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Programs and Skills"
-    ]
+    ],
+    "short_name": "SAS-Prompt"
   },
   {
     "id": "berman2026embody",
@@ -312,7 +343,11 @@
     "categories": [
       "O2 / A2"
     ],
-    "code_url": "https://github.com/BinceQu/RoboHarness"
+    "code_url": "https://github.com/BinceQu/RoboHarness",
+    "short_name": "RoboHarness (BinceQu)",
+    "aliases": [
+      "RoboHarness-B"
+    ]
   },
   {
     "id": "bumble",
@@ -323,7 +358,8 @@
     "categories": [
       "O2 / A1 Code"
     ],
-    "code_url": "https://github.com/UT-Austin-RobIn/BUMBLE"
+    "code_url": "https://github.com/UT-Austin-RobIn/BUMBLE",
+    "short_name": "BUMBLE"
   },
   {
     "id": "cai2026artisan",
@@ -349,7 +385,8 @@
       "O3 / A3",
       "Self-Evolver / Programs and Skills"
     ],
-    "code_url": "https://github.com/capgym/cap-x"
+    "code_url": "https://github.com/capgym/cap-x",
+    "short_name": "CaP-X"
   },
   {
     "id": "card2024",
@@ -359,7 +396,8 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Training"
-    ]
+    ],
+    "short_name": "CARD"
   },
   {
     "id": "cardenas2026rosclaw",
@@ -371,7 +409,8 @@
       "O1 / A2",
       "O2 / A2"
     ],
-    "code_url": "https://github.com/ROSClaw/rosclaw"
+    "code_url": "https://github.com/ROSClaw/rosclaw",
+    "short_name": "ROSClaw"
   },
   {
     "id": "chan2026intelligenceexplosion",
@@ -381,7 +420,8 @@
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Successor AI R&D"
-    ]
+    ],
+    "short_name": "AI R&D Automation"
   },
   {
     "id": "chan2026measuringairda",
@@ -391,7 +431,8 @@
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Successor AI R&D"
-    ]
+    ],
+    "short_name": "Measuring AI R&D"
   },
   {
     "id": "chen2022nlmap",
@@ -401,6 +442,11 @@
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Model"
+    ],
+    "short_name": "NLMap–SayCan",
+    "aliases": [
+      "NLMap--SayCan",
+      "NLMap"
     ]
   },
   {
@@ -412,7 +458,8 @@
     "categories": [
       "O3 / A1 Code"
     ],
-    "code_url": "https://github.com/yongchao98/AutoTAMP"
+    "code_url": "https://github.com/yongchao98/AutoTAMP",
+    "short_name": "AutoTAMP"
   },
   {
     "id": "chen2026agps",
@@ -422,7 +469,8 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Training"
-    ]
+    ],
+    "short_name": "AGPS"
   },
   {
     "id": "chen2026aidsr",
@@ -432,6 +480,10 @@
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Robot morphology"
+    ],
+    "short_name": "AI-DSR",
+    "aliases": [
+      "AID-SR"
     ]
   },
   {
@@ -443,7 +495,8 @@
     "categories": [
       "Self-Evolver / Knowledge and Memory"
     ],
-    "code_url": "https://github.com/robo-architect/architect-franka"
+    "code_url": "https://github.com/robo-architect/architect-franka",
+    "short_name": "ARCHITECT"
   },
   {
     "id": "chen2026embodiedplayground",
@@ -454,7 +507,8 @@
     "categories": [
       "O3 / A3"
     ],
-    "code_url": null
+    "code_url": null,
+    "short_name": "Embodied Playground"
   },
   {
     "id": "chen2026gap",
@@ -467,7 +521,8 @@
       "O3 / A3",
       "Self-Evolver / Programs and Skills"
     ],
-    "code_url": "https://github.com/graph-robots/graph-as-policy"
+    "code_url": "https://github.com/graph-robots/graph-as-policy",
+    "short_name": "GaP"
   },
   {
     "id": "chen2026harnessvln",
@@ -477,7 +532,8 @@
     "source_type": "Paper",
     "categories": [
       "O2 / A2"
-    ]
+    ],
+    "short_name": "HarnessVLN"
   },
   {
     "id": "chen2026kino",
@@ -487,7 +543,8 @@
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Model"
-    ]
+    ],
+    "short_name": "KINO"
   },
   {
     "id": "chen2026manipevalagent",
@@ -498,7 +555,8 @@
     "categories": [
       "Infrastructure / Environment Generation",
       "Infrastructure / Evaluation"
-    ]
+    ],
+    "short_name": "ManipEvalAgent"
   },
   {
     "id": "chen2026recursia",
@@ -513,7 +571,8 @@
       "Self-Evolver / Tool Interface",
       "Self-Evolver / Execution Workflows"
     ],
-    "code_url": "https://github.com/cocacola-lab/Recursia"
+    "code_url": "https://github.com/cocacola-lab/Recursia",
+    "short_name": "Recursia"
   },
   {
     "id": "chen2026roborouter",
@@ -523,7 +582,8 @@
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Knowledge and Memory"
-    ]
+    ],
+    "short_name": "RoboRouter"
   },
   {
     "id": "chen2026robosimstudio",
@@ -538,7 +598,8 @@
       "Self-Evolver / Programs and Skills",
       "Self-Evolver / Environments and Datasets"
     ],
-    "code_url": "https://github.com/robosimstudio/robosimstudio"
+    "code_url": "https://github.com/robosimstudio/robosimstudio",
+    "short_name": "RoboSimStudio"
   },
   {
     "id": "cheng2026asena",
@@ -549,7 +610,8 @@
     "categories": [
       "Self-Evolver / Programs and Skills",
       "Self-Evolver / Knowledge and Memory"
-    ]
+    ],
+    "short_name": "ASENA"
   },
   {
     "id": "choi2025craft",
@@ -559,7 +621,8 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Training"
-    ]
+    ],
+    "short_name": "CRAFT"
   },
   {
     "id": "choi2026vlaeval",
@@ -571,7 +634,11 @@
       "Infrastructure / Evaluation",
       "Infrastructure / Diagnosis"
     ],
-    "code_url": "https://github.com/allenai/vla-evaluation-harness"
+    "code_url": "https://github.com/allenai/vla-evaluation-harness",
+    "short_name": "vla-eval",
+    "aliases": [
+      "VLAEval"
+    ]
   },
   {
     "id": "codebotler2026",
@@ -582,7 +649,8 @@
     "categories": [
       "O2 / A3"
     ],
-    "code_url": "https://github.com/ut-amrl/codebotler"
+    "code_url": "https://github.com/ut-amrl/codebotler",
+    "short_name": "CodeBotler"
   },
   {
     "id": "coela",
@@ -594,7 +662,8 @@
       "O2 / A1 Code",
       "O3 / A1 Code"
     ],
-    "code_url": "https://github.com/UMass-Embodied-AGI/CoELA"
+    "code_url": "https://github.com/UMass-Embodied-AGI/CoELA",
+    "short_name": "CoELA"
   },
   {
     "id": "copal2023",
@@ -604,7 +673,8 @@
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code"
-    ]
+    ],
+    "short_name": "CoPAL"
   },
   {
     "id": "core2026",
@@ -615,7 +685,8 @@
     "categories": [
       "Infrastructure / Training"
     ],
-    "code_url": "https://github.com/nihx9919/CoRe"
+    "code_url": "https://github.com/nihx9919/CoRe",
+    "short_name": "CoRe"
   },
   {
     "id": "cunningham2026economicsrsi",
@@ -625,7 +696,8 @@
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Successor AI R&D"
-    ]
+    ],
+    "short_name": "Economics of RSI"
   },
   {
     "id": "curricullm2024",
@@ -636,7 +708,8 @@
     "categories": [
       "Infrastructure / Training"
     ],
-    "code_url": "https://github.com/labicon/CurricuLLM"
+    "code_url": "https://github.com/labicon/CurricuLLM",
+    "short_name": "CurricuLLM"
   },
   {
     "id": "demo2reward2026",
@@ -646,7 +719,8 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Training"
-    ]
+    ],
+    "short_name": "Demo2Reward"
   },
   {
     "id": "diaggen2026",
@@ -657,7 +731,8 @@
     "categories": [
       "Infrastructure / Environment Generation"
     ],
-    "code_url": "https://github.com/diaggen/diaggen"
+    "code_url": "https://github.com/diaggen/diaggen",
+    "short_name": "DiagGen"
   },
   {
     "id": "du2026sera",
@@ -670,7 +745,8 @@
       "Infrastructure / Diagnosis",
       "Self-Evolver / Execution Workflows"
     ],
-    "code_url": "https://github.com/StevenKKXS/SERA"
+    "code_url": "https://github.com/StevenKKXS/SERA",
+    "short_name": "SERA"
   },
   {
     "id": "dynaharness2026",
@@ -681,7 +757,8 @@
     "categories": [
       "O2 / A2",
       "O3 / A2"
-    ]
+    ],
+    "short_name": "DynaHarness"
   },
   {
     "id": "elemental2025",
@@ -691,7 +768,8 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Training"
-    ]
+    ],
+    "short_name": "ELEMENTAL"
   },
   {
     "id": "embodiedbench",
@@ -702,7 +780,8 @@
     "categories": [
       "O1 / A1 Code"
     ],
-    "code_url": "https://github.com/EmbodiedBench/EmbodiedBench"
+    "code_url": "https://github.com/EmbodiedBench/EmbodiedBench",
+    "short_name": "EmbodiedBench"
   },
   {
     "id": "embodiedclaw2026",
@@ -715,7 +794,8 @@
       "Infrastructure / Dataset Construction",
       "Infrastructure / Training",
       "Infrastructure / Evaluation"
-    ]
+    ],
+    "short_name": "EmbodiedClaw"
   },
   {
     "id": "embodiedfirstexam2026",
@@ -727,7 +807,8 @@
       "O1 / A3",
       "O3 / A3"
     ],
-    "code_url": "https://github.com/mll-lab-nu/embodied-first-exam"
+    "code_url": "https://github.com/mll-lab-nu/embodied-first-exam",
+    "short_name": "Embodied First Exam"
   },
   {
     "id": "embodiedjev",
@@ -740,7 +821,8 @@
       "O2 / A1 Code",
       "O3 / A1 Code"
     ],
-    "code_url": "https://github.com/FBddcz/embodied-jev"
+    "code_url": "https://github.com/FBddcz/embodied-jev",
+    "short_name": "EmbodiedJev"
   },
   {
     "id": "embodiedswe2026",
@@ -755,7 +837,11 @@
       "Infrastructure / Training",
       "Self-Evolver / Programs and Skills"
     ],
-    "code_url": "https://github.com/EmbodiedSWE/EmbodiedSWE"
+    "code_url": "https://github.com/EmbodiedSWE/EmbodiedSWE",
+    "short_name": "EmbodiedSWE",
+    "aliases": [
+      "EmbodiedSWE-Gen"
+    ]
   },
   {
     "id": "embodirsi2026",
@@ -771,7 +857,8 @@
       "Infrastructure / Evaluation",
       "Self-Evolver / Environments and Datasets",
       "Self-Evolver / Model"
-    ]
+    ],
+    "short_name": "EmbodiRSI"
   },
   {
     "id": "embodiskill2026",
@@ -782,7 +869,8 @@
     "categories": [
       "Self-Evolver / Knowledge and Memory"
     ],
-    "code_url": "https://github.com/air-embodied-brain/EmbodiSkill"
+    "code_url": "https://github.com/air-embodied-brain/EmbodiSkill",
+    "short_name": "EmbodiSkill"
   },
   {
     "id": "espinola2026llmlibero",
@@ -793,7 +881,8 @@
     "categories": [
       "O1 / A1 Code"
     ],
-    "code_url": "https://github.com/IRVLUTD/LLM_LIBERO"
+    "code_url": "https://github.com/IRVLUTD/LLM_LIBERO",
+    "short_name": "LLM-LIBERO"
   },
   {
     "id": "evonav2026",
@@ -803,7 +892,8 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Training"
-    ]
+    ],
+    "short_name": "EvoNav"
   },
   {
     "id": "f4r2026",
@@ -814,7 +904,8 @@
     "categories": [
       "Infrastructure / Environment Generation",
       "Self-Evolver / Environments and Datasets"
-    ]
+    ],
+    "short_name": "F4R"
   },
   {
     "id": "favaro2026whenai",
@@ -824,7 +915,8 @@
     "source_type": "Project / report",
     "categories": [
       "Self-Evolver / Successor AI R&D"
-    ]
+    ],
+    "short_name": "When AI Builds Itself"
   },
   {
     "id": "gameon2024",
@@ -834,7 +926,8 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Training"
-    ]
+    ],
+    "short_name": "Game On"
   },
   {
     "id": "gao2026_3dcodeverse",
@@ -845,7 +938,8 @@
     "categories": [
       "Infrastructure / Environment Generation"
     ],
-    "code_url": "https://github.com/gaoypeng/3dcodeverse"
+    "code_url": "https://github.com/gaoypeng/3dcodeverse",
+    "short_name": "3DCodeVerse"
   },
   {
     "id": "gao2026hexashell",
@@ -858,7 +952,11 @@
       "Self-Evolver / Knowledge and Memory",
       "Self-Evolver / Code"
     ],
-    "code_url": "https://github.com/HexaFuture/HexaShell"
+    "code_url": "https://github.com/HexaFuture/HexaShell",
+    "short_name": "HexaShell",
+    "aliases": [
+      "HexaShell (released tools)"
+    ]
   },
   {
     "id": "ge2026urai",
@@ -870,7 +968,8 @@
       "O2 / A1 Code",
       "O2 / A3",
       "Self-Evolver / Code"
-    ]
+    ],
+    "short_name": "URAI"
   },
   {
     "id": "gen2sim2023",
@@ -882,7 +981,8 @@
       "Infrastructure / Environment Generation",
       "Infrastructure / Training"
     ],
-    "code_url": "https://github.com/pushkalkatara/Gen2Sim"
+    "code_url": "https://github.com/pushkalkatara/Gen2Sim",
+    "short_name": "Gen2Sim"
   },
   {
     "id": "geniesim2026",
@@ -894,7 +994,8 @@
       "Infrastructure / Environment Generation",
       "Infrastructure / Dataset Construction"
     ],
-    "code_url": "https://github.com/AgibotTech/genie_sim"
+    "code_url": "https://github.com/AgibotTech/genie_sim",
+    "short_name": "Genie Sim"
   },
   {
     "id": "gensim2023",
@@ -906,7 +1007,8 @@
       "Infrastructure / Environment Generation",
       "Infrastructure / Dataset Construction"
     ],
-    "code_url": "https://github.com/liruiw/GenSim"
+    "code_url": "https://github.com/liruiw/GenSim",
+    "short_name": "GenSim"
   },
   {
     "id": "gigaworldpolicy052026",
@@ -916,7 +1018,8 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Training"
-    ]
+    ],
+    "short_name": "GigaWorld-Policy 0.5"
   },
   {
     "id": "gptpolicy2026",
@@ -927,7 +1030,8 @@
     "categories": [
       "O1 / A1 Code"
     ],
-    "code_url": "https://github.com/cheng-haha/GPT-Policy"
+    "code_url": "https://github.com/cheng-haha/GPT-Policy",
+    "short_name": "GPT-Policy"
   },
   {
     "id": "grid22",
@@ -937,7 +1041,8 @@
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Model"
-    ]
+    ],
+    "short_name": "Hi Robot"
   },
   {
     "id": "grid23",
@@ -948,7 +1053,8 @@
     "categories": [
       "O1 / A2"
     ],
-    "code_url": "https://github.com/NVlabs/VoLoAgent"
+    "code_url": "https://github.com/NVlabs/VoLoAgent",
+    "short_name": "VoLo"
   },
   {
     "id": "grid24",
@@ -959,7 +1065,11 @@
     "categories": [
       "O1 / A1 Model"
     ],
-    "code_url": "https://github.com/chenzixuan99/RoboHiMan"
+    "code_url": "https://github.com/chenzixuan99/RoboHiMan",
+    "short_name": "DeCo",
+    "aliases": [
+      "RoboHiMan"
+    ]
   },
   {
     "id": "grid25",
@@ -969,7 +1079,8 @@
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Model"
-    ]
+    ],
+    "short_name": "Goal2Skill"
   },
   {
     "id": "grid26",
@@ -981,7 +1092,8 @@
       "O2 / A1 Code",
       "O2 / A3"
     ],
-    "code_url": "https://github.com/hdacnw/guava-release"
+    "code_url": "https://github.com/hdacnw/guava-release",
+    "short_name": "Guava"
   },
   {
     "id": "grid27",
@@ -992,6 +1104,10 @@
     "categories": [
       "O2 / A2",
       "O3 / A2"
+    ],
+    "short_name": "RoboHarness (Huang)",
+    "aliases": [
+      "RoboHarness-H"
     ]
   },
   {
@@ -1002,7 +1118,8 @@
     "source_type": "Paper",
     "categories": [
       "O2 / A2"
-    ]
+    ],
+    "short_name": "CLASP"
   },
   {
     "id": "grid29",
@@ -1013,7 +1130,8 @@
     "categories": [
       "O1 / A1 Code"
     ],
-    "code_url": "https://github.com/FluxVLA/FluxVLA"
+    "code_url": "https://github.com/FluxVLA/FluxVLA",
+    "short_name": "FluxVLA"
   },
   {
     "id": "grid30",
@@ -1024,7 +1142,12 @@
     "categories": [
       "O1 / A1 Code"
     ],
-    "code_url": "https://github.com/jianzhou0420/MIP"
+    "code_url": "https://github.com/jianzhou0420/MIP",
+    "short_name": "MIP",
+    "aliases": [
+      "Embodied Agents Take Control",
+      "EATC"
+    ]
   },
   {
     "id": "grid31",
@@ -1035,7 +1158,8 @@
     "categories": [
       "O2 / A1 Code"
     ],
-    "code_url": "https://github.com/Allenxinn/AgentVLN"
+    "code_url": "https://github.com/Allenxinn/AgentVLN",
+    "short_name": "AgentVLN"
   },
   {
     "id": "grid32",
@@ -1045,7 +1169,8 @@
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code"
-    ]
+    ],
+    "short_name": "SpaceVLN"
   },
   {
     "id": "grid33",
@@ -1056,7 +1181,8 @@
     "categories": [
       "O2 / A1 Code"
     ],
-    "code_url": "https://github.com/zwandering/SysNav"
+    "code_url": "https://github.com/zwandering/SysNav",
+    "short_name": "SysNav"
   },
   {
     "id": "grid34",
@@ -1067,7 +1193,11 @@
     "categories": [
       "O1 / A1 Code"
     ],
-    "code_url": "https://github.com/ZJU-OmniAI/Embodied-Navigator"
+    "code_url": "https://github.com/ZJU-OmniAI/Embodied-Navigator",
+    "short_name": "Embodied-Navigator",
+    "aliases": [
+      "TAMP-Nav"
+    ]
   },
   {
     "id": "grid35",
@@ -1078,7 +1208,8 @@
     "categories": [
       "O2 / A1 Code"
     ],
-    "code_url": "https://github.com/ybgdgh/Co-NavGPT2"
+    "code_url": "https://github.com/ybgdgh/Co-NavGPT2",
+    "short_name": "Co-NavGPT"
   },
   {
     "id": "grid37",
@@ -1089,7 +1220,11 @@
     "categories": [
       "O2 / A1 Code"
     ],
-    "code_url": "https://github.com/KumarRobotics/spine"
+    "code_url": "https://github.com/KumarRobotics/spine",
+    "short_name": "SPINE (2024)",
+    "aliases": [
+      "SPINE"
+    ]
   },
   {
     "id": "grid38",
@@ -1101,7 +1236,8 @@
       "O2 / A1 Code",
       "O3 / A1 Code"
     ],
-    "code_url": "https://github.com/robot-learning-freiburg/MoMa-LLM"
+    "code_url": "https://github.com/robot-learning-freiburg/MoMa-LLM",
+    "short_name": "MoMa-LLM"
   },
   {
     "id": "grid39",
@@ -1112,7 +1248,8 @@
     "categories": [
       "O3 / A3"
     ],
-    "code_url": "https://github.com/SMARTlab-Purdue/SMART-LLM"
+    "code_url": "https://github.com/SMARTlab-Purdue/SMART-LLM",
+    "short_name": "SMART-LLM"
   },
   {
     "id": "grid40",
@@ -1123,7 +1260,8 @@
     "categories": [
       "O3 / A1 Code"
     ],
-    "code_url": "https://github.com/nsidn98/LLaMAR"
+    "code_url": "https://github.com/nsidn98/LLaMAR",
+    "short_name": "LLaMAR"
   },
   {
     "id": "grid41",
@@ -1134,7 +1272,8 @@
     "categories": [
       "O3 / A1 Code"
     ],
-    "code_url": "https://github.com/SgtVincent/EMOS"
+    "code_url": "https://github.com/SgtVincent/EMOS",
+    "short_name": "EMOS"
   },
   {
     "id": "grid42",
@@ -1147,7 +1286,8 @@
       "O2 / A1 Model",
       "O2 / A3"
     ],
-    "code_url": "https://github.com/huawei-noah/HEBO/tree/master/ROSLLM"
+    "code_url": "https://github.com/huawei-noah/HEBO/tree/master/ROSLLM",
+    "short_name": "ROS-LLM"
   },
   {
     "id": "grid43",
@@ -1158,7 +1298,8 @@
     "categories": [
       "O3 / A2",
       "O3 / A3"
-    ]
+    ],
+    "short_name": "ALRM"
   },
   {
     "id": "grid44",
@@ -1169,7 +1310,8 @@
     "categories": [
       "O2 / A1 Model"
     ],
-    "code_url": "https://github.com/abliao/RoBridge"
+    "code_url": "https://github.com/abliao/RoBridge",
+    "short_name": "RoBridge"
   },
   {
     "id": "grid45",
@@ -1180,7 +1322,8 @@
     "categories": [
       "O2 / A1 Code"
     ],
-    "code_url": "https://github.com/SP4595/CLEA-Closed-Loop-Embodied-Agent"
+    "code_url": "https://github.com/SP4595/CLEA-Closed-Loop-Embodied-Agent",
+    "short_name": "CLEA"
   },
   {
     "id": "grid46",
@@ -1191,7 +1334,8 @@
     "categories": [
       "O2 / A1 Code",
       "O2 / A1 Model"
-    ]
+    ],
+    "short_name": "DoReMi"
   },
   {
     "id": "grid47",
@@ -1203,7 +1347,8 @@
       "O3 / A1 Code",
       "Infrastructure / Diagnosis"
     ],
-    "code_url": "https://github.com/columbia-ai-robotics/reflect"
+    "code_url": "https://github.com/columbia-ai-robotics/reflect",
+    "short_name": "REFLECT"
   },
   {
     "id": "grid49",
@@ -1215,7 +1360,8 @@
       "O2 / A1 Model",
       "O3 / A1 Code"
     ],
-    "code_url": "https://github.com/google-research/google-research/tree/master/language_model_uncertainty"
+    "code_url": "https://github.com/google-research/google-research/tree/master/language_model_uncertainty",
+    "short_name": "KnowNo"
   },
   {
     "id": "grid50",
@@ -1227,7 +1373,8 @@
       "O2 / A1 Code",
       "O3 / A1 Code"
     ],
-    "code_url": "https://github.com/AssassinWS/LLM-TAMP"
+    "code_url": "https://github.com/AssassinWS/LLM-TAMP",
+    "short_name": "LLM3"
   },
   {
     "id": "grid52",
@@ -1238,7 +1385,11 @@
     "categories": [
       "O1 / A1 Code"
     ],
-    "code_url": "https://github.com/wonderful-team-robotics/wonderful_team_robotics"
+    "code_url": "https://github.com/wonderful-team-robotics/wonderful_team_robotics",
+    "short_name": "Wonderful Team",
+    "aliases": [
+      "WT"
+    ]
   },
   {
     "id": "grid53",
@@ -1249,7 +1400,8 @@
     "categories": [
       "O2 / A1 Code"
     ],
-    "code_url": "https://github.com/snumprlab/flare"
+    "code_url": "https://github.com/snumprlab/flare",
+    "short_name": "FLARE"
   },
   {
     "id": "grid54",
@@ -1260,7 +1412,8 @@
     "categories": [
       "O2 / A1 Model",
       "O3 / A1 Code"
-    ]
+    ],
+    "short_name": "LLM-State"
   },
   {
     "id": "grid56",
@@ -1272,7 +1425,8 @@
       "O2 / A1 Code",
       "O2 / A1 Model"
     ],
-    "code_url": "https://github.com/OSU-NLP-Group/LLM-Planner"
+    "code_url": "https://github.com/OSU-NLP-Group/LLM-Planner",
+    "short_name": "LLM-Planner"
   },
   {
     "id": "grid57",
@@ -1283,7 +1437,8 @@
     "categories": [
       "O2 / A3"
     ],
-    "code_url": "https://github.com/OpenGVLab/Instruct2Act"
+    "code_url": "https://github.com/OpenGVLab/Instruct2Act",
+    "short_name": "Instruct2Act"
   },
   {
     "id": "grid58",
@@ -1295,7 +1450,8 @@
       "O2 / A3",
       "O3 / A3"
     ],
-    "code_url": "https://github.com/SgtVincent/RoboScript"
+    "code_url": "https://github.com/SgtVincent/RoboScript",
+    "short_name": "RoboScript"
   },
   {
     "id": "grid59",
@@ -1307,7 +1463,8 @@
       "O2 / A1 Code",
       "O2 / A1 Model"
     ],
-    "code_url": "https://github.com/threefruits/zoom_robot_interface"
+    "code_url": "https://github.com/threefruits/zoom_robot_interface",
+    "short_name": "RobiButler"
   },
   {
     "id": "grid60",
@@ -1317,7 +1474,8 @@
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Code"
-    ]
+    ],
+    "short_name": "ViLa"
   },
   {
     "id": "grid61",
@@ -1328,7 +1486,8 @@
     "categories": [
       "O3 / A1 Code"
     ],
-    "code_url": "https://github.com/Kchu/LABOR-Agent"
+    "code_url": "https://github.com/Kchu/LABOR-Agent",
+    "short_name": "LABOR Agent"
   },
   {
     "id": "grid62",
@@ -1342,7 +1501,8 @@
       "O1 / A3",
       "Self-Evolver / Knowledge and Memory",
       "Self-Evolver / Representation"
-    ]
+    ],
+    "short_name": "SHAPER"
   },
   {
     "id": "grid63",
@@ -1352,7 +1512,8 @@
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code"
-    ]
+    ],
+    "short_name": "HATS"
   },
   {
     "id": "grid64",
@@ -1364,7 +1525,11 @@
       "O3 / A1 Code",
       "Infrastructure / Dataset Construction"
     ],
-    "code_url": "https://github.com/columbia-ai-robotics/scalingup"
+    "code_url": "https://github.com/columbia-ai-robotics/scalingup",
+    "short_name": "Scaling Up",
+    "aliases": [
+      "Scaling Up and Distilling Down"
+    ]
   },
   {
     "id": "grid65",
@@ -1375,7 +1540,8 @@
     "categories": [
       "O2 / A3",
       "O3 / A3"
-    ]
+    ],
+    "short_name": "ProgPrompt"
   },
   {
     "id": "grid66",
@@ -1387,7 +1553,8 @@
       "O2 / A3",
       "O3 / A3"
     ],
-    "code_url": "https://github.com/google-research/google-research/tree/master/code_as_policies"
+    "code_url": "https://github.com/google-research/google-research/tree/master/code_as_policies",
+    "short_name": "Code as Policies"
   },
   {
     "id": "grid67",
@@ -1397,7 +1564,8 @@
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Model"
-    ]
+    ],
+    "short_name": "Text2Motion"
   },
   {
     "id": "grid68",
@@ -1408,7 +1576,8 @@
     "categories": [
       "O2 / A1 Code"
     ],
-    "code_url": "https://github.com/jimmyyhwu/tidybot"
+    "code_url": "https://github.com/jimmyyhwu/tidybot",
+    "short_name": "TidyBot"
   },
   {
     "id": "grid79",
@@ -1419,7 +1588,8 @@
     "categories": [
       "O1 / A1 Code"
     ],
-    "code_url": "https://github.com/rokbenko/quackd"
+    "code_url": "https://github.com/rokbenko/quackd",
+    "short_name": "quackd"
   },
   {
     "id": "grid83",
@@ -1430,7 +1600,8 @@
     "categories": [
       "O1 / A3"
     ],
-    "code_url": "https://github.com/grmkris/robo-harness"
+    "code_url": "https://github.com/grmkris/robo-harness",
+    "short_name": "robo-harness"
   },
   {
     "id": "grs2024",
@@ -1440,7 +1611,8 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Environment Generation"
-    ]
+    ],
+    "short_name": "GRS"
   },
   {
     "id": "gu2023conceptgraphs",
@@ -1451,7 +1623,8 @@
     "categories": [
       "O2 / A1 Code"
     ],
-    "code_url": "https://github.com/concept-graphs/concept-graphs"
+    "code_url": "https://github.com/concept-graphs/concept-graphs",
+    "short_name": "ConceptGraphs"
   },
   {
     "id": "ham2026spinediagnosis",
@@ -1461,6 +1634,10 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Diagnosis"
+    ],
+    "short_name": "SPINE (2026)",
+    "aliases": [
+      "SPINE"
     ]
   },
   {
@@ -1474,7 +1651,8 @@
       "Self-Evolver / Knowledge and Memory",
       "Self-Evolver / Code"
     ],
-    "code_url": "https://github.com/hmz-15/interactive-predicate-learning"
+    "code_url": "https://github.com/hmz-15/interactive-predicate-learning",
+    "short_name": "InterPreT"
   },
   {
     "id": "harnessvla",
@@ -1486,7 +1664,12 @@
       "O1 / A2",
       "Self-Evolver / Knowledge and Memory"
     ],
-    "code_url": "https://github.com/RLinf/RPent"
+    "code_url": "https://github.com/RLinf/RPent",
+    "short_name": "RPent",
+    "aliases": [
+      "Harness VLA",
+      "HarnessVLA"
+    ]
   },
   {
     "id": "he2026vdreamer",
@@ -1497,7 +1680,8 @@
     "categories": [
       "Infrastructure / Environment Generation",
       "Infrastructure / Dataset Construction"
-    ]
+    ],
+    "short_name": "V-Dreamer"
   },
   {
     "id": "hermesembodied2026",
@@ -1509,7 +1693,8 @@
       "Infrastructure / Training",
       "Infrastructure / Evaluation"
     ],
-    "code_url": "https://github.com/bryercowan/hermes-embodied"
+    "code_url": "https://github.com/bryercowan/hermes-embodied",
+    "short_name": "Hermes Embodied"
   },
   {
     "id": "hero2026",
@@ -1519,7 +1704,8 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Dataset Construction"
-    ]
+    ],
+    "short_name": "HERO"
   },
   {
     "id": "holoagent",
@@ -1530,7 +1716,8 @@
     "categories": [
       "O2 / A2"
     ],
-    "code_url": "https://github.com/HorizonRobotics/HoloAgent"
+    "code_url": "https://github.com/HorizonRobotics/HoloAgent",
+    "short_name": "HoloAgent-0"
   },
   {
     "id": "hu20262am",
@@ -1540,7 +1727,8 @@
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Model"
-    ]
+    ],
+    "short_name": "2AM"
   },
   {
     "id": "hu2026ars",
@@ -1552,7 +1740,8 @@
       "Infrastructure / Dataset Construction",
       "Infrastructure / Evaluation"
     ],
-    "code_url": "https://github.com/midea-ai/ars"
+    "code_url": "https://github.com/midea-ai/ars",
+    "short_name": "ARS"
   },
   {
     "id": "hu2026coap",
@@ -1583,7 +1772,8 @@
       "Infrastructure / Training",
       "Infrastructure / Diagnosis",
       "Self-Evolver / Model"
-    ]
+    ],
+    "short_name": "ReCoVLA"
   },
   {
     "id": "hua2024gensim2",
@@ -1596,7 +1786,8 @@
       "Infrastructure / Dataset Construction",
       "Infrastructure / Training"
     ],
-    "code_url": "https://github.com/GenSim2/GenSim2"
+    "code_url": "https://github.com/GenSim2/GenSim2",
+    "short_name": "GenSim2"
   },
   {
     "id": "huang2026rax",
@@ -1610,7 +1801,8 @@
       "Self-Evolver / Programs and Skills",
       "Self-Evolver / Knowledge and Memory"
     ],
-    "code_url": "https://github.com/robot-agent-exploration/rax/tree/real/franka"
+    "code_url": "https://github.com/robot-agent-exploration/rax/tree/real/franka",
+    "short_name": "RAX"
   },
   {
     "id": "huh2026homebody",
@@ -1622,7 +1814,11 @@
       "O2 / A1 Code",
       "Infrastructure / Environment Generation"
     ],
-    "code_url": "https://github.com/Stanford-TML/homebody"
+    "code_url": "https://github.com/Stanford-TML/homebody",
+    "short_name": "HomeBody",
+    "aliases": [
+      "HomeBody (SIM)"
+    ]
   },
   {
     "id": "humanclaw",
@@ -1633,7 +1829,8 @@
     "categories": [
       "O1 / A1 Model"
     ],
-    "code_url": "https://github.com/Human-CLAW/HumanCLAW"
+    "code_url": "https://github.com/Human-CLAW/HumanCLAW",
+    "short_name": "HumanCLAW"
   },
   {
     "id": "humanoidgen2025",
@@ -1644,7 +1841,8 @@
     "categories": [
       "Infrastructure / Dataset Construction"
     ],
-    "code_url": "https://github.com/TeleHuman/HumanoidGen"
+    "code_url": "https://github.com/TeleHuman/HumanoidGen",
+    "short_name": "HumanoidGen"
   },
   {
     "id": "hxwxss2026glmskills",
@@ -1656,7 +1854,8 @@
       "Infrastructure / Environment Generation",
       "Infrastructure / Dataset Construction"
     ],
-    "code_url": "https://github.com/hxwxss/glm-skills-embodied"
+    "code_url": "https://github.com/hxwxss/glm-skills-embodied",
+    "short_name": "glm-skills-embodied"
   },
   {
     "id": "innermonologue",
@@ -1666,7 +1865,8 @@
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Model"
-    ]
+    ],
+    "short_name": "Inner Monologue"
   },
   {
     "id": "inspectrobots2026",
@@ -1688,7 +1888,8 @@
     "source_type": "Project / report",
     "categories": [
       "Self-Evolver / Successor AI R&D"
-    ]
+    ],
+    "short_name": "Self-Developing"
   },
   {
     "id": "jevdrone2026",
@@ -1699,7 +1900,11 @@
     "categories": [
       "O3 / A1 Code"
     ],
-    "code_url": "https://github.com/RomanSlack/jev-drone"
+    "code_url": "https://github.com/RomanSlack/jev-drone",
+    "short_name": "Jev Drone",
+    "aliases": [
+      "jev-drone"
+    ]
   },
   {
     "id": "jevevaluation2026",
@@ -1709,7 +1914,8 @@
     "source_type": "Paper",
     "categories": [
       "O3 / A1 Code"
-    ]
+    ],
+    "short_name": "Jev Control"
   },
   {
     "id": "jevlibero2026",
@@ -1720,7 +1926,11 @@
     "categories": [
       "O3 / A1 Code"
     ],
-    "code_url": "https://github.com/Dimweaker/jev-libero"
+    "code_url": "https://github.com/Dimweaker/jev-libero",
+    "short_name": "Jev LIBERO",
+    "aliases": [
+      "jev-libero"
+    ]
   },
   {
     "id": "jiang2026appl",
@@ -1731,7 +1941,8 @@
     "categories": [
       "O3 / A1 Model",
       "Infrastructure / Training"
-    ]
+    ],
+    "short_name": "APPL"
   },
   {
     "id": "jiang2026halter",
@@ -1741,7 +1952,8 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Evaluation"
-    ]
+    ],
+    "short_name": "HALTER"
   },
   {
     "id": "jin2026nautilus",
@@ -1752,7 +1964,8 @@
     "categories": [
       "Infrastructure / Training",
       "Infrastructure / Evaluation"
-    ]
+    ],
+    "short_name": "Nautilus"
   },
   {
     "id": "kawaharazuka2026efficient",
@@ -1762,7 +1975,8 @@
     "source_type": "Project / report",
     "categories": [
       "Self-Evolver / Robot morphology"
-    ]
+    ],
+    "short_name": "Efficient Robot Design"
   },
   {
     "id": "khandelwal2026agentrl",
@@ -1773,7 +1987,8 @@
     "categories": [
       "Infrastructure / Training",
       "Infrastructure / Diagnosis"
-    ]
+    ],
+    "short_name": "Agent-Driven RL"
   },
   {
     "id": "kim2026rhd",
@@ -1783,7 +1998,8 @@
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Knowledge and Memory"
-    ]
+    ],
+    "short_name": "RHD"
   },
   {
     "id": "kirk2026stars",
@@ -1793,7 +2009,8 @@
     "source_type": "Project / report",
     "categories": [
       "Self-Evolver / Knowledge and Memory"
-    ]
+    ],
+    "short_name": "STARS"
   },
   {
     "id": "kumar2026aor",
@@ -1804,7 +2021,8 @@
     "categories": [
       "O1 / A3",
       "Self-Evolver / Programs and Skills"
-    ]
+    ],
+    "short_name": "AOR"
   },
   {
     "id": "kuroki2026closedloop",
@@ -1814,7 +2032,8 @@
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Programs and Skills"
-    ]
+    ],
+    "short_name": "Closed-Loop Robot Software"
   },
   {
     "id": "lange2025arna",
@@ -1824,7 +2043,8 @@
     "source_type": "Paper",
     "categories": [
       "O2 / A2"
-    ]
+    ],
+    "short_name": "ARNA"
   },
   {
     "id": "language2rewards2023",
@@ -1836,7 +2056,11 @@
       "O2 / A1 Code",
       "O3 / A1 Code"
     ],
-    "code_url": "https://github.com/google-deepmind/language_to_reward_2023"
+    "code_url": "https://github.com/google-deepmind/language_to_reward_2023",
+    "short_name": "Language to Rewards",
+    "aliases": [
+      "Language2Reward"
+    ]
   },
   {
     "id": "le2024articulateanything",
@@ -1848,7 +2072,8 @@
       "Infrastructure / Environment Generation",
       "Self-Evolver / Environments and Datasets"
     ],
-    "code_url": "https://github.com/vlongle/articulate-anything"
+    "code_url": "https://github.com/vlongle/articulate-anything",
+    "short_name": "Articulate-Anything"
   },
   {
     "id": "lee2026mass",
@@ -1859,7 +2084,8 @@
     "categories": [
       "Self-Evolver / Successor AI R&D"
     ],
-    "code_url": "https://github.com/SakanaAI/mass"
+    "code_url": "https://github.com/SakanaAI/mass",
+    "short_name": "MASS"
   },
   {
     "id": "lee2026rda",
@@ -1870,7 +2096,8 @@
     "categories": [
       "Infrastructure / Training",
       "Self-Evolver / Rewards"
-    ]
+    ],
+    "short_name": "RDA"
   },
   {
     "id": "leet2026bitter",
@@ -1893,7 +2120,8 @@
       "Infrastructure / Training",
       "Infrastructure / Diagnosis",
       "Self-Evolver / Code"
-    ]
+    ],
+    "short_name": "RoboCoach"
   },
   {
     "id": "li2024robocoder",
@@ -1903,7 +2131,8 @@
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Programs and Skills"
-    ]
+    ],
+    "short_name": "RoboCoder"
   },
   {
     "id": "li2025propriomllm",
@@ -1914,7 +2143,12 @@
     "categories": [
       "O2 / A1 Code"
     ],
-    "code_url": "https://github.com/ds199895/DualTHOR"
+    "code_url": "https://github.com/ds199895/DualTHOR",
+    "short_name": "Proprio-MLLM",
+    "aliases": [
+      "DualTHOR",
+      "DualTHOR / Proprio-MLLM backend"
+    ]
   },
   {
     "id": "li2025reflectiveadaptation",
@@ -1927,6 +2161,10 @@
       "Infrastructure / Diagnosis",
       "Self-Evolver / Rewards",
       "Self-Evolver / Model"
+    ],
+    "short_name": "Reflective Adaptation",
+    "aliases": [
+      "Reflective Self-Adaptation"
     ]
   },
   {
@@ -1943,7 +2181,8 @@
       "Self-Evolver / Programs and Skills",
       "Self-Evolver / Knowledge and Memory",
       "Self-Evolver / Environments and Datasets"
-    ]
+    ],
+    "short_name": "Agentic RSR"
   },
   {
     "id": "li2026embodiedevo",
@@ -1955,7 +2194,8 @@
       "O1 / A3",
       "Self-Evolver / Programs and Skills",
       "Self-Evolver / Knowledge and Memory"
-    ]
+    ],
+    "short_name": "EmbodiedEvo"
   },
   {
     "id": "li2026harbor",
@@ -1971,7 +2211,8 @@
       "Self-Evolver / Knowledge and Memory",
       "Self-Evolver / Rewards"
     ],
-    "code_url": "https://github.com/supersglzc/harbor-rl"
+    "code_url": "https://github.com/supersglzc/harbor-rl",
+    "short_name": "HARBOR"
   },
   {
     "id": "li2026physrsieval",
@@ -1983,7 +2224,8 @@
       "Self-Evolver / Programs and Skills",
       "Self-Evolver / Knowledge and Memory"
     ],
-    "code_url": "https://github.com/PhysRSI-Eval/PhysRSI-Eval-code"
+    "code_url": "https://github.com/PhysRSI-Eval/PhysRSI-Eval-code",
+    "short_name": "PhysRSI-eval"
   },
   {
     "id": "li2026roboharnessk1",
@@ -1994,7 +2236,8 @@
     "categories": [
       "O2 / A2"
     ],
-    "code_url": "https://github.com/Robo-Harness/k1"
+    "code_url": "https://github.com/Robo-Harness/k1",
+    "short_name": "Robo-Harness K1"
   },
   {
     "id": "li2026spotter",
@@ -2006,7 +2249,8 @@
       "O1 / A2",
       "Self-Evolver / Knowledge and Memory"
     ],
-    "code_url": "https://github.com/zqc3117/Spotter"
+    "code_url": "https://github.com/zqc3117/Spotter",
+    "short_name": "Spotter"
   },
   {
     "id": "liang2024eurekaverse",
@@ -2019,7 +2263,8 @@
       "Infrastructure / Training",
       "Self-Evolver / Environments and Datasets"
     ],
-    "code_url": "https://github.com/eureka-research/eurekaverse"
+    "code_url": "https://github.com/eureka-research/eurekaverse",
+    "short_name": "Eurekaverse"
   },
   {
     "id": "liang2026robofoundry",
@@ -2036,7 +2281,8 @@
       "Self-Evolver / State Management",
       "Self-Evolver / Tool Interface",
       "Self-Evolver / Execution Workflows"
-    ]
+    ],
+    "short_name": "RoboFoundry"
   },
   {
     "id": "liang2026tether",
@@ -2047,7 +2293,8 @@
     "categories": [
       "Infrastructure / Dataset Construction"
     ],
-    "code_url": "https://github.com/tether-research/tether"
+    "code_url": "https://github.com/tether-research/tether",
+    "short_name": "Tether"
   },
   {
     "id": "lim2026lithe",
@@ -2058,7 +2305,8 @@
     "categories": [
       "O1 / A3",
       "Self-Evolver / Code"
-    ]
+    ],
+    "short_name": "LITHE"
   },
   {
     "id": "liu2024moka",
@@ -2070,7 +2318,8 @@
       "O2 / A1 Code",
       "Infrastructure / Dataset Construction"
     ],
-    "code_url": "https://github.com/moka-manipulation/moka"
+    "code_url": "https://github.com/moka-manipulation/moka",
+    "short_name": "MOKA"
   },
   {
     "id": "liu2026agenticroborl",
@@ -2083,7 +2332,8 @@
       "O3 / A3",
       "Infrastructure / Dataset Construction"
     ],
-    "code_url": "https://github.com/xinxinliu-ai/AgenticRoboRL"
+    "code_url": "https://github.com/xinxinliu-ai/AgenticRoboRL",
+    "short_name": "AgenticRoboRL"
   },
   {
     "id": "liu2026aw0",
@@ -2094,7 +2344,8 @@
     "categories": [
       "Infrastructure / Dataset Construction"
     ],
-    "code_url": "https://github.com/ZhuoyangLiu2005/agentic-wam"
+    "code_url": "https://github.com/ZhuoyangLiu2005/agentic-wam",
+    "short_name": "AW-0"
   },
   {
     "id": "liu2026robotaembed",
@@ -2104,7 +2355,8 @@
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Code"
-    ]
+    ],
+    "short_name": "Robota-Embed"
   },
   {
     "id": "liu2026scene2demo",
@@ -2116,7 +2368,8 @@
       "Infrastructure / Environment Generation",
       "Infrastructure / Dataset Construction",
       "Self-Evolver / Programs and Skills"
-    ]
+    ],
+    "short_name": "Scene2Demo"
   },
   {
     "id": "llmpersonalize2024",
@@ -2127,7 +2380,8 @@
     "categories": [
       "O3 / A1 Code"
     ],
-    "code_url": "https://github.com/gdg94/codellmpersonalize"
+    "code_url": "https://github.com/gdg94/codellmpersonalize",
+    "short_name": "LLM-Personalize"
   },
   {
     "id": "lou2026knowbody",
@@ -2138,7 +2392,8 @@
     "categories": [
       "O2 / A1 Code",
       "Self-Evolver / Knowledge and Memory"
-    ]
+    ],
+    "short_name": "KnowBody"
   },
   {
     "id": "lu2026aiscientist",
@@ -2148,7 +2403,8 @@
     "source_type": "Project / report",
     "categories": [
       "Self-Evolver / Successor AI R&D"
-    ]
+    ],
+    "short_name": "AI Scientist"
   },
   {
     "id": "luo2026instagent",
@@ -2160,7 +2416,8 @@
       "O2 / A3",
       "Self-Evolver / Programs and Skills",
       "Self-Evolver / Knowledge and Memory"
-    ]
+    ],
+    "short_name": "InstAgent"
   },
   {
     "id": "luo2026robolineage",
@@ -2174,7 +2431,8 @@
       "Infrastructure / Evaluation",
       "Infrastructure / Diagnosis"
     ],
-    "code_url": "https://github.com/robolineage/robolineage"
+    "code_url": "https://github.com/robolineage/robolineage",
+    "short_name": "RoboLineage"
   },
   {
     "id": "ma2023eureka",
@@ -2186,7 +2444,8 @@
       "Infrastructure / Training",
       "Self-Evolver / Rewards"
     ],
-    "code_url": "https://github.com/eureka-research/Eureka"
+    "code_url": "https://github.com/eureka-research/Eureka",
+    "short_name": "Eureka"
   },
   {
     "id": "ma2024dreureka",
@@ -2197,7 +2456,8 @@
     "categories": [
       "Infrastructure / Training"
     ],
-    "code_url": "https://github.com/eureka-research/DrEureka"
+    "code_url": "https://github.com/eureka-research/DrEureka",
+    "short_name": "DrEureka"
   },
   {
     "id": "ma2026cyclevla",
@@ -2208,7 +2468,8 @@
     "categories": [
       "O1 / A1 Model"
     ],
-    "code_url": "https://github.com/dannymcy/cyclevla_code"
+    "code_url": "https://github.com/dannymcy/cyclevla_code",
+    "short_name": "CycleVLA"
   },
   {
     "id": "ma2026rlebench",
@@ -2220,7 +2481,8 @@
       "Infrastructure / Training",
       "Self-Evolver / Model"
     ],
-    "code_url": "https://github.com/RLE-Bench/RLE-Bench"
+    "code_url": "https://github.com/RLE-Bench/RLE-Bench",
+    "short_name": "RLE-Bench"
   },
   {
     "id": "meng2025lyra",
@@ -2231,7 +2493,8 @@
     "categories": [
       "Self-Evolver / Programs and Skills"
     ],
-    "code_url": "https://github.com/Ghiara/LYRA"
+    "code_url": "https://github.com/Ghiara/LYRA",
+    "short_name": "LYRA"
   },
   {
     "id": "motormind2026",
@@ -2242,7 +2505,8 @@
     "categories": [
       "O2 / A1 Code"
     ],
-    "code_url": "https://github.com/Motor-Mind/MotorMind-Code"
+    "code_url": "https://github.com/Motor-Mind/MotorMind-Code",
+    "short_name": "MotorMind"
   },
   {
     "id": "nasiriany2024pivot",
@@ -2252,7 +2516,8 @@
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Code"
-    ]
+    ],
+    "short_name": "PIVOT"
   },
   {
     "id": "nebiusphysicalai2026",
@@ -2263,7 +2528,11 @@
     "categories": [
       "Infrastructure / Training"
     ],
-    "code_url": "https://github.com/nebius/nebius-physical-ai"
+    "code_url": "https://github.com/nebius/nebius-physical-ai",
+    "short_name": "Nebius Physical AI",
+    "aliases": [
+      "Nebius"
+    ]
   },
   {
     "id": "ng2026endorsi",
@@ -2276,7 +2545,8 @@
       "Infrastructure / Training",
       "Infrastructure / Diagnosis",
       "Self-Evolver / Model"
-    ]
+    ],
+    "short_name": "EndoRSI"
   },
   {
     "id": "nie2026teachandgrow",
@@ -2287,7 +2557,11 @@
     "categories": [
       "Self-Evolver / Knowledge and Memory"
     ],
-    "code_url": "https://github.com/IRMVLab/TGL"
+    "code_url": "https://github.com/IRMVLab/TGL",
+    "short_name": "Teach-and-Grow",
+    "aliases": [
+      "Teach-and-Grow / TGL"
+    ]
   },
   {
     "id": "noematrix2026roborsi",
@@ -2298,7 +2572,8 @@
     "categories": [
       "Self-Evolver / Programs and Skills"
     ],
-    "code_url": "https://github.com/nssmd/RoboRSI"
+    "code_url": "https://github.com/nssmd/RoboRSI",
+    "short_name": "RoboRSI"
   },
   {
     "id": "nvlabs2026aspirecode",
@@ -2312,7 +2587,11 @@
       "Self-Evolver / Programs and Skills",
       "Self-Evolver / Knowledge and Memory"
     ],
-    "code_url": "https://github.com/NVlabs/ASPIRE"
+    "code_url": "https://github.com/NVlabs/ASPIRE",
+    "short_name": "ASPIRE-CaP",
+    "aliases": [
+      "ASPIRE"
+    ]
   },
   {
     "id": "oikawa2026wetrobo",
@@ -2324,7 +2603,8 @@
       "O1 / A3",
       "Self-Evolver / Programs and Skills"
     ],
-    "code_url": "https://github.com/tsudalab/WetRobo"
+    "code_url": "https://github.com/tsudalab/WetRobo",
+    "short_name": "WetRobo"
   },
   {
     "id": "openeta",
@@ -2336,7 +2616,11 @@
       "O2 / A1 Code",
       "O2 / A2"
     ],
-    "code_url": "https://github.com/OpenMOSS/OpenETA"
+    "code_url": "https://github.com/OpenMOSS/OpenETA",
+    "short_name": "OpenETA",
+    "aliases": [
+      "ETA"
+    ]
   },
   {
     "id": "openroboto2026",
@@ -2347,7 +2631,12 @@
     "categories": [
       "O3 / A1 Code"
     ],
-    "code_url": "https://github.com/openroboto-ai/jev-robot-control"
+    "code_url": "https://github.com/openroboto-ai/jev-robot-control",
+    "short_name": "Jev Robot Control",
+    "aliases": [
+      "jev-robot-control",
+      "Jev Demos"
+    ]
   },
   {
     "id": "ord2026dynamics",
@@ -2357,7 +2646,8 @@
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Successor AI R&D"
-    ]
+    ],
+    "short_name": "Intelligence Explosions"
   },
   {
     "id": "parakh2023halp",
@@ -2368,7 +2658,8 @@
     "categories": [
       "O2 / A3",
       "Self-Evolver / Programs and Skills"
-    ]
+    ],
+    "short_name": "HALP"
   },
   {
     "id": "partnr",
@@ -2380,7 +2671,8 @@
       "O3 / A1 Code",
       "O3 / A1 Model"
     ],
-    "code_url": "https://github.com/facebookresearch/partnr-planner"
+    "code_url": "https://github.com/facebookresearch/partnr-planner",
+    "short_name": "PARTNR"
   },
   {
     "id": "peng2026slowbrain",
@@ -2390,7 +2682,8 @@
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Model"
-    ]
+    ],
+    "short_name": "SBFP"
   },
   {
     "id": "perez2023larg2",
@@ -2400,7 +2693,8 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Training"
-    ]
+    ],
+    "short_name": "LARG²"
   },
   {
     "id": "phyagentos2026",
@@ -2411,7 +2705,8 @@
     "categories": [
       "Self-Evolver / Knowledge and Memory"
     ],
-    "code_url": "https://github.com/PhyAgentOS/PhyAgentOS-core"
+    "code_url": "https://github.com/PhyAgentOS/PhyAgentOS-core",
+    "short_name": "PhyAgentOS"
   },
   {
     "id": "phyagentos2026core",
@@ -2422,7 +2717,11 @@
     "categories": [
       "Self-Evolver / Knowledge and Memory"
     ],
-    "code_url": "https://github.com/PhyAgentOS/PhyAgentOS-core"
+    "code_url": "https://github.com/PhyAgentOS/PhyAgentOS-core",
+    "short_name": "PhyAgentOS Core",
+    "aliases": [
+      "PhyAgentOS-core"
+    ]
   },
   {
     "id": "physcensis2026",
@@ -2432,7 +2731,8 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Environment Generation"
-    ]
+    ],
+    "short_name": "PhyScensis"
   },
   {
     "id": "physicalcoding2026",
@@ -2444,6 +2744,10 @@
       "O2 / A2",
       "O2 / A3",
       "Self-Evolver / Code"
+    ],
+    "short_name": "Physical Coding",
+    "aliases": [
+      "PhysicalCoding"
     ]
   },
   {
@@ -2458,7 +2762,8 @@
       "Self-Evolver / Representation",
       "Self-Evolver / State Management"
     ],
-    "code_url": "https://github.com/PhysicalRSI/PhysicalRSI"
+    "code_url": "https://github.com/PhysicalRSI/PhysicalRSI",
+    "short_name": "PhysicalRSI"
   },
   {
     "id": "physicalrsiteam2026awomo",
@@ -2469,7 +2774,8 @@
     "categories": [
       "Infrastructure / Environment Generation",
       "Infrastructure / Dataset Construction"
-    ]
+    ],
+    "short_name": "Awomo-SimDataEngine"
   },
   {
     "id": "pigey",
@@ -2480,7 +2786,8 @@
     "categories": [
       "O2 / A2"
     ],
-    "code_url": "https://github.com/lianegalanti/Pigey"
+    "code_url": "https://github.com/lianegalanti/Pigey",
+    "short_name": "Pigey"
   },
   {
     "id": "prompt2policy2026",
@@ -2491,7 +2798,8 @@
     "categories": [
       "Infrastructure / Training"
     ],
-    "code_url": "https://github.com/krafton-ai/Prompt2Policy"
+    "code_url": "https://github.com/krafton-ai/Prompt2Policy",
+    "short_name": "Prompt2Policy"
   },
   {
     "id": "qin2026embodiedsmithscalingembodieddata",
@@ -2503,7 +2811,8 @@
       "Infrastructure / Environment Generation",
       "Self-Evolver / Programs and Skills",
       "Self-Evolver / Environments and Datasets"
-    ]
+    ],
+    "short_name": "EmbodiedSmith"
   },
   {
     "id": "qiu2026debate2create",
@@ -2514,7 +2823,8 @@
     "categories": [
       "Self-Evolver / Rewards",
       "Self-Evolver / Robot morphology"
-    ]
+    ],
+    "short_name": "Debate2Create"
   },
   {
     "id": "qu2025pragmabot",
@@ -2526,7 +2836,8 @@
       "O2 / A1 Code",
       "Self-Evolver / Knowledge and Memory"
     ],
-    "code_url": "https://github.com/leggedrobotics/pragmabot"
+    "code_url": "https://github.com/leggedrobotics/pragmabot",
+    "short_name": "PragmaBot"
   },
   {
     "id": "racap2026",
@@ -2543,7 +2854,8 @@
       "Self-Evolver / Tool Interface",
       "Self-Evolver / Execution Workflows"
     ],
-    "code_url": "https://github.com/Robo-Harness/racap"
+    "code_url": "https://github.com/Robo-Harness/racap",
+    "short_name": "RACaP"
   },
   {
     "id": "rai",
@@ -2554,7 +2866,8 @@
     "categories": [
       "O2 / A2"
     ],
-    "code_url": "https://github.com/RobotecAI/rai"
+    "code_url": "https://github.com/RobotecAI/rai",
+    "short_name": "RAI"
   },
   {
     "id": "rank2026posttrainbench",
@@ -2564,7 +2877,8 @@
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Successor AI R&D"
-    ]
+    ],
+    "short_name": "PostTrainBench"
   },
   {
     "id": "rao2026argon",
@@ -2581,7 +2895,8 @@
       "Infrastructure / Diagnosis",
       "Self-Evolver / Programs and Skills",
       "Self-Evolver / Environments and Datasets"
-    ]
+    ],
+    "short_name": "Gemini 4 Argon"
   },
   {
     "id": "rapid2026",
@@ -2593,7 +2908,8 @@
       "O2 / A3",
       "Infrastructure / Environment Generation",
       "Self-Evolver / Programs and Skills"
-    ]
+    ],
+    "short_name": "RAPID"
   },
   {
     "id": "rats2026",
@@ -2607,7 +2923,8 @@
       "Self-Evolver / Programs and Skills",
       "Self-Evolver / Knowledge and Memory"
     ],
-    "code_url": "https://github.com/Playful-RATs/rats"
+    "code_url": "https://github.com/Playful-RATs/rats",
+    "short_name": "RATs"
   },
   {
     "id": "real2026",
@@ -2619,7 +2936,8 @@
       "O2 / A1 Code",
       "O2 / A1 Model"
     ],
-    "code_url": "https://github.com/InternRobotics/REAL"
+    "code_url": "https://github.com/InternRobotics/REAL",
+    "short_name": "REAL"
   },
   {
     "id": "real2gym2026",
@@ -2632,7 +2950,8 @@
       "Infrastructure / Environment Generation",
       "Self-Evolver / Knowledge and Memory"
     ],
-    "code_url": "https://github.com/real2gym/R2G_Agent"
+    "code_url": "https://github.com/real2gym/R2G_Agent",
+    "short_name": "Real2Gym"
   },
   {
     "id": "recova2026",
@@ -2647,7 +2966,8 @@
       "Infrastructure / Dataset Construction",
       "Self-Evolver / Programs and Skills",
       "Self-Evolver / Environments and Datasets"
-    ]
+    ],
+    "short_name": "Recova"
   },
   {
     "id": "regot2025",
@@ -2657,7 +2977,8 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Training"
-    ]
+    ],
+    "short_name": "RE-GoT"
   },
   {
     "id": "revolve2024",
@@ -2669,7 +2990,12 @@
       "Infrastructure / Training",
       "Self-Evolver / Rewards"
     ],
-    "code_url": "https://github.com/RishiHazra/Revolve"
+    "code_url": "https://github.com/RishiHazra/Revolve",
+    "short_name": "REvolve (2024)",
+    "aliases": [
+      "REvolve Reward Design",
+      "REvolve"
+    ]
   },
   {
     "id": "revolvecollection2026",
@@ -2679,6 +3005,10 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Dataset Construction"
+    ],
+    "short_name": "REVOLVE (2026)",
+    "aliases": [
+      "REVOLVE"
     ]
   },
   {
@@ -2693,7 +3023,11 @@
       "Self-Evolver / Programs and Skills",
       "Self-Evolver / Code"
     ],
-    "code_url": "https://github.com/KE7/HELIX"
+    "code_url": "https://github.com/KE7/HELIX",
+    "short_name": "RHO",
+    "aliases": [
+      "HELIX"
+    ]
   },
   {
     "id": "robobridge2026",
@@ -2703,7 +3037,8 @@
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Knowledge and Memory"
-    ]
+    ],
+    "short_name": "RoboBridge"
   },
   {
     "id": "roboclaw",
@@ -2715,7 +3050,8 @@
       "O2 / A2",
       "Infrastructure / Dataset Construction"
     ],
-    "code_url": "https://github.com/RoboClaw-Robotics/RoboClaw"
+    "code_url": "https://github.com/RoboClaw-Robotics/RoboClaw",
+    "short_name": "RoboClaw"
   },
   {
     "id": "robocoliseum2026agent2act",
@@ -2725,7 +3061,8 @@
     "source_type": "Project / report",
     "categories": [
       "O1 / A1 Code"
-    ]
+    ],
+    "short_name": "Agent2Act"
   },
   {
     "id": "robogene2026",
@@ -2735,7 +3072,8 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Dataset Construction"
-    ]
+    ],
+    "short_name": "RoboGene"
   },
   {
     "id": "roboharnevo2026",
@@ -2747,7 +3085,8 @@
       "O2 / A2",
       "Self-Evolver / Knowledge and Memory"
     ],
-    "code_url": "https://github.com/RUCKBReasoning/RoboHarn-Evo"
+    "code_url": "https://github.com/RUCKBReasoning/RoboHarn-Evo",
+    "short_name": "RoboHarn-Evo"
   },
   {
     "id": "roboicl2026",
@@ -2758,7 +3097,8 @@
     "categories": [
       "O1 / A1 Code"
     ],
-    "code_url": "https://github.com/Mosi-AI/RoboICL"
+    "code_url": "https://github.com/Mosi-AI/RoboICL",
+    "short_name": "RoboICL"
   },
   {
     "id": "robojev2026",
@@ -2769,7 +3109,8 @@
     "categories": [
       "O3 / A1 Code"
     ],
-    "code_url": "https://github.com/lykycy123/RoboJEV"
+    "code_url": "https://github.com/lykycy123/RoboJEV",
+    "short_name": "RoboJEV"
   },
   {
     "id": "roboplayground2026",
@@ -2779,7 +3120,8 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Environment Generation"
-    ]
+    ],
+    "short_name": "RoboPlayground"
   },
   {
     "id": "roboprobe2026",
@@ -2790,7 +3132,8 @@
     "categories": [
       "O1 / A1 Code"
     ],
-    "code_url": "https://github.com/RoboProbe/RoboProbe"
+    "code_url": "https://github.com/RoboProbe/RoboProbe",
+    "short_name": "RoboProbe"
   },
   {
     "id": "roboskill2026",
@@ -2802,7 +3145,8 @@
       "Self-Evolver / Programs and Skills",
       "Self-Evolver / Knowledge and Memory"
     ],
-    "code_url": "https://github.com/SII-dannyXSC/RoboSkill"
+    "code_url": "https://github.com/SII-dannyXSC/RoboSkill",
+    "short_name": "RoboSkill"
   },
   {
     "id": "robotwin2agent2025",
@@ -2813,7 +3157,8 @@
     "categories": [
       "Infrastructure / Dataset Construction"
     ],
-    "code_url": "https://github.com/RoboTwin-Platform/RoboTwin"
+    "code_url": "https://github.com/RoboTwin-Platform/RoboTwin",
+    "short_name": "RoboTwin 2.0"
   },
   {
     "id": "robowits2026",
@@ -2824,7 +3169,8 @@
     "categories": [
       "Infrastructure / Environment Generation"
     ],
-    "code_url": "https://github.com/UMass-Embodied-AGI/RoboWits"
+    "code_url": "https://github.com/UMass-Embodied-AGI/RoboWits",
+    "short_name": "RoboWits"
   },
   {
     "id": "roco",
@@ -2836,7 +3182,8 @@
       "O2 / A1 Code",
       "O3 / A1 Code"
     ],
-    "code_url": "https://github.com/MandiZhao/robot-collab"
+    "code_url": "https://github.com/MandiZhao/robot-collab",
+    "short_name": "RoCo"
   },
   {
     "id": "roshelpdesk2025",
@@ -2846,7 +3193,8 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Diagnosis"
-    ]
+    ],
+    "short_name": "ROS Help Desk"
   },
   {
     "id": "rpg2026",
@@ -2860,7 +3208,8 @@
       "Infrastructure / Environment Generation",
       "Self-Evolver / Programs and Skills",
       "Self-Evolver / Execution Workflows"
-    ]
+    ],
+    "short_name": "RPG"
   },
   {
     "id": "rui2026semantichandoff",
@@ -2870,7 +3219,8 @@
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Model"
-    ]
+    ],
+    "short_name": "Semantic Handoff"
   },
   {
     "id": "sage2026",
@@ -2880,7 +3230,8 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Environment Generation"
-    ]
+    ],
+    "short_name": "SAGE"
   },
   {
     "id": "sail2026",
@@ -2890,7 +3241,8 @@
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code"
-    ]
+    ],
+    "short_name": "SAIL"
   },
   {
     "id": "saycan2022",
@@ -2901,7 +3253,8 @@
     "categories": [
       "O2 / A1 Model"
     ],
-    "code_url": "https://github.com/google-research/google-research/tree/master/saycan"
+    "code_url": "https://github.com/google-research/google-research/tree/master/saycan",
+    "short_name": "SayCan"
   },
   {
     "id": "sayplan2023",
@@ -2911,7 +3264,8 @@
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code"
-    ]
+    ],
+    "short_name": "SayPlan"
   },
   {
     "id": "scenesmith2026",
@@ -2923,7 +3277,8 @@
       "Infrastructure / Environment Generation",
       "Infrastructure / Evaluation"
     ],
-    "code_url": "https://github.com/nepfaff/scenesmith"
+    "code_url": "https://github.com/nepfaff/scenesmith",
+    "short_name": "SceneSmith"
   },
   {
     "id": "schakkal2025hierarchical",
@@ -2933,7 +3288,8 @@
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Model"
-    ]
+    ],
+    "short_name": "H-VLP"
   },
   {
     "id": "sds2024",
@@ -2944,7 +3300,8 @@
     "categories": [
       "Infrastructure / Training"
     ],
-    "code_url": "https://github.com/RPL-CS-UCL/SDS"
+    "code_url": "https://github.com/RPL-CS-UCL/SDS",
+    "short_name": "SDS"
   },
   {
     "id": "self240618746",
@@ -2956,7 +3313,8 @@
       "O2 / A3",
       "O3 / A3",
       "Self-Evolver / Programs and Skills"
-    ]
+    ],
+    "short_name": "LRLL"
   },
   {
     "id": "self260509423",
@@ -2969,7 +3327,8 @@
       "Infrastructure / Training",
       "Self-Evolver / Knowledge and Memory",
       "Self-Evolver / Environments and Datasets"
-    ]
+    ],
+    "short_name": "SimWorld Studio"
   },
   {
     "id": "self260619980",
@@ -2982,7 +3341,8 @@
       "Infrastructure / Evaluation",
       "Infrastructure / Diagnosis"
     ],
-    "code_url": "https://github.com/NVlabs/ENPIRE"
+    "code_url": "https://github.com/NVlabs/ENPIRE",
+    "short_name": "ENPIRE"
   },
   {
     "id": "self260700272",
@@ -2995,7 +3355,8 @@
       "Self-Evolver / Programs and Skills",
       "Self-Evolver / Knowledge and Memory"
     ],
-    "code_url": "https://github.com/NVlabs/ASPIRE"
+    "code_url": "https://github.com/NVlabs/ASPIRE",
+    "short_name": "ASPIRE"
   },
   {
     "id": "selfrefinedreward2023",
@@ -3005,7 +3366,8 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Training"
-    ]
+    ],
+    "short_name": "Self-Refined LLM"
   },
   {
     "id": "selp2024",
@@ -3016,7 +3378,8 @@
     "categories": [
       "O3 / A1 Code"
     ],
-    "code_url": "https://github.com/lt-asset/selp"
+    "code_url": "https://github.com/lt-asset/selp",
+    "short_name": "SELP"
   },
   {
     "id": "sensenova2026embodied",
@@ -3028,7 +3391,12 @@
       "O1 / A1 Code",
       "O1 / A1 Model"
     ],
-    "code_url": "https://github.com/OpenSenseNova/SenseNova-RoboRSI"
+    "code_url": "https://github.com/OpenSenseNova/SenseNova-RoboRSI",
+    "short_name": "SenseNova-RoboRSI",
+    "aliases": [
+      "SenseNova-RoboRSI (released LIBERO)",
+      "SenseNova"
+    ]
   },
   {
     "id": "shi2025maestro",
@@ -3039,7 +3407,8 @@
     "categories": [
       "O2 / A3",
       "Self-Evolver / Programs and Skills"
-    ]
+    ],
+    "short_name": "MAESTRO"
   },
   {
     "id": "showharness",
@@ -3050,7 +3419,8 @@
     "categories": [
       "O1 / A1 Code"
     ],
-    "code_url": "https://github.com/showlab/Show-Harness"
+    "code_url": "https://github.com/showlab/Show-Harness",
+    "short_name": "Show-Harness"
   },
   {
     "id": "si2026fewer",
@@ -3061,7 +3431,8 @@
     "categories": [
       "O2 / A3"
     ],
-    "code_url": "https://github.com/DAGroup-PKU/PyRUA-Lean"
+    "code_url": "https://github.com/DAGroup-PKU/PyRUA-Lean",
+    "short_name": "PyRUA-Lean"
   },
   {
     "id": "si240515568",
@@ -3073,7 +3444,8 @@
       "Infrastructure / Environment Generation",
       "Self-Evolver / Environments and Datasets"
     ],
-    "code_url": "https://github.com/maxencefaldor/omni-epic"
+    "code_url": "https://github.com/maxencefaldor/omni-epic",
+    "short_name": "OMNI-EPIC"
   },
   {
     "id": "si240708626",
@@ -3084,7 +3456,8 @@
     "categories": [
       "Self-Evolver / Robot morphology"
     ],
-    "code_url": "https://github.com/kevinxqiu/robomorph"
+    "code_url": "https://github.com/kevinxqiu/robomorph",
+    "short_name": "RoboMorph"
   },
   {
     "id": "si241213492",
@@ -3095,7 +3468,8 @@
     "categories": [
       "Self-Evolver / Rewards"
     ],
-    "code_url": "https://github.com/NextMyLove/ROSKA"
+    "code_url": "https://github.com/NextMyLove/ROSKA",
+    "short_name": "ROSKA"
   },
   {
     "id": "si250600276",
@@ -3106,7 +3480,8 @@
     "categories": [
       "Self-Evolver / Rewards",
       "Self-Evolver / Robot morphology"
-    ]
+    ],
+    "short_name": "RoboMoRe"
   },
   {
     "id": "si250606658",
@@ -3117,7 +3492,8 @@
     "categories": [
       "O1 / A1 Model"
     ],
-    "code_url": "https://github.com/brown-palm/silvr"
+    "code_url": "https://github.com/brown-palm/silvr",
+    "short_name": "SILVR"
   },
   {
     "id": "si250921543",
@@ -3128,7 +3504,8 @@
     "categories": [
       "Self-Evolver / Environments and Datasets"
     ],
-    "code_url": "https://github.com/markli1hoshipu/Plan_LLM"
+    "code_url": "https://github.com/markli1hoshipu/Plan_LLM",
+    "short_name": "Self-CriTeach"
   },
   {
     "id": "si260206366",
@@ -3139,7 +3516,8 @@
     "categories": [
       "Infrastructure / Environment Generation",
       "Self-Evolver / Environments and Datasets"
-    ]
+    ],
+    "short_name": "Adaptive Environment Generation"
   },
   {
     "id": "si260302623",
@@ -3150,7 +3528,8 @@
     "categories": [
       "O2 / A1 Code",
       "Infrastructure / Dataset Construction"
-    ]
+    ],
+    "short_name": "Uni-Skill"
   },
   {
     "id": "si260319461",
@@ -3163,7 +3542,8 @@
       "Self-Evolver / Rewards",
       "Self-Evolver / Execution Workflows"
     ],
-    "code_url": "https://github.com/facebookresearch/Hyperagents"
+    "code_url": "https://github.com/facebookresearch/Hyperagents",
+    "short_name": "Hyperagents"
   },
   {
     "id": "si260413533",
@@ -3173,7 +3553,8 @@
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Knowledge and Memory"
-    ]
+    ],
+    "short_name": "EEAgent"
   },
   {
     "id": "si260414399",
@@ -3184,7 +3565,8 @@
     "categories": [
       "Self-Evolver / Knowledge and Memory"
     ],
-    "code_url": "https://github.com/wuaodi/SpaceMind"
+    "code_url": "https://github.com/wuaodi/SpaceMind",
+    "short_name": "SpaceMind"
   },
   {
     "id": "si260514504",
@@ -3194,7 +3576,8 @@
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Knowledge and Memory"
-    ]
+    ],
+    "short_name": "HoloMind"
   },
   {
     "id": "si260518729",
@@ -3204,7 +3587,8 @@
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Knowledge and Memory"
-    ]
+    ],
+    "short_name": "Robo-Cortex"
   },
   {
     "id": "si260525832",
@@ -3216,7 +3600,8 @@
       "Self-Evolver / Knowledge and Memory",
       "Self-Evolver / Robot morphology"
     ],
-    "code_url": "https://github.com/wangyf9/Auto-Robotist"
+    "code_url": "https://github.com/wangyf9/Auto-Robotist",
+    "short_name": "Auto-Robotist"
   },
   {
     "id": "si260603509",
@@ -3227,7 +3612,8 @@
     "categories": [
       "O2 / A1 Code",
       "Self-Evolver / Knowledge and Memory"
-    ]
+    ],
+    "short_name": "EvoMemNav"
   },
   {
     "id": "si260603963",
@@ -3237,7 +3623,8 @@
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Rewards"
-    ]
+    ],
+    "short_name": "AgenticRL"
   },
   {
     "id": "si260605395",
@@ -3247,7 +3634,8 @@
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Knowledge and Memory"
-    ]
+    ],
+    "short_name": "VASO"
   },
   {
     "id": "si260618235",
@@ -3257,7 +3645,8 @@
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Knowledge and Memory"
-    ]
+    ],
+    "short_name": "EvolveNav"
   },
   {
     "id": "si260630109",
@@ -3268,7 +3657,8 @@
     "categories": [
       "Self-Evolver / Model"
     ],
-    "code_url": "https://github.com/LannWei/TacEvo"
+    "code_url": "https://github.com/LannWei/TacEvo",
+    "short_name": "TacEvo"
   },
   {
     "id": "si260807555",
@@ -3278,7 +3668,8 @@
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Knowledge and Memory"
-    ]
+    ],
+    "short_name": "Agentic Robotics Loop"
   },
   {
     "id": "si260816889",
@@ -3288,7 +3679,8 @@
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Knowledge and Memory"
-    ]
+    ],
+    "short_name": "BATON"
   },
   {
     "id": "si260830760",
@@ -3298,7 +3690,8 @@
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Knowledge and Memory"
-    ]
+    ],
+    "short_name": "PRACTICE"
   },
   {
     "id": "si260913082",
@@ -3310,7 +3703,8 @@
       "Infrastructure / Environment Generation",
       "Infrastructure / Evaluation",
       "Self-Evolver / Environments and Datasets"
-    ]
+    ],
+    "short_name": "Embodied-BenchForge"
   },
   {
     "id": "si260924271",
@@ -3321,7 +3715,8 @@
     "categories": [
       "O2 / A1 Model",
       "Self-Evolver / Knowledge and Memory"
-    ]
+    ],
+    "short_name": "ME-Brain"
   },
   {
     "id": "si260927612",
@@ -3331,7 +3726,8 @@
     "source_type": "Paper",
     "categories": [
       "O2 / A2"
-    ]
+    ],
+    "short_name": "RegenHarness"
   },
   {
     "id": "si260929166",
@@ -3342,7 +3738,8 @@
     "categories": [
       "Self-Evolver / Programs and Skills",
       "Self-Evolver / Knowledge and Memory"
-    ]
+    ],
+    "short_name": "HarnessPAI"
   },
   {
     "id": "si260929204",
@@ -3356,7 +3753,8 @@
       "Self-Evolver / State Management",
       "Self-Evolver / Execution Workflows"
     ],
-    "code_url": "https://github.com/Haaareally/AdaHVLA-Adaptive_Harness_VLA"
+    "code_url": "https://github.com/Haaareally/AdaHVLA-Adaptive_Harness_VLA",
+    "short_name": "AdaHVLA"
   },
   {
     "id": "si260931760",
@@ -3367,7 +3765,8 @@
     "categories": [
       "Self-Evolver / Programs and Skills",
       "Self-Evolver / Code"
-    ]
+    ],
+    "short_name": "123-round study"
   },
   {
     "id": "si260932698",
@@ -3379,7 +3778,8 @@
       "Infrastructure / Environment Generation",
       "Infrastructure / Training",
       "Self-Evolver / Environments and Datasets"
-    ]
+    ],
+    "short_name": "SEES"
   },
   {
     "id": "si260938178",
@@ -3389,7 +3789,8 @@
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Environments and Datasets"
-    ]
+    ],
+    "short_name": "Skill-Space Shooting"
   },
   {
     "id": "simex2026",
@@ -3402,7 +3803,8 @@
       "Self-Evolver / Knowledge and Memory",
       "Self-Evolver / Environments and Datasets",
       "Self-Evolver / Code"
-    ]
+    ],
+    "short_name": "SimEX"
   },
   {
     "id": "simfoundry2026",
@@ -3413,7 +3815,8 @@
     "categories": [
       "Infrastructure / Environment Generation"
     ],
-    "code_url": "https://github.com/NVlabs/SimFoundry"
+    "code_url": "https://github.com/NVlabs/SimFoundry",
+    "short_name": "SimFoundry"
   },
   {
     "id": "skill2real2026",
@@ -3423,7 +3826,8 @@
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Knowledge and Memory"
-    ]
+    ],
+    "short_name": "Skill2Real"
   },
   {
     "id": "skillclaw2026",
@@ -3436,7 +3840,8 @@
       "Self-Evolver / Programs and Skills",
       "Self-Evolver / Knowledge and Memory"
     ],
-    "code_url": "https://github.com/lilyzhng/SkillClaw"
+    "code_url": "https://github.com/lilyzhng/SkillClaw",
+    "short_name": "SkillClaw"
   },
   {
     "id": "soar2024",
@@ -3447,7 +3852,8 @@
     "categories": [
       "Infrastructure / Dataset Construction"
     ],
-    "code_url": "https://github.com/rail-berkeley/soar"
+    "code_url": "https://github.com/rail-berkeley/soar",
+    "short_name": "SOAR"
   },
   {
     "id": "song2026embodiedrsiactivecontinualrobot",
@@ -3458,7 +3864,8 @@
     "categories": [
       "Self-Evolver / Programs and Skills",
       "Self-Evolver / Knowledge and Memory"
-    ]
+    ],
+    "short_name": "EmbodiedRSI"
   },
   {
     "id": "song2026glide",
@@ -3472,7 +3879,8 @@
       "Infrastructure / Diagnosis",
       "Self-Evolver / Programs and Skills",
       "Self-Evolver / Code"
-    ]
+    ],
+    "short_name": "GLIDE"
   },
   {
     "id": "sref251221220",
@@ -3483,7 +3891,8 @@
     "categories": [
       "O1 / A3",
       "Self-Evolver / Knowledge and Memory"
-    ]
+    ],
+    "short_name": "RoboSafe"
   },
   {
     "id": "sref260118492",
@@ -3493,7 +3902,8 @@
     "source_type": "Paper",
     "categories": [
       "O3 / A1 Code"
-    ]
+    ],
+    "short_name": "DV-VLN"
   },
   {
     "id": "sref260201662",
@@ -3503,7 +3913,8 @@
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code"
-    ]
+    ],
+    "short_name": "PLanAR"
   },
   {
     "id": "sref260219983",
@@ -3513,7 +3924,8 @@
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Code"
-    ]
+    ],
+    "short_name": "Contextual Safety"
   },
   {
     "id": "sref260305185",
@@ -3523,7 +3935,8 @@
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Model"
-    ]
+    ],
+    "short_name": "Critic in the Loop"
   },
   {
     "id": "sref260312939",
@@ -3533,7 +3946,8 @@
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code"
-    ]
+    ],
+    "short_name": "RoboStream"
   },
   {
     "id": "sref260407774",
@@ -3543,7 +3957,8 @@
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Code"
-    ]
+    ],
+    "short_name": "RoboAgent"
   },
   {
     "id": "sref260411975",
@@ -3554,7 +3969,8 @@
     "categories": [
       "O2 / A1 Code",
       "Self-Evolver / Knowledge and Memory"
-    ]
+    ],
+    "short_name": "M2HRI"
   },
   {
     "id": "sref260514398",
@@ -3565,7 +3981,8 @@
     "categories": [
       "Infrastructure / Environment Generation",
       "Self-Evolver / Environments and Datasets"
-    ]
+    ],
+    "short_name": "ChronoAgentic"
   },
   {
     "id": "sref260602951",
@@ -3575,7 +3992,8 @@
     "source_type": "Paper",
     "categories": [
       "O2 / A2"
-    ]
+    ],
+    "short_name": "SCOPE"
   },
   {
     "id": "sref260612299",
@@ -3585,7 +4003,8 @@
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Model"
-    ]
+    ],
+    "short_name": "VLA Steering"
   },
   {
     "id": "sref260623280",
@@ -3595,7 +4014,8 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Training"
-    ]
+    ],
+    "short_name": "Causal Reward Models"
   },
   {
     "id": "sref260705377",
@@ -3605,7 +4025,8 @@
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Model"
-    ]
+    ],
+    "short_name": "Cortex"
   },
   {
     "id": "sref260829379",
@@ -3615,7 +4036,8 @@
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code"
-    ]
+    ],
+    "short_name": "Constrained LLMs"
   },
   {
     "id": "sref260902653",
@@ -3625,7 +4047,8 @@
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Model"
-    ]
+    ],
+    "short_name": "HINT"
   },
   {
     "id": "srikanth2026aide2",
@@ -3635,7 +4058,8 @@
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Successor AI R&D"
-    ]
+    ],
+    "short_name": "AIDE²"
   },
   {
     "id": "sygkounas2026memento",
@@ -3647,7 +4071,8 @@
       "Infrastructure / Evaluation",
       "Self-Evolver / Programs and Skills"
     ],
-    "code_url": "https://github.com/sygkounas/MEMENTO"
+    "code_url": "https://github.com/sygkounas/MEMENTO",
+    "short_name": "MEMENTO"
   },
   {
     "id": "tacharness2026",
@@ -3661,7 +4086,8 @@
       "Infrastructure / Training",
       "Infrastructure / Evaluation",
       "Infrastructure / Diagnosis"
-    ]
+    ],
+    "short_name": "TacHarness"
   },
   {
     "id": "tanaka2026taczero",
@@ -3671,7 +4097,8 @@
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Code"
-    ]
+    ],
+    "short_name": "TacZero"
   },
   {
     "id": "tang2026video2world",
@@ -3683,7 +4110,8 @@
       "Infrastructure / Environment Generation",
       "Self-Evolver / Environments and Datasets"
     ],
-    "code_url": "https://github.com/AetherLabsAI/Video2World"
+    "code_url": "https://github.com/AetherLabsAI/Video2World",
+    "short_name": "Video2World"
   },
   {
     "id": "text2mujoco2026",
@@ -3694,7 +4122,8 @@
     "categories": [
       "Infrastructure / Environment Generation"
     ],
-    "code_url": "https://github.com/ShawnJoeng/Text2Mujoco"
+    "code_url": "https://github.com/ShawnJoeng/Text2Mujoco",
+    "short_name": "Text2MuJoCo"
   },
   {
     "id": "text2reward2023",
@@ -3705,7 +4134,8 @@
     "categories": [
       "Infrastructure / Training"
     ],
-    "code_url": "https://github.com/xlang-ai/text2reward"
+    "code_url": "https://github.com/xlang-ai/text2reward",
+    "short_name": "Text2Reward"
   },
   {
     "id": "thea2026",
@@ -3716,7 +4146,11 @@
     "categories": [
       "O2 / A2"
     ],
-    "code_url": "https://github.com/EIT-HAI/Thea"
+    "code_url": "https://github.com/EIT-HAI/Thea",
+    "short_name": "THEA",
+    "aliases": [
+      "Thea"
+    ]
   },
   {
     "id": "tian2026abotagentos",
@@ -3726,7 +4160,8 @@
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code"
-    ]
+    ],
+    "short_name": "ABot-AgentOS"
   },
   {
     "id": "tian2026physevo",
@@ -3741,7 +4176,8 @@
       "Self-Evolver / Code",
       "Self-Evolver / Tool Interface",
       "Self-Evolver / Execution Workflows"
-    ]
+    ],
+    "short_name": "PhysEvo"
   },
   {
     "id": "tomar2026askable",
@@ -3764,7 +4200,8 @@
     "categories": [
       "Infrastructure / Environment Generation",
       "Infrastructure / Dataset Construction"
-    ]
+    ],
+    "short_name": "V-CAGE"
   },
   {
     "id": "vemprala2024chatgpt",
@@ -3775,7 +4212,8 @@
     "categories": [
       "O2 / A3",
       "O3 / A3"
-    ]
+    ],
+    "short_name": "ChatGPT for Robotics"
   },
   {
     "id": "venuto2024codeasreward",
@@ -3785,7 +4223,8 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Training"
-    ]
+    ],
+    "short_name": "Code as Reward"
   },
   {
     "id": "via",
@@ -3796,7 +4235,8 @@
     "categories": [
       "O1 / A1 Code"
     ],
-    "code_url": "https://github.com/hengyuan-hu/via"
+    "code_url": "https://github.com/hengyuan-hu/via",
+    "short_name": "VIA"
   },
   {
     "id": "video2reward2024",
@@ -3807,7 +4247,8 @@
     "categories": [
       "Infrastructure / Training",
       "Self-Evolver / Rewards"
-    ]
+    ],
+    "short_name": "Video2Reward"
   },
   {
     "id": "vlaastools2026",
@@ -3817,6 +4258,10 @@
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Model"
+    ],
+    "short_name": "VLA-as-Tools",
+    "aliases": [
+      "VLAs-as-Tools"
     ]
   },
   {
@@ -3828,6 +4273,10 @@
     "categories": [
       "O2 / A2",
       "Self-Evolver / Knowledge and Memory"
+    ],
+    "short_name": "WAA",
+    "aliases": [
+      "World Action Agent"
     ]
   },
   {
@@ -3841,7 +4290,8 @@
       "Infrastructure / Dataset Construction",
       "Infrastructure / Training",
       "Self-Evolver / Programs and Skills"
-    ]
+    ],
+    "short_name": "Waddle"
   },
   {
     "id": "wang2023robogen",
@@ -3854,7 +4304,8 @@
       "Infrastructure / Dataset Construction",
       "Infrastructure / Training"
     ],
-    "code_url": "https://github.com/Genesis-Embodied-AI/RoboGen"
+    "code_url": "https://github.com/Genesis-Embodied-AI/RoboGen",
+    "short_name": "RoboGen"
   },
   {
     "id": "wang2026adarsi",
@@ -3874,7 +4325,8 @@
       "Self-Evolver / Code",
       "Self-Evolver / Tool Interface",
       "Self-Evolver / Execution Workflows"
-    ]
+    ],
+    "short_name": "AdaRSI"
   },
   {
     "id": "wang2026dexagent",
@@ -3887,7 +4339,8 @@
       "Infrastructure / Dataset Construction",
       "Self-Evolver / Code"
     ],
-    "code_url": "https://github.com/dexagent1/DexAgent"
+    "code_url": "https://github.com/dexagent1/DexAgent",
+    "short_name": "DexAgent"
   },
   {
     "id": "wang2026embodiedgenv2",
@@ -3898,7 +4351,8 @@
     "categories": [
       "Infrastructure / Environment Generation"
     ],
-    "code_url": "https://github.com/HorizonRobotics/EmbodiedGen"
+    "code_url": "https://github.com/HorizonRobotics/EmbodiedGen",
+    "short_name": "EmbodiedGen V2"
   },
   {
     "id": "wang2026gavel",
@@ -3908,7 +4362,8 @@
     "source_type": "Paper",
     "categories": [
       "O3 / A1 Code"
-    ]
+    ],
+    "short_name": "GAVEL"
   },
   {
     "id": "wang2026genphri",
@@ -3921,7 +4376,8 @@
       "Infrastructure / Dataset Construction",
       "Infrastructure / Training",
       "Self-Evolver / Environments and Datasets"
-    ]
+    ],
+    "short_name": "GenPHRI"
   },
   {
     "id": "wang2026insight",
@@ -3936,7 +4392,8 @@
       "Infrastructure / Dataset Construction",
       "Self-Evolver / Model"
     ],
-    "code_url": "https://github.com/insight-vla/insight"
+    "code_url": "https://github.com/insight-vla/insight",
+    "short_name": "InSight"
   },
   {
     "id": "wang2026kpi",
@@ -3947,7 +4404,8 @@
     "categories": [
       "O2 / A1 Code",
       "O2 / A1 Model"
-    ]
+    ],
+    "short_name": "KPI"
   },
   {
     "id": "wang2026sear",
@@ -3962,7 +4420,8 @@
       "Self-Evolver / Programs and Skills",
       "Self-Evolver / Knowledge and Memory",
       "Self-Evolver / Model"
-    ]
+    ],
+    "short_name": "SEAR"
   },
   {
     "id": "wang2026sunagenticrobotpolicy",
@@ -3974,7 +4433,8 @@
       "Infrastructure / Training",
       "Self-Evolver / Programs and Skills",
       "Self-Evolver / Rewards"
-    ]
+    ],
+    "short_name": "SUN"
   },
   {
     "id": "wang2026tactileeta",
@@ -3985,7 +4445,8 @@
     "categories": [
       "O2 / A1 Code"
     ],
-    "code_url": "https://github.com/No-518/Tactile-ETA"
+    "code_url": "https://github.com/No-518/Tactile-ETA",
+    "short_name": "Tactile-ETA"
   },
   {
     "id": "wang2026zero2skill",
@@ -3997,7 +4458,8 @@
       "Infrastructure / Dataset Construction",
       "Self-Evolver / Knowledge and Memory"
     ],
-    "code_url": "https://github.com/open-gigaai/Zero2Skill"
+    "code_url": "https://github.com/open-gigaai/Zero2Skill",
+    "short_name": "Zero2Skill"
   },
   {
     "id": "wei2025dualvln",
@@ -4021,7 +4483,8 @@
     "categories": [
       "Infrastructure / Environment Generation",
       "Self-Evolver / Environments and Datasets"
-    ]
+    ],
+    "short_name": "FATE"
   },
   {
     "id": "wei2026scaleselection",
@@ -4032,7 +4495,8 @@
     "categories": [
       "Self-Evolver / Tool Interface",
       "Self-Evolver / Execution Workflows"
-    ]
+    ],
+    "short_name": "Scale and Selection"
   },
   {
     "id": "wen2026automatedw2s",
@@ -4042,7 +4506,8 @@
     "source_type": "Project / report",
     "categories": [
       "Self-Evolver / Successor AI R&D"
-    ]
+    ],
+    "short_name": "Weak-to-Strong Researcher"
   },
   {
     "id": "wen2026dworld",
@@ -4053,7 +4518,8 @@
     "categories": [
       "Infrastructure / Environment Generation",
       "Infrastructure / Diagnosis"
-    ]
+    ],
+    "short_name": "D-World"
   },
   {
     "id": "wijk2024rebench",
@@ -4063,7 +4529,8 @@
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Successor AI R&D"
-    ]
+    ],
+    "short_name": "RE-Bench"
   },
   {
     "id": "woods2026skillcomposer",
@@ -4073,7 +4540,8 @@
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Programs and Skills"
-    ]
+    ],
+    "short_name": "SkillComposer"
   },
   {
     "id": "xia2025phoenix",
@@ -4085,7 +4553,8 @@
       "O1 / A1 Model",
       "Infrastructure / Dataset Construction"
     ],
-    "code_url": "https://github.com/GeWu-Lab/Motion-based-Self-Reflection-Framework"
+    "code_url": "https://github.com/GeWu-Lab/Motion-based-Self-Reflection-Framework",
+    "short_name": "Phoenix"
   },
   {
     "id": "xie2026codimrecon",
@@ -4098,7 +4567,8 @@
       "Infrastructure / Evaluation",
       "Infrastructure / Diagnosis",
       "Self-Evolver / Environments and Datasets"
-    ]
+    ],
+    "short_name": "CoDimRecon"
   },
   {
     "id": "xie2026idm",
@@ -4110,7 +4580,8 @@
       "Infrastructure / Training",
       "Self-Evolver / Rewards",
       "Self-Evolver / Execution Workflows"
-    ]
+    ],
+    "short_name": "IDM"
   },
   {
     "id": "xie2026opengeminiharness",
@@ -4121,7 +4592,8 @@
     "categories": [
       "O1 / A2"
     ],
-    "code_url": "https://github.com/ehehee/open-gemini-robot-harness"
+    "code_url": "https://github.com/ehehee/open-gemini-robot-harness",
+    "short_name": "Open Gemini Harness"
   },
   {
     "id": "xpolicylab2026",
@@ -4133,7 +4605,8 @@
       "Infrastructure / Evaluation",
       "Infrastructure / Diagnosis"
     ],
-    "code_url": "https://github.com/XPolicyLab/XPolicyLab"
+    "code_url": "https://github.com/XPolicyLab/XPolicyLab",
+    "short_name": "XPolicyLab"
   },
   {
     "id": "xref230516986",
@@ -4144,7 +4617,8 @@
     "categories": [
       "O3 / A1 Code"
     ],
-    "code_url": "https://github.com/GengzeZhou/NavGPT"
+    "code_url": "https://github.com/GengzeZhou/NavGPT",
+    "short_name": "NavGPT"
   },
   {
     "id": "xref230915943",
@@ -4155,7 +4629,11 @@
     "categories": [
       "O3 / A1 Code"
     ],
-    "code_url": "https://github.com/yongchao98/multi-agent-framework"
+    "code_url": "https://github.com/yongchao98/multi-agent-framework",
+    "short_name": "HMAS",
+    "aliases": [
+      "Scalable Multi-Robot Collaboration"
+    ]
   },
   {
     "id": "xref240104157",
@@ -4165,7 +4643,8 @@
     "source_type": "Paper",
     "categories": [
       "O2 / A3"
-    ]
+    ],
+    "short_name": "RePLan"
   },
   {
     "id": "xref240107314",
@@ -4176,7 +4655,8 @@
     "categories": [
       "O3 / A1 Code"
     ],
-    "code_url": "https://github.com/chen-judge/MapGPT"
+    "code_url": "https://github.com/chen-judge/MapGPT",
+    "short_name": "MapGPT"
   },
   {
     "id": "xref240406645",
@@ -4186,7 +4666,8 @@
     "source_type": "Paper",
     "categories": [
       "O2 / A3"
-    ]
+    ],
+    "short_name": "GenCHiP"
   },
   {
     "id": "xref240618915",
@@ -4198,7 +4679,8 @@
       "O1 / A3",
       "Infrastructure / Dataset Construction"
     ],
-    "code_url": "https://github.com/Robot-MA/manipulate-anything"
+    "code_url": "https://github.com/Robot-MA/manipulate-anything",
+    "short_name": "Manipulate-Anything"
   },
   {
     "id": "xref240903966",
@@ -4209,7 +4691,11 @@
     "categories": [
       "O1 / A1 Code"
     ],
-    "code_url": "https://github.com/hychen-naza/Robot_ErrorRecovery_VLM"
+    "code_url": "https://github.com/hychen-naza/Robot_ErrorRecovery_VLM",
+    "short_name": "VLM-FR",
+    "aliases": [
+      "VLM Failure Recovery"
+    ]
   },
   {
     "id": "xref240913682",
@@ -4220,7 +4706,8 @@
     "categories": [
       "O2 / A1 Code"
     ],
-    "code_url": "https://github.com/NVIDIA-AI-IOT/remembr"
+    "code_url": "https://github.com/NVIDIA-AI-IOT/remembr",
+    "short_name": "ReMEmbR"
   },
   {
     "id": "xref240915146",
@@ -4231,7 +4718,8 @@
     "categories": [
       "O2 / A1 Code"
     ],
-    "code_url": "https://github.com/MrKeee/COHERENT"
+    "code_url": "https://github.com/MrKeee/COHERENT",
+    "short_name": "COHERENT"
   },
   {
     "id": "xref240918794",
@@ -4242,7 +4730,8 @@
     "categories": [
       "O2 / A1 Code"
     ],
-    "code_url": "https://github.com/YanyuanQiao/Open-Nav"
+    "code_url": "https://github.com/YanyuanQiao/Open-Nav",
+    "short_name": "Open-Nav"
   },
   {
     "id": "xref241117636",
@@ -4253,7 +4742,8 @@
     "categories": [
       "O2 / A3",
       "O3 / A3"
-    ]
+    ],
+    "short_name": "MALMM"
   },
   {
     "id": "xref250104268",
@@ -4263,7 +4753,8 @@
     "source_type": "Paper",
     "categories": [
       "O1 / A3"
-    ]
+    ],
+    "short_name": "RoboPro"
   },
   {
     "id": "xref250109307",
@@ -4274,7 +4765,8 @@
     "categories": [
       "O2 / A1 Code",
       "Self-Evolver / Knowledge and Memory"
-    ]
+    ],
+    "short_name": "RoboReflect"
   },
   {
     "id": "xref250204692",
@@ -4285,7 +4777,8 @@
     "categories": [
       "Infrastructure / Training",
       "Self-Evolver / Rewards"
-    ]
+    ],
+    "short_name": "STRIDE"
   },
   {
     "id": "xref250301700",
@@ -4296,7 +4789,11 @@
     "categories": [
       "O2 / A3"
     ],
-    "code_url": "https://github.com/yongchao98/Code-as-Symbolic-Planner"
+    "code_url": "https://github.com/yongchao98/Code-as-Symbolic-Planner",
+    "short_name": "CaSP",
+    "aliases": [
+      "Code-as-Symbolic-Planner"
+    ]
   },
   {
     "id": "xref250302247",
@@ -4307,7 +4804,8 @@
     "categories": [
       "O1 / A1 Code"
     ],
-    "code_url": "https://github.com/B0B8K1ng/WMNavigation"
+    "code_url": "https://github.com/B0B8K1ng/WMNavigation",
+    "short_name": "WMNav"
   },
   {
     "id": "xref250321969",
@@ -4318,7 +4816,8 @@
     "categories": [
       "O2 / A3"
     ],
-    "code_url": "https://github.com/Ghiara/DAHLIA"
+    "code_url": "https://github.com/Ghiara/DAHLIA",
+    "short_name": "DAHLIA"
   },
   {
     "id": "xref250421716",
@@ -4329,7 +4828,11 @@
     "categories": [
       "O2 / A1 Code"
     ],
-    "code_url": "https://github.com/marc1198/chat-hsr"
+    "code_url": "https://github.com/marc1198/chat-hsr",
+    "short_name": "IDRA-H",
+    "aliases": [
+      "IDRA-H (chat-hsr)"
+    ]
   },
   {
     "id": "xref250801415",
@@ -4340,7 +4843,8 @@
     "categories": [
       "O2 / A1 Code",
       "Self-Evolver / Knowledge and Memory"
-    ]
+    ],
+    "short_name": "RoboMemory"
   },
   {
     "id": "xref250924160",
@@ -4351,6 +4855,10 @@
     "categories": [
       "O2 / A3",
       "Self-Evolver / Programs and Skills"
+    ],
+    "short_name": "MTP",
+    "aliases": [
+      "Memory Transfer Planning"
     ]
   },
   {
@@ -4362,7 +4870,8 @@
     "categories": [
       "O1 / A1 Code"
     ],
-    "code_url": "https://github.com/jiahui-fu/NovaPlan"
+    "code_url": "https://github.com/jiahui-fu/NovaPlan",
+    "short_name": "NovaPlan"
   },
   {
     "id": "xref260305621",
@@ -4373,7 +4882,8 @@
     "categories": [
       "O2 / A1 Code"
     ],
-    "code_url": "https://github.com/janprz11/robot-agnostic-control"
+    "code_url": "https://github.com/janprz11/robot-agnostic-control",
+    "short_name": "RACAS"
   },
   {
     "id": "xref260314807",
@@ -4384,7 +4894,8 @@
     "categories": [
       "O2 / A1 Code"
     ],
-    "code_url": "https://github.com/lvkailin0118/HiMemVLN"
+    "code_url": "https://github.com/lvkailin0118/HiMemVLN",
+    "short_name": "HiMemVLN"
   },
   {
     "id": "xref260416331",
@@ -4394,7 +4905,8 @@
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Knowledge and Memory"
-    ]
+    ],
+    "short_name": "BrainMem"
   },
   {
     "id": "xref260816978",
@@ -4405,7 +4917,8 @@
     "categories": [
       "O3 / A3",
       "Self-Evolver / Programs and Skills"
-    ]
+    ],
+    "short_name": "VLCP"
   },
   {
     "id": "xref261015814",
@@ -4416,7 +4929,8 @@
     "categories": [
       "O1 / A1 Code",
       "Self-Evolver / Knowledge and Memory"
-    ]
+    ],
+    "short_name": "ReTrace"
   },
   {
     "id": "xref261017350",
@@ -4427,7 +4941,11 @@
     "categories": [
       "O1 / A1 Code"
     ],
-    "code_url": "https://github.com/jackbjed/embodied-astra-robomme"
+    "code_url": "https://github.com/jackbjed/embodied-astra-robomme",
+    "short_name": "Astra-RoboMME",
+    "aliases": [
+      "Astra on RoboMME"
+    ]
   },
   {
     "id": "xu2026agentchord",
@@ -4439,7 +4957,8 @@
       "O2 / A3",
       "Infrastructure / Dataset Construction"
     ],
-    "code_url": "https://github.com/EDEM-AI/AgentChord"
+    "code_url": "https://github.com/EDEM-AI/AgentChord",
+    "short_name": "AgentChord"
   },
   {
     "id": "xu2026gif",
@@ -4450,7 +4969,8 @@
     "categories": [
       "Infrastructure / Environment Generation",
       "Infrastructure / Dataset Construction"
-    ]
+    ],
+    "short_name": "GIF"
   },
   {
     "id": "xu2026tarsphere",
@@ -4475,7 +4995,8 @@
     "categories": [
       "O1 / A1 Code",
       "O1 / A2"
-    ]
+    ],
+    "short_name": "Astranomy"
   },
   {
     "id": "yang2026robolabhighfidelitysimulationbenchmark",
@@ -4485,7 +5006,8 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Environment Generation"
-    ]
+    ],
+    "short_name": "RoboLab"
   },
   {
     "id": "yang2026robotworld",
@@ -4497,7 +5019,8 @@
       "O1 / A1 Code",
       "O3 / A1 Code"
     ],
-    "code_url": "https://github.com/robotworldai/robotworld"
+    "code_url": "https://github.com/robotworldai/robotworld",
+    "short_name": "RobotWorld"
   },
   {
     "id": "yang2026tactalent",
@@ -4507,7 +5030,8 @@
     "source_type": "Project / report",
     "categories": [
       "O1 / A1 Code"
-    ]
+    ],
+    "short_name": "TacTalent"
   },
   {
     "id": "ye2025robofac",
@@ -4519,7 +5043,8 @@
       "O1 / A1 Model",
       "Infrastructure / Diagnosis"
     ],
-    "code_url": "https://github.com/MINT-SJTU/RoboFAC"
+    "code_url": "https://github.com/MINT-SJTU/RoboFAC",
+    "short_name": "RoboFAC"
   },
   {
     "id": "ye2025video2policy",
@@ -4531,7 +5056,8 @@
       "Infrastructure / Environment Generation",
       "Infrastructure / Dataset Construction",
       "Self-Evolver / Rewards"
-    ]
+    ],
+    "short_name": "Video2Policy"
   },
   {
     "id": "yin2026alldaynav",
@@ -4542,7 +5068,8 @@
     "categories": [
       "O1 / A1 Model",
       "Infrastructure / Dataset Construction"
-    ]
+    ],
+    "short_name": "AllDayNav"
   },
   {
     "id": "yin2026playworld",
@@ -4554,7 +5081,8 @@
       "O1 / A1 Model",
       "Infrastructure / Dataset Construction"
     ],
-    "code_url": "https://github.com/irom-princeton/open-world"
+    "code_url": "https://github.com/irom-princeton/open-world",
+    "short_name": "PlayWorld"
   },
   {
     "id": "yoneda2023statler",
@@ -4565,7 +5093,8 @@
     "categories": [
       "O2 / A3"
     ],
-    "code_url": "https://github.com/ripl/statler"
+    "code_url": "https://github.com/ripl/statler",
+    "short_name": "Statler"
   },
   {
     "id": "yu2026maniskillformer",
@@ -4576,7 +5105,8 @@
     "categories": [
       "O1 / A1 Code",
       "Self-Evolver / Programs and Skills"
-    ]
+    ],
+    "short_name": "ManiSkillFormer"
   },
   {
     "id": "yu2026memora",
@@ -4588,7 +5118,8 @@
       "O2 / A1 Code",
       "Self-Evolver / Knowledge and Memory"
     ],
-    "code_url": "https://github.com/yuzihaowashu/MEMORA"
+    "code_url": "https://github.com/yuzihaowashu/MEMORA",
+    "short_name": "MEMORA"
   },
   {
     "id": "yu2026robodoctor",
@@ -4601,7 +5132,8 @@
       "Infrastructure / Diagnosis",
       "Self-Evolver / Knowledge and Memory"
     ],
-    "code_url": "https://github.com/THUSI-Lab/RoboDoctor"
+    "code_url": "https://github.com/THUSI-Lab/RoboDoctor",
+    "short_name": "RoboDoctor"
   },
   {
     "id": "zeng2024selfalignment",
@@ -4611,7 +5143,8 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Training"
-    ]
+    ],
+    "short_name": "Self-Alignment"
   },
   {
     "id": "zeng2026dexsim2real",
@@ -4621,7 +5154,8 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Training"
-    ]
+    ],
+    "short_name": "DexSim2Real"
   },
   {
     "id": "zetta2026",
@@ -4635,7 +5169,8 @@
       "Self-Evolver / Code",
       "Self-Evolver / Execution Workflows"
     ],
-    "code_url": "https://github.com/air-embodied-brain/Zetta-Embodiment"
+    "code_url": "https://github.com/air-embodied-brain/Zetta-Embodiment",
+    "short_name": "Zetta"
   },
   {
     "id": "zha2023droc",
@@ -4647,7 +5182,8 @@
       "O2 / A3",
       "Self-Evolver / Knowledge and Memory"
     ],
-    "code_url": "https://github.com/Stanford-ILIAD/droc"
+    "code_url": "https://github.com/Stanford-ILIAD/droc",
+    "short_name": "DROC"
   },
   {
     "id": "zhang2026atomicvla",
@@ -4658,7 +5194,8 @@
     "categories": [
       "O1 / A1 Model"
     ],
-    "code_url": "https://github.com/zhanglk9/AtomicVLA"
+    "code_url": "https://github.com/zhanglk9/AtomicVLA",
+    "short_name": "AtomicVLA"
   },
   {
     "id": "zhang2026benchmend",
@@ -4670,7 +5207,8 @@
       "Infrastructure / Evaluation",
       "Infrastructure / Diagnosis",
       "Self-Evolver / Environments and Datasets"
-    ]
+    ],
+    "short_name": "BenchMend"
   },
   {
     "id": "zhang2026bigym2",
@@ -4682,7 +5220,8 @@
       "O1 / A3",
       "Self-Evolver / Programs and Skills"
     ],
-    "code_url": "https://github.com/swirl-uk/BiGym2"
+    "code_url": "https://github.com/swirl-uk/BiGym2",
+    "short_name": "BiGym 2.0"
   },
   {
     "id": "zhang2026localrecovery",
@@ -4695,7 +5234,8 @@
       "Infrastructure / Dataset Construction",
       "Infrastructure / Diagnosis",
       "Self-Evolver / Model"
-    ]
+    ],
+    "short_name": "Local Recovery"
   },
   {
     "id": "zhang2026re0",
@@ -4708,7 +5248,8 @@
       "Infrastructure / Dataset Construction",
       "Infrastructure / Diagnosis",
       "Self-Evolver / Model"
-    ]
+    ],
+    "short_name": "RE-0"
   },
   {
     "id": "zhang2026robocop",
@@ -4724,7 +5265,8 @@
       "Infrastructure / Evaluation",
       "Self-Evolver / Knowledge and Memory",
       "Self-Evolver / Model"
-    ]
+    ],
+    "short_name": "Robo-COP"
   },
   {
     "id": "zhao2024agenticskilldiscovery",
@@ -4737,7 +5279,8 @@
       "Self-Evolver / Programs and Skills",
       "Self-Evolver / Rewards"
     ],
-    "code_url": "https://github.com/xf-zhao/Agentic-Skill-Discovery"
+    "code_url": "https://github.com/xf-zhao/Agentic-Skill-Discovery",
+    "short_name": "Agentic Skill Discovery"
   },
   {
     "id": "zhao2026hymes",
@@ -4748,6 +5291,10 @@
     "categories": [
       "Self-Evolver / State Management",
       "Self-Evolver / Execution Workflows"
+    ],
+    "short_name": "HyMES",
+    "aliases": [
+      "HyMeS"
     ]
   },
   {
@@ -4758,7 +5305,8 @@
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Knowledge and Memory"
-    ]
+    ],
+    "short_name": "NavHarness"
   },
   {
     "id": "zhao2026retriever",
@@ -4769,7 +5317,8 @@
     "categories": [
       "O2 / A3"
     ],
-    "code_url": "https://github.com/openretriever/retriever"
+    "code_url": "https://github.com/openretriever/retriever",
+    "short_name": "Retriever"
   },
   {
     "id": "zhi2024comerobot",
@@ -4779,7 +5328,8 @@
     "source_type": "Paper",
     "categories": [
       "O2 / A3"
-    ]
+    ],
+    "short_name": "COME-robot"
   },
   {
     "id": "zhong2026discoveryrsi",
@@ -4789,7 +5339,8 @@
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Successor AI R&D"
-    ]
+    ],
+    "short_name": "DiscoveryRSI"
   },
   {
     "id": "zhou2026agentcanvas",
@@ -4802,7 +5353,12 @@
       "Self-Evolver / State Management",
       "Self-Evolver / Execution Workflows"
     ],
-    "code_url": "https://github.com/jianzhou0420/AgentCanvas"
+    "code_url": "https://github.com/jianzhou0420/AgentCanvas",
+    "short_name": "AgentCanvas",
+    "aliases": [
+      "KDLoop",
+      "AgentCanvas / KDLoop"
+    ]
   },
   {
     "id": "zhou2026embodiedtool",
@@ -4812,7 +5368,8 @@
     "source_type": "Paper",
     "categories": [
       "O2 / A2"
-    ]
+    ],
+    "short_name": "Embodied Tools"
   },
   {
     "id": "zhou2026gptgear",
@@ -4839,7 +5396,8 @@
       "Self-Evolver / Representation",
       "Self-Evolver / Tool Interface"
     ],
-    "code_url": "https://github.com/metacognitionai/NavGPT-3"
+    "code_url": "https://github.com/metacognitionai/NavGPT-3",
+    "short_name": "NavGPT-3"
   },
   {
     "id": "zhou2026verifine",
@@ -4849,6 +5407,7 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Training"
-    ]
+    ],
+    "short_name": "VeriFine"
   }
 ]
