@@ -20,7 +20,8 @@ function render() {
     const title = document.createElement("h2");
     const link = document.createElement("a");
     link.href = safeURL(paper.url) || "#";
-    link.textContent = paper.short_name ? `${paper.short_name}: ${paper.title}` : paper.title;
+    const needsPrefix = paper.short_name && !paper.title.toLowerCase().startsWith(`${paper.short_name.toLowerCase()}:`);
+    link.textContent = needsPrefix ? `${paper.short_name}: ${paper.title}` : paper.title;
     title.append(link);
     const tags = document.createElement("div");
     tags.className = "paper-tags";
