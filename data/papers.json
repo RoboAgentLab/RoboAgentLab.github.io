@@ -2074,6 +2074,19 @@
     "code_url": "https://github.com/nebius/nebius-physical-ai"
   },
   {
+    "id": "ng2026endorsi",
+    "title": "EndoRSI: Physical-Evidence-Driven Recursive Improvement of Endoscopic Robot Policies",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.13376",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Dataset Construction",
+      "Infrastructure / Training",
+      "Infrastructure / Diagnosis",
+      "Self-Evolver / Model"
+    ]
+  },
+  {
     "id": "nie2026teachandgrow",
     "title": "Teach and Grow: An Agent-Centered Architecture for General Robot Learning",
     "year": 2026,
@@ -3465,6 +3478,21 @@
     ]
   },
   {
+    "id": "tian2026physevo",
+    "title": "PhysEvo: Astra Can Act, Let It",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.08995",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code",
+      "Infrastructure / Diagnosis",
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Code",
+      "Self-Evolver / Tool Interface",
+      "Self-Evolver / Execution Workflows"
+    ]
+  },
+  {
     "id": "vcage2026",
     "title": "V-CAGE: Vision-Closed-Loop Agentic Generation Engine for Robotic Manipulation",
     "year": 2026,
@@ -3566,6 +3594,26 @@
     "code_url": "https://github.com/Genesis-Embodied-AI/RoboGen"
   },
   {
+    "id": "wang2026adarsi",
+    "title": "AdaRSI: On-Demand Recursive Self-Improvement for Embodied Agents",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.20474",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2",
+      "O3 / A3",
+      "Infrastructure / Dataset Construction",
+      "Infrastructure / Training",
+      "Infrastructure / Diagnosis",
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Knowledge and Memory",
+      "Self-Evolver / Model",
+      "Self-Evolver / Code",
+      "Self-Evolver / Tool Interface",
+      "Self-Evolver / Execution Workflows"
+    ]
+  },
+  {
     "id": "wang2026dexagent",
     "title": "DexAgent: An Agentic Human2Sim2Robot Framework for Dexterous Manipulation with Self-Evolving Tool Library",
     "year": 2026,
@@ -3611,6 +3659,21 @@
       "Infrastructure / Training",
       "Self-Evolver / Environments and Datasets"
     ]
+  },
+  {
+    "id": "wang2026insight",
+    "title": "InSight: Self-Guided Skill Acquisition via Steerable VLAs",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.24884",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code",
+      "O1 / A1 Model",
+      "O1 / A2",
+      "Infrastructure / Dataset Construction",
+      "Self-Evolver / Model"
+    ],
+    "code_url": "https://github.com/insight-vla/insight"
   },
   {
     "id": "wang2026kpi",
@@ -4262,6 +4325,32 @@
       "Self-Evolver / Programs and Skills"
     ],
     "code_url": "https://github.com/swirl-uk/BiGym2"
+  },
+  {
+    "id": "zhang2026localrecovery",
+    "title": "Recursive Self-Improvement of Visuomotor Policies through Local Recovery Supervision",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.05151",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A3",
+      "Infrastructure / Dataset Construction",
+      "Infrastructure / Diagnosis",
+      "Self-Evolver / Model"
+    ]
+  },
+  {
+    "id": "zhang2026re0",
+    "title": "RE-0: Verified Recursive Improvement of Embodied Code-as-Policy Agents through Local On-Policy Distillation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.32416",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3",
+      "Infrastructure / Dataset Construction",
+      "Infrastructure / Diagnosis",
+      "Self-Evolver / Model"
+    ]
   },
   {
     "id": "zhang2026robocop",
