@@ -134,6 +134,17 @@
     ]
   },
   {
+    "id": "audit260220323",
+    "title": "PhysMem: Scaling Test-Time Memory for Embodied Physical Reasoning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2602.20323",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "code_url": "https://github.com/haoyangli16/PhysMem"
+  },
+  {
     "id": "audit260938948",
     "title": "DrivingBench: Can Vision-Language Models Drive a Toyota Corolla?",
     "year": 2026,
@@ -164,6 +175,19 @@
       "O1 / A3"
     ],
     "code_url": "https://github.com/terminalworld/OpenRUA"
+  },
+  {
+    "id": "audit261003476",
+    "title": "MobiAgent: Dual-Loop Recursive Policy Self-Improvement for Long-Horizon Mobile Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.03476",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model",
+      "Infrastructure / Dataset Construction",
+      "Self-Evolver / Model"
+    ],
+    "code_url": "https://github.com/kaiknower/MobiAgent"
   },
   {
     "id": "auracurriculum2025",
@@ -1705,6 +1729,18 @@
     ]
   },
   {
+    "id": "language2rewards2023",
+    "title": "Language to Rewards for Robotic Skill Synthesis",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2306.08647",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code",
+      "O3 / A1 Code"
+    ],
+    "code_url": "https://github.com/google-deepmind/language_to_reward_2023"
+  },
+  {
     "id": "le2024articulateanything",
     "title": "Articulate-Anything: Automatic Modeling of Articulated Objects via a Vision-Language Foundation Model",
     "year": 2025,
@@ -1717,6 +1753,17 @@
     "code_url": "https://github.com/vlongle/articulate-anything"
   },
   {
+    "id": "lee2026mass",
+    "title": "Recursive Self-Improvement through Multi-Agent Self-Supervision",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.12176",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Successor AI R&D"
+    ],
+    "code_url": "https://github.com/SakanaAI/mass"
+  },
+  {
     "id": "lee2026rda",
     "title": "RDA: Reward Design Agent for Reinforcement Learning",
     "year": 2026,
@@ -1725,6 +1772,18 @@
     "categories": [
       "Infrastructure / Training",
       "Self-Evolver / Rewards"
+    ]
+  },
+  {
+    "id": "lei2026robocoach",
+    "title": "From Digital to Physical: Digital Agents as Autonomous Coaches for Physical Intelligence",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2601.21570",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training",
+      "Infrastructure / Diagnosis",
+      "Self-Evolver / Code"
     ]
   },
   {
@@ -1804,6 +1863,18 @@
       "Self-Evolver / Rewards"
     ],
     "code_url": "https://github.com/supersglzc/harbor-rl"
+  },
+  {
+    "id": "li2026physrsieval",
+    "title": "Where is Physical RSI capability from? An Observational Scaling Law of LLM-as-policy",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.26848",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "code_url": "https://github.com/PhysRSI-Eval/PhysRSI-Eval-code"
   },
   {
     "id": "li2026roboharnessk1",
@@ -2917,6 +2988,17 @@
     ]
   },
   {
+    "id": "si250606658",
+    "title": "Self-Improving Loops for Visual Robotic Planning",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2506.06658",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "code_url": "https://github.com/brown-palm/silvr"
+  },
+  {
     "id": "si250921543",
     "title": "Self-CriTeach: LLM Self-Teaching and Self-Critiquing for Improving Robotic Planning via Automated Domain Generation",
     "year": 2025,
@@ -2937,6 +3019,30 @@
       "Infrastructure / Environment Generation",
       "Self-Evolver / Environments and Datasets"
     ]
+  },
+  {
+    "id": "si260302623",
+    "title": "Uni-Skill: Building Self-Evolving Skill Repository for Generalizable Robotic Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2603.02623",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code",
+      "Infrastructure / Dataset Construction"
+    ]
+  },
+  {
+    "id": "si260319461",
+    "title": "Hyperagents",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2603.19461",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training",
+      "Self-Evolver / Rewards",
+      "Self-Evolver / Execution Workflows"
+    ],
+    "code_url": "https://github.com/facebookresearch/Hyperagents"
   },
   {
     "id": "si260413533",
@@ -3234,6 +3340,20 @@
     ]
   },
   {
+    "id": "song2026glide",
+    "title": "Learning Beyond What Humans Can Demonstrate",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.24996",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A3",
+      "Infrastructure / Dataset Construction",
+      "Infrastructure / Diagnosis",
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Code"
+    ]
+  },
+  {
     "id": "sref251221220",
     "title": "RoboSafe: Safeguarding Embodied Agents via Executable Safety Logic",
     "year": 2025,
@@ -3384,6 +3504,16 @@
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Model"
+    ]
+  },
+  {
+    "id": "srikanth2026aide2",
+    "title": "Recursive self-improvement of AI research agents",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.26457",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Successor AI R&D"
     ]
   },
   {
@@ -3769,6 +3899,17 @@
     ]
   },
   {
+    "id": "wen2026dworld",
+    "title": "D-World: An Explicit World-Language-Action Model with Recursive Self-Improvement under Dual Control",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.17114",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Diagnosis"
+    ]
+  },
+  {
     "id": "wijk2024rebench",
     "title": "RE-Bench: Evaluating frontier AI R&D capabilities of language model agents against human experts",
     "year": 2024,
@@ -3811,6 +3952,18 @@
       "Infrastructure / Evaluation",
       "Infrastructure / Diagnosis",
       "Self-Evolver / Environments and Datasets"
+    ]
+  },
+  {
+    "id": "xie2026idm",
+    "title": "Predict Before You Modify: Learning Improvement Dynamics for Self-Evolving Agents",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.13991",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training",
+      "Self-Evolver / Rewards",
+      "Self-Evolver / Execution Workflows"
     ]
   },
   {
@@ -4210,6 +4363,29 @@
     ]
   },
   {
+    "id": "yin2026alldaynav",
+    "title": "AllDayNav: Lifelong Navigation via Real-World Reinforcement Learning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.10927",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model",
+      "Infrastructure / Dataset Construction"
+    ]
+  },
+  {
+    "id": "yin2026playworld",
+    "title": "PlayWorld: Learning Robot World Models from Autonomous Play",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2603.09030",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model",
+      "Infrastructure / Dataset Construction"
+    ],
+    "code_url": "https://github.com/irom-princeton/open-world"
+  },
+  {
     "id": "yoneda2023statler",
     "title": "Statler: State-Maintaining Language Models for Embodied Reasoning",
     "year": 2023,
@@ -4301,6 +4477,17 @@
       "Self-Evolver / Knowledge and Memory"
     ],
     "code_url": "https://github.com/Stanford-ILIAD/droc"
+  },
+  {
+    "id": "zhang2026atomicvla",
+    "title": "AtomicVLA: Unlocking the Potential of Atomic Skill Learning in Robots",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2603.07648",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "code_url": "https://github.com/zhanglk9/AtomicVLA"
   },
   {
     "id": "zhang2026benchmend",
@@ -4469,5 +4656,15 @@
       "Self-Evolver / Tool Interface"
     ],
     "code_url": "https://github.com/metacognitionai/NavGPT-3"
+  },
+  {
+    "id": "zhou2026verifine",
+    "title": "VeriFine: Scaling Verification for Self-Improvement in Embodied Reasoning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.08761",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ]
   }
 ]
