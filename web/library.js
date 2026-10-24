@@ -20,13 +20,19 @@ function render() {
     const title = document.createElement("h2");
     const link = document.createElement("a");
     link.href = safeURL(paper.url) || "#";
-    link.textContent = paper.title;
+    link.textContent = paper.short_name ? `${paper.short_name}: ${paper.title}` : paper.title;
     title.append(link);
     const tags = document.createElement("div");
     tags.className = "paper-tags";
     tags.textContent = paper.categories.join(" · ");
     const links = document.createElement("div");
     links.className = "paper-links";
+    if (paper.project_url && safeURL(paper.project_url)) {
+      const project = document.createElement("a");
+      project.href = safeURL(paper.project_url);
+      project.textContent = "Project ↗";
+      links.append(project);
+    }
     if (paper.source_type !== "Repository") {
       const source = document.createElement("a");
       source.href = link.href;
@@ -62,7 +68,7 @@ function filter() {
   matched = papers.filter(p => (role.value === "all" || p.categories.some(c=>roleOf(c)===role.value))
     && (!category.value || p.categories.includes(category.value))
     && (!code.checked || p.code_url)
-    && (!query || `${p.id} ${p.title} ${p.url} ${p.code_url || ""} ${p.categories.join(" ")}`.toLowerCase().includes(query)));
+    && (!query || `${p.id} ${p.short_name || ""} ${p.title} ${(p.aliases || []).join(" ")} ${p.url} ${p.project_url || ""} ${p.code_url || ""} ${p.categories.join(" ")}`.toLowerCase().includes(query)));
   document.getElementById("successor-note").hidden = category.value !== "Self-Evolver / Successor AI R&D";
   render();
 }

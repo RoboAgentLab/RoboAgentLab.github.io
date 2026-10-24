@@ -245,6 +245,19 @@
     ]
   },
   {
+    "id": "bai2026skillrsi",
+    "title": "Compile Once, Run Cheap: Frozen, Portable Skills for Embodied Agents, and What Recursive Self-Improvement Adds",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.25114",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A3",
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Code"
+    ],
+    "code_url": "https://github.com/Orillusion/embodied-skill-rsi"
+  },
+  {
     "id": "banwasi2026messymem",
     "title": "MessyMem: Learning-from-Doing Memory for Mobile Manipulation",
     "year": 2026,
@@ -449,6 +462,21 @@
     ]
   },
   {
+    "id": "chen2026recursia",
+    "title": "Learning to Compose: Recursive Self-Improvement of Shared Executable Stacks for Zero-Shot Long-Horizon Robot Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.24464",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Diagnosis",
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Code",
+      "Self-Evolver / Tool Interface",
+      "Self-Evolver / Execution Workflows"
+    ],
+    "code_url": "https://github.com/cocacola-lab/Recursia"
+  },
+  {
     "id": "chen2026roborouter",
     "title": "RoboRouter: Training-Free Policy Routing for Robotic Manipulation",
     "year": 2026,
@@ -591,6 +619,19 @@
       "Infrastructure / Environment Generation"
     ],
     "code_url": "https://github.com/diaggen/diaggen"
+  },
+  {
+    "id": "du2026sera",
+    "title": "From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.29560",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model",
+      "Infrastructure / Diagnosis",
+      "Self-Evolver / Execution Workflows"
+    ],
+    "code_url": "https://github.com/StevenKKXS/SERA"
   },
   {
     "id": "dynaharness2026",
@@ -1485,7 +1526,13 @@
       "O3 / A3",
       "Self-Evolver / Programs and Skills",
       "Self-Evolver / Code"
-    ]
+    ],
+    "short_name": "ETM",
+    "aliases": [
+      "Ropedia-A0",
+      "COAP"
+    ],
+    "project_url": "https://ropedia.github.io/ropedia-a0/"
   },
   {
     "id": "hu2026recovla",
@@ -2039,6 +2086,18 @@
     "source_type": "Project / report",
     "categories": [
       "Self-Evolver / Successor AI R&D"
+    ]
+  },
+  {
+    "id": "luo2026instagent",
+    "title": "InstAgent: A Recursively Self-Improving Agent Operating System for Heterogeneous Robot Collaboration",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.23098",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3",
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Knowledge and Memory"
     ]
   },
   {
@@ -3967,6 +4026,17 @@
     ]
   },
   {
+    "id": "xie2026opengeminiharness",
+    "title": "Open Gemini 4 Argon Robot Harness — A Zero-Shot Bimanual Handover Case Study",
+    "year": 2026,
+    "url": "https://ehehee.github.io/blog/open-gemini-harness/",
+    "source_type": "Project / report",
+    "categories": [
+      "O1 / A2"
+    ],
+    "code_url": "https://github.com/ehehee/open-gemini-robot-harness"
+  },
+  {
     "id": "xpolicylab2026",
     "title": "XPolicyLab: A Unified Standard and Open Ecosystem for Robot Policy Evaluation and Deployment",
     "year": 2026,
@@ -4430,7 +4500,7 @@
       "Infrastructure / Diagnosis",
       "Self-Evolver / Knowledge and Memory"
     ],
-    "code_url": null
+    "code_url": "https://github.com/THUSI-Lab/RoboDoctor"
   },
   {
     "id": "zeng2024selfalignment",

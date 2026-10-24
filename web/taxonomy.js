@@ -40,9 +40,15 @@ function renderTaxonomyPapers() {
     const title = document.createElement('h3');
     const link = document.createElement('a');
     link.href = taxonomySafeURL(paper.url) || 'library.html';
-    link.textContent = paper.title;
+    link.textContent = paper.short_name ? `${paper.short_name}: ${paper.title}` : paper.title;
     title.append(link);
     article.append(meta,title);
+    if (taxonomySafeURL(paper.project_url)) {
+      const projectLink = document.createElement('a');
+      projectLink.href = taxonomySafeURL(paper.project_url);
+      projectLink.textContent = 'Project ↗';
+      article.append(projectLink);
+    }
     if (taxonomySafeURL(paper.code_url)) {
       const codeLink = document.createElement('a');
       codeLink.className = 'tx-code';
