@@ -55,6 +55,19 @@
     ]
   },
   {
+    "id": "ali2026jevarm",
+    "short_name": "Jev Arm Demo",
+    "title": "Jev vs LLM: Robot Arm Control",
+    "year": 2026,
+    "url": "https://github.com/FazalAAli/jev-robotics-demo",
+    "source_type": "Engineering demo",
+    "categories": [
+      "O3 / A1 Code",
+      "O3 / A2"
+    ],
+    "code_url": "https://github.com/FazalAAli/jev-robotics-demo"
+  },
+  {
     "id": "almondrobotautoresearch2026",
     "title": "robot-autoresearch",
     "year": 2026,
@@ -278,6 +291,19 @@
     ]
   },
   {
+    "id": "berman2026embody",
+    "short_name": "Embody",
+    "title": "Claude plays robotics",
+    "year": 2026,
+    "url": "https://www.anthropic.com/research/claude-plays-robotics",
+    "source_type": "Research blog",
+    "categories": [
+      "O1 / A1 Code",
+      "O1 / A1 Model",
+      "Infrastructure / Training"
+    ]
+  },
+  {
     "id": "bincequ2026roboharness",
     "title": "RoboHarness: A Simple Harness Outperforms VLA and World Action Models",
     "year": 2026,
@@ -298,6 +324,19 @@
       "O2 / A1 Code"
     ],
     "code_url": "https://github.com/UT-Austin-RobIn/BUMBLE"
+  },
+  {
+    "id": "cai2026artisan",
+    "short_name": "Artisan",
+    "title": "Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipeline and Benchmark",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.13947",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation"
+    ],
+    "code_url": "https://github.com/physicalvision/artisan",
+    "project_url": "https://physicalvision.github.io/artisan/"
   },
   {
     "id": "capx",
@@ -1630,6 +1669,18 @@
     ]
   },
   {
+    "id": "inspectrobots2026",
+    "short_name": "Inspect Robots",
+    "title": "Inspect Robots: Evaluating the Capabilities and Safety of Embodied AI",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.06306",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "code_url": "https://github.com/robocurve/inspect-robots"
+  },
+  {
     "id": "ishibashi2025selfdeveloping",
     "title": "Can Large Language Models Invent Algorithms to Improve Themselves?: Algorithm Discovery for Recursive Self-Improvement through Reinforcement Learning",
     "year": 2025,
@@ -1819,6 +1870,17 @@
     "categories": [
       "Infrastructure / Training",
       "Self-Evolver / Rewards"
+    ]
+  },
+  {
+    "id": "leet2026bitter",
+    "short_name": "Bitter Lesson",
+    "title": "The Bitter Lesson Comes to Robotics",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.25287",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
     ]
   },
   {
@@ -3682,6 +3744,18 @@
     ]
   },
   {
+    "id": "tomar2026askable",
+    "short_name": "Askable Arm",
+    "title": "jev-askable-arm",
+    "year": 2026,
+    "url": "https://github.com/TarunTomar122/jev-askable-arm",
+    "source_type": "Engineering demo",
+    "categories": [
+      "O3 / A1 Code"
+    ],
+    "code_url": "https://github.com/TarunTomar122/jev-askable-arm"
+  },
+  {
     "id": "vcage2026",
     "title": "V-CAGE: Vision-Closed-Loop Agentic Generation Engine for Robotic Manipulation",
     "year": 2026,
@@ -3924,6 +3998,19 @@
       "Self-Evolver / Knowledge and Memory"
     ],
     "code_url": "https://github.com/open-gigaai/Zero2Skill"
+  },
+  {
+    "id": "wei2025dualvln",
+    "short_name": "DualVLN",
+    "title": "Ground Slow, Move Fast: A Dual-System Foundation Model for Generalizable Vision-and-Language Navigation",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2512.08186",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "code_url": "https://github.com/InternRobotics/InternNav",
+    "project_url": "https://dualvln.github.io/"
   },
   {
     "id": "wei2026fate",
@@ -4366,6 +4453,20 @@
     ]
   },
   {
+    "id": "xu2026tarsphere",
+    "short_name": "TARSphere",
+    "title": "TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.30043",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2",
+      "Infrastructure / Environment Generation"
+    ],
+    "code_url": "https://github.com/xuyicheng-zju/TARSphere",
+    "project_url": "https://xuyicheng-zju.github.io/TARSphere/"
+  },
+  {
     "id": "yang2026astranomy",
     "title": "Astranomy: An Empirical Study of GPT-6 Astra as a Native Robot Policy",
     "year": 2026,
@@ -4712,6 +4813,19 @@
     "categories": [
       "O2 / A2"
     ]
+  },
+  {
+    "id": "zhou2026gptgear",
+    "short_name": "GPT-GEAR",
+    "title": "Large Multimodal Models for Direct Robot Control: GPT-6 as a Beginning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.28259",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "code_url": "https://github.com/6UOOON9/GPT-GEAR",
+    "project_url": "https://6uooon9.github.io/GPT-GEAR"
   },
   {
     "id": "zhou2026navgpt3",
