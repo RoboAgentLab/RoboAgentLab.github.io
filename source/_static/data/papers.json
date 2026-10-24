@@ -1731,6 +1731,19 @@
     "short_name": "HoloAgent-0"
   },
   {
+    "id": "holodeck2023",
+    "short_name": "Holodeck",
+    "title": "Holodeck: Language Guided Generation of 3D Embodied AI Environments",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2312.09067",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation"
+    ],
+    "project_url": "https://yueyang.ai/holodeck/",
+    "code_url": "https://github.com/allenai/Holodeck"
+  },
+  {
     "id": "hu20262am",
     "title": "2AM: Grounding Agent-Side Memory as Guidance for Steerable Action Models in Long-Horizon Manipulation",
     "year": 2026,
@@ -1867,6 +1880,19 @@
     ],
     "code_url": "https://github.com/hxwxss/glm-skills-embodied",
     "short_name": "glm-skills-embodied"
+  },
+  {
+    "id": "iker2025",
+    "short_name": "IKER",
+    "title": "A Real-to-Sim-to-Real Approach to Robotic Manipulation with VLM-Generated Iterative Keypoint Rewards",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2502.08643",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ],
+    "project_url": "https://iker-robot.github.io/",
+    "code_url": "https://github.com/shivanshpatel35/IKER"
   },
   {
     "id": "innermonologue",
@@ -2085,6 +2111,20 @@
     ],
     "code_url": "https://github.com/vlongle/articulate-anything",
     "short_name": "Articulate-Anything"
+  },
+  {
+    "id": "lee2026flybycodeembodiedcodingagents",
+    "short_name": "Fly-by-Code",
+    "title": "Fly-by-Code: Embodied Coding Agents for Aerial Manipulation with Active Visual and Physical Feedback",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.12549",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A3",
+      "O2 / A3",
+      "Infrastructure / Diagnosis"
+    ],
+    "project_url": "https://fly-by-code.github.io/"
   },
   {
     "id": "lee2026mass",
@@ -2531,6 +2571,19 @@
     "short_name": "MotorMind"
   },
   {
+    "id": "mu2024robocodex",
+    "short_name": "RoboCodeX",
+    "title": "RoboCodeX: Multimodal Code Generation for Robotic Behavior Synthesis",
+    "year": 2024,
+    "url": "https://proceedings.mlr.press/v235/mu24a.html",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3"
+    ],
+    "project_url": "https://sites.google.com/view/robocodexplus",
+    "code_url": "https://github.com/RoboCodeX-source/RoboCodeX_code"
+  },
+  {
     "id": "nasiriany2024pivot",
     "title": "PIVOT: Iterative Visual Prompting Elicits Actionable Knowledge for VLMs",
     "year": 2024,
@@ -2627,6 +2680,18 @@
     ],
     "code_url": "https://github.com/tsudalab/WetRobo",
     "short_name": "WetRobo"
+  },
+  {
+    "id": "omnimanip2025",
+    "short_name": "OmniManip",
+    "title": "OmniManip: Towards General Robotic Manipulation via Object-Centric Interaction Primitives as Spatial Constraints",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2501.03841",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "project_url": "https://omnimanip.github.io/"
   },
   {
     "id": "openeta",
@@ -3003,6 +3068,20 @@
     "short_name": "RE-GoT"
   },
   {
+    "id": "rekep2024",
+    "short_name": "ReKep",
+    "title": "ReKep: Spatio-Temporal Reasoning of Relational Keypoint Constraints for Robotic Manipulation",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2409.01652",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3",
+      "O3 / A3"
+    ],
+    "project_url": "https://rekep-robot.github.io/",
+    "code_url": "https://github.com/huangwl18/ReKep"
+  },
+  {
     "id": "revolve2024",
     "title": "REvolve: Reward Evolution with Large Language Models using Human Feedback",
     "year": 2024,
@@ -3208,6 +3287,19 @@
     "short_name": "RoCo"
   },
   {
+    "id": "rosapaper2024",
+    "short_name": "ROSA",
+    "title": "Enabling Novel Mission Operations and Interactions with ROSA: The Robot Operating System Agent",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2410.06472",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
+    ],
+    "project_url": "https://github.com/nasa-jpl/rosa",
+    "code_url": "https://github.com/nasa-jpl/rosa"
+  },
+  {
     "id": "roshelpdesk2025",
     "title": "ROS Help Desk: GenAI Powered, User-Centric Framework for ROS Error Diagnosis and Debugging",
     "year": 2025,
@@ -3301,6 +3393,19 @@
     ],
     "code_url": "https://github.com/nepfaff/scenesmith",
     "short_name": "SceneSmith"
+  },
+  {
+    "id": "sceneweaver2025",
+    "short_name": "SceneWeaver",
+    "title": "SceneWeaver: All-in-One 3D Scene Synthesis with an Extensible and Self-Reflective Agent",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2509.20414",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation"
+    ],
+    "project_url": "https://scene-weaver.github.io/",
+    "code_url": "https://github.com/Scene-Weaver/SceneWeaver"
   },
   {
     "id": "schakkal2025hierarchical",
@@ -4285,6 +4390,33 @@
     "aliases": [
       "VLA-as-Tools"
     ]
+  },
+  {
+    "id": "vlabench2024",
+    "short_name": "VLABench",
+    "title": "VLABench: A Large-Scale Benchmark for Language-Conditioned Robotics Manipulation with Long-Horizon Reasoning Tasks",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2412.18194",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A2"
+    ],
+    "project_url": "https://vlabench.github.io/",
+    "code_url": "https://github.com/OpenMOSS/VLABench"
+  },
+  {
+    "id": "voxposer2023",
+    "short_name": "VoxPoser",
+    "title": "VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2307.05973",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3",
+      "O3 / A3"
+    ],
+    "project_url": "https://voxposer.github.io/",
+    "code_url": "https://github.com/huangwl18/VoxPoser"
   },
   {
     "id": "waa",
