@@ -36,6 +36,17 @@
     "short_name": "Agentic Robot"
   },
   {
+    "id": "agenticros2026",
+    "short_name": "AgenticROS",
+    "title": "AgenticROS",
+    "year": null,
+    "url": "https://github.com/agenticros/agenticros",
+    "source_type": "Software",
+    "categories": [
+      "O2 / A2"
+    ]
+  },
+  {
     "id": "agp",
     "title": "Agent as Policy for Robotic Manipulation",
     "year": 2026,
@@ -160,6 +171,42 @@
     "short_name": "AA-Robotics"
   },
   {
+    "id": "audit220400598",
+    "short_name": "Socratic Models",
+    "title": "Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language",
+    "year": 2022,
+    "url": "https://arxiv.org/abs/2204.00598",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Model"
+    ],
+    "project_url": "https://socraticmodels.github.io/"
+  },
+  {
+    "id": "audit230211649",
+    "short_name": "Lang2LTL",
+    "title": "Grounding Complex Natural Language Commands for Temporal Tasks in Unseen Environments",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2302.11649",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "code_url": "https://github.com/h2r/Lang2LTL",
+    "project_url": "https://lang2ltl.github.io/"
+  },
+  {
+    "id": "audit230300855",
+    "short_name": "Grounded Decoding",
+    "title": "Grounded Decoding: Guiding Text Generation with Grounded Models for Embodied Agents",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2303.00855",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Model"
+    ]
+  },
+  {
     "id": "audit230303378",
     "short_name": "PaLM-E",
     "title": "PaLM-E: An Embodied Multimodal Language Model",
@@ -170,6 +217,124 @@
       "O1 / A1 Model"
     ],
     "project_url": "https://palm-e.github.io"
+  },
+  {
+    "id": "audit230303480",
+    "short_name": "LGX",
+    "title": "Can an Embodied Agent Find Your \"Cat-shaped Mug\"? LLM-Guided Exploration for Zero-Shot Object Navigation",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2303.03480",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "project_url": "https://gamma.umd.edu/LGX/"
+  },
+  {
+    "id": "audit230516744",
+    "short_name": "Demo2Code",
+    "title": "Demo2Code: From Summarizing Demonstrations to Synthesizing Code via Extended Chain-of-Thought",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2305.16744",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A3"
+    ],
+    "code_url": "https://github.com/portal-cornell/demo2code",
+    "project_url": "https://portal-cornell.github.io/demo2code/"
+  },
+  {
+    "id": "audit230904316",
+    "short_name": "Incremental Humanoid Learning",
+    "title": "Incremental Learning of Humanoid Robot Behavior from Natural Interaction and Large Language Models",
+    "year": 2023,
+    "url": "https://arxiv.org/html/2309.04316",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Knowledge and Memory"
+    ]
+  },
+  {
+    "id": "audit230909919",
+    "short_name": "Safety Chip",
+    "title": "Plug in the Safety Chip: Enforcing Constraints for LLM-driven Robot Agents",
+    "year": 2023,
+    "url": "https://arxiv.org/html/2309.09919v1",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A2"
+    ]
+  },
+  {
+    "id": "audit230909969",
+    "short_name": "Prompt2Walk",
+    "title": "Prompt a Robot to Walk with Large Language Models",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2309.09969",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A1 Code"
+    ]
+  },
+  {
+    "id": "audit231010021",
+    "short_name": "BOSS",
+    "title": "Bootstrap Your Own Skills: Learning to Solve New Tasks with Large Language Model Guidance",
+    "year": 2023,
+    "url": "https://arxiv.org/html/2310.10021",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ]
+  },
+  {
+    "id": "audit231011604",
+    "short_name": "Zero-Shot Trajectories",
+    "title": "Language Models as Zero-Shot Trajectory Generators",
+    "year": 2023,
+    "url": "https://arxiv.org/html/2310.11604",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3"
+    ],
+    "code_url": "https://github.com/kwonathan/language-models-trajectory-generators",
+    "project_url": "https://www.robot-learning.uk/language-models-trajectory-generators"
+  },
+  {
+    "id": "audit231012020",
+    "short_name": "LoHoRavens",
+    "title": "LoHoRavens: A Long-Horizon Language-Conditioned Benchmark for Robotic Tabletop Manipulation",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2310.12020",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Model"
+    ]
+  },
+  {
+    "id": "audit231013065",
+    "short_name": "RoboTool",
+    "title": "Creative Robot Tool Use with Large Language Models",
+    "year": 2023,
+    "url": "https://arxiv.org/html/2310.13065v1",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3"
+    ],
+    "project_url": "https://creative-robotool.github.io/"
+  },
+  {
+    "id": "audit240106949",
+    "short_name": "ORGANA",
+    "title": "ORGANA: A Robotic Assistant for Automated Chemistry Experimentation and Characterization",
+    "year": 2024,
+    "url": "https://arxiv.org/html/2401.06949",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "code_url": "https://github.com/ac-rad/organa",
+    "project_url": "https://ac-rad.github.io/organa/"
   },
   {
     "id": "audit240205188",
@@ -183,6 +348,30 @@
     ]
   },
   {
+    "id": "audit240208212",
+    "short_name": "BBSEA",
+    "title": "BBSEA: An Exploration of Brain-Body Synchronization for Embodied Agents",
+    "year": 2024,
+    "url": "https://arxiv.org/html/2402.08212",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Dataset Construction"
+    ],
+    "project_url": "https://bbsea-embodied-ai.github.io"
+  },
+  {
+    "id": "audit240218796",
+    "short_name": "MOSAIC",
+    "title": "MOSAIC: A Modular System for Assistive and Interactive Cooking",
+    "year": 2024,
+    "url": "https://arxiv.org/html/2402.18796v1",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
+    ],
+    "project_url": "https://portal-cornell.github.io/MOSAIC/"
+  },
+  {
     "id": "audit240605572",
     "short_name": "PRoC3S",
     "title": "Trust the PRoC3S: Solving Long-Horizon Robotics Problems with LLMs and Constraint Satisfaction",
@@ -192,6 +381,41 @@
     "categories": [
       "O3 / A3"
     ]
+  },
+  {
+    "id": "audit241006108",
+    "short_name": "ConceptAgent",
+    "title": "ConceptAgent: LLM-Driven Precondition Grounding and Tree Search for Robust Task Planning and Execution",
+    "year": 2024,
+    "url": "https://arxiv.org/html/2410.06108",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
+    ]
+  },
+  {
+    "id": "audit241022225",
+    "short_name": "CaStL",
+    "title": "CaStL: Constraints as Specifications through LLM Translation for Long-Horizon Task and Motion Planning",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2410.22225",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A3"
+    ]
+  },
+  {
+    "id": "audit241105755",
+    "short_name": "VLMnav",
+    "title": "End-to-End Navigation with Vision Language Models: Transforming Spatial Reasoning into Question-Answering",
+    "year": 2024,
+    "url": "https://arxiv.org/html/2411.05755",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "code_url": "https://github.com/Jirl-upenn/VLMnav",
+    "project_url": "https://jirl-upenn.github.io/VLMnav/"
   },
   {
     "id": "audit250213143",
@@ -205,6 +429,19 @@
     ],
     "project_url": "https://qizekun.github.io/sofar/",
     "code_url": "https://github.com/qizekun/SoFar"
+  },
+  {
+    "id": "audit250216707",
+    "short_name": "Reflective Planning",
+    "title": "Reflective Planning: Vision-Language Models for Multi-Stage Long-Horizon Robotic Manipulation",
+    "year": 2025,
+    "url": "https://arxiv.org/html/2502.16707v1",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A2"
+    ],
+    "code_url": "https://github.com/yunhaif/reflect-vlm",
+    "project_url": "https://reflect-vlm.github.io"
   },
   {
     "id": "audit250312533",
@@ -232,6 +469,67 @@
     "code_url": "https://github.com/MARS-EAI/RoboFactory"
   },
   {
+    "id": "audit250601538",
+    "short_name": "LAMARL",
+    "title": "LAMARL: LLM-Aided Multi-Agent Reinforcement Learning for Cooperative Policy Generation",
+    "year": 2025,
+    "url": "https://arxiv.org/html/2506.01538",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ],
+    "project_url": "https://windylab.github.io/LAMARL/"
+  },
+  {
+    "id": "audit250712644",
+    "short_name": "VLMgineer",
+    "title": "VLMgineer: Vision Language Models as Robotic Toolsmiths",
+    "year": 2025,
+    "url": "https://arxiv.org/html/2507.12644",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Robot morphology"
+    ],
+    "code_url": "https://github.com/vlmgineer/vlmgineer",
+    "project_url": "https://vlmgineer.github.io/"
+  },
+  {
+    "id": "audit250723735",
+    "short_name": "UROSA",
+    "title": "Distributed AI Agents for Cognitive Underwater Robot Autonomy",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2507.23735",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Diagnosis"
+    ],
+    "code_url": "https://github.com/markusbuchholz/urosa_underwater_autonomy",
+    "project_url": "https://markusbuchholz.github.io/urosa.html"
+  },
+  {
+    "id": "audit251011660",
+    "short_name": "ManiAgent",
+    "title": "ManiAgent: An Agentic Framework for General Robotic Manipulation",
+    "year": 2025,
+    "url": "https://arxiv.org/html/2510.11660",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "project_url": "https://yi-yang929.github.io/ManiAgent/"
+  },
+  {
+    "id": "audit260114681",
+    "short_name": "FARE",
+    "title": "FARE: Fast-Slow Agentic Robotic Exploration",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2601.14681v1",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Model"
+    ]
+  },
+  {
     "id": "audit260120334",
     "short_name": "FAEA",
     "title": "Demonstration-Free Robotic Control via LLM Agents",
@@ -242,6 +540,30 @@
       "O3 / A3"
     ],
     "code_url": "https://github.com/robiemusketeer/faea-sim"
+  },
+  {
+    "id": "audit260201515",
+    "short_name": "RAPT",
+    "title": "RAPT: Model-Predictive Out-of-Distribution Detection and Failure Diagnosis for Sim-to-Real Humanoid Deployment",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2602.01515",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Diagnosis"
+    ],
+    "code_url": "https://github.com/humphreymunn/RAPT",
+    "project_url": "https://humphreymunn.github.io/RAPT/"
+  },
+  {
+    "id": "audit260204157",
+    "short_name": "Situated Conversation",
+    "title": "A Modern System Recipe for Situated Embodied Human-Robot Conversation with Real-Time Multimodal LLMs and Tool-Calling",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2602.04157v1",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
+    ]
   },
   {
     "id": "audit260213081",
@@ -291,6 +613,40 @@
     "short_name": "PhysMem"
   },
   {
+    "id": "audit260302669",
+    "short_name": "IMR-LLM",
+    "title": "IMR-LLM: Industrial Multi-Robot Task Planning and Program Generation using Large Language Models",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2603.02669v1",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3"
+    ]
+  },
+  {
+    "id": "audit260302772",
+    "short_name": "SERP",
+    "title": "Agentic Self-Evolutionary Replanning for Embodied Navigation",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2603.02772v1",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
+    ]
+  },
+  {
+    "id": "audit260303148",
+    "short_name": "Language to Action",
+    "title": "From Language to Action: Can LLM-Based Agents Be Used for Embodied Robot Cognition?",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2603.03148v1",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A2"
+    ],
+    "code_url": "https://github.com/ShinasShaji/llm-robot-cognition"
+  },
+  {
     "id": "audit260310682",
     "short_name": "OnFly",
     "title": "OnFly: Onboard Zero-Shot Aerial Vision-Language Navigation toward Safety and Efficiency",
@@ -299,6 +655,17 @@
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Code"
+    ]
+  },
+  {
+    "id": "audit260402318",
+    "short_name": "MetaNav",
+    "title": "Stop Wandering: Efficient Vision-Language Navigation via Metacognitive Reasoning",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2604.02318v1",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
     ]
   },
   {
@@ -337,6 +704,40 @@
     "project_url": "https://jiahenghu.github.io/hi-vla/"
   },
   {
+    "id": "audit260610577",
+    "short_name": "AgenticNav",
+    "title": "AgenticNav: Zero-Shot Vision-and-Language Navigation as a Tool-Calling Harness",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2606.10577v1",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
+    ]
+  },
+  {
+    "id": "audit260618112",
+    "short_name": "Qwen-RobotNav",
+    "title": "Qwen-RobotNav Technical Report: A Scalable Navigation Model Designed for an Agentic Navigation System",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2606.18112v1",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
+    ]
+  },
+  {
+    "id": "audit260627871",
+    "short_name": "LocalNav",
+    "title": "LocalNav: Distilling Frontier VLMs and Embodied RL for On-Device Object Goal Navigation",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2606.27871v1",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2",
+      "O3 / A2"
+    ]
+  },
+  {
     "id": "audit260703449",
     "short_name": "HiMe",
     "title": "HiMe: Hierarchical Embodied Memory for Long-Horizon Vision-Language-Action Control",
@@ -358,6 +759,19 @@
     "categories": [
       "O2 / A2"
     ]
+  },
+  {
+    "id": "audit260706501",
+    "short_name": "HUME",
+    "title": "Hypothesis-driven Model Expansion under Uncertainty for Open-World Robot Planning",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2607.06501v1",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "code_url": "https://github.com/threefruits/HUME",
+    "project_url": "https://open-world-planning.github.io"
   },
   {
     "id": "audit260706990",
@@ -384,6 +798,17 @@
     "code_url": "https://github.com/FraunhoferIVI/MissionBench"
   },
   {
+    "id": "audit260722999",
+    "short_name": "WCM",
+    "title": "WCM: World-Cognition Model for Generalizable Human-Robot Interaction",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2607.22999v1",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
+    ]
+  },
+  {
     "id": "audit260727599",
     "short_name": "World Action Planner",
     "title": "World Action Planner: Generalizable Decision-Making with Action-Conditioned World Models",
@@ -395,6 +820,41 @@
     ],
     "project_url": "https://worldactionplanner.github.io/",
     "code_url": "https://github.com/XiangchengZhang/world-action-planner"
+  },
+  {
+    "id": "audit260729600",
+    "short_name": "HAM-VLN",
+    "title": "HAM-VLN: Harnessing Hierarchical Agentic Memory for Zero-Shot Vision-and-Language Navigation",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2607.29600v1",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ]
+  },
+  {
+    "id": "audit260816885",
+    "short_name": "τ0-VLA",
+    "title": "$\\tau_0$-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2608.16885",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "code_url": "https://github.com/sii-research/tau-0-vla",
+    "project_url": "https://tau0-vla.github.io/"
+  },
+  {
+    "id": "audit260817129",
+    "short_name": "PROBE",
+    "title": "PROBE: Manipulation-Grounded Visual Question Answering with VLM Agents",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2608.17129v1",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
+    ]
   },
   {
     "id": "audit260826645",
@@ -421,6 +881,30 @@
     "code_url": "https://github.com/XinGP/MaCoPlanner"
   },
   {
+    "id": "audit260829896",
+    "short_name": "EMERGE-Policy",
+    "title": "EMERGE-Policy: A Robot Mind Emerges Beyond a Single Policy",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2608.29896v1",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
+    ],
+    "code_url": "https://github.com/EMERGE-Policy/EMERGE-Policy",
+    "project_url": "https://emerge-policy.github.io/EMERGE-Policy/"
+  },
+  {
+    "id": "audit260830396",
+    "short_name": "NavMCP",
+    "title": "Scaffolding Foundation Models into Physical-World Agents Pushes the Frontier of Long-Horizon Navigation",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2608.30396v1",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
+    ]
+  },
+  {
     "id": "audit260905985",
     "short_name": "Action Reasoning 2.0",
     "title": "A Brain-inspired Hierarchical Framework for Zero-Shot Robot Task Reasoning and Execution",
@@ -430,6 +914,42 @@
     "categories": [
       "O2 / A2"
     ]
+  },
+  {
+    "id": "audit260908444",
+    "short_name": "SafeMem",
+    "title": "Safe Task Planning with Long-Term Graph Memory for Embodied Agents",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2609.08444v1",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
+    ],
+    "code_url": "https://github.com/lty759/SafeMem",
+    "project_url": "https://sites.google.com/view/safemem"
+  },
+  {
+    "id": "audit260910895",
+    "short_name": "ReactHuman",
+    "title": "ReactHuman: A Physics-Grounded Benchmark for Human-Like Reactive Decision-Making in Embodied Multimodal LLMs",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.10895",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ]
+  },
+  {
+    "id": "audit260911561",
+    "short_name": "MaP-WAM",
+    "title": "Memory as Plans: World-Action Modeling with Memory-Grounded Planning",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2609.11561",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "project_url": "https://sizhezhao.github.io/projects/MaP-WAM/"
   },
   {
     "id": "audit260912285",
@@ -442,6 +962,17 @@
       "O2 / A2"
     ],
     "code_url": "https://github.com/aryanmangal769/embodied-nav-mcp"
+  },
+  {
+    "id": "audit260913335",
+    "short_name": "MetaToolROS",
+    "title": "Bridging Thought and Action: Taming Long-Horizon Instability in Open-Source LLM Agents with a MetaTool-Enhanced ROS Framework",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2609.13335v1",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
+    ]
   },
   {
     "id": "audit260919554",
@@ -502,6 +1033,30 @@
     ]
   },
   {
+    "id": "audit260923997",
+    "short_name": "RoboTalk",
+    "title": "RoboTalk: Learning Multi-Robot Communication and Coordination from Multimodal Demonstrations",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2609.23997v1",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A2"
+    ]
+  },
+  {
+    "id": "audit260924124",
+    "short_name": "ActiveArena-Plan",
+    "title": "ActiveArena: Benchmarking and Understanding Active Perception in Robotic Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.24124",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "code_url": "https://github.com/leeibo/ActiveArena",
+    "project_url": "https://leeibo.github.io/ActiveArena"
+  },
+  {
     "id": "audit260926360",
     "short_name": "HFLEX-EQA",
     "title": "Hierarchical Floorplan-Guided Vision-Language Exploration for Embodied Question Answering",
@@ -526,6 +1081,17 @@
     "project_url": "https://rtalwar2.github.io/agentic-coding-for-robot-manipulation/"
   },
   {
+    "id": "audit260927526",
+    "short_name": "NavProbe",
+    "title": "NavProbe: Evidence-Grounded Reasoning with Active Memory Retrieval for Zero-Shot Navigation",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2609.27526v1",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ]
+  },
+  {
     "id": "audit260930233",
     "short_name": "Coding Agents for TAMP",
     "title": "Coding Agents for Generalized Task and Motion Planning Problems",
@@ -540,6 +1106,18 @@
     "code_url": "https://github.com/tomsilver/robocode"
   },
   {
+    "id": "audit260930428",
+    "short_name": "CLUE",
+    "title": "Actively Resolving Contextual Uncertainty for Underspecified Tasks in Natural Language",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2609.30428v1",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
+    ],
+    "project_url": "https://zacravichandran.github.io/CLUE"
+  },
+  {
     "id": "audit260931418",
     "short_name": "Cognitive Reality",
     "title": "CognitiveReality: Robot-Agnostic Semantic Gaussian Mapping with an LLM Agent for Immersive Collaborative VR Teleoperation",
@@ -549,6 +1127,18 @@
     "categories": [
       "O2 / A2"
     ]
+  },
+  {
+    "id": "audit260931770",
+    "short_name": "XLeRobot-Astra",
+    "title": "Robot Manipulation with GPT-6-Astra: Body Knowledge, Experience Reuse, Emergent Skills, and Sim2Real Transfer",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2609.31770v1",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A3"
+    ],
+    "code_url": "https://github.com/hesd10/astra-robot-sim2real"
   },
   {
     "id": "audit260937359",
@@ -598,6 +1188,17 @@
       "O1 / A1 Code"
     ],
     "project_url": "https://Navharness.github.io"
+  },
+  {
+    "id": "audit261001569",
+    "short_name": "Distributed UAV Context",
+    "title": "Managing Context and Communication in Distributed Agentic UAV Swarms",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2610.01569v1",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
+    ]
   },
   {
     "id": "audit261002161",
@@ -659,6 +1260,19 @@
     "categories": [
       "O1 / A1 Model"
     ]
+  },
+  {
+    "id": "audit261010388",
+    "short_name": "RoboQuest",
+    "title": "RoboQuest: Generalist Physical Agents that Search, Inspect and Test",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2610.10388v1",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "code_url": "https://github.com/declare-lab/RoboQuest",
+    "project_url": "https://declare-lab.github.io/RoboQuest/"
   },
   {
     "id": "audit261012457",
@@ -1158,6 +1772,18 @@
     "short_name": "CoPAL"
   },
   {
+    "id": "coral2026",
+    "short_name": "CoRAL",
+    "title": "CoRAL: Contact-Rich Adaptive LLM-based Control for Robotic Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2605.02600",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3"
+    ],
+    "project_url": "https://sites.google.com/view/lira-coral"
+  },
+  {
     "id": "core2026",
     "title": "CoRe: Combined Rewards with Vision-Language Model Feedback for Preference-Aligned Reinforcement Learning",
     "year": 2026,
@@ -1216,6 +1842,18 @@
     "short_name": "DiagGen"
   },
   {
+    "id": "dimos2026",
+    "short_name": "DimOS",
+    "title": "Dimensional: Robotics Agent Framework",
+    "year": null,
+    "url": "https://github.com/dimensionalOS/dimos/tree/0f65afc34c6012e2d7924e620fb24fcb9f171510",
+    "source_type": "Software",
+    "categories": [
+      "O2 / A2"
+    ],
+    "code_url": "https://github.com/dimensionalOS/dimos"
+  },
+  {
     "id": "du2026sera",
     "title": "From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation",
     "year": 2026,
@@ -1264,6 +1902,19 @@
       "Infrastructure / Training"
     ],
     "short_name": "ELEMENTAL"
+  },
+  {
+    "id": "embodiedagents2026",
+    "short_name": "Embodied Agents",
+    "title": "Embodied Agents",
+    "year": null,
+    "url": "https://github.com/automatika-robotics/embodied-agents",
+    "source_type": "Software",
+    "categories": [
+      "O2 / A2"
+    ],
+    "code_url": "https://github.com/automatika-robotics/embodied-agents",
+    "project_url": "https://automatika-robotics.github.io/embodied-agents/"
   },
   {
     "id": "embodiedbench",
@@ -1365,6 +2016,19 @@
     ],
     "code_url": "https://github.com/air-embodied-brain/EmbodiSkill",
     "short_name": "EmbodiSkill"
+  },
+  {
+    "id": "esibench2026",
+    "short_name": "ESI-Bench",
+    "title": "ESI-Bench: Towards Embodied Spatial Intelligence that Closes the Perception-Action Loop",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2605.18746",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A2"
+    ],
+    "code_url": "https://github.com/ESI-Bench/ESI-Bench",
+    "project_url": "https://esi-bench.github.io/"
   },
   {
     "id": "espinola2026llmlibero",
@@ -2145,6 +2809,17 @@
     "short_name": "ConceptGraphs"
   },
   {
+    "id": "gu2026harnesswam",
+    "short_name": "HarnessWAM",
+    "title": "HarnessWAM: Bridging Prediction and Deliberation in World Action Models",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2608.09516",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ]
+  },
+  {
     "id": "ham2026spinediagnosis",
     "title": "SPINE: Bridging the Cyber-Physical Gap with Agentic AI",
     "year": 2026,
@@ -2374,6 +3049,18 @@
     ],
     "code_url": "https://github.com/TeleHuman/HumanoidGen",
     "short_name": "HumanoidGen"
+  },
+  {
+    "id": "huo2026abotclaw",
+    "short_name": "ABot-Claw",
+    "title": "ABot-Claw: A Foundation for Persistent, Cooperative, and Self-Evolving Robotic Agents",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2604.10096",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
+    ],
+    "code_url": "https://github.com/amap-cvlab/ABot-Claw"
   },
   {
     "id": "hxwxss2026glmskills",
@@ -3117,6 +3804,18 @@
     "short_name": "LYRA"
   },
   {
+    "id": "monwilliams2025ellmer",
+    "short_name": "ELLMER",
+    "title": "Embodied large language models enable robots to complete complex tasks in unpredictable environments",
+    "year": 2025,
+    "url": "https://doi.org/10.1038/s42256-025-01005-x",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3"
+    ],
+    "code_url": "https://github.com/ruaridhmon/ELLMER"
+  },
+  {
     "id": "motormind2026",
     "title": "MotorMind: Scaffolding General Vision Language Models for Zero-Shot Robot Manipulation",
     "year": 2026,
@@ -3595,6 +4294,19 @@
     ],
     "code_url": "https://github.com/Playful-RATs/rats",
     "short_name": "RATs"
+  },
+  {
+    "id": "ravichandran2025roboguard",
+    "short_name": "RoboGuard",
+    "title": "Safety Guardrails for LLM-Enabled Robots",
+    "year": 2025,
+    "url": "https://arxiv.org/html/2503.07885",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "code_url": "https://github.com/KumarRobotics/RoboGuard",
+    "project_url": "https://robo-guard.github.io/"
   },
   {
     "id": "real2026",
@@ -4255,6 +4967,18 @@
     "short_name": "Adaptive Environment Generation"
   },
   {
+    "id": "si260221198",
+    "short_name": "Reflective Test-Time Planning",
+    "title": "Learning from Trials and Errors: Reflective Test-Time Planning for Embodied LLMs",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2602.21198",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation"
+    ],
+    "project_url": "https://reflective-test-time-planning.github.io"
+  },
+  {
     "id": "si260302623",
     "title": "Uni-Skill: Building Self-Evolving Skill Repository for Generalizable Robotic Manipulation",
     "year": 2026,
@@ -4806,6 +5530,29 @@
       "Self-Evolver / Successor AI R&D"
     ],
     "short_name": "AIDE²"
+  },
+  {
+    "id": "step2026",
+    "short_name": "STeP",
+    "title": "STeP: Signal Temporal Logic for Precise Specifications for Action Generation with Vision Language Models",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2607.18580",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code",
+      "O3 / A1 Code"
+    ]
+  },
+  {
+    "id": "sun2024llmlocomotion",
+    "short_name": "LLM Locomotion Design",
+    "title": "Leveraging large language models for comprehensive locomotion control in humanoid robots design",
+    "year": 2024,
+    "url": "https://doi.org/10.1016/j.birob.2024.100187",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ]
   },
   {
     "id": "sygkounas2026memento",
@@ -5435,6 +6182,17 @@
     "code_url": "https://github.com/arajv/SayNav"
   },
   {
+    "id": "xref230911382",
+    "short_name": "DiscussNav",
+    "title": "Discuss Before Moving: Visual Language Navigation via Multi-expert Discussions",
+    "year": 2023,
+    "url": "https://arxiv.org/html/2309.11382",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ]
+  },
+  {
     "id": "xref230915943",
     "title": "Scalable Multi-Robot Collaboration with Large Language Models: Centralized or Decentralized Systems?",
     "year": 2023,
@@ -5473,6 +6231,29 @@
     "short_name": "MapGPT"
   },
   {
+    "id": "xref240308833",
+    "short_name": "TINA",
+    "title": "TINA: Think, Interaction, and Action Framework for Zero-Shot Vision Language Navigation",
+    "year": 2024,
+    "url": "https://arxiv.org/html/2403.08833",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A1 Code"
+    ]
+  },
+  {
+    "id": "xref240406413",
+    "short_name": "Foundation Models to the Rescue",
+    "title": "Foundation Models to the Rescue: Deadlock Resolution in Connected Multi-Robot Systems",
+    "year": 2024,
+    "url": "https://arxiv.org/html/2404.06413",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Model"
+    ],
+    "project_url": "https://mit-realm.github.io/LLM-gcbfplus-website/"
+  },
+  {
     "id": "xref240406645",
     "title": "GenCHiP: Generating Robot Policy Code for High-Precision and Contact-Rich Manipulation Tasks",
     "year": 2024,
@@ -5482,6 +6263,17 @@
       "O2 / A3"
     ],
     "short_name": "GenCHiP"
+  },
+  {
+    "id": "xref240510620",
+    "short_name": "MC-GPT",
+    "title": "MC-GPT: Empowering Vision-and-Language Navigation with Memory Map and Reasoning Chains",
+    "year": 2024,
+    "url": "https://arxiv.org/html/2405.10620",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A1 Code"
+    ]
   },
   {
     "id": "xref240618915",
@@ -5497,6 +6289,17 @@
     "short_name": "Manipulate-Anything"
   },
   {
+    "id": "xref240721762",
+    "short_name": "ReplanVLM",
+    "title": "ReplanVLM: Replanning Robotic Tasks with Visual Language Models",
+    "year": 2024,
+    "url": "https://arxiv.org/html/2407.21762",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3"
+    ]
+  },
+  {
     "id": "xref240903966",
     "title": "Automating Robot Failure Recovery Using Vision-Language Models With Optimized Prompts",
     "year": 2024,
@@ -5510,6 +6313,18 @@
     "aliases": [
       "VLM Failure Recovery"
     ]
+  },
+  {
+    "id": "xref240910444",
+    "short_name": "LLM-BT-Planner",
+    "title": "LLM-as-BT-Planner: Leveraging LLMs for Behavior Tree Generation in Robot Task Planning",
+    "year": 2024,
+    "url": "https://arxiv.org/html/2409.10444",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3"
+    ],
+    "code_url": "https://github.com/ProNeverFake/kios"
   },
   {
     "id": "xref240913682",
@@ -5546,6 +6361,18 @@
     ],
     "code_url": "https://github.com/YanyuanQiao/Open-Nav",
     "short_name": "Open-Nav"
+  },
+  {
+    "id": "xref241011387",
+    "short_name": "LLM2Swarm",
+    "title": "LLM2Swarm: Robot Swarms that Responsively Reason, Plan, and Collaborate through LLMs",
+    "year": 2024,
+    "url": "https://arxiv.org/html/2410.11387",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Diagnosis"
+    ],
+    "code_url": "https://github.com/Pold87/LLM2Swarm"
   },
   {
     "id": "xref241117636",
@@ -5645,6 +6472,19 @@
     "short_name": "DAHLIA"
   },
   {
+    "id": "xref250322122",
+    "short_name": "REMAC",
+    "title": "REMAC: Self-Reflective and Self-Evolving Multi-Agent Collaboration for Long-Horizon Robot Manipulation",
+    "year": 2025,
+    "url": "https://arxiv.org/html/2503.22122",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "code_url": "https://github.com/reamac-repo/remac-repo",
+    "project_url": "https://reamac-repo.github.io/remac-project-page/"
+  },
+  {
     "id": "xref250421716",
     "title": "LLM-Empowered Embodied Agent for Memory-Augmented Task Planning in Household Robotics",
     "year": 2025,
@@ -5723,6 +6563,18 @@
     "short_name": "RACAS"
   },
   {
+    "id": "xref260307997",
+    "short_name": "CMMR-VLN",
+    "title": "CMMR-VLN: Vision-and-Language Navigation via Continual Multimodal Memory Retrieval",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2603.07997",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code",
+      "O3 / A1 Code"
+    ]
+  },
+  {
     "id": "xref260314807",
     "title": "HiMemVLN: Enhancing Reliability of Open-Source Zero-Shot Vision-and-Language Navigation with Hierarchical Memory System",
     "year": 2026,
@@ -5744,6 +6596,17 @@
       "Self-Evolver / Knowledge and Memory"
     ],
     "short_name": "BrainMem"
+  },
+  {
+    "id": "xref260628397",
+    "short_name": "CLOSER-VLN",
+    "title": "CLOSER-VLN: Closed-Loop Self-Verified Retrieval-Augmented Reasoning for Aerial Vision-Language Navigation",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2606.28397",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ]
   },
   {
     "id": "xref260816978",
@@ -6118,6 +6981,19 @@
     "short_name": "Robo-COP"
   },
   {
+    "id": "zhang2026supernav",
+    "short_name": "SuperNav",
+    "title": "SuperNav: An Agentic Navigation System for Any Task in Any Scene",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2610.12126",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A2"
+    ],
+    "code_url": "https://github.com/zju3dv/SuperNav",
+    "project_url": "https://zju3dv.github.io/SuperNav/"
+  },
+  {
     "id": "zhang2026usdcraft",
     "short_name": "USDCraft",
     "title": "USDCraft: Geometrically Grounded Programmatic Modeling of Articulated 3D Assets for Simulation",
@@ -6215,6 +7091,18 @@
       "Self-Evolver / Successor AI R&D"
     ],
     "short_name": "DiscoveryRSI"
+  },
+  {
+    "id": "zhou2024codeasmonitor",
+    "short_name": "Code-as-Monitor",
+    "title": "Code-as-Monitor: Constraint-aware Visual Programming for Reactive and Proactive Robotic Failure Detection",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2412.04455",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Diagnosis"
+    ],
+    "project_url": "https://zhoues.github.io/Code-as-Monitor"
   },
   {
     "id": "zhou2026agentcanvas",
