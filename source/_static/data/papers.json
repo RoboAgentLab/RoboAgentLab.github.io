@@ -543,6 +543,18 @@
     "code_url": "https://github.com/robiemusketeer/faea-sim"
   },
   {
+    "id": "audit260120577",
+    "short_name": "MeCo",
+    "title": "MeCo: Enhancing LLM-Empowered Multi-Robot Collaboration via Similar Task Memoization",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2601.20577",
+    "code_url": "https://github.com/TomWang-NPU/MeCo",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A1 Code"
+    ]
+  },
+  {
     "id": "audit260201515",
     "short_name": "RAPT",
     "title": "RAPT: Model-Predictive Out-of-Distribution Detection and Failure Diagnosis for Sim-to-Real Humanoid Deployment",
