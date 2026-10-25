@@ -942,6 +942,18 @@
     "project_url": "https://sites.google.com/view/safemem"
   },
   {
+    "id": "audit260909808",
+    "short_name": "GTA-2",
+    "title": "GTA-2: A Multi-VLM Framework for Synthesizing Robot Manipulation Skills via Grounded Task Axes",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.09808",
+    "code_url": "https://github.com/gta2-project/GTA-2",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ]
+  },
+  {
     "id": "audit260910895",
     "short_name": "ReactHuman",
     "title": "ReactHuman: A Physics-Grounded Benchmark for Human-Like Reactive Decision-Making in Embodied Multimodal LLMs",
