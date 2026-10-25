@@ -7036,6 +7036,19 @@
     "short_name": "DROC"
   },
   {
+    "id": "zhang2025read",
+    "short_name": "ReAd",
+    "title": "Towards Efficient LLM Grounding for Embodied Multi-Agent Collaboration",
+    "year": 2025,
+    "url": "https://aclanthology.org/2025.findings-acl.84/",
+    "code_url": "",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A2"
+    ],
+    "project_url": "https://embodied-read.github.io/"
+  },
+  {
     "id": "zhang2026atomicvla",
     "title": "AtomicVLA: Unlocking the Potential of Atomic Skill Learning in Robots",
     "year": 2026,
