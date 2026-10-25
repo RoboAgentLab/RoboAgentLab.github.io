@@ -3402,6 +3402,19 @@
     "short_name": "RoboCoach"
   },
   {
+    "id": "li2024manipllm",
+    "short_name": "ManipLLM",
+    "title": "ManipLLM: Embodied Multimodal Large Language Model for Object-Centric Robotic Manipulation",
+    "year": 2024,
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Li_ManipLLM_Embodied_Multimodal_Large_Language_Model_for_Object-Centric_Robotic_Manipulation_CVPR_2024_paper.html",
+    "code_url": "https://github.com/clorislili/ManipLLM",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "project_url": "https://sites.google.com/view/manipllm"
+  },
+  {
     "id": "li2024robocoder",
     "title": "RoboCoder: Robotic Learning from Basic Skills to General Tasks with Large Language Models",
     "year": 2024,
