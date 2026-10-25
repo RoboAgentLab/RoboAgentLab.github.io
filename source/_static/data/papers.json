@@ -4498,6 +4498,19 @@
     ]
   },
   {
+    "id": "robey2024robopair",
+    "short_name": "RoboPAIR",
+    "title": "Jailbreaking LLM-Controlled Robots",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2410.13691",
+    "code_url": "https://github.com/arobey1/robopair",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Evaluation"
+    ],
+    "project_url": "https://robopair.org/"
+  },
+  {
     "id": "robobridge2026",
     "title": "RoboBridge: A Self-Evolving Embodied Agent Framework for Sim-to-Real Transfer",
     "year": 2026,
@@ -6983,6 +6996,19 @@
     ],
     "code_url": "https://github.com/THUSI-Lab/RoboDoctor",
     "short_name": "RoboDoctor"
+  },
+  {
+    "id": "yuan2025robopoint",
+    "short_name": "RoboPoint",
+    "title": "RoboPoint: A Vision-Language Model for Spatial Affordance Prediction in Robotics",
+    "year": 2025,
+    "url": "https://proceedings.mlr.press/v270/yuan25c.html",
+    "code_url": "https://github.com/wentaoyuan/RoboPoint",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "project_url": "https://robo-point.github.io/"
   },
   {
     "id": "zeng2024selfalignment",
