@@ -475,7 +475,9 @@
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Code"
-    ]
+    ],
+    "code_url": "https://github.com/Hugo-AGI/RoboDawn",
+    "project_url": "https://robodawn.top/"
   },
   {
     "id": "audit260923578",
@@ -789,16 +791,20 @@
     "id": "bincequ2026roboharness",
     "title": "RoboHarness: A Simple Harness Outperforms VLA and World Action Models",
     "year": 2026,
-    "url": "https://bincequ.github.io/RoboHarness/",
-    "source_type": "Project / report",
+    "url": "https://arxiv.org/abs/2610.14018",
+    "source_type": "Paper",
     "categories": [
-      "O2 / A2"
+      "O2 / A2",
+      "O2 / A3"
     ],
     "code_url": "https://github.com/BinceQu/RoboHarness",
     "short_name": "RoboHarness (BinceQu)",
     "aliases": [
-      "RoboHarness-B"
-    ]
+      "RoboHarness-B",
+      "RoboHarness V2"
+    ],
+    "project_url": "https://bincequ.github.io/RoboHarness/",
+    "scope_note": "V1: supplied-tool orchestration. V2: robot-workspace code synthesis. The paper reports V1 results; the V2 software release does not establish retained self-improvement."
   },
   {
     "id": "boiko2023coscientist",
@@ -5325,6 +5331,20 @@
     "short_name": "SkillComposer"
   },
   {
+    "id": "wu2026galatea",
+    "short_name": "GALATEA",
+    "title": "Grounding Generated Video Plans in Simulation Towards Versatile Dexterous Controllers",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.10050",
+    "project_url": "https://boyuan-an.github.io/GALATEA/",
+    "code_url": "https://github.com/boyuan-an/GALATEA",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "scope_note": "Deployment-time video motion plans are executed by a fixed learned tracker; the fixed RL and distillation pipeline is outside this agent-role assignment."
+  },
+  {
     "id": "xia2025phoenix",
     "title": "Phoenix: A Motion-based Self-Reflection Framework for Fine-grained Robotic Action Correction",
     "year": 2025,
@@ -6096,6 +6116,19 @@
       "Self-Evolver / Model"
     ],
     "short_name": "Robo-COP"
+  },
+  {
+    "id": "zhang2026usdcraft",
+    "short_name": "USDCraft",
+    "title": "USDCraft: Geometrically Grounded Programmatic Modeling of Articulated 3D Assets for Simulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.11322",
+    "project_url": "https://xingyoujun.github.io/usdcraft/",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation"
+    ],
+    "scope_note": "Simulation-ready assets: an agent writes and revises articulated asset programs using geometric and visual feedback."
   },
   {
     "id": "zhang2026veritas",

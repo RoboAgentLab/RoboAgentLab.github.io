@@ -55,7 +55,13 @@ function render() {
       repo.append(icon, document.createTextNode("Code ↗"));
       links.append(repo);
     }
-    card.append(year, title, tags, links);
+    card.append(year, title, tags);
+    if (paper.scope_note) {
+      const scope = document.createElement("p");
+      scope.textContent = paper.scope_note;
+      card.append(scope);
+    }
+    card.append(links);
     list.append(card);
   }
   document.getElementById("result-count").textContent = `${matched.length} works · ${matched.filter(p=>p.code_url).length} with code links · showing ${Math.min(limit,matched.length)}`;
