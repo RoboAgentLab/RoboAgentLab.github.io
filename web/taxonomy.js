@@ -36,7 +36,7 @@ function renderTaxonomyPapers() {
     article.className = 'tx-paper';
     const meta = document.createElement('span');
     meta.className = 'tx-paper-meta';
-    meta.textContent = `${paper.year} · ${paper.source_type}`;
+    meta.textContent = [paper.year, paper.source_type].filter(Boolean).join(" · ");
     const title = document.createElement('h3');
     const link = document.createElement('a');
     link.href = taxonomySafeURL(paper.url) || 'library.html';
