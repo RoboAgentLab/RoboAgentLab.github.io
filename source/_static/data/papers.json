@@ -3622,6 +3622,18 @@
     "short_name": "LITHE"
   },
   {
+    "id": "lin2025robotsmithgenerativerobotictool",
+    "short_name": "RobotSmith",
+    "title": "RobotSmith: Generative Robotic Tool Design for Acquisition of Complex Manipulation Skills",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2506.14763",
+    "code_url": "https://github.com/UMass-Embodied-AGI/RobotSmith",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A2"
+    ]
+  },
+  {
     "id": "liu2023olaf",
     "short_name": "OLAF",
     "title": "Interactive Robot Learning from Verbal Correction",
@@ -6295,6 +6307,18 @@
     "short_name": "MapGPT"
   },
   {
+    "id": "xref240208546",
+    "short_name": "BrainBody-LLM",
+    "title": "Grounding LLMs For Robot Task Planning Using Closed-loop State Feedback",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2402.08546",
+    "code_url": "",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A2"
+    ]
+  },
+  {
     "id": "xref240308833",
     "short_name": "TINA",
     "title": "TINA: Think, Interaction, and Action Framework for Zero-Shot Vision Language Navigation",
@@ -6513,6 +6537,18 @@
     "short_name": "WMNav"
   },
   {
+    "id": "xref250302698",
+    "short_name": "FlowPlan",
+    "title": "FlowPlan: Zero-Shot Task Planning with LLM Flow Engineering for Robotic Instruction Following",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2503.02698",
+    "code_url": "",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ]
+  },
+  {
     "id": "xref250315202",
     "short_name": "Unified Failure Handling",
     "title": "A Unified Framework for Real-Time Failure Handling in Robotics Using Vision-Language Models, Reactive Planner and Behavior Trees",
@@ -6521,6 +6557,18 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Diagnosis"
+    ]
+  },
+  {
+    "id": "xref250315707",
+    "short_name": "SAFER",
+    "title": "Safety Aware Task Planning via Large Language Models in Robotics",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2503.15707",
+    "code_url": "",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
     ]
   },
   {
@@ -6588,6 +6636,18 @@
     "short_name": "MTP",
     "aliases": [
       "Memory Transfer Planning"
+    ]
+  },
+  {
+    "id": "xref260204419",
+    "short_name": "EPoG",
+    "title": "Integrated Exploration and Sequential Manipulation on Scene Graph with LLM-based Situated Replanning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2602.04419",
+    "code_url": "https://github.com/buaa-colalab/EPoG",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A2"
     ]
   },
   {
