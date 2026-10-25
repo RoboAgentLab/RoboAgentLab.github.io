@@ -66,7 +66,8 @@
     "url": "https://arxiv.org/abs/2410.00371",
     "source_type": "Paper",
     "categories": [
-      "Infrastructure / Training"
+      "Infrastructure / Training",
+      "Self-Evolver / Rewards"
     ],
     "code_url": "https://github.com/NVlabs/AHA",
     "short_name": "AHA"
@@ -1293,7 +1294,8 @@
     "url": "https://arxiv.org/abs/2506.02507",
     "source_type": "Paper",
     "categories": [
-      "Infrastructure / Training"
+      "Infrastructure / Training",
+      "Self-Evolver / Rewards"
     ],
     "short_name": "AURA (Zhu)",
     "aliases": [
@@ -1477,7 +1479,8 @@
     "url": "https://arxiv.org/abs/2410.14660",
     "source_type": "Paper",
     "categories": [
-      "Infrastructure / Training"
+      "Infrastructure / Training",
+      "Self-Evolver / Rewards"
     ],
     "short_name": "CARD"
   },
@@ -1715,7 +1718,8 @@
     "url": "https://arxiv.org/abs/2509.14380",
     "source_type": "Paper",
     "categories": [
-      "Infrastructure / Training"
+      "Infrastructure / Training",
+      "Self-Evolver / Rewards"
     ],
     "short_name": "CRAFT"
   },
@@ -1790,7 +1794,8 @@
     "url": "https://arxiv.org/abs/2607.01721",
     "source_type": "Paper",
     "categories": [
-      "Infrastructure / Training"
+      "Infrastructure / Training",
+      "Self-Evolver / Rewards"
     ],
     "code_url": "https://github.com/nihx9919/CoRe",
     "short_name": "CoRe"
@@ -1825,7 +1830,8 @@
     "url": "https://arxiv.org/abs/2606.00083",
     "source_type": "Paper",
     "categories": [
-      "Infrastructure / Training"
+      "Infrastructure / Training",
+      "Self-Evolver / Rewards"
     ],
     "short_name": "Demo2Reward"
   },
@@ -1899,7 +1905,8 @@
     "url": "https://proceedings.mlr.press/v267/chen25at.html",
     "source_type": "Paper",
     "categories": [
-      "Infrastructure / Training"
+      "Infrastructure / Training",
+      "Self-Evolver / Rewards"
     ],
     "short_name": "ELEMENTAL"
   },
@@ -2049,7 +2056,8 @@
     "url": "https://arxiv.org/abs/2605.11859",
     "source_type": "Paper",
     "categories": [
-      "Infrastructure / Training"
+      "Infrastructure / Training",
+      "Self-Evolver / Rewards"
     ],
     "short_name": "EvoNav"
   },
@@ -3217,7 +3225,8 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Training",
-      "Infrastructure / Diagnosis"
+      "Infrastructure / Diagnosis",
+      "Self-Evolver / Rewards"
     ],
     "short_name": "Agent-Driven RL"
   },
@@ -3758,7 +3767,8 @@
     "url": "https://arxiv.org/abs/2406.01967",
     "source_type": "Paper",
     "categories": [
-      "Infrastructure / Training"
+      "Infrastructure / Training",
+      "Self-Evolver / Rewards"
     ],
     "code_url": "https://github.com/eureka-research/DrEureka",
     "short_name": "DrEureka"
@@ -4358,7 +4368,8 @@
     "url": "https://arxiv.org/abs/2509.16136",
     "source_type": "Paper",
     "categories": [
-      "Infrastructure / Training"
+      "Infrastructure / Training",
+      "Self-Evolver / Rewards"
     ],
     "short_name": "RE-GoT"
   },
@@ -4745,7 +4756,8 @@
     "url": "https://arxiv.org/abs/2410.11571",
     "source_type": "Paper",
     "categories": [
-      "Infrastructure / Training"
+      "Infrastructure / Training",
+      "Self-Evolver / Rewards"
     ],
     "code_url": "https://github.com/RPL-CS-UCL/SDS",
     "short_name": "SDS"
@@ -4812,7 +4824,8 @@
     "url": "https://arxiv.org/abs/2309.06687",
     "source_type": "Paper",
     "categories": [
-      "Infrastructure / Training"
+      "Infrastructure / Training",
+      "Self-Evolver / Rewards"
     ],
     "short_name": "Self-Refined LLM"
   },
@@ -5639,7 +5652,8 @@
     "url": "https://arxiv.org/abs/2309.11489",
     "source_type": "Paper",
     "categories": [
-      "Infrastructure / Training"
+      "Infrastructure / Training",
+      "Self-Evolver / Rewards"
     ],
     "code_url": "https://github.com/xlang-ai/text2reward",
     "short_name": "Text2Reward"
@@ -5729,7 +5743,8 @@
     "url": "https://proceedings.mlr.press/v235/venuto24a.html",
     "source_type": "Paper",
     "categories": [
-      "Infrastructure / Training"
+      "Infrastructure / Training",
+      "Self-Evolver / Rewards"
     ],
     "short_name": "Code as Reward"
   },
@@ -6016,7 +6031,8 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Environment Generation",
-      "Self-Evolver / Environments and Datasets"
+      "Self-Evolver / Environments and Datasets",
+      "Self-Evolver / Rewards"
     ],
     "short_name": "FATE"
   },
@@ -6854,7 +6870,8 @@
     "url": "https://proceedings.mlr.press/v235/zeng24d.html",
     "source_type": "Paper",
     "categories": [
-      "Infrastructure / Training"
+      "Infrastructure / Training",
+      "Self-Evolver / Rewards"
     ],
     "short_name": "Self-Alignment"
   },
