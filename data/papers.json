@@ -3973,6 +3973,18 @@
     "project_url": "https://omnimanip.github.io/"
   },
   {
+    "id": "omnisim2026",
+    "short_name": "OmniSim",
+    "title": "OmniSim",
+    "year": null,
+    "url": "https://github.com/omnilink-tech/omnisim",
+    "code_url": "https://github.com/omnilink-tech/omnisim",
+    "source_type": "Software repository",
+    "categories": [
+      "O3 / A2"
+    ]
+  },
+  {
     "id": "openeta",
     "title": "ETA: A New Agentic Paradigm for Embodied Tasks",
     "year": 2026,
@@ -5554,6 +5566,18 @@
     "categories": [
       "O2 / A1 Code",
       "O3 / A1 Code"
+    ]
+  },
+  {
+    "id": "strandsrobots2026",
+    "short_name": "Strands Robots",
+    "title": "Strands Robots",
+    "year": null,
+    "url": "https://github.com/strands-labs/robots",
+    "code_url": "https://github.com/strands-labs/robots",
+    "source_type": "Software repository",
+    "categories": [
+      "O3 / A2"
     ]
   },
   {
