@@ -7462,5 +7462,18 @@
       "O1 / A1 Code"
     ],
     "source_type": "Paper"
+  },
+  {
+    "id": "liu2026robocoach",
+    "short_name": "RoboCoach (Liu)",
+    "title": "RoboCoach: World Models as Active Coaches for Compositional Robot Skills",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.39685",
+    "project_url": "https://robocoach-ai.github.io/",
+    "code_url": "https://github.com/RoboCoach-AI/CoachWorld",
+    "categories": [
+      "O2 / A1 Model"
+    ],
+    "source_type": "Paper"
   }
 ]
