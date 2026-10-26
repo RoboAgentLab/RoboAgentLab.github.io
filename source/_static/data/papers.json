@@ -4674,11 +4674,13 @@
     "url": "https://arxiv.org/abs/2609.37810",
     "source_type": "Paper",
     "categories": [
+      "O1 / A3",
       "Self-Evolver / Programs and Skills",
       "Self-Evolver / Knowledge and Memory"
     ],
     "code_url": "https://github.com/SII-dannyXSC/RoboSkill",
-    "short_name": "RoboSkill"
+    "short_name": "RoboSkill",
+    "scope_note": "O1/A3 applies to the real-robot configuration: the agent builds execution logic from visual, depth and tactile observations. Retained text-and-code skills support Programs and Skills and Knowledge and Memory. Simulator modes with supplied object boxes require separate observation-provenance classification."
   },
   {
     "id": "robotwin2agent2025",
@@ -7731,5 +7733,19 @@
     ],
     "source_type": "Repository",
     "scope_note": "Model-directed robot API selection and composition. O1/A2 receives camera images directly; O2/A2 receives supplied visual descriptions through the text-only model route. Fixed event reactions and low-level tracking are execution components. Skill creation alone does not establish retained feedback-directed self-improvement."
+  },
+  {
+    "id": "ai4ai2026researchboost",
+    "short_name": "ResearchBoost",
+    "title": "ResearchBoost-Agent: An autonomous agent that profiles, optimizes, and validates AI training code",
+    "year": 2026,
+    "url": "https://github.com/AI4AI-for-Anything/ResearchBoost-Agent",
+    "code_url": "https://github.com/AI4AI-for-Anything/ResearchBoost-Agent",
+    "categories": [
+      "Infrastructure / Training",
+      "Self-Evolver / Code"
+    ],
+    "source_type": "Repository",
+    "scope_note": "Robot-domain configurations: agent-directed profiling and optimization of Motus and FastWAM training workflows, with accepted revisions retained inside reusable implementation components; RoboTwin evaluation optimization is a further tool-code case. Frozen judges validate numerical consistency and efficiency. Reported speedups do not establish improved robot task competence or successor-model research."
   }
 ]
