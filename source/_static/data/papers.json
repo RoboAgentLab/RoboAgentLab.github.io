@@ -1447,6 +1447,18 @@
     "scope_note": "V1: supplied-tool orchestration. V2: robot-workspace code synthesis. The paper reports V1 results; the V2 software release does not establish retained self-improvement."
   },
   {
+    "id": "black2024susie",
+    "short_name": "SuSIE",
+    "title": "Zero-Shot Robotic Manipulation with Pretrained Image-Editing Diffusion Models",
+    "year": 2024,
+    "url": "https://openreview.net/forum?id=c0chJTSbci",
+    "code_url": "https://github.com/kvablack/susie",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ]
+  },
+  {
     "id": "boiko2023coscientist",
     "short_name": "Coscientist",
     "categories": [
@@ -6899,6 +6911,18 @@
     ],
     "code_url": "https://github.com/xuyicheng-zju/TARSphere",
     "project_url": "https://xuyicheng-zju.github.io/TARSphere/"
+  },
+  {
+    "id": "yang2024unisim",
+    "short_name": "UniSim",
+    "title": "Learning Interactive Real-World Simulators",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2310.06114",
+    "code_url": "",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ]
   },
   {
     "id": "yang2026astranomy",
