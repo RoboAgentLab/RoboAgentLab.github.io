@@ -7475,5 +7475,33 @@
       "O2 / A1 Model"
     ],
     "source_type": "Paper"
+  },
+  {
+    "id": "shi2024yell",
+    "short_name": "YAY Robot",
+    "title": "Yell At Your Robot: Improving On-the-Fly from Language Corrections",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2403.12910",
+    "project_url": "https://yay-robot.github.io/",
+    "code_url": "https://github.com/yay-robot/yay_robot",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "source_type": "Paper",
+    "scope_note": "Only the evaluated GPT-4V visual high-level planner with a fixed language-conditioned policy; the main learned instructor and human correction training are not generalized to this assignment."
+  },
+  {
+    "id": "he2025omnih2o",
+    "short_name": "OmniH2O",
+    "title": "OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning",
+    "year": 2025,
+    "url": "https://proceedings.mlr.press/v270/he25b.html",
+    "project_url": "https://omni.human2humanoid.com/",
+    "code_url": "https://github.com/LeCAR-Lab/human2humanoid",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "source_type": "Paper",
+    "scope_note": "Only the GPT-4o head-camera configuration that selects motion primitives for a fixed learned humanoid controller; teleoperation, RL and distillation alone are outside this agent-role assignment."
   }
 ]
