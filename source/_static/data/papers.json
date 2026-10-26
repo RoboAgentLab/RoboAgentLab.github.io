@@ -7717,5 +7717,19 @@
     ],
     "source_type": "Paper",
     "scope_note": "O3/A2: the paper selects task-relevant actions/objects and directly produces coordinated plans; Fast Downward belongs to baselines. O3/A3: the current official implementation separately generates and repairs task functions and thread synchronization. Reported evaluation uses GoTo teleport mode; navigation mode is a distinct demonstration configuration."
+  },
+  {
+    "id": "autonomous2026lampos",
+    "short_name": "lampOS",
+    "title": "lampOS: The open-source operating system for physical AI",
+    "year": 2026,
+    "url": "https://github.com/autonomous-ai/lampOS",
+    "code_url": "https://github.com/autonomous-ai/lampOS",
+    "categories": [
+      "O1 / A2",
+      "O2 / A2"
+    ],
+    "source_type": "Repository",
+    "scope_note": "Model-directed robot API selection and composition. O1/A2 receives camera images directly; O2/A2 receives supplied visual descriptions through the text-only model route. Fixed event reactions and low-level tracking are execution components. Skill creation alone does not establish retained feedback-directed self-improvement."
   }
 ]
