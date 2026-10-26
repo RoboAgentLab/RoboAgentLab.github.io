@@ -6297,6 +6297,19 @@
     "short_name": "Open Gemini Harness"
   },
   {
+    "id": "xiong2025aicmllm",
+    "short_name": "AIC MLLM",
+    "title": "Autonomous Interactive Correction MLLM for Robust Robotic Manipulation",
+    "year": 2025,
+    "url": "https://proceedings.mlr.press/v270/xiong25a.html",
+    "code_url": "",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code",
+      "O2 / A1 Code"
+    ]
+  },
+  {
     "id": "xpolicylab2026",
     "title": "XPolicyLab: A Unified Standard and Open Ecosystem for Robot Policy Evaluation and Deployment",
     "year": 2026,
