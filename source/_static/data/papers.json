@@ -7673,5 +7673,49 @@
     ],
     "source_type": "Paper",
     "scope_note": "The LLM generates navigation code with conditionals, loops and arithmetic over supplied map-query and navigation APIs. The map representation alone is not the agent configuration."
+  },
+  {
+    "id": "zhang2024lammap",
+    "short_name": "LaMMA-P",
+    "title": "LaMMA-P: Generalizable Multi-Agent Long-Horizon Task Allocation and Planning with LM-Driven PDDL Planner",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2409.20560",
+    "project_url": "https://lamma-p.github.io/",
+    "code_url": "https://github.com/tasl-lab/LaMMA-P",
+    "categories": [
+      "O3 / A2",
+      "O3 / A3"
+    ],
+    "source_type": "Paper",
+    "scope_note": "O3/A2: the paper coordinates existing actions using simulator object information and a fixed plan converter. O3/A3: the current official implementation separately generates and repairs executable task functions and thread synchronization; this code path is not attributed to every paper experiment."
+  },
+  {
+    "id": "zhang2026commcp",
+    "short_name": "CommCP",
+    "title": "CommCP: Efficient Multi-Agent Coordination via LLM-Based Communication with Conformal Prediction",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2602.06038",
+    "project_url": "https://comm-cp.github.io/",
+    "code_url": "https://github.com/tasl-lab/CommCP",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "source_type": "Paper",
+    "scope_note": "RGB-D observations feed model-directed exploration preferences and peer communication; an internally constructed semantic map guides a fixed frontier/TSDF navigation executor. Fixed conformal calibration is not a separate agent decision. Simulator localization and map bounds remain implementation assumptions."
+  },
+  {
+    "id": "gupta2026scaleplan",
+    "short_name": "Scale-Plan",
+    "title": "Scale-Plan: Scalable Language-Enabled Task Planning for Heterogeneous Multi-Robot Teams",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2603.08814",
+    "project_url": "",
+    "code_url": "https://github.com/honda-research-institute/Scale_Plan",
+    "categories": [
+      "O3 / A2",
+      "O3 / A3"
+    ],
+    "source_type": "Paper",
+    "scope_note": "O3/A2: the paper selects task-relevant actions/objects and directly produces coordinated plans; Fast Downward belongs to baselines. O3/A3: the current official implementation separately generates and repairs task functions and thread synchronization. Reported evaluation uses GoTo teleport mode; navigation mode is a distinct demonstration configuration."
   }
 ]
