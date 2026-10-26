@@ -5195,6 +5195,18 @@
     "short_name": "EvolveNav"
   },
   {
+    "id": "si260621406",
+    "short_name": "DGAC",
+    "title": "Robot Self-Improvement via Human-Video Dynamics Models",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.21406",
+    "code_url": "",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Dataset Construction"
+    ]
+  },
+  {
     "id": "si260629871",
     "short_name": "AI Training Manager",
     "title": "AI Training Manager: Bounded Closed-Loop Control of Adaptive Training Recipes",
