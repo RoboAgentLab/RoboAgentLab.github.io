@@ -7503,5 +7503,175 @@
     ],
     "source_type": "Paper",
     "scope_note": "Only the GPT-4o head-camera configuration that selects motion primitives for a fixed learned humanoid controller; teleoperation, RL and distillation alone are outside this agent-role assignment."
+  },
+  {
+    "id": "audit250508548",
+    "short_name": "FSD",
+    "title": "From Seeing to Doing: Bridging Reasoning and Decision for Robotic Manipulation",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2505.08548",
+    "project_url": "",
+    "code_url": "https://github.com/pickxiguapi/Embodied-FSD",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "source_type": "Paper",
+    "scope_note": "The RGB-to-pixel-goal/trace decision configuration, followed by fixed depth backprojection and motion execution."
+  },
+  {
+    "id": "audit250617561",
+    "short_name": "VLA-OS",
+    "title": "VLA-OS: Structuring and Dissecting Planning Representations and Paradigms in Vision-Language-Action Models",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2506.17561",
+    "project_url": "",
+    "code_url": "https://github.com/HeegerGao/VLA-OS",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "source_type": "Paper",
+    "scope_note": "Only the H configuration with explicit language, visual or goal-image plans re-encoded for a separate low-level action model; A and I configurations are not generalized to this assignment."
+  },
+  {
+    "id": "audit250320020",
+    "short_name": "Gemini ER",
+    "title": "Gemini Robotics: Bringing AI into the Physical World",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2503.20020",
+    "project_url": "",
+    "code_url": "",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "source_type": "Paper",
+    "scope_note": "Only Gemini Robotics-ER few-shot end-effector trajectory decisions with a fixed executor; ordinary Gemini Robotics VLA inference is outside this assignment."
+  },
+  {
+    "id": "audit260313528",
+    "short_name": "Dream2Fix",
+    "title": "Learning Actionable Manipulation Recovery via Counterfactual Failure Synthesis",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2603.13528",
+    "project_url": "",
+    "code_url": "",
+    "categories": [
+      "O1 / A1 Code",
+      "Infrastructure / Diagnosis"
+    ],
+    "source_type": "Paper",
+    "scope_note": "Video-based failure diagnosis and structured correction decisions mapped to fixed robot primitives. Fixed synthetic-data filtering is not classified as agent-directed dataset construction."
+  },
+  {
+    "id": "audit260510921",
+    "short_name": "RoboMemArena",
+    "title": "RoboMemArena: A Comprehensive and Challenging Robotic Memory Benchmark",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2605.10921",
+    "project_url": "",
+    "code_url": "https://github.com/OpenHelix-Team/RoboMemArena",
+    "categories": [
+      "O1 / A1 Model",
+      "Infrastructure / Dataset Construction"
+    ],
+    "source_type": "Paper",
+    "scope_note": "PrediMem S2 selects explicit subtasks from RGB and memory for a separate S1 action model; the dataset configuration uses VLM subtask decomposition with human refinement. Within-episode memory alone does not establish self-evolution."
+  },
+  {
+    "id": "audit260604172",
+    "short_name": "Affordance2Action",
+    "title": "Affordance2Action: Task-Conditioned Scene-level Affordance Grounding for Real-Time Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.04172",
+    "project_url": "",
+    "code_url": "https://github.com/arc-l/a2a",
+    "categories": [
+      "Infrastructure / Dataset Construction"
+    ],
+    "source_type": "Paper",
+    "scope_note": "Only A2A-AffordGen: a VLM proposes corrective mask clicks for a frozen segmenter with iterative correction and human final acceptance. The main latent VLA is outside this assignment."
+  },
+  {
+    "id": "audit260425788",
+    "short_name": "KinDER",
+    "title": "KinDER: A Physical Reasoning Benchmark for Robot Learning and Planning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2604.25788",
+    "project_url": "",
+    "code_url": "https://github.com/Princeton-Robot-Planning-and-Learning/kindergarden",
+    "categories": [
+      "O3 / A2"
+    ],
+    "source_type": "Paper",
+    "scope_note": "Only LLMPlan, VLMPlan, LLMCon and VLMCon baselines selecting existing skills with object-centric simulator state; additional RGB does not remove privileged-state access."
+  },
+  {
+    "id": "audit251102239",
+    "short_name": "LACY",
+    "title": "LACY: A Vision-Language Model-based Language-Action Cycle for Self-Improving Robotic Manipulation",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2511.02239",
+    "project_url": "",
+    "code_url": "",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "source_type": "Paper",
+    "scope_note": "The image-conditioned language-action model selects pick/place coordinates for a fixed executor. The prescribed language-cycle consistency filter and retraining do not independently establish self-evolution."
+  },
+  {
+    "id": "audit230902561",
+    "short_name": "PG-VLM",
+    "title": "Physically Grounded Vision-Language Models for Robotic Manipulation",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2309.02561",
+    "project_url": "",
+    "code_url": "",
+    "categories": [
+      "O2 / A2"
+    ],
+    "source_type": "Paper",
+    "scope_note": "The robot planner receives detected objects and queried physical attributes, then chooses existing pick/place primitives. The physical-attribute predictor alone is not an agent-policy configuration."
+  },
+  {
+    "id": "audit250111858",
+    "short_name": "EmbodiedEval",
+    "title": "EmbodiedEval: Evaluate Multimodal LLMs as Embodied Agents",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2501.11858",
+    "project_url": "",
+    "code_url": "https://github.com/thunlp/EmbodiedEval",
+    "categories": [
+      "O1 / A2"
+    ],
+    "source_type": "Paper",
+    "scope_note": "Only the interactive VLM policy baseline selecting existing actions from first-person RGB, interaction history and action options; static QA and fixed benchmark scoring are not infrastructure-agent decisions."
+  },
+  {
+    "id": "audit220608896",
+    "short_name": "ELM",
+    "title": "Evolution through Large Models",
+    "year": 2022,
+    "url": "https://arxiv.org/abs/2206.08896",
+    "project_url": "",
+    "code_url": "",
+    "categories": [
+      "Self-Evolver / Robot morphology"
+    ],
+    "source_type": "Paper",
+    "scope_note": "Only the Sodarace configuration where a code language model mutates executable walker morphology and physics-tested candidates are retained as parents. This is not evidence of successor-model research capability."
+  },
+  {
+    "id": "audit221005714",
+    "short_name": "VLMaps",
+    "title": "Visual Language Maps for Robot Navigation",
+    "year": 2022,
+    "url": "https://arxiv.org/abs/2210.05714",
+    "project_url": "",
+    "code_url": "https://github.com/vlmaps/vlmaps",
+    "categories": [
+      "O2 / A3"
+    ],
+    "source_type": "Paper",
+    "scope_note": "The LLM generates navigation code with conditionals, loops and arithmetic over supplied map-query and navigation APIs. The map representation alone is not the agent configuration."
   }
 ]
