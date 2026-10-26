@@ -7436,5 +7436,31 @@
       "Infrastructure / Training"
     ],
     "short_name": "VeriFine"
+  },
+  {
+    "id": "lin2026fastharness",
+    "short_name": "FastHarness",
+    "title": "FastHarness: Experience-Driven Review Scheduling for Vision-Language-Action Policies",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.31427",
+    "code_url": "https://github.com/FastHarness/fast-harness",
+    "categories": [
+      "O1 / A1 Code",
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "source_type": "Paper"
+  },
+  {
+    "id": "chen2025goalvla",
+    "short_name": "Goal-VLA",
+    "title": "Goal-VLA: Image-Generative VLMs as Object-Centric World Models Empowering Zero-shot Robot Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2506.23919",
+    "code_url": "https://github.com/chenhn02/Goal-VLA",
+    "project_url": "https://nus-lins-lab.github.io/goalvlaweb/",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "source_type": "Paper"
   }
 ]
