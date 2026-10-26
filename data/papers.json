@@ -2236,6 +2236,19 @@
     "short_name": "GigaWorld-Policy 0.5"
   },
   {
+    "id": "gong2026abotn1",
+    "short_name": "ABot-N1",
+    "title": "ABot-N1: Toward a General Visual Language Navigation Foundation Model",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2607.10383",
+    "code_url": "https://github.com/amap-cvlab/ABot-Navigation/tree/ABotN-Bench",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "project_url": "https://amap-cvlab.github.io/ABot-Navigation/ABot-N1/"
+  },
+  {
     "id": "gptpolicy2026",
     "title": "In-Context Robot Learning with VLM Agents",
     "year": 2026,
@@ -3106,6 +3119,19 @@
     ],
     "code_url": "https://github.com/hxwxss/glm-skills-embodied",
     "short_name": "glm-skills-embodied"
+  },
+  {
+    "id": "iacob2026rqgm",
+    "short_name": "RQGM",
+    "title": "The Red Queen Gödel Machine: Co-Evolving Agents and Their Evaluators",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.26294",
+    "code_url": "",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training",
+      "Self-Evolver / Execution Workflows"
+    ]
   },
   {
     "id": "iker2025",
