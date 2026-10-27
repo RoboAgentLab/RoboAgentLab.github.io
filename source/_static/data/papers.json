@@ -7928,5 +7928,132 @@
       "Infrastructure / Dataset Construction"
     ],
     "scope_note": "The scene-grounded VLM instantiates and composes manipulation tasks that condition synthetic video trajectories for training (v2, Sections 4.1–4.2 and Appendix B.2). Prescribed consensus, reward scoring, GRPO/DPO and curriculum updates are not classified as agent-directed Self-Evolver. The low-level LIBERO extension is not assigned a Policy cell without its precise planner interface."
+  },
+  {
+    "id": "audit260916346",
+    "short_name": "Auto-HSI",
+    "title": "Auto-HSI: Personalized human control of a robot swarm on demand by using LLMs for online automatic code generation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.16346v1",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3"
+    ],
+    "scope_note": "The implementation supplies recognized gesture data and scene context to the LLM, which writes Lua controller logic (O2/A3). Gesture recognition is supplied upstream. Online syntax repair does not establish retained cross-task Self-Evolver updates.",
+    "code_url": "https://zenodo.org/records/22758068"
+  },
+  {
+    "id": "xref260206967",
+    "short_name": "CLiMRS",
+    "title": "Leveraging Adaptive Group Negotiation for Heterogeneous Multi-Robot Collaboration with Large Language Models",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2602.06967",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A2"
+    ],
+    "scope_note": "The CLiMBench configuration supplies simulator-derived object/coordinate observations to the negotiating LLMs, which select existing structured action commands (O3/A2). The public repository currently announces future code release.",
+    "repository_url": "https://github.com/song-siqi/CLiMRS",
+    "code_status": "pending_release"
+  },
+  {
+    "id": "teo2026heuristic",
+    "short_name": "Heuristic Grasping",
+    "title": "From False Positives to Failure Topologies: Heuristic Learning for Auditable Dexterous Grasping Development",
+    "year": 2026,
+    "url": "https://doi.org/10.5281/zenodo.20922238",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A3",
+      "Self-Evolver / Programs and Skills"
+    ],
+    "scope_note": "A coding agent reads MuJoCo state/contact logs and failure evidence, edits controller logic, and retains human-approved revisions after regression checks (O3/A3; Programs and Skills). The reported strict long-hold grasp evaluations failed; a narrower contact-formation pilot is distinct. The public repository supplies audit artifacts rather than verified controller implementation."
+  },
+  {
+    "id": "xu2026safeharness",
+    "short_name": "SafeHarness",
+    "title": "Coding Agents with Harness for Safe Robot Control",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.20822",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "scope_note": "The route-proposal stage receives supplied SAM3 segmentation/bounding-box grounding and selects waypoint polylines executed through fixed checking and control (O2/A1 Code). Other coding-agent modes are not generalized from this stage."
+  },
+  {
+    "id": "wang2025mobileh2r",
+    "short_name": "MobileH2R",
+    "title": "MobileH2R: Learning Generalizable Human to Mobile Robot Handover Exclusively from Scalable and Diverse Synthetic Data",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2501.04595",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Dataset Construction"
+    ],
+    "scope_note": "Appendix A.1 uses GPT-4 to choose object-specific human activities/postures that condition motion synthesis for robot handover demonstration construction. Fixed downstream motion optimization is not Self-Evolver. The project code link points to the earlier GenH2R implementation, not a verified MobileH2R release.",
+    "project_url": "https://mobileh2r.github.io/"
+  },
+  {
+    "id": "audit260221670",
+    "short_name": "Hierarchical MAP",
+    "title": "Hierarchical LLM-Based Multi-Agent Framework with Prompt Optimization for Multi-Robot Task Planning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2602.21670v1",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Execution Workflows"
+    ],
+    "scope_note": "The appendix documents failure-driven revisions to a shared planning meta-prompt, with accepted rules reused on subsequent tasks. This supports retained Execution Workflows; the Policy observation axis is not inferred."
+  },
+  {
+    "id": "chen2025exoskeleton",
+    "short_name": "LLM-Exoskeleton",
+    "title": "LLM-Enabled Incremental Learning Framework for Hand Exoskeleton Control",
+    "year": 2025,
+    "url": "https://doi.org/10.1109/TASE.2024.3382679",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Programs and Skills"
+    ],
+    "scope_note": "The documented incremental-learning workflow uses feedback to generate new hand-exoskeleton control commands and retain updated command mappings for subsequent tasks. This supports Programs and Skills. The method was checked in the author-uploaded preprint; the citation identifies the final IEEE publication."
+  },
+  {
+    "id": "ghasemzadehkakroudi2026conversational",
+    "short_name": "Franka-LLM",
+    "title": "A Conversational Framework for Human-Robot Collaborative Manipulation with Distributed Generative AI models",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.06061",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "scope_note": "The official implementation grounds a requested placement relation from an RGB image into a pixel goal, then uses fixed depth/calibration and MoveIt execution (O1/A1 Code). Human approval remains in the execution workflow; object detection alone is not the inclusion basis.",
+    "code_url": "https://github.com/cogrob-tuni/franka-llm"
+  },
+  {
+    "id": "kachaev2025kitchenr",
+    "short_name": "Kitchen-R",
+    "title": "Mind and Motion Aligned: A Joint Evaluation IsaacSim Benchmark for Task Planning and Low-Level Policies in Mobile Manipulation",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2508.15663",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A1 Model"
+    ],
+    "scope_note": "The OmniFusion planning baseline receives a simulator-wide top-down view with supplied colored pick/place-region annotations unavailable to the control policy, and selects atomic language subgoals for a separate Diffusion Policy executor (O3/A1 Model). This assignment concerns that privileged planning baseline."
+  },
+  {
+    "id": "yuan2026ups",
+    "short_name": "UPS",
+    "title": "When to Act, Ask, or Learn: Uncertainty-Aware Policy Steering",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2602.22474",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Model"
+    ],
+    "scope_note": "The paper's distinct FOREWARN baseline selects among narrated candidate behavior outcomes using an explicit model choice, followed by a fixed learned executor (O2/A1 Model). The main calibrated UPS rule and prescribed residual training do not independently establish agent-directed adaptation. The repository has substantive policy/world-model implementation; release of the exact baseline is not verified.",
+    "code_url": "https://github.com/CMU-IntentLab/uncertainty_aware_policy_steering"
   }
 ]

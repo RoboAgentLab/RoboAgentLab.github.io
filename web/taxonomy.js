@@ -55,7 +55,8 @@ function renderTaxonomyPapers() {
       codeLink.href = taxonomySafeURL(paper.code_url);
       const icon = document.createElement('img');
       icon.src = 'assets/github.svg'; icon.alt = ''; icon.width = 15; icon.height = 15;
-      codeLink.append(icon,document.createTextNode('Code ↗'));
+      if (new URL(codeLink.href).hostname === 'github.com') codeLink.append(icon);
+      codeLink.append(document.createTextNode('Code ↗'));
       article.append(codeLink);
     }
     if (paper.code_status === 'pending_release' && taxonomySafeURL(paper.repository_url)) {

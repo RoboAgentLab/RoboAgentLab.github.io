@@ -52,7 +52,8 @@ function render() {
       icon.alt = "";
       icon.width = 15;
       icon.height = 15;
-      repo.append(icon, document.createTextNode("Code ↗"));
+      if (new URL(repo.href).hostname === "github.com") repo.append(icon);
+      repo.append(document.createTextNode("Code ↗"));
       links.append(repo);
     }
     if (paper.code_status === "pending_release" && safeURL(paper.repository_url)) {
