@@ -8098,5 +8098,32 @@
     "scope_note": "Agents reconstruct simulation-ready robot workspaces from observed images and visual/physics feedback. Scene-code edits are validated and retained or undone by the agent, and accepted scene artifacts support later robot-policy evaluation and trajectory replay. Fixed numerical pose-search acceptance is a separate backend operation. Official agent, scene-editing and simulator implementations are available; integration and reproduction remain unassessed.",
     "code_url": "https://github.com/Red-Fairy/SceneRig",
     "project_url": "https://red-fairy.github.io/SceneRig/"
+  },
+  {
+    "id": "audit260822657",
+    "short_name": "Physical Agentic AI",
+    "title": "Physical Agentic AI: An Architecture for Orchestrating a Robot Crew with LLMs",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2608.22657v1",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A2"
+    ],
+    "scope_note": "The released CrewAI Iris–TurtleBot SAR configuration passes Gazebo entity-state victim coordinates through ROS search tools to agents selecting existing flight/navigation skills (O3/A2). This is distinct from the fixed plan-dispatch gate and the optional camera/VLM perception service. No separate O2 or Self-Evolver configuration is inferred. Official agent, ROS bridge, controller and task code inspected; integration and reproduction unassessed.",
+    "code_url": "https://github.com/Liuuuxy/physical-agentic-ai"
+  },
+  {
+    "id": "audit261000854",
+    "short_name": "Embodied Agent Arena",
+    "title": "Are Frontier VLM Agents Ready to Be Robot Generalists? An Empirical Study with the Embodied Agent Arena",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.00854v3",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A3"
+    ],
+    "scope_note": "The released RoboTwin2 execution trace uses simulator actor-registry poses and model-written control logic with loops and intermediate computations (O3/A3). This classification concerns that recorded configuration; it does not generalize to every benchmark or the newer restricted visual interface. The benchmark and fixed verification alone do not establish agent-directed evaluation. Official runtime and controller traces inspected; integration and reproduction unassessed.",
+    "code_url": "https://github.com/embodied-agent-arena/embodied-agent-arena",
+    "project_url": "https://embodied-agent-arena.github.io/embodied-agent-arena/"
   }
 ]
