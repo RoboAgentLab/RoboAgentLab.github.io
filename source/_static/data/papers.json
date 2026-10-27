@@ -7747,5 +7747,104 @@
     ],
     "source_type": "Repository",
     "scope_note": "Robot-domain configurations: agent-directed profiling and optimization of Motus and FastWAM training workflows, with accepted revisions retained inside reusable implementation components; RoboTwin evaluation optimization is a further tool-code case. Frozen judges validate numerical consistency and efficiency. Reported speedups do not establish improved robot task competence or successor-model research."
+  },
+  {
+    "id": "li2025itp",
+    "short_name": "ITP",
+    "title": "Interactive Task Planning with Language Models",
+    "year": 2025,
+    "url": "https://openreview.net/forum?id=VmfWywWuYQ",
+    "code_url": "https://github.com/Boyiliee/ITP-BobaRobot",
+    "categories": [
+      "O2 / A2"
+    ],
+    "source_type": "Paper",
+    "scope_note": "The low-level GPT executor receives a GroundedDINO object-coordinate dictionary and selects existing grasp, place, pour and scoop skills. The separate Code-as-Policies baseline is not generalized to this configuration."
+  },
+  {
+    "id": "xie2026robovista",
+    "short_name": "RoboVista",
+    "title": "RoboVista: Evaluating Vision Language Models for Diverse Robot Applications",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2607.04610",
+    "code_url": "https://github.com/ehehee/robovista",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "source_type": "Paper",
+    "scope_note": "O1/A1 Code applies to the physical bimanual alignment experiment: main and wrist images guide directional motion commands with metric distances. The released repository implements VQA evaluation; the physical alignment executor is not verified as released. Static VQA scoring is not classified as an agent infrastructure decision."
+  },
+  {
+    "id": "ma2026atpvpdsg",
+    "short_name": "ATP-VPDSG",
+    "title": "Adaptive Task Planning for Long-Horizon Robotic Manipulation Based on Video Priors and Dynamic Scene Graphs",
+    "year": 2026,
+    "url": "https://doi.org/10.3390/s26175595",
+    "code_url": "",
+    "categories": [
+      "O1 / A2",
+      "Infrastructure / Diagnosis"
+    ],
+    "source_type": "Paper",
+    "scope_note": "The VLM prompts Grounded-DINO from RGB, builds a scene representation, selects existing manipulation primitives and diagnoses failure causes from pre/post-execution images. Agent-built perception remains O1. Fixed verification and graph updates do not establish Self-Evolver."
+  },
+  {
+    "id": "li2026robouse",
+    "short_name": "RoboUse",
+    "title": "Robo Use: agent as a policy for embodied agents",
+    "year": 2026,
+    "url": "https://robouse.ai/",
+    "code_url": "https://github.com/benchflow-ai/robouse",
+    "categories": [
+      "O1 / A2",
+      "O1 / A3",
+      "O3 / A2",
+      "O3 / A3",
+      "Self-Evolver / Programs and Skills"
+    ],
+    "source_type": "Software",
+    "scope_note": "CLI configurations select existing robot commands: camera-only task interfaces are O1/A2, while state configurations exposing simulator object and goal coordinates are O3/A2. ASPIRE writes and revises executable programs: LIBERO-PRO camera/calibration inputs support O1/A3 and CaP-X privileged poses support O3/A3. The opt-in ASPIRE library retains agent-promoted, verifier-checked skills across trials (Programs and Skills). These assignments apply to documented configurations, not the ordinary VLA clients or fixed benchmark scoring. Implementation inspected; not independently reproduced."
+  },
+  {
+    "id": "chen2024lasp",
+    "short_name": "LASP",
+    "title": "Language-Augmented Symbolic Planner for Open-World Task Planning",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2407.09792",
+    "code_url": "",
+    "categories": [
+      "Infrastructure / Diagnosis"
+    ],
+    "source_type": "Paper",
+    "scope_note": "The LLM cause analyzer diagnoses robot execution failures and proposes missing preconditions in the PyRep kitchen configuration. Exact Policy and cross-task retained-memory assignments are not inferred from the symbolic planner or recursive within-task repair."
+  },
+  {
+    "id": "robocerebra2025",
+    "short_name": "RoboCerebra",
+    "title": "RoboCerebra: A Large-scale Benchmark for Long-horizon Robotic Manipulation Evaluation",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2506.06677",
+    "code_url": "https://github.com/buaa-colalab/RoboCerebra",
+    "categories": [
+      "O1 / A1 Model",
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Dataset Construction"
+    ],
+    "source_type": "Paper",
+    "scope_note": "The image-conditioned HPE planner generates and revises explicit subgoals for a fixed OpenVLA executor (O1/A1 Model). GPT designs tasks and subtask constraints used to construct executable simulator environments and guide human demonstration collection. Scene compilation and trajectory annotation include fixed rules and human operations; they are not all attributed to the agent. Released OpenVLA benchmark execution code verified; the complete HPE planner release is not verified. Fixed evaluation and within-episode memory do not establish additional roles."
+  },
+  {
+    "id": "mu2025robotwin",
+    "short_name": "RoboTwin",
+    "title": "RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2504.13059",
+    "code_url": "https://github.com/RoboTwin-Platform/RoboTwin/tree/gpt",
+    "categories": [
+      "O3 / A3",
+      "Infrastructure / Dataset Construction"
+    ],
+    "source_type": "Paper",
+    "scope_note": "The original RoboTwin generates executable robot task programs using simulator actor geometry and pose APIs, including conditional arm selection and intermediate pose calculations (O3/A3; Appendix D). These programs generate expert demonstrations. The official gpt branch includes the LLM generation, execution, and error-feedback implementation. This original paper is distinct from RoboTwin 2.0; ordinary imitation policies and fixed benchmark scoring are not additional agent roles."
   }
 ]
