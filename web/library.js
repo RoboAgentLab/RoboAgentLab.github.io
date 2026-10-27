@@ -55,6 +55,12 @@ function render() {
       repo.append(icon, document.createTextNode("Code ↗"));
       links.append(repo);
     }
+    if (paper.code_status === "pending_release" && safeURL(paper.repository_url)) {
+      const pending = document.createElement("a");
+      pending.href = safeURL(paper.repository_url);
+      pending.textContent = "Code pending release ↗";
+      links.append(pending);
+    }
     card.append(year, title, tags);
     if (paper.scope_note) {
       const scope = document.createElement("p");

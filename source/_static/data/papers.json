@@ -6114,6 +6114,7 @@
     "url": "https://arxiv.org/abs/2610.18792",
     "source_type": "Paper",
     "categories": [
+      "O2 / A2",
       "O2 / A3",
       "Infrastructure / Dataset Construction",
       "Infrastructure / Training",
@@ -6121,7 +6122,10 @@
       "Self-Evolver / Knowledge and Memory",
       "Self-Evolver / Model"
     ],
-    "short_name": "SEAR"
+    "short_name": "SEAR",
+    "repository_url": "https://github.com/Self-Evolving-Agentic-Robotics/SEAR",
+    "code_status": "pending_release",
+    "scope_note": "The hardware GPT-6-astra live configuration selects perception, geometry and control calls from the supplied toolbox (O2/A2). Generated policy programs and the script-dominated Fable live configuration remain O2/A3. Code-and-memory libraries persist across tasks; auto-research directs data collection and VLA training. The announced repository currently contains documentation and images; implementation release is pending."
   },
   {
     "id": "wang2026sunagenticrobotpolicy",
@@ -7846,5 +7850,17 @@
     ],
     "source_type": "Paper",
     "scope_note": "The original RoboTwin generates executable robot task programs using simulator actor geometry and pose APIs, including conditional arm selection and intermediate pose calculations (O3/A3; Appendix D). These programs generate expert demonstrations. The official gpt branch includes the LLM generation, execution, and error-feedback implementation. This original paper is distinct from RoboTwin 2.0; ordinary imitation policies and fixed benchmark scoring are not additional agent roles."
+  },
+  {
+    "id": "pikus2026pretrainingknowswhatsimulation",
+    "short_name": "ZAP",
+    "title": "Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.35817",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "scope_note": "The documented agent receives ready-made SAM 3.1 perception results and issues end-effector pose and gripper targets to a fixed Cartesian/IK controller. Simulation uses rendered perception without privileged object state. Preset SFT and GRPO are not classified as agent-directed training or retained self-revision."
   }
 ]

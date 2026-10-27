@@ -58,6 +58,13 @@ function renderTaxonomyPapers() {
       codeLink.append(icon,document.createTextNode('Code ↗'));
       article.append(codeLink);
     }
+    if (paper.code_status === 'pending_release' && taxonomySafeURL(paper.repository_url)) {
+      const pending = document.createElement('a');
+      pending.className = 'tx-code';
+      pending.href = taxonomySafeURL(paper.repository_url);
+      pending.textContent = 'Code pending release ↗';
+      article.append(pending);
+    }
     list.append(article);
   }
   document.getElementById('tx-dialog-count').textContent = `${taxonomyMatched.length} works · ${taxonomyMatched.filter(p=>taxonomySafeURL(p.code_url)).length} with code`;
