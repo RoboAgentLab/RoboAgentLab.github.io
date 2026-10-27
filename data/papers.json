@@ -7859,9 +7859,9 @@
     "url": "https://arxiv.org/abs/2610.35817",
     "source_type": "Paper",
     "categories": [
-      "O2 / A1 Code"
+      "O2 / A2"
     ],
-    "scope_note": "The documented agent receives ready-made SAM 3.1 perception results and issues end-effector pose and gripper targets to a fixed Cartesian/IK controller. Simulation uses rendered perception without privileged object state. Preset SFT and GRPO are not classified as agent-directed training or retained self-revision."
+    "scope_note": "The complete harness configuration uses supplied SAM 3.1 annotations and geometric readouts. The agent selects and sequences existing motion and perception tools, including move_to, set_gripper and change_query, using controller feedback. Motion tools accept end-effector pose and gripper arguments; the controller executes them. Preset SFT and GRPO do not establish agent-directed training or retained self-revision."
   },
   {
     "id": "lu2025isbench",
