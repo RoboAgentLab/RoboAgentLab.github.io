@@ -7862,5 +7862,71 @@
       "O2 / A1 Code"
     ],
     "scope_note": "The documented agent receives ready-made SAM 3.1 perception results and issues end-effector pose and gripper targets to a fixed Cartesian/IK controller. Simulation uses rendered perception without privileged object state. Preset SFT and GRPO are not classified as agent-directed training or retained self-revision."
+  },
+  {
+    "id": "lu2025isbench",
+    "short_name": "IS-Bench",
+    "title": "IS-Bench: Evaluating Interactive Safety of VLM-Driven Embodied Agents in Daily Household Tasks",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2506.16402",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A2"
+    ],
+    "scope_note": "The documented initial-setup configuration supplies simulator-task object identities, abilities and scene relations from task JSON to the planning model, which selects named existing action primitives (O3/A2). Fixed safety evaluation is not classified as agent-directed Infrastructure.",
+    "code_url": "https://github.com/AI45Lab/IS-Bench"
+  },
+  {
+    "id": "chen2026adapt",
+    "short_name": "ADAPT",
+    "title": "ADAPT: Benchmarking Commonsense Planning under Unspecified Affordance Constraints",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2604.14902",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "scope_note": "In the FILM-based configuration, the language model receives a supplied affordance inference and chooses corrective subgoals or waiting, executed by the fixed navigation/manipulation controller (O2/A1 Code). The CAPEAM oracle-subgoal configuration is not generalized to this assignment. The linked repository currently announces a future implementation release.",
+    "project_url": "https://charlotteannchen.github.io/ADAPT/",
+    "repository_url": "https://github.com/charlotteannchen/ADAPT-Codebase",
+    "code_status": "pending_release"
+  },
+  {
+    "id": "audit260918520",
+    "short_name": "AeroWeaver",
+    "title": "AeroWeaver: An Embodied-Agent Harness for Weaving Aerial Skills into Distributed, Adaptive Swarm Execution",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.18520v1",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A2"
+    ],
+    "scope_note": "The verified AirSim runtime feeds simulator telemetry through WorldModel into the deciding planner, which selects registered aerial skills and arguments (O3/A2). Real-robot and other observation modes are not inferred from this configuration; prescribed experience retrieval and advantage updates alone do not establish Self-Evolver.",
+    "code_url": "https://github.com/Admire-ljb/AeroWeaver"
+  },
+  {
+    "id": "xref250306791",
+    "short_name": "AutoMisty",
+    "title": "AutoMisty: A Multi-Agent LLM Framework for Automated Code Generation in the Misty Social Robot",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2503.06791",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Programs and Skills"
+    ],
+    "scope_note": "The Designer revises robot programs using compiler errors and user feedback; confirmed successful code is saved and retrieved for future tasks. This supports Programs and Skills with human approval. Fixed RAG storage itself is not classified as agent-authored memory revision, and the Policy observation axis remains unresolved.",
+    "code_url": "https://github.com/WangXiaoShawn/AutoMisty"
+  },
+  {
+    "id": "chen2026roboevolve",
+    "short_name": "RoboEvolve",
+    "title": "RoboEvolve: Co-Evolving Planner-Simulator for Robotic Manipulation with Limited Data",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2605.13775",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Dataset Construction"
+    ],
+    "scope_note": "The scene-grounded VLM instantiates and composes manipulation tasks that condition synthetic video trajectories for training (v2, Sections 4.1–4.2 and Appendix B.2). Prescribed consensus, reward scoring, GRPO/DPO and curriculum updates are not classified as agent-directed Self-Evolver. The low-level LIBERO extension is not assigned a Policy cell without its precise planner interface."
   }
 ]
