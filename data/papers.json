@@ -8125,5 +8125,32 @@
     "scope_note": "The released RoboTwin2 execution trace uses simulator actor-registry poses and model-written control logic with loops and intermediate computations (O3/A3). This classification concerns that recorded configuration; it does not generalize to every benchmark or the newer restricted visual interface. The benchmark and fixed verification alone do not establish agent-directed evaluation. Official runtime and controller traces inspected; integration and reproduction unassessed.",
     "code_url": "https://github.com/embodied-agent-arena/embodied-agent-arena",
     "project_url": "https://embodied-agent-arena.github.io/embodied-agent-arena/"
+  },
+  {
+    "id": "gao2026embodiedlab",
+    "short_name": "EmbodiedLab",
+    "title": "EmbodiedLab: Benchmarking Embodied Agents That Act to Know",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.35385",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A3",
+      "O2 / A3"
+    ],
+    "scope_note": "EmbodiedLab is an acting-to-know evaluation resource: 30 physics-based science experiments on 14 apparatus platforms in an Isaac Sim laboratory with resampled hidden parameters. Its robot agent plans the procedure, writes and runs Python control scripts, operates a Franka arm and reads instruments through cameras. The T0 configuration supplies calibrated camera views, robot state, joint/gripper control and kinematics-only IK (O1/A3); T1 adds SAM3 segmentation, depth back-projection and cuRobo collision-free planning as supplied perception and planning interfaces (O2/A3; the depth and planner inputs come from the simulator and are recorded in the evidence notes). Fixed milestone scoring does not establish an Infrastructure agent. Official environment, robot-interface and evaluation implementations are available; integration and reproduction unassessed.",
+    "code_url": "https://github.com/HexaFuture/EmbodiedLab",
+    "project_url": "https://hexafuture.ai/benchmarks/embodiedlab/"
+  },
+  {
+    "id": "machembodied2026mebrainrsi",
+    "short_name": "ME-Brain-RSI",
+    "title": "ME-Brain-RSI: A Dual-Harness Framework for Self-Evolving Embodied Agents",
+    "year": 2026,
+    "url": "https://machembodied.com/ME-Brain/ME-Brain-RSI/index.html",
+    "source_type": "Blog",
+    "categories": [
+      "Self-Evolver / Programs and Skills"
+    ],
+    "scope_note": "Technical blog (27 October 2026). A policy-development agent uses a VLM to plan tasks, revise candidate policy code and tools, test them in simulation and review recorded videos, action trajectories and native scores; revisions are re-tested and only verified frozen policies and tools pass to execution (Self-Evolver / Programs and Skills). The execution harness selects a frozen dedicated policy or ME-Brain-1.0 through preset task routing, so no A2 configuration is inferred, and the dual-harness label alone does not establish harness self-improvement. Recorded separately from the ME-Brain-1.0 memory framework. Self-reported RoboDojo simulation results only; no public implementation verified."
   }
 ]
