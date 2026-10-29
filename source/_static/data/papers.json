@@ -2919,7 +2919,8 @@
     "aliases": [
       "Harness VLA",
       "HarnessVLA"
-    ]
+    ],
+    "scope_note": " ManiMux provides an additional RPent deployment runtime (https://github.com/SII-LiuLab/manimux). In its documented RPent integration, the planner observes RGB and robot state and selects existing motion or VLA execution tools (O1/A2); scheduling and recording are provided by the runtime. ManiUniCon is its predecessor (https://github.com/Universal-Control/ManiUniCon). This is an implementation resource for RPent, not an additional independent method."
   },
   {
     "id": "he2026vdreamer",
@@ -8152,5 +8153,19 @@
       "Self-Evolver / Programs and Skills"
     ],
     "scope_note": "Technical blog (27 October 2026). A policy-development agent uses a VLM to plan tasks, revise candidate policy code and tools, test them in simulation and review recorded videos, action trajectories and native scores; revisions are re-tested and only verified frozen policies and tools pass to execution (Self-Evolver / Programs and Skills). The execution harness selects a frozen dedicated policy or ME-Brain-1.0 through preset task routing, so no A2 configuration is inferred, and the dual-harness label alone does not establish harness self-improvement. Recorded separately from the ME-Brain-1.0 memory framework. Self-reported RoboDojo simulation results only; no public implementation verified."
+  },
+  {
+    "id": "luo2026handson",
+    "short_name": "HandsOn",
+    "title": "HandsOn: A Large-Scale Simulation Benchmark for Generalizable Dexterous Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.26765",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "code_url": "https://github.com/TsinghuaC3I/HandsOn",
+    "project_url": "https://llltttwww.github.io/HandsOn-website/",
+    "scope_note": "The reported GPT-6 move_eef baseline consumes three RGB views and measured robot proprioception, then specifies palm poses and finger-joint targets for a fixed kinematic executor (O1/A1 Code). Hidden object states and task-checker signals are withheld. This classification concerns the documented agent baseline; fixed benchmark scoring is not an Infrastructure agent. Simulation pauses during model deliberation. Official benchmark, action-adapter and evaluation code is public; the exact GPT baseline runner has not been independently verified. Integration and reproduction unassessed."
   }
 ]
