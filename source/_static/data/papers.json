@@ -8167,5 +8167,20 @@
     "code_url": "https://github.com/TsinghuaC3I/HandsOn",
     "project_url": "https://llltttwww.github.io/HandsOn-website/",
     "scope_note": "The reported GPT-6 move_eef baseline consumes three RGB views and measured robot proprioception, then specifies palm poses and finger-joint targets for a fixed kinematic executor (O1/A1 Code). Hidden object states and task-checker signals are withheld. This classification concerns the documented agent baseline; fixed benchmark scoring is not an Infrastructure agent. Simulation pauses during model deliberation. Official benchmark, action-adapter and evaluation code is public; the exact GPT baseline runner has not been independently verified. Integration and reproduction unassessed."
+  },
+  {
+    "id": "yu2026physladder",
+    "short_name": "PhysLadder",
+    "title": "How High Can GPT-6 Astra Climb in Contact-Rich Manipulation? PhysLadder: A Hierarchical, Matched Sim-Real Benchmark for Physical Interaction",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.34527",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code",
+      "O1 / A2"
+    ],
+    "code_url": "https://github.com/PhysLadder-Benchmark/PhysLadder",
+    "project_url": "https://physladder-benchmark.com/",
+    "scope_note": "Simulation: RGB, robot proprioception and execution feedback to end-effector pose and gripper targets through a fixed planner (O1/A1 Code). Real robot: the agent requests RGB and robot-state observations and invokes existing motion/gripper services (O1/A2). Privileged simulation measurements are evaluator-only. Skills are fixed before evaluation. Official policy adapter, action codec and benchmark evaluation implementations verified; integration and reproduction unassessed."
   }
 ]
