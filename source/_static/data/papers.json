@@ -8182,5 +8182,50 @@
     "code_url": "https://github.com/PhysLadder-Benchmark/PhysLadder",
     "project_url": "https://physladder-benchmark.com/",
     "scope_note": "Simulation: RGB, robot proprioception and execution feedback to end-effector pose and gripper targets through a fixed planner (O1/A1 Code). Real robot: the agent requests RGB and robot-state observations and invokes existing motion/gripper services (O1/A2). Privileged simulation measurements are evaluator-only. Skills are fixed before evaluation. Official policy adapter, action codec and benchmark evaluation implementations verified; integration and reproduction unassessed."
+  },
+  {
+    "id": "chen2026rmbench",
+    "short_name": "Mem-0",
+    "title": "RMBench: Memory-Dependent Robotic Manipulation Benchmark with Insights into Policy Design",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2603.01229",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "code_url": "https://github.com/RoboTwin-Platform/RMBench",
+    "project_url": "https://rmbench.github.io/",
+    "scope_note": "The hierarchical Mem-0 M(n) configuration uses a separate VLM to select textual subtasks from RGB and completed-subtask/key-image memory; a flow-matching model executes them. The M(1) executor-only variant is outside this classification. Within-episode memory does not constitute retained self-evolution."
+  },
+  {
+    "id": "feng2026enactopt",
+    "short_name": "EnactOpt",
+    "title": "EnactOpt: Diagnosis-Guided Harness Evolution for Embodied Agents",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.14977",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Diagnosis",
+      "Self-Evolver / Knowledge and Memory",
+      "Self-Evolver / Representation",
+      "Self-Evolver / State Management"
+    ],
+    "scope_note": "The VLABench configuration diagnoses execution traces and retains validated edits to reusable textual guidance and context-construction code. The core model and runtime remain fixed. Its separate Policy configuration is not assigned an observation-axis category."
+  },
+  {
+    "id": "wang2026carryon",
+    "short_name": "CarryOn",
+    "title": "CarryOn: A Dual-Loop Harness for Personalized and Reliable Robot Assistance",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.21453",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A2",
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "code_url": "https://github.com/JIA-Lab-research/CarryOn",
+    "project_url": "https://vincent2311.github.io/Projects/CarryOn/",
+    "scope_note": "Camera observations and execution feedback guide tool selection, subtask dependencies and recovery around a frozen VLA. Reflected control strategies and user/scene memories are retained for later interactions. The fixed geometric safety shield is not a separate agent configuration."
   }
 ]
