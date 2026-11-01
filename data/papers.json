@@ -8393,5 +8393,74 @@
     ],
     "scope_note": "Author-released final artifacts document Astra constructing robot-task environments and solution code for pen spinning and cube manipulation. Inspectable simulation and controller code exists. Do not infer a live LLM policy or an agent-controlled training/revision loop from the fixed PPO policies; original agent observation contract is not released.",
     "code_url": "https://github.com/jianglongye/dexterous-astra"
+  },
+  {
+    "id": "liang2026embodiedmemory",
+    "short_name": "EMem",
+    "title": "EmbodiedMemory-Bench: Benchmarking Embodied Memory for Long-Horizon Embodied Tasks",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.28236",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A2"
+    ],
+    "scope_note": "EmbodiedMemory-Bench evaluates memory-dependent action in AI2-THOR/ProcTHOR. Its Embodied-Memorizer (EMem) policy chooses memory write/query tools and sequences predefined navigation/manipulation actions. Appendix C and released env.py expose legal actions bound to simulator object identities and affordances, so this supplied-interface configuration is O3/A2 despite also receiving RGB. Fixed scoring is not agentic evaluation; within-episode memory is not retained self-evolution.",
+    "code_url": "https://github.com/ZJU-OmniAI/Embodied-Omni/tree/main/embodied_memory",
+    "project_url": "https://zju-omniai.github.io/EmbodiedMemoryBench/",
+    "aliases": [
+      "EmbodiedMemory-Bench",
+      "EMem-Bench",
+      "Embodied-Memorizer"
+    ]
+  },
+  {
+    "id": "mao2026robotagentbench",
+    "short_name": "RobotAgentBench",
+    "title": "RobotAgentBench: Towards Open-world Robot Autonomy",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.34649",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A1 Model",
+      "O3 / A3",
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Dataset Construction",
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Code"
+    ],
+    "scope_note": "Distinct configurations: C/L/- delegates model-generated subtasks to a learned executor (A1 Model); C/C/C and C/H/C generate executable control logic (A3). Map-assisted simulation receives progressively disclosed static scene geometry, not an RGB-reconstructed map (O3); trajectory generation also receives simulator object state. Sections 2.1.1/2.1.2 document agent-directed environment reconstruction and trajectory-program generation. C/C/C+RSI retains improved control tools across attempts (program/skill refinement and tool-code revision). Fixed benchmark scoring and standalone VLA/WAM baselines are not independent agentic configurations.",
+    "code_url": "https://github.com/AetherLabsAI/RobotAgentBench",
+    "project_url": "https://aetherlabsai.github.io/RobotAgentBench/",
+    "aliases": [
+      "RAB"
+    ]
+  },
+  {
+    "id": "sridhar2026memer",
+    "short_name": "MemER",
+    "title": "MemER: Scaling Up Memory for Robot Control via Experience Retrieval",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2510.20328",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "scope_note": "A high-level VLM selects historical keyframes and predicts language subtasks for a fixed learned low-level executor. Camera streams and selected image history are sensory inputs. Keyframe filtering is part of this policy, not supplied scene perception. ICLR 2026 version; the arXiv preprint first appeared in 2025. No cross-task self-evolution inferred.",
+    "code_url": "https://github.com/memer-policy/memer",
+    "project_url": "https://jen-pan.github.io/memer/"
+  },
+  {
+    "id": "torne2026mem",
+    "short_name": "MEM",
+    "title": "MEM: Multi-Scale Embodied Memory for Vision Language Action Models",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2603.03596",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "scope_note": "The high-level VLM predicts language subtasks and updates a semantic summary from sensory observations; a learned low-level policy executes the selected subtask (Sections III-A/B/D). Include this explicit hierarchical decision configuration, not video-memory encoding alone. Within-episode memory and fixed post-training do not establish retained self-evolution. No substantive official MEM implementation verified.",
+    "project_url": "https://www.pi.website/research/memory",
+    "code_status": "not_verified"
   }
 ]
