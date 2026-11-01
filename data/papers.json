@@ -8462,5 +8462,37 @@
     "scope_note": "The high-level VLM predicts language subtasks and updates a semantic summary from sensory observations; a learned low-level policy executes the selected subtask (Sections III-A/B/D). Include this explicit hierarchical decision configuration, not video-memory encoding alone. Within-episode memory and fixed post-training do not establish retained self-evolution. No substantive official MEM implementation verified.",
     "project_url": "https://www.pi.website/research/memory",
     "code_status": "not_verified"
+  },
+  {
+    "id": "openrobokit2026roboskills",
+    "short_name": "RoboSkills",
+    "title": "RoboSkills: A minimal set of agent workflows and tools for robotics",
+    "year": 2026,
+    "url": "https://github.com/openrobokit/roboskills",
+    "source_type": "Repository",
+    "categories": [
+      "O2 / A3",
+      "O3 / A3",
+      "Infrastructure / Environment Generation",
+      "Self-Evolver / Programs and Skills"
+    ],
+    "code_url": "https://github.com/openrobokit/roboskills",
+    "project_url": "https://openrobokit.com/roboskills/",
+    "scope_note": "Distinct workflows: Agent as Policy writes Python each turn using supplied segmentation and geometric tools (O2/A3). Auto Research revises solve(bot) programs using development feedback and retains a frozen solution for held-out cases. Agentic Simulation builds robot tasks and writes solutions with simulator access (O3/A3). Robot-task construction supports Environment Generation. Fixed checks and nonphysical motion-video generation are not separately counted as agentic evaluation or robot control. This is OpenRoboKit RoboSkills, distinct from SII RoboSkill."
+  },
+  {
+    "id": "huang2026cuarms",
+    "short_name": "cuArms",
+    "title": "cuArms: GPU-Accelerated Conflict-Based Planning for Multi-Arm Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.36250",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3",
+      "O3 / A3"
+    ],
+    "project_url": "https://cuarms.github.io/",
+    "code_status": "not_verified",
+    "scope_note": "Include only the coding-agent configurations documented in Appendix D/E, not the standalone planner. Agents synthesize and refine skills, schedule skeletons and cost programs. Appendix D supplies geometric scene models (O3/A3); Appendix E provides a SAM 3 endpoint and known robot/camera/shape geometry for perception and scheduling (O2/A3), followed by human inspection before physical execution. Fresh per-problem sandboxes do not establish cross-task retained self-evolution. Cite the public arXiv author record; agent evidence is in the project-page supplement, Appendix D/E. No public implementation verified."
   }
 ]
