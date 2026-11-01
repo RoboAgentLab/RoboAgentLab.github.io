@@ -6876,9 +6876,8 @@
     ],
     "code_url": "https://github.com/jackbjed/embodied-astra-robomme",
     "short_name": "Astra-RoboMME",
-    "aliases": [
-      "Astra on RoboMME"
-    ]
+    "aliases": [],
+    "scope_note": "Direct Astra policy on RoboMME (Jedlicki, Sethi and Yang, arXiv:2610.17350): camera/history to EEF waypoints through a fixed executor. Distinct from the three-tier planner/VLA/monitor system of Chen, Fang and Liu."
   },
   {
     "id": "xu2026agentchord",
@@ -8227,5 +8226,172 @@
     "code_url": "https://github.com/JIA-Lab-research/CarryOn",
     "project_url": "https://vincent2311.github.io/Projects/CarryOn/",
     "scope_note": "Camera observations and execution feedback guide tool selection, subtask dependencies and recovery around a frozen VLA. Reflected control strategies and user/scene memories are retained for later interactions. The fixed geometric safety shield is not a separate agent configuration."
+  },
+  {
+    "id": "chen2026astrarobomme",
+    "short_name": "Astra on RoboMME",
+    "title": "Can Astra Solve RoboMME without Breaking the Bank?",
+    "year": 2026,
+    "url": "https://bingaochen.github.io/Astra-on-RoboMME/",
+    "source_type": "Technical report",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "scope_note": "Three-tier system: RGB/history-informed Astra chooses grounded text subtasks; a separately trained pi0.5 executes; a Qwen monitor triggers replanning. Distinct from Jedlicki et al. arXiv:2610.17350, whose Astra directly outputs robot targets. Within-episode history is not retained self-improvement.",
+    "code_url": "https://github.com/bingaochen/Astra-on-RoboMME"
+  },
+  {
+    "id": "guo2026agenticreal2sim",
+    "short_name": "Agentic System-ID",
+    "title": "Agentic real-to-sim reconstruction from robot demonstrations",
+    "year": 2026,
+    "url": "https://x.com/Lingxiao234/status/2096992059731443923",
+    "source_type": "Demonstration report",
+    "categories": [
+      "Infrastructure / Environment Generation"
+    ],
+    "scope_note": "Author documents agent-proposed physical parameters, model edits, simulation and comparison against demonstration video. Includes camera calibration and scene construction. The microphone example is explicitly kinematic replay with failed dynamics, not a validated physical world. No released implementation verified."
+  },
+  {
+    "id": "guo2026physicalretarget",
+    "short_name": "Physical Retargeting",
+    "title": "Agentic physical retargeting of human videos to Wuji hands",
+    "year": 2026,
+    "url": "https://x.com/Lingxiao234/status/2097717020540481630",
+    "source_type": "Demonstration report",
+    "categories": [
+      "Infrastructure / Dataset Construction"
+    ],
+    "scope_note": "Author describes agent-selected contact points and search against physical tests to generate robot replay data. One correction uses supplied MapAnything/MANO outputs; no blanket observation-axis classification. Simulation-only demonstration, no hardware transfer or released implementation verified."
+  },
+  {
+    "id": "hu2026dexgpt",
+    "short_name": "DexGPT",
+    "title": "DexGPT: GIF to Sharpa Wave",
+    "year": 2026,
+    "url": "https://github.com/Hu-xiao-max/dexgpt",
+    "source_type": "Software / demo",
+    "categories": [
+      "O1 / A3",
+      "Infrastructure / Dataset Construction"
+    ],
+    "scope_note": "Development-time coding configuration: author reports a coding agent building hand tracking, retargeting and grasp-refinement code from video; released final code produces robot controls and physical replay. Perception built by the agent remains O1. Runtime is a fixed pipeline, not a live LLM policy. Released replay fails its penetration acceptance threshold and is not validated for hardware.",
+    "code_url": "https://github.com/Hu-xiao-max/dexgpt"
+  },
+  {
+    "id": "innate2026imitation",
+    "short_name": "Innate ICL",
+    "title": "Imitating a recorded demonstration with GPT-6 Astra",
+    "year": 2026,
+    "url": "https://github.com/innate-inc/innate-os/pull/817",
+    "source_type": "Software / demo",
+    "categories": [
+      "O1 / A2"
+    ],
+    "scope_note": "Released pull-request configuration: demonstration frames and measured joints/EEF poses plus live cameras; the model records phases and chooses joint, EEF, base and gripper actions from a fixed menu. Input FK is proprioception, not scene perception. Implementation inspected at PR head ef8fd0df33767c1343e0138e4eed391753d12662. The pull request is open and unmerged; deployment and reproduction are unassessed.",
+    "code_url": "https://github.com/innate-inc/innate-os/pull/817"
+  },
+  {
+    "id": "li2026sharppen",
+    "short_name": "Sharpa Pen RL",
+    "title": "Autonomous construction and training of a Sharpa pen-spinning task",
+    "year": 2026,
+    "url": "https://x.com/walterzhu8/status/2100212420840989112",
+    "source_type": "Demonstration report",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Training"
+    ],
+    "scope_note": "Author report credits Chengyang Li and documents an autonomous coding-agent run creating the pen mesh, robot task and PPO training experiment. Membership concerns development-time agent decisions, not the trained PPO inference. No public implementation or reproducible training trace verified."
+  },
+  {
+    "id": "memmel2026sphere",
+    "short_name": "Sphere Retargeting",
+    "title": "Human sphere-handling video to a Sharpa robot trajectory",
+    "year": 2026,
+    "url": "https://x.com/memmelma/status/2113601346280804846",
+    "source_type": "Demonstration report",
+    "categories": [
+      "O1 / A3"
+    ],
+    "scope_note": "Author thread documents video-to-scene estimation, IK, generated motor-command code, MuJoCo contact tests and rendered comparisons. Development-time CaP only: open-loop single-demo reconstruction; no general reactive policy or released implementation verified."
+  },
+  {
+    "id": "su2026astra",
+    "short_name": "GPT-as-Policy",
+    "title": "GPT 6 Astra as an Embodied Policy",
+    "year": 2026,
+    "url": "https://github.com/anonymous-report-421/GPT-as-Policy",
+    "source_type": "Technical report",
+    "categories": [
+      "O1 / A1 Code",
+      "O1 / A2"
+    ],
+    "scope_note": "Direct mode produces bounded end-effector targets for fixed IK (O1/A1 Code). Hybrid mode observes RGB and robot state, inspects pi0.5 proposals and selects execution, edits or EEF corrections through fixed services (O1/A2). Scratch analysis code does not alone establish generated robot execution logic. Reported configurations remain distinct.",
+    "code_url": "https://github.com/anonymous-report-421/GPT-as-Policy"
+  },
+  {
+    "id": "suresh2026needforspeed",
+    "short_name": "Robot Whips",
+    "title": "The need for speed",
+    "year": 2026,
+    "url": "https://krishnasuresh.org/blog/2026/robot-whips/",
+    "source_type": "Technical blog",
+    "categories": [
+      "O2 / A3"
+    ],
+    "scope_note": "Development-time coding agent composes mocap-to-robot retargeting, dynamics-constrained trajectory optimization, calibration and inverse dynamics control. Supplied Vicon hand trajectories support O2; generated controller logic supports A3. Hardware executes open-loop trajectories, not an online language policy. No public implementation of this exact pipeline verified."
+  },
+  {
+    "id": "wang2026gpttactile",
+    "short_name": "GPT-Tactile",
+    "title": "GPT-6-Astra Understands Touch and Outperform Vision--Tactile--Language--Action Models",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.28457",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "scope_note": "Sections 3.3–3.4: supplied contact-depth statistics, contact regions/centroids and marker displacement descriptors accompany raw images; numerical targets are executed by fixed IK for 1–5 steps. Hence O2/A1 Code for this mixed-input configuration. Distinct from TacTalent. Official project marks code coming soon.",
+    "project_url": "https://gpt-as-tactile-policy.github.io/",
+    "code_status": "pending_release"
+  },
+  {
+    "id": "xdof2026ember",
+    "short_name": "Ember-0",
+    "title": "Ember-0: A benchmark for LLMs in the real world",
+    "year": 2026,
+    "url": "https://www.xdof.ai/blog/evaluating-llms",
+    "source_type": "Technical report",
+    "categories": [
+      "O1 / A2"
+    ],
+    "scope_note": "Released report describes camera images, robot state and recent interaction history feeding decisions over robot tools. Include the evaluated agent harness, not human scoring as agentic evaluation. In-episode memo is not Self-Evolver; no substantive public implementation verified."
+  },
+  {
+    "id": "yao2026sceneevolve",
+    "short_name": "SceneEvolve",
+    "title": "Learning to Code the World: Harness Evolution for Compositional 3D Reconstruction",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.37046",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Execution Workflows"
+    ],
+    "scope_note": "Related 3D-reconstruction harness example, included explicitly as context: no robot-task evaluation. A teacher revises reusable reconstruction procedures, evaluates frozen students and retains better harnesses. Model parameters, action semantics and backend stay fixed; no Policy-axis or model-training membership inferred.",
+    "code_url": "https://github.com/haoyu-agent/SceneEvolve_Code"
+  },
+  {
+    "id": "ye2026dexterousastra",
+    "short_name": "Dexterous Astra",
+    "title": "Dexterous Astra",
+    "year": 2026,
+    "url": "https://github.com/jianglongye/dexterous-astra",
+    "source_type": "Software / demo",
+    "categories": [
+      "Infrastructure / Environment Generation"
+    ],
+    "scope_note": "Author-released final artifacts document Astra constructing robot-task environments and solution code for pen spinning and cube manipulation. Inspectable simulation and controller code exists. Do not infer a live LLM policy or an agent-controlled training/revision loop from the fixed PPO policies; original agent observation contract is not released.",
+    "code_url": "https://github.com/jianglongye/dexterous-astra"
   }
 ]
