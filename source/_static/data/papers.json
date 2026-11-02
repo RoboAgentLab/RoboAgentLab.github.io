@@ -8495,5 +8495,34 @@
     "project_url": "https://cuarms.github.io/",
     "code_status": "not_verified",
     "scope_note": "Include only the coding-agent configurations documented in Appendix D/E, not the standalone planner. Agents synthesize and refine skills, schedule skeletons and cost programs. Appendix D supplies geometric scene models (O3/A3); Appendix E provides a SAM 3 endpoint and known robot/camera/shape geometry for perception and scheduling (O2/A3), followed by human inspection before physical execution. Fresh per-problem sandboxes do not establish cross-task retained self-evolution. Cite the public arXiv author record; agent evidence is in the project-page supplement, Appendix D/E. No public implementation verified."
+  },
+  {
+    "id": "fan2026captain",
+    "short_name": "CaPtain",
+    "title": "CaPtain: A Pipeline for Post-Training Code-as-Policy Robot Agents",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.40799",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3"
+    ],
+    "code_url": "https://github.com/waltstephen/CaPtain",
+    "project_url": "https://waltstephen.github.io/captain/",
+    "scope_note": "The policy writes executable Python using supplied perception and motion primitives and observes the results before its next request. A physics critic uses simulator state during RL."
+  },
+  {
+    "id": "wei2026roboatom",
+    "short_name": "RoboAtom",
+    "title": "RoboAtom: Large-scale Atomic-Action Supervision for Robot Learning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.40207",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model",
+      "Infrastructure / Dataset Construction"
+    ],
+    "code_url": "https://github.com/InternRobotics/RoboAtom",
+    "project_url": "https://internrobotics.github.io/RoboAtom/",
+    "scope_note": "The visual planner retains or changes the atomic instruction executed by a fixed π0.5 policy. In dataset construction, models propose action boundaries and annotation revisions for human review. Public code covers annotation, propagation and evaluation."
   }
 ]
