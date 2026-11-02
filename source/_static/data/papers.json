@@ -4007,15 +4007,16 @@
   },
   {
     "id": "noematrix2026roborsi",
-    "title": "RoboRSI: Stable, Efficient, and Reusable Robot Self-Evolution in Complex Real-World Environments",
+    "title": "RoboRSI: Stable, efficient, and reusable robot self-evolution in complex real-world environments",
     "year": 2026,
-    "url": "https://robo-rsi.com/blog/2-roborsi/",
-    "source_type": "Project / report",
+    "url": "https://arxiv.org/abs/2610.12424",
+    "source_type": "Paper",
     "categories": [
       "Self-Evolver / Programs and Skills"
     ],
     "code_url": "https://github.com/nssmd/RoboRSI",
-    "short_name": "RoboRSI"
+    "short_name": "RoboRSI",
+    "project_url": "https://robo-rsi.com/blog/2-roborsi/"
   },
   {
     "id": "nvlabs2026aspirecode",
@@ -8539,5 +8540,72 @@
     "code_url": "https://github.com/InfRec-Cardinal/The-Trinity",
     "project_url": "https://trinity-rsi.github.io/",
     "scope_note": "Execution traces guide the evolution of reusable harness modules. For SOON and CaP-X, each harness also summarizes five simulated practice episodes into skills that are frozen for robot evaluation. The public framework requires a benchmark-specific environment adapter."
+  },
+  {
+    "id": "wei2026scoper",
+    "short_name": "SCOPER",
+    "title": "Towards a Systematic Study of Embodied System 2 over Full Task Execution Cycles",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.17657",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "code_url": "https://github.com/vfishc/scoper",
+    "project_url": "https://vfishc.github.io/scoper/",
+    "scope_note": "The agent selects skills from visual observations and checks their outcomes. A shared rule-based System 1 executes each request."
+  },
+  {
+    "id": "zhou2026evowam",
+    "short_name": "EVO-WAM",
+    "title": "EVO-WAM: Evolving World Action Models through Video-Action Verification",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.38057",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Dataset Construction"
+    ],
+    "project_url": "https://evo-wam.github.io/",
+    "scope_note": "A VLM selects task-completing prefixes from generated robot trajectories. An inverse dynamics check filters inconsistent actions before training. The authors link a community implementation at https://github.com/XiaohanLei/open-evo-wam."
+  },
+  {
+    "id": "zhou2026rea",
+    "short_name": "REA",
+    "title": "REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.42053",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3"
+    ],
+    "code_url": "https://github.com/InfRec-Cardinal/REA",
+    "project_url": "https://mikeeeeeeeeeeeeee.github.io/REA/",
+    "scope_note": "During development, coding agents write robot programs that call supplied perception and motion tools. These programs can run frozen; online routing and judging are separate runtime functions."
+  },
+  {
+    "id": "lee2026emho",
+    "short_name": "EMHO",
+    "title": "EMHO: EMbodied Agent Harness Optimization via Experience Traces",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.08432",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Execution Workflows"
+    ],
+    "project_url": "https://hyunjung00.github.io/emho/",
+    "scope_note": "Execution histories guide retained revisions to the harness for navigation and manipulation on EmbodiedBench."
+  },
+  {
+    "id": "cheng2024trace",
+    "short_name": "Trace",
+    "title": "Trace is the Next AutoDiff: Generative Optimization with Rich Feedback, Execution Traces, and LLMs",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2406.16218",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Programs and Skills"
+    ],
+    "code_url": "https://github.com/microsoft/Trace",
+    "scope_note": "In the MetaWorld manipulation experiment, OptoPrime uses feedback and execution traces to revise robot control programs."
   }
 ]
