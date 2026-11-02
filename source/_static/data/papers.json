@@ -4582,7 +4582,8 @@
     "categories": [
       "O1 / A1 Code"
     ],
-    "short_name": "Agent2Act"
+    "short_name": "Agent2Act",
+    "code_url": "https://github.com/AgibotTech/genie_sim/tree/main/source/agent2act"
   },
   {
     "id": "robogene2026",
