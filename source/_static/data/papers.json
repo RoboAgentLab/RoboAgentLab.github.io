@@ -8524,5 +8524,20 @@
     "code_url": "https://github.com/InternRobotics/RoboAtom",
     "project_url": "https://internrobotics.github.io/RoboAtom/",
     "scope_note": "The visual planner retains or changes the atomic instruction executed by a fixed π0.5 policy. In dataset construction, models propose action boundaries and annotation revisions for human review. Public code covers annotation, propagation and evaluation."
+  },
+  {
+    "id": "tang2026trinity",
+    "short_name": "The Trinity",
+    "title": "The Trinity: Capability-Driven Recursive Self-Improvement for Multimodal Agents",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.36077",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Execution Workflows",
+      "Self-Evolver / Programs and Skills"
+    ],
+    "code_url": "https://github.com/InfRec-Cardinal/The-Trinity",
+    "project_url": "https://trinity-rsi.github.io/",
+    "scope_note": "Execution traces guide the evolution of reusable harness modules. For SOON and CaP-X, each harness also summarizes five simulated practice episodes into skills that are frozen for robot evaluation. The public framework requires a benchmark-specific environment adapter."
   }
 ]
