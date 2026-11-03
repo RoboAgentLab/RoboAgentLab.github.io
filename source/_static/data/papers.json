@@ -8616,10 +8616,9 @@
     "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
     "source_type": "Project report",
     "categories": [
-      "Policy"
+      "O1 / A2"
     ],
-    "scope_note": "The CMU serial-dilution demonstration coordinates a robot arm, pipette, plate reader and camera through the hardware interface.",
-    "execution_authority": "A2"
+    "scope_note": "CMU instrument configuration. The agent observes monitoring cameras and plate-reader measurements, and invokes the liquid handler and robotic arm through device interfaces."
   },
   {
     "id": "knowin2026knowinagent",
@@ -8629,9 +8628,9 @@
     "url": "https://www.knowinai.com/en/tech.html",
     "source_type": "Project report",
     "categories": [
-      "Policy"
+      "O1 / A1 Model"
     ],
-    "scope_note": "In the tea-serving demonstration, KnowinAgent revises its subtask plan after observing execution."
+    "scope_note": "Teacup sequence. External and wrist views ground the subtask chain for the learned GLOW action generator."
   },
   {
     "id": "chen2026typego",
@@ -8677,9 +8676,9 @@
     "url": "https://arxiv.org/abs/2606.08214",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O2 / A2"
     ],
-    "scope_note": "The language model expands operator instructions and revises the structure of an industrial robot plan."
+    "scope_note": "In the physical commissioning loop, the orchestrator receives structured inspection and execution feedback (step, object ID, failure and target pose) and chooses recovery, re-verification and execution tools."
   },
   {
     "id": "dai2026evonavvln",
@@ -8689,13 +8688,13 @@
     "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Dai_History_to_Future_Evolving_Agent_with_Experience_and_Thought_for_CVPR_2026_paper.html",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O2 / A1 Code"
     ],
-    "scope_note": "The navigator weighs previous mistakes and predicted outcomes when choosing its next move."
+    "scope_note": "The waypoint predictor supplies candidate views. EvoNav selects a waypoint for execution with discrete navigation actions."
   },
   {
     "id": "yoshikawa2023chemistryrobotics",
-    "short_name": "Chemistry Robotics",
+    "short_name": "CLAIRify",
     "title": "Large language models for chemistry robotics",
     "year": 2023,
     "url": "https://doi.org/10.1007/s10514-023-10136-2",
@@ -8703,7 +8702,7 @@
     "categories": [
       "Policy"
     ],
-    "scope_note": "A language model converts a laboratory protocol into a plan for a robot task-and-motion planner."
+    "scope_note": "The language model translates a written chemistry protocol to XDL. The downstream task-and-motion planner uses scene information, but this does not establish the language model's observation interface."
   },
   {
     "id": "ye2025etpr1",
@@ -8726,9 +8725,9 @@
     "url": "https://arxiv.org/abs/2512.04308",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O2 / A2"
     ],
-    "scope_note": "The evaluated manipulation agents can choose a task action or request human assistance."
+    "scope_note": "The bounding-box-assisted skill configuration supplies YOLO detections to an agent that selects from the task's skill library, including requests for assistance."
   },
   {
     "id": "wang2025imaginenav",
@@ -8738,10 +8737,9 @@
     "url": "https://arxiv.org/abs/2512.17435",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O2 / A1 Model"
     ],
-    "scope_note": "A vision-language model compares imagined candidate views and selects a target for point-goal navigation.",
-    "execution_authority": "A1"
+    "scope_note": "Where2Imagine supplies candidate future views to the reasoning VLM. Its choice of navigation target is executed by the learned VER PointNav policy."
   },
   {
     "id": "han2026seqwalker",
@@ -8776,10 +8774,9 @@
     "url": "https://arxiv.org/abs/2511.06253",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O1 / A1 Model"
     ],
-    "scope_note": "In difficult driving scenes, the slow vision-language planner guides the fast learned trajectory planner.",
-    "execution_authority": "A1"
+    "scope_note": "The slow model reasons over an encoded history of onboard camera and lidar observations. Its intentions condition the learned fast trajectory planner."
   },
   {
     "id": "chen2025gendexhand",
@@ -8813,9 +8810,9 @@
     "url": "https://cdn.tairos.tencent-cloud.com/downloads/tools/pdf/tairos.pdf",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O2 / A1 Model"
     ],
-    "scope_note": "The planning configuration decomposes robot tasks and chooses the granularity of the subtasks."
+    "scope_note": "Sections 4.3–4.4. The planner uses scene memory supplied by the Embodied Perception Module and emits subtasks for a fixed, trained action model."
   },
   {
     "id": "lykov2025physicalagent",
@@ -8825,9 +8822,9 @@
     "url": "https://arxiv.org/abs/2509.13903",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O1 / A1 Code"
     ],
-    "scope_note": "The planner proposes video demonstrations of candidate robot actions and replans after execution failures."
+    "scope_note": "In the geometric execution configuration, a camera frame conditions the proposed motion video. Visualized trajectories are converted to motor commands using the camera geometry and inverse kinematics."
   },
   {
     "id": "fang2025robix",
@@ -8837,9 +8834,9 @@
     "url": "https://arxiv.org/abs/2509.01106",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O1 / A1 Model"
     ],
-    "scope_note": "The high-level model decides whether to issue atomic action commands or respond to the user."
+    "scope_note": "Real-robot VLA pairing. Robix reads robot-mounted cameras and issues atomic language commands to the learned controller."
   },
   {
     "id": "jiang2025galaxeag0",
@@ -8861,9 +8858,9 @@
     "url": "https://arxiv.org/abs/2508.08240",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O1 / A1 Model"
     ],
-    "scope_note": "The agent breaks down quadruped tasks and uses wrist-camera observations to specify end-effector targets during close manipulation."
+    "scope_note": "Close manipulation. Wrist depth observations guide end-effector target selection for a learned whole-body pose tracker."
   },
   {
     "id": "debakker2025dexterityscaffolding",
@@ -8897,10 +8894,9 @@
     "url": "https://arxiv.org/abs/2505.03238",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O1 / A1 Code"
     ],
-    "scope_note": "A language model changes MPC parameters in response to vehicle history and user requests.",
-    "execution_authority": "A1"
+    "scope_note": "The deployed car supplies its own state history. The language model sets speed bounds and cost parameters for the fixed MPC controller."
   },
   {
     "id": "zhang2025drivegen",
@@ -8922,10 +8918,9 @@
     "url": "https://arxiv.org/abs/2405.04798",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O1 / A1 Model"
     ],
-    "scope_note": "A language planner specifies subgoals to a learned robot policy through latent codes.",
-    "execution_authority": "A1"
+    "scope_note": "LLaVA receives the visual observation and instruction and sends a latent subgoal to a pretrained robot control policy."
   },
   {
     "id": "liu2025colmdriver",
@@ -8948,9 +8943,9 @@
     "url": "https://arxiv.org/abs/2503.08338",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O2 / A2"
     ],
-    "scope_note": "A language planner decomposes long-horizon humanoid tasks for skill controllers."
+    "scope_note": "The perception module supplies the movable object's bounding box. The planner composes calls to the humanoid's arm, hand and body skill library."
   },
   {
     "id": "zhong2025dexgraspvla",
@@ -8998,9 +8993,9 @@
     "url": "https://arxiv.org/abs/2503.01616",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O2 / A2"
     ],
-    "scope_note": "The visual planner sequences dexterous tasks and selects recovery steps using object-level perception.",
+    "scope_note": "The task planner uses supplied detections and segmentation, and sequences callable dexterous manipulation primitives.",
     "code_url": "https://github.com/henryhcliu/robodex_vlm"
   },
   {
@@ -9035,11 +9030,10 @@
     "url": "https://arxiv.org/abs/2501.08558",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O2 / A1 Code"
     ],
-    "scope_note": "A language model selects the control mode available to a human during assistive teleoperation.",
-    "code_url": "https://github.com/yirantao1000/lams",
-    "execution_authority": "A1"
+    "scope_note": "The language model receives a description of relative object and end-effector poses and selects a fixed joystick-to-motion control mapping.",
+    "code_url": "https://github.com/yirantao1000/lams"
   },
   {
     "id": "peng2025learningflow",
@@ -9061,10 +9055,9 @@
     "url": "https://arxiv.org/abs/2501.18733",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O1 / A1 Model"
     ],
-    "scope_note": "A multimodal planner uses scene changes, execution history and critic feedback to choose retries for a learned manipulation policy.",
-    "execution_authority": "A1"
+    "scope_note": "In the visual-feedback configuration, GPT-4V observes the scene after execution and supplies a revised subtask to a learned 3D skill policy."
   },
   {
     "id": "xu2024criticalscenariotesting",
@@ -9110,10 +9103,9 @@
     "url": "https://arxiv.org/abs/2411.14256",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O1 / A1 Model"
     ],
-    "scope_note": "A multimodal planner periodically issues high-level commands to a closed-loop driving model.",
-    "execution_authority": "A1"
+    "scope_note": "The VLM periodically reads the raw camera observation and issues a high-level driving instruction to the learned end-to-end controller."
   },
   {
     "id": "song2024navgen",
@@ -9149,10 +9141,9 @@
     "url": "https://arxiv.org/abs/2408.04821",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O2 / A1 Code"
     ],
-    "scope_note": "A visual planner selects driving decisions for a model predictive controller.",
-    "execution_authority": "A1"
+    "scope_note": "The scene encoder supplies descriptions of the ego and preceding vehicles in addition to a front-camera image. The VLM sets controller parameters for MPC."
   },
   {
     "id": "yang2024diffusiones",
@@ -9162,9 +9153,9 @@
     "url": "https://arxiv.org/abs/2402.06559",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O2 / A3"
     ],
-    "scope_note": "The language-conditioned configuration translates instructions into reward functions for test-time trajectory optimization.",
+    "scope_note": "The language model generates executable Python reward logic against the supplied road-scene API in the nuPlan instruction-following configuration.",
     "code_url": "https://github.com/bhyang/diffusion-es"
   },
   {
@@ -9187,10 +9178,9 @@
     "url": "https://arxiv.org/abs/2311.01977",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O2 / A3"
     ],
-    "scope_note": "The Code as Policies configuration synthesizes programs for three-dimensional waypoint sketches that guide the robot policy.",
-    "execution_authority": "A3"
+    "scope_note": "In the CaP experiment the prompt includes text descriptions of objects detected by a VLM. The LLM writes executable code that computes 3D poses for the trajectory sketch."
   },
   {
     "id": "chen2023robogpt",
@@ -9200,9 +9190,9 @@
     "url": "https://arxiv.org/abs/2311.15649",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O2 / A2"
     ],
-    "scope_note": "The language model decomposes household instructions into subgoals and replans for a navigation and manipulation executor."
+    "scope_note": "RoboSkill supplies a semantic map and object feedback to the planner, which composes Find, Pickup and Put operations."
   },
   {
     "id": "dalal2024planseqlearn",
@@ -9214,7 +9204,7 @@
     "categories": [
       "Policy"
     ],
-    "scope_note": "The language model specifies a long-horizon plan whose stages are connected by motion planning and learned control.",
+    "scope_note": "The planner prompt is specified as a task description, supported stage-termination conditions and output-format instructions. Pose estimation is downstream.",
     "code_url": "https://github.com/mihdalal/planseqlearn",
     "execution_authority": "A1"
   },
@@ -9226,9 +9216,9 @@
     "url": "https://arxiv.org/abs/2404.15190",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O1 / A2"
     ],
-    "scope_note": "The planner uses question answering and visual feedback to revise subtask sequences."
+    "scope_note": "During visual replanning the multimodal model inspects the failure image and revises action–object pairs from the controller's available commands."
   },
   {
     "id": "jiang2024koma",
@@ -9238,11 +9228,10 @@
     "url": "https://arxiv.org/abs/2407.14239",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O3 / A1 Code"
     ],
-    "scope_note": "Language agents consider other vehicles' intentions and retrieved driving experience when choosing maneuvers.",
-    "code_url": "https://github.com/jkmhhh/KoMA_Code",
-    "execution_authority": "A1"
+    "scope_note": "The HighwayEnv scenario describer reads road, lane and vehicle state directly. The reasoning agent selects a maneuver for the simulator's fixed vehicle controller.",
+    "code_url": "https://github.com/jkmhhh/KoMA_Code"
   },
   {
     "id": "duan2024multimodaldrivingtokens",
@@ -9252,10 +9241,9 @@
     "url": "https://arxiv.org/abs/2404.04869",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O1 / A1 Code"
     ],
-    "scope_note": "The system queries the language model again to revise a driving decision when it conflicts with the safety controller.",
-    "execution_authority": "A1"
+    "scope_note": "In the safety re-query configuration, the model consumes camera and lidar tokens and revises the waypoint decision for the driving controller."
   },
   {
     "id": "nguyen2024texttodrive",
@@ -9277,11 +9265,10 @@
     "url": "https://arxiv.org/abs/2403.11368",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O3 / A1 Code"
     ],
-    "scope_note": "The CARLA driver selects actions from the scene, recent experience, demonstrations and a requested driving style.",
-    "code_url": "https://github.com/AIR-DISCOVER/Multi-alignment-Drivng-Agent",
-    "execution_authority": "A1"
+    "scope_note": "The CARLA implementation queries nearby vehicle actors and their locations. The driver agent specifies behavior for the CARLA control stack.",
+    "code_url": "https://github.com/AIR-DISCOVER/Multi-alignment-Drivng-Agent"
   },
   {
     "id": "hu2024agentscodriver",
@@ -9291,10 +9278,9 @@
     "url": "https://arxiv.org/abs/2404.06345",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O3 / A1 Code"
     ],
-    "scope_note": "Vehicle agents exchange information and negotiate maneuvers using perception results and recalled experience.",
-    "execution_authority": "A1"
+    "scope_note": "The qualitative HighwayEnv experiment supplies textual road conditions, ego state and the other vehicles’ states to the negotiating agents. Their decisions select discrete simulated driving behaviors."
   },
   {
     "id": "zhao2024drivedreamer2",
@@ -9330,10 +9316,9 @@
     "url": "https://arxiv.org/abs/2402.12289",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O2 / A1 Code"
     ],
-    "scope_note": "A vision-language model provides scene analysis and hierarchical plans to the driving stack.",
-    "execution_authority": "A1"
+    "scope_note": "The optimization-based DriveVLM-Dual variant supplies 3D detections and tracked trajectories. The VLM plan seeds a conventional trajectory optimizer."
   },
   {
     "id": "fu2024limsim",
@@ -9356,9 +9341,9 @@
     "url": "https://arxiv.org/abs/2312.06876",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O2 / A2"
     ],
-    "scope_note": "A language model decides which missing information the robot should acquire before choosing its next task action."
+    "scope_note": "The robot manipulation configuration supplies detected object poses and force feedback. The agent selects and parameterizes pick, place, reach and reset."
   },
   {
     "id": "shirai2023vilain",
@@ -9368,9 +9353,9 @@
     "url": "https://arxiv.org/abs/2311.00967",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O2 / A1 Code"
     ],
-    "scope_note": "The model uses supplied object detections and captions to construct a planning problem and revises it using symbolic planner errors.",
+    "scope_note": "Grounding DINO boxes and BLIP-2 captions support generation of initial and goal predicates. The fixed symbolic planner solves the resulting problem.",
     "code_url": "https://github.com/omron-sinicx/ViLaIn"
   },
   {
@@ -9405,9 +9390,9 @@
     "url": "https://arxiv.org/abs/2312.06351",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O2 / A1 Code"
     ],
-    "scope_note": "The reported vehicle prototype uses a language model to select driving behavior."
+    "scope_note": "In the vehicle prototype, detected object coordinates and human instructions condition the LLM's driving decision, which the vehicle executes."
   },
   {
     "id": "ma2023lampilot",
@@ -9417,11 +9402,10 @@
     "url": "https://arxiv.org/abs/2312.04372",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O3 / A3"
     ],
-    "scope_note": "The model writes executable programs over driving primitives in response to driver instructions.",
-    "code_url": "https://github.com/PurdueDigitalTwin/LaMPilot",
-    "execution_authority": "A3"
+    "scope_note": "LaMPilot writes executable driving logic. Its HighwayEnv interface exposes simulated lane and vehicle data via perception and vehicle-state functions.",
+    "code_url": "https://github.com/PurdueDigitalTwin/LaMPilot"
   },
   {
     "id": "wang2023safetyawaredriving",
@@ -9431,10 +9415,9 @@
     "url": "https://arxiv.org/abs/2312.00812",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O3 / A1 Code"
     ],
-    "scope_note": "The language model selects behavior or conditions MPC while a separate module checks the safety of proposed actions.",
-    "execution_authority": "A1"
+    "scope_note": "The closed-loop HighwayEnv safety configuration conditions behavior planning and MPC on simulator vehicle states and computes safety intervals."
   },
   {
     "id": "mao2023agentdriver",
@@ -9444,9 +9427,9 @@
     "url": "https://arxiv.org/abs/2311.10813",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O2 / A1 Code"
     ],
-    "scope_note": "The driving agent queries perception and prediction tools before planning behavior and motion on nuScenes.",
+    "scope_note": "Detection and prediction tools supply object and occupancy estimates. The motion-planning agent specifies future ego waypoints with a fixed collision checker and trajectory optimization.",
     "code_url": "https://github.com/PointsCoder/Agent-Driver"
   },
   {
@@ -9469,11 +9452,10 @@
     "url": "https://arxiv.org/abs/2309.16292",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O3 / A1 Code"
     ],
-    "scope_note": "The driving agent uses scene descriptions, reflection and recalled experience to select a maneuver.",
-    "code_url": "https://github.com/PJLab-ADG/DiLu",
-    "execution_authority": "A1"
+    "scope_note": "The released scene descriptor reads the simulator's ego vehicle, road and surrounding vehicles. The agent chooses a discrete maneuver for HighwayEnv.",
+    "code_url": "https://github.com/PJLab-ADG/DiLu"
   },
   {
     "id": "sha2023languagempc",
@@ -9483,10 +9465,9 @@
     "url": "https://arxiv.org/abs/2310.03026",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O3 / A1 Code"
     ],
-    "scope_note": "Language-model driving decisions set parameters and targets for low-level model predictive control.",
-    "execution_authority": "A1"
+    "scope_note": "In the SUMO/IDSim configuration, traffic and lane states are read into the scene description. The model selects decisions that parameterize MPC."
   },
   {
     "id": "gonzalezsantamarta2023merlin2",
@@ -9496,9 +9477,9 @@
     "url": "https://arxiv.org/abs/2309.14945",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O2 / A2"
     ],
-    "scope_note": "The ROS 2 cognitive architecture uses a language model for deliberation and task planning."
+    "scope_note": "The MERLIN2 deliberative planner receives symbolic world predicates from the knowledge base and selects parameterized actions implemented by state machines."
   },
   {
     "id": "fu2023drivelikeahuman",
@@ -9508,11 +9489,10 @@
     "url": "https://arxiv.org/abs/2307.07162",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O3 / A1 Code"
     ],
-    "scope_note": "A language model selects driving decisions and receives feedback in closed-loop traffic scenarios.",
-    "code_url": "https://github.com/PJLab-ADG/DriveLikeAHuman",
-    "execution_authority": "A1"
+    "scope_note": "The closed-loop HighwayEnv configuration queries the simulator's available lanes and ego and traffic states. GPT-3.5 picks a maneuver executed by the vehicle model.",
+    "code_url": "https://github.com/PJLab-ADG/DriveLikeAHuman"
   },
   {
     "id": "audit250503673",
@@ -9522,9 +9502,9 @@
     "url": "https://arxiv.org/abs/2505.03673",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "O2 / A2"
     ],
-    "scope_note": "The hierarchical agent plans and dispatches tasks across robots with on-device skill execution.",
+    "scope_note": "The embodied brain consumes shared spatial memory and reconstructed scene information and dispatches device-specific skills to robot executors.",
     "code_url": "https://github.com/FlagOpen/RoboOS"
   },
   {
@@ -9537,7 +9517,7 @@
     "categories": [
       "Policy"
     ],
-    "scope_note": "GPT-3 extracts an ordered sequence of landmarks from an instruction. Visual grounding and a learned navigator use those landmarks to find a route.",
+    "scope_note": "GPT-3 extracts landmarks from language alone. Image-to-landmark matching uses CLIP and route execution uses ViNG after this planning step.",
     "code_url": "https://github.com/blazejosinski/lm_nav",
     "execution_authority": "A1"
   }
