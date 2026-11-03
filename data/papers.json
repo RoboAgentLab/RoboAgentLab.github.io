@@ -9520,5 +9520,48 @@
     "scope_note": "GPT-3 extracts landmarks from language alone. Image-to-landmark matching uses CLIP and route execution uses ViNG after this planning step.",
     "code_url": "https://github.com/blazejosinski/lm_nav",
     "execution_authority": "A1"
+  },
+  {
+    "id": "huang2026embodiedclbench",
+    "short_name": "EmbodiedCLBench",
+    "title": "EmbodiedCLBench: Evaluating Continual Learning for Self-Evolving Embodied Agents",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.13021",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "project_url": "https://pku-value-lab.github.io/EmbodiedCLBench-homepage/",
+    "scope_note": "Skill Learning retains an agent-authored Markdown summary of basic-task experience for later compositional tasks. The zero-shot and full-history controls are separate.",
+    "code_url": "https://github.com/PKU-VaLuE-Lab/EmbodiedCLBench"
+  },
+  {
+    "id": "sheng2026evolife",
+    "short_name": "EvoLife",
+    "title": "Ask to Evolve: A Unified Harness for Lifelong Embodied Navigation with Hybrid Action Space and Persistent Memory",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.39446",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2",
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "project_url": "https://kai-sheng-caesar.github.io/EvoLife-Web/",
+    "scope_note": "Sensor-derived waypoint proposals and navigation APIs support tool orchestration. In guide-assisted experiments the guide can consult privileged route information. The agent writes place records for later navigation tasks."
+  },
+  {
+    "id": "yuan2026unirobotagent",
+    "short_name": "uni-robot-agent",
+    "title": "Democratizing Robot-Use Agents: A Unified Harness with Open Models",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2611.01560",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2",
+      "O2 / A3"
+    ],
+    "project_url": "https://openrua.ai/",
+    "scope_note": "Supplied perception tools and motion APIs support orchestration; the tube-insertion case writes geometry code from multiview segmentation outputs.",
+    "code_url": "https://github.com/Open-RUA/uni-robot-agent"
   }
 ]
