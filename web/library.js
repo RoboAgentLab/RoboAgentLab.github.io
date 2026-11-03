@@ -29,7 +29,7 @@ function render() {
     title.append(link);
     const tags = document.createElement("div");
     tags.className = "paper-tags";
-    tags.textContent = paper.categories.join(" · ");
+    tags.textContent = [...paper.categories, ...(paper.execution_authority ? [paper.execution_authority] : [])].join(" · ");
     const links = document.createElement("div");
     links.className = "paper-links";
     if (paper.project_url && safeURL(paper.project_url)) {

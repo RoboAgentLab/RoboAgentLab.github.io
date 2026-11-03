@@ -8607,5 +8607,938 @@
     ],
     "code_url": "https://github.com/microsoft/Trace",
     "scope_note": "In the MetaWorld manipulation experiment, OptoPrime uses feedback and execution traces to revise robot control programs."
+  },
+  {
+    "id": "anthropic2026mhs",
+    "short_name": "MHS",
+    "title": "Previewing the Model Hardware Standard",
+    "year": 2026,
+    "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+    "source_type": "Project report",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "The CMU serial-dilution demonstration coordinates a robot arm, pipette, plate reader and camera through the hardware interface.",
+    "execution_authority": "A2"
+  },
+  {
+    "id": "knowin2026knowinagent",
+    "short_name": "KnowinAgent",
+    "title": "GLOW: A Generative Learning Framework for General-Purpose Embodied Intelligence",
+    "year": 2026,
+    "url": "https://www.knowinai.com/en/tech.html",
+    "source_type": "Project report",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "In the tea-serving demonstration, KnowinAgent revises its subtask plan after observing execution."
+  },
+  {
+    "id": "chen2026typego",
+    "short_name": "TypeGo",
+    "title": "TypeGo: An OS Runtime for Embodied Agents",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2607.05482",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
+    ],
+    "scope_note": "Language planners use perception services and schedule typed skills on a Unitree Go2 while execution continues."
+  },
+  {
+    "id": "kuramshin2026tread",
+    "short_name": "TREAD",
+    "title": "Task Robustness via Re-Labelling Vision-Action Robot Data",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.10918",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Dataset Construction"
+    ],
+    "scope_note": "A vision-language model segments robot demonstrations into subtasks and supplies new instructions for each segment."
+  },
+  {
+    "id": "meng2026drivechoreo",
+    "short_name": "DRIVE-CHOREO",
+    "title": "OmniDrive: An LLM-Choreographed Multi-Agent World Model with Unified Latent Co-Compression for Multi-View Driving Video Generation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.17536",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Dataset Construction"
+    ],
+    "scope_note": "Agents script driving scenes, set spatial layouts and review generated views for consistency before the videos are used to train a detector."
+  },
+  {
+    "id": "liu2026industrialsdi",
+    "short_name": "Industrial SDI",
+    "title": "Agentic Neuro-Symbolic Planning and Commissioning for Human-in-the-Loop Industrial Robotics with Digital Twins",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.08214",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "The language model expands operator instructions and revises the structure of an industrial robot plan."
+  },
+  {
+    "id": "dai2026evonavvln",
+    "short_name": "EvoNav (VLN)",
+    "title": "History to Future: Evolving Agent with Experience and Thought for Zero-shot Vision-and-Language Navigation",
+    "year": 2026,
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Dai_History_to_Future_Evolving_Agent_with_Experience_and_Thought_for_CVPR_2026_paper.html",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "The navigator weighs previous mistakes and predicted outcomes when choosing its next move."
+  },
+  {
+    "id": "yoshikawa2023chemistryrobotics",
+    "short_name": "Chemistry Robotics",
+    "title": "Large language models for chemistry robotics",
+    "year": 2023,
+    "url": "https://doi.org/10.1007/s10514-023-10136-2",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "A language model converts a laboratory protocol into a plan for a robot task-and-motion planner."
+  },
+  {
+    "id": "ye2025etpr1",
+    "short_name": "ETP-R1",
+    "title": "ETP-R1: Evolving Topological Planning with Reinforcement Fine-tuning for Vision-Language Navigation in Continuous Environments",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2512.20940",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Dataset Construction"
+    ],
+    "scope_note": "Gemini generates navigation instructions for topological routes used in training.",
+    "code_url": "https://github.com/Cepillar/ETP-R1"
+  },
+  {
+    "id": "zhang2025responsiblerobotbench",
+    "short_name": "ResponsibleRobotBench",
+    "title": "ResponsibleRobotBench: Benchmarking Responsible Robot Manipulation using Multi-modal Large Language Models",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2512.04308",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "The evaluated manipulation agents can choose a task action or request human assistance."
+  },
+  {
+    "id": "wang2025imaginenav",
+    "short_name": "ImagineNav++",
+    "title": "ImagineNav++: Prompting Vision-Language Models as Embodied Navigator through Scene Imagination",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2512.17435",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "A vision-language model compares imagined candidate views and selects a target for point-goal navigation.",
+    "execution_authority": "A1"
+  },
+  {
+    "id": "han2026seqwalker",
+    "short_name": "SeqWalker",
+    "title": "SeqWalker: Sequential-Horizon Vision-and-Language Navigation with Hierarchical Planning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2601.04699",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Dataset Construction"
+    ],
+    "scope_note": "A language model combines trajectory instructions into coherent long-horizon navigation examples.",
+    "code_url": "https://github.com/SeqWalker/SeqWalker-code"
+  },
+  {
+    "id": "zhang2025robochemist",
+    "short_name": "RoboChemist",
+    "title": "RoboChemist: Long-Horizon and Safety-Compliant Robotic Chemical Experimentation",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2509.08820",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "scope_note": "The visual planner decomposes laboratory protocols, specifies visual goals and checks execution by a learned manipulation policy."
+  },
+  {
+    "id": "zhang2025adadrive",
+    "short_name": "AdaDrive",
+    "title": "AdaDrive: Self-Adaptive Slow-Fast System for Language-Grounded Autonomous Driving",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2511.06253",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "In difficult driving scenes, the slow vision-language planner guides the fast learned trajectory planner.",
+    "execution_authority": "A1"
+  },
+  {
+    "id": "chen2025gendexhand",
+    "short_name": "GenDexHand",
+    "title": "GenDexHand: Generative Simulation for Dexterous Hands",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2511.01791",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation"
+    ],
+    "scope_note": "Feedback from a vision-language model guides changes to object layout and scale in generated dexterous manipulation scenes."
+  },
+  {
+    "id": "ouyang2024ouyangetal",
+    "short_name": "Ouyang et al.",
+    "title": "Long-horizon Locomotion and Manipulation on a Quadrupedal Robot with Large Language Models",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2404.05291",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3"
+    ],
+    "scope_note": "Language models synthesize quadruped locomotion and manipulation programs with access to object detection."
+  },
+  {
+    "id": "tencentroboticsxte2025tairos",
+    "short_name": "TAIROS",
+    "title": "TAIROS: An Embodied AI Platform for Robotics Applications",
+    "year": 2025,
+    "url": "https://cdn.tairos.tencent-cloud.com/downloads/tools/pdf/tairos.pdf",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "The planning configuration decomposes robot tasks and chooses the granularity of the subtasks."
+  },
+  {
+    "id": "lykov2025physicalagent",
+    "short_name": "PhysicalAgent",
+    "title": "PhysicalAgent: Towards General Cognitive Robotics with Foundation World Models",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2509.13903",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "The planner proposes video demonstrations of candidate robot actions and replans after execution failures."
+  },
+  {
+    "id": "fang2025robix",
+    "short_name": "Robix",
+    "title": "Robix: A Unified Model for Robot Interaction, Reasoning and Planning",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2509.01106",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "The high-level model decides whether to issue atomic action commands or respond to the user."
+  },
+  {
+    "id": "jiang2025galaxeag0",
+    "short_name": "Galaxea G0",
+    "title": "Galaxea Open-World Dataset and G0 Dual-System VLA Model",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2509.00576",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "scope_note": "The visual planner issues subtasks inferred from head-camera observations to a learned action policy."
+  },
+  {
+    "id": "wang2025odyssey",
+    "short_name": "ODYSSEY",
+    "title": "ODYSSEY: Open-World Quadrupeds Exploration and Manipulation for Long-Horizon Tasks",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2508.08240",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "The agent breaks down quadruped tasks and uses wrist-camera observations to specify end-effector targets during close manipulation."
+  },
+  {
+    "id": "debakker2025dexterityscaffolding",
+    "short_name": "Dexterity Scaffolding",
+    "title": "Scaffolding Dexterous Manipulation with Vision-Language Models",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2506.19212",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ],
+    "scope_note": "A visual model selects keypoints and constructs hand and object reference trajectories to guide residual reinforcement learning."
+  },
+  {
+    "id": "lee2025graspcorrect",
+    "short_name": "GraspCorrect",
+    "title": "GraspCorrect: Robotic Grasp Correction via Vision-Language Model-Guided Feedback",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2503.15035",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "scope_note": "The visual model assesses grasp stability and proposes intermediate visual goals for corrective motion."
+  },
+  {
+    "id": "boyle2025robotxr1",
+    "short_name": "RobotxR1",
+    "title": "RobotxR1: Enabling Embodied Robotic Intelligence on Large Language Models through Closed-Loop Reinforcement Learning",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2505.03238",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "A language model changes MPC parameters in response to vehicle history and user requests.",
+    "execution_authority": "A1"
+  },
+  {
+    "id": "zhang2025drivegen",
+    "short_name": "DriveGen",
+    "title": "DriveGen: Towards Infinite Diverse Traffic Scenarios with Large Models",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2503.05808",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation"
+    ],
+    "scope_note": "Agents choose maps, vehicle assets and waypoints to generate traffic scenarios."
+  },
+  {
+    "id": "shentu2024fromllmstoactions",
+    "short_name": "From LLMs to Actions",
+    "title": "From LLMs to Actions: Latent Codes as Bridges in Hierarchical Robot Control",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2405.04798",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "A language planner specifies subgoals to a learned robot policy through latent codes.",
+    "execution_authority": "A1"
+  },
+  {
+    "id": "liu2025colmdriver",
+    "short_name": "CoLMDriver",
+    "title": "CoLMDriver: LLM-based Negotiation Benefits Cooperative Autonomous Driving",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2503.08683",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Model"
+    ],
+    "scope_note": "Agents negotiate vehicle intentions using object detections and state descriptions to condition learned waypoint prediction.",
+    "code_url": "https://github.com/cxliu0314/CoLMDriver"
+  },
+  {
+    "id": "sun2025trinityhumanoid",
+    "short_name": "Trinity Humanoid",
+    "title": "Trinity: A Modular Humanoid Robot AI System",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2503.08338",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "A language planner decomposes long-horizon humanoid tasks for skill controllers."
+  },
+  {
+    "id": "zhong2025dexgraspvla",
+    "short_name": "DexGraspVLA",
+    "title": "DexGraspVLA: A Vision-Language-Action Framework Towards General Dexterous Grasping",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2502.20900",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "scope_note": "The visual planner selects grasp targets from camera images for a diffusion action controller.",
+    "code_url": "https://github.com/Psi-Robot/DexGraspVLA"
+  },
+  {
+    "id": "li2025atomicskilllibrary",
+    "short_name": "Atomic Skill Library",
+    "title": "An Atomic Skill Library Construction Method for Data-Efficient Embodied Manipulation",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2501.15068",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ],
+    "scope_note": "A visual planner decomposes tasks to identify the individual skills for data collection and policy training."
+  },
+  {
+    "id": "sun2024dadue",
+    "short_name": "DaDu-E",
+    "title": "DaDu-E: Rethinking the Role of Large Language Model in Robotic Computing Pipeline",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2412.01663",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
+    ],
+    "scope_note": "The language model calls robot skills and updates its plan when execution fails.",
+    "code_url": "https://github.com/RLC-Lab/DaDu-E-codes"
+  },
+  {
+    "id": "liu2025robodexvlm",
+    "short_name": "RoboDexVLM",
+    "title": "RoboDexVLM: Visual Language Model-Enabled Task Planning and Motion Control for Dexterous Robot Manipulation",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2503.01616",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "The visual planner sequences dexterous tasks and selects recovery steps using object-level perception.",
+    "code_url": "https://github.com/henryhcliu/robodex_vlm"
+  },
+  {
+    "id": "zhu2024rfst",
+    "short_name": "RFST",
+    "title": "Language-Conditioned Robotic Manipulation with Fast and Slow Thinking",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2401.04181",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "scope_note": "The slow visual reasoning module clarifies an instruction or decomposes it into subtasks for a learned manipulation policy."
+  },
+  {
+    "id": "chen2025robohorizon",
+    "short_name": "RoboHorizon",
+    "title": "RoboHorizon: An LLM-Assisted Multi-View World Model for Long-Horizon Robotic Manipulation",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2501.06605",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ],
+    "scope_note": "A language model designs dense rewards for stages of a manipulation task."
+  },
+  {
+    "id": "tao2025lams",
+    "short_name": "LAMS",
+    "title": "LAMS: LLM-Driven Automatic Mode Switching for Assistive Teleoperation",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2501.08558",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "A language model selects the control mode available to a human during assistive teleoperation.",
+    "code_url": "https://github.com/yirantao1000/lams",
+    "execution_authority": "A1"
+  },
+  {
+    "id": "peng2025learningflow",
+    "short_name": "LearningFlow",
+    "title": "LearningFlow: Automated Policy Learning Workflow for Urban Driving with Large Language Models",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2501.05057",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ],
+    "scope_note": "Language agents design curricula and reward functions for reinforcement learning in urban driving."
+  },
+  {
+    "id": "li2025lmm3dp",
+    "short_name": "LMM-3DP",
+    "title": "Integrating LMM Planners and 3D Skill Policies for Generalizable Manipulation",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2501.18733",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "A multimodal planner uses scene changes, execution history and critic feedback to choose retries for a learned manipulation policy.",
+    "execution_authority": "A1"
+  },
+  {
+    "id": "xu2024criticalscenariotesting",
+    "short_name": "Critical Scenario Testing",
+    "title": "Exploring Critical Testing Scenarios for Decision-Making Policies: An LLM Approach",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2412.06684",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Evaluation"
+    ],
+    "scope_note": "A language model uses test outcomes to select the next traffic scenario for assessing a driving policy."
+  },
+  {
+    "id": "ren2024infiniteworld",
+    "short_name": "InfiniteWorld",
+    "title": "InfiniteWorld: A Unified Scalable Simulation Framework for General Visual-Language Robot Interaction",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2412.05789",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Dataset Construction"
+    ],
+    "scope_note": "GPT-4o designs task instructions from scene semantics for embodied simulation."
+  },
+  {
+    "id": "pang2024lgdrl",
+    "short_name": "LGDRL",
+    "title": "Large Language Model guided Deep Reinforcement Learning for Decision Making in Autonomous Driving",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2412.18511",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ],
+    "scope_note": "A language-model driving expert recommends actions to guide reinforcement learning."
+  },
+  {
+    "id": "dong2024zeroshotdriving",
+    "short_name": "Zero-Shot Driving",
+    "title": "Generalizing End-To-End Autonomous Driving In Real-World Environments Using Zero-Shot LLMs",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2411.14256",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "A multimodal planner periodically issues high-level commands to a closed-loop driving model.",
+    "execution_authority": "A1"
+  },
+  {
+    "id": "song2024navgen",
+    "short_name": "NavGen",
+    "title": "Towards Long-Horizon Vision-Language Navigation: Platform, Benchmark and Method",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2412.09082",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Dataset Construction"
+    ],
+    "scope_note": "GPT-4 constructs and composes navigation instructions from scenes and routes for long-horizon training and evaluation.",
+    "code_url": "https://github.com/HCPLab-SYSU/LH-VLN"
+  },
+  {
+    "id": "jiang2024senna",
+    "short_name": "Senna",
+    "title": "Senna: Bridging Large Vision-Language Models and End-to-End Autonomous Driving",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2410.22313",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "scope_note": "Senna-VLM derives behavioral decisions from surround-view images to condition a learned trajectory predictor.",
+    "code_url": "https://github.com/hustvl/Senna"
+  },
+  {
+    "id": "long2024vlmmpc",
+    "short_name": "VLM-MPC",
+    "title": "VLM-MPC: Vision Language Foundation Model (VLM)-Guided Model Predictive Controller (MPC) for Autonomous Driving",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2408.04821",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "A visual planner selects driving decisions for a model predictive controller.",
+    "execution_authority": "A1"
+  },
+  {
+    "id": "yang2024diffusiones",
+    "short_name": "Diffusion-ES",
+    "title": "Diffusion-ES: Gradient-free Planning with Diffusion for Autonomous Driving and Zero-Shot Instruction Following",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2402.06559",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "The language-conditioned configuration translates instructions into reward functions for test-time trajectory optimization.",
+    "code_url": "https://github.com/bhyang/diffusion-es"
+  },
+  {
+    "id": "wu2024rapiddriving",
+    "short_name": "RAPID (driving)",
+    "title": "Robust RL with LLM-Driven Data Synthesis and Policy Adaptation for Autonomous Driving",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2410.12568",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Dataset Construction"
+    ],
+    "scope_note": "A driving agent generates decisions and experiences for offline training of a student policy."
+  },
+  {
+    "id": "gu2023rttrajectory",
+    "short_name": "RT-Trajectory",
+    "title": "RT-Trajectory: Robotic Task Generalization via Hindsight Trajectory Sketches",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2311.01977",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "The Code as Policies configuration synthesizes programs for three-dimensional waypoint sketches that guide the robot policy.",
+    "execution_authority": "A3"
+  },
+  {
+    "id": "chen2023robogpt",
+    "short_name": "RoboGPT",
+    "title": "RoboGPT: an intelligent agent of making embodied long-term decisions for daily instruction tasks",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2311.15649",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "The language model decomposes household instructions into subgoals and replans for a navigation and manipulation executor."
+  },
+  {
+    "id": "dalal2024planseqlearn",
+    "short_name": "Plan-Seq-Learn",
+    "title": "Plan-Seq-Learn: Language Model Guided RL for Solving Long Horizon Robotics Tasks",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2405.01534",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "The language model specifies a long-horizon plan whose stages are connected by motion planning and learned control.",
+    "code_url": "https://github.com/mihdalal/planseqlearn",
+    "execution_authority": "A1"
+  },
+  {
+    "id": "shin2024socraticplanner",
+    "short_name": "Socratic Planner",
+    "title": "Socratic Planner: Self-QA-Based Zero-Shot Planning for Embodied Instruction Following",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2404.15190",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "The planner uses question answering and visual feedback to revise subtask sequences."
+  },
+  {
+    "id": "jiang2024koma",
+    "short_name": "KoMA",
+    "title": "KoMA: Knowledge-driven Multi-agent Framework for Autonomous Driving with Large Language Models",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2407.14239",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "Language agents consider other vehicles' intentions and retrieved driving experience when choosing maneuvers.",
+    "code_url": "https://github.com/jkmhhh/KoMA_Code",
+    "execution_authority": "A1"
+  },
+  {
+    "id": "duan2024multimodaldrivingtokens",
+    "short_name": "Multimodal Driving Tokens",
+    "title": "Prompting Multi-Modal Tokens to Enhance End-to-End Autonomous Driving Imitation Learning with LLMs",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2404.04869",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "The system queries the language model again to revise a driving decision when it conflicts with the safety controller.",
+    "execution_authority": "A1"
+  },
+  {
+    "id": "nguyen2024texttodrive",
+    "short_name": "Text-to-Drive",
+    "title": "Text-to-Drive: Diverse Driving Behavior Synthesis via Large Language Models",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2406.04300",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation"
+    ],
+    "scope_note": "A language model converts behavior descriptions into state graphs for simulated traffic participants."
+  },
+  {
+    "id": "yang2024drivingstylealignment",
+    "short_name": "Driving Style Alignment",
+    "title": "Driving Style Alignment for LLM-powered Driver Agent",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2403.11368",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "The CARLA driver selects actions from the scene, recent experience, demonstrations and a requested driving style.",
+    "code_url": "https://github.com/AIR-DISCOVER/Multi-alignment-Drivng-Agent",
+    "execution_authority": "A1"
+  },
+  {
+    "id": "hu2024agentscodriver",
+    "short_name": "AgentsCoDriver",
+    "title": "AgentsCoDriver: Large Language Model Empowered Collaborative Driving with Lifelong Learning",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2404.06345",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "Vehicle agents exchange information and negotiate maneuvers using perception results and recalled experience.",
+    "execution_authority": "A1"
+  },
+  {
+    "id": "zhao2024drivedreamer2",
+    "short_name": "DriveDreamer-2",
+    "title": "DriveDreamer-2: LLM-Enhanced World Models for Diverse Driving Video Generation",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2403.06845",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Dataset Construction"
+    ],
+    "scope_note": "A language model designs trajectory conditions for generating multi-view videos used to train driving perception models.",
+    "code_url": "https://github.com/f1yfisher/DriveDreamer2"
+  },
+  {
+    "id": "wei2024chatsim",
+    "short_name": "ChatSim",
+    "title": "Editable Scene Simulation for Autonomous Driving via Collaborative LLM-Agents",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2402.05746",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation"
+    ],
+    "scope_note": "Language agents translate scene-editing requests into changes to traffic actors and assets before rendering new views.",
+    "code_url": "https://github.com/yifanlu0227/ChatSim"
+  },
+  {
+    "id": "tian2024drivevlmdual",
+    "short_name": "DriveVLM-Dual",
+    "title": "DriveVLM: The Convergence of Autonomous Driving and Large Vision-Language Models",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2402.12289",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "A vision-language model provides scene analysis and hierarchical plans to the driving stack.",
+    "execution_authority": "A1"
+  },
+  {
+    "id": "fu2024limsim",
+    "short_name": "LimSim++",
+    "title": "LimSim++: A Closed-Loop Platform for Deploying Multimodal LLMs in Autonomous Driving",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2402.01246",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "scope_note": "The camera-based GPT-4V driver selects maneuvers for the simulator's driving controller.",
+    "code_url": "https://github.com/PJLab-ADG/LimSim"
+  },
+  {
+    "id": "sun2023interactiveplanning",
+    "short_name": "Interactive Planning",
+    "title": "Interactive Planning Using Large Language Models for Partially Observable Robotics Tasks",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2312.06876",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "A language model decides which missing information the robot should acquire before choosing its next task action."
+  },
+  {
+    "id": "shirai2023vilain",
+    "short_name": "ViLaIn",
+    "title": "Vision-Language Interpreter for Robot Task Planning",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2311.00967",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "The model uses supplied object detections and captions to construct a planning problem and revises it using symbolic planner errors.",
+    "code_url": "https://github.com/omron-sinicx/ViLaIn"
+  },
+  {
+    "id": "micelibarone2023dialoguebasedscenarios",
+    "short_name": "Dialogue-Based Scenarios",
+    "title": "Dialogue-based generation of self-driving simulation scenarios using Large Language Models",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2310.17372",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation"
+    ],
+    "scope_note": "A language model turns dialogue and follow-up corrections into domain code for a driving simulator."
+  },
+  {
+    "id": "cui2023drivemlm",
+    "short_name": "DriveMLM",
+    "title": "DriveMLM: Aligning Multi-Modal Large Language Models with Behavioral Planning States for Autonomous Driving",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2312.09245",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "scope_note": "The multimodal model chooses behavioral planning states for the conventional motion planning stack in closed-loop driving."
+  },
+  {
+    "id": "tanahashi2023tanahashietal",
+    "short_name": "Tanahashi et al.",
+    "title": "Evaluation of Large Language Models for Decision Making in Autonomous Driving",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2312.06351",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "The reported vehicle prototype uses a language model to select driving behavior."
+  },
+  {
+    "id": "ma2023lampilot",
+    "short_name": "LaMPilot",
+    "title": "LaMPilot: An Open Benchmark Dataset for Autonomous Driving with Language Model Programs",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2312.04372",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "The model writes executable programs over driving primitives in response to driver instructions.",
+    "code_url": "https://github.com/PurdueDigitalTwin/LaMPilot",
+    "execution_authority": "A3"
+  },
+  {
+    "id": "wang2023safetyawaredriving",
+    "short_name": "Safety-Aware Driving",
+    "title": "Empowering Autonomous Driving with Large Language Models: A Safety Perspective",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2312.00812",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "The language model selects behavior or conditions MPC while a separate module checks the safety of proposed actions.",
+    "execution_authority": "A1"
+  },
+  {
+    "id": "mao2023agentdriver",
+    "short_name": "Agent-Driver",
+    "title": "A Language Agent for Autonomous Driving",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2311.10813",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "The driving agent queries perception and prediction tools before planning behavior and motion on nuScenes.",
+    "code_url": "https://github.com/PointsCoder/Agent-Driver"
+  },
+  {
+    "id": "jin2023surrealdriver",
+    "short_name": "SurrealDriver",
+    "title": "SurrealDriver: Designing LLM-powered Generative Driver Agent Framework based on Human Drivers' Driving-thinking Data",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2309.13193",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation"
+    ],
+    "scope_note": "The driver agent uses traffic context and human driving experience to generate interactive simulated traffic behavior."
+  },
+  {
+    "id": "wen2023dilu",
+    "short_name": "DiLu",
+    "title": "DiLu: A Knowledge-Driven Approach to Autonomous Driving with Large Language Models",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2309.16292",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "The driving agent uses scene descriptions, reflection and recalled experience to select a maneuver.",
+    "code_url": "https://github.com/PJLab-ADG/DiLu",
+    "execution_authority": "A1"
+  },
+  {
+    "id": "sha2023languagempc",
+    "short_name": "LanguageMPC",
+    "title": "LanguageMPC: Large Language Models as Decision Makers for Autonomous Driving",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2310.03026",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "Language-model driving decisions set parameters and targets for low-level model predictive control.",
+    "execution_authority": "A1"
+  },
+  {
+    "id": "gonzalezsantamarta2023merlin2",
+    "short_name": "MERLIN2",
+    "title": "Integration of Large Language Models within Cognitive Architectures for Autonomous Robots",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2309.14945",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "The ROS 2 cognitive architecture uses a language model for deliberation and task planning."
+  },
+  {
+    "id": "fu2023drivelikeahuman",
+    "short_name": "Drive Like a Human",
+    "title": "Drive Like a Human: Rethinking Autonomous Driving with Large Language Models",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2307.07162",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "A language model selects driving decisions and receives feedback in closed-loop traffic scenarios.",
+    "code_url": "https://github.com/PJLab-ADG/DriveLikeAHuman",
+    "execution_authority": "A1"
+  },
+  {
+    "id": "audit250503673",
+    "short_name": "RoboOS",
+    "title": "RoboOS: A Hierarchical Embodied Framework for Cross-Embodiment and Multi-Agent Collaboration",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2505.03673",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "The hierarchical agent plans and dispatches tasks across robots with on-device skill execution.",
+    "code_url": "https://github.com/FlagOpen/RoboOS"
+  },
+  {
+    "id": "shah2022lmnav",
+    "short_name": "LM-Nav",
+    "title": "LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action",
+    "year": 2022,
+    "url": "https://arxiv.org/abs/2207.04429",
+    "source_type": "Paper",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "GPT-3 extracts an ordered sequence of landmarks from an instruction. Visual grounding and a learned navigator use those landmarks to find a route.",
+    "code_url": "https://github.com/blazejosinski/lm_nav",
+    "execution_authority": "A1"
   }
 ]

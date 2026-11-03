@@ -48,6 +48,10 @@
     "id": "o3-a3"
   },
   {
+    "name": "Policy",
+    "id": "policy-role"
+  },
+  {
     "name": "Infrastructure / Environment Generation",
     "id": "infrastructure-environment-generation"
   },
