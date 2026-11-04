@@ -1307,9 +1307,11 @@
     "url": "https://arxiv.org/abs/2610.12457v1",
     "source_type": "Paper",
     "categories": [
-      "Infrastructure / Environment Generation"
+      "Infrastructure / Environment Generation",
+      "O2 / A1 Code"
     ],
-    "project_url": "https://emilia113.github.io/SpatialHarness/"
+    "project_url": "https://emilia113.github.io/SpatialHarness/",
+    "scope_note": "The policy receives estimated object poses and synthesized views, then outputs end-effector delta and gripper chunks through a fixed controller (Section 4.1). These supplied geometric estimates support O2/A1 Code; a digital twin does not itself imply privileged state."
   },
   {
     "id": "auracurriculum2025",
@@ -9563,5 +9565,36 @@
     "project_url": "https://openrua.ai/",
     "scope_note": "Supplied perception tools and motion APIs support orchestration; the tube-insertion case writes geometry code from multiview segmentation outputs.",
     "code_url": "https://github.com/Open-RUA/uni-robot-agent"
+  },
+  {
+    "id": "memmel2026dna",
+    "short_name": "D&A",
+    "title": "D&A: Decoupling Description and Assessment Enables VLMs as Zero-Shot Robotic Reward Models",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2611.03622",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Diagnosis"
+    ],
+    "project_url": "https://weirdlabuw.github.io/dna/",
+    "code_url": "https://github.com/memmelma/dna",
+    "scope_note": "Failure analysis and corrective language feedback guide subsequent robot Code-as-Policies attempts (Sections IV-C/IV-D and Appendix XIII). The separate fixed reward-estimation and RL pipelines do not establish agent-directed training or reward revision."
+  },
+  {
+    "id": "gong2026tinyastral",
+    "short_name": "TinyAstral",
+    "title": "TinyAstral: Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation Agents",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.41216",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2",
+      "Self-Evolver / Code",
+      "Self-Evolver / Tool Interface",
+      "Self-Evolver / Execution Workflows"
+    ],
+    "project_url": "https://garfield-kh.github.io/TinyAstral/",
+    "code_url": "https://github.com/Garfield-kh/TinyAstral",
+    "scope_note": "The manipulation planner selects supplied tools using SAM3-depth perception and execution feedback (Appendix G). Master coding agents revise retained tool code, tool interfaces and recovery workflows from failure trajectories, with paired acceptance tests (Section 3.2 and Appendix E). Subsequent student SFT is a fixed distillation procedure, not agent-directed model training."
   }
 ]
