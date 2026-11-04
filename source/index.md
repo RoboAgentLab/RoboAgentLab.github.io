@@ -9,13 +9,13 @@ RoboAgentLab connects a coding agent to robot environments, policies, and tools.
 :link: quickstart
 :link-type: doc
 
-Install the extension and use `/embodied-setup` to configure LIBERO.
+Install the extension, configure LIBERO with `/embodied-setup`, and start it with `/embodied-run`.
 :::
 :::{grid-item-card} Choose an agent interface
 :link: modes
 :link-type: doc
 
-Use action units, native tools, or generated Python programs.
+Pick an observation × execution cell, a reproduced setting, and a planner.
 :::
 :::{grid-item-card} Evaluate and inspect
 :link: evaluation

@@ -8,15 +8,14 @@ RoboAgentLab contains the full pi fork, its robotics extension, and Python servi
 git clone https://github.com/RoboAgentLab/RoboAgentLab ~/RoboAgentLab
 cd ~/RoboAgentLab
 npm ci --ignore-scripts
-node scripts/hydrate-ci-models.mjs
-npm run build:offline
+npm run build
 npm link --ignore-scripts --workspace @earendil-works/pi-coding-agent
 pi install ./packages/embodied
 ```
 
-The package initially loads only onboarding. `/embodied-setup` creates an experiment configured with one robot.
+The package initially loads only onboarding: `/embodied-setup` creates an experiment configured with one robot, and `/embodied-run` starts its episodes.
 
-The catalog command downloads and verifies the pinned model catalog. `build:offline` then builds the repository's packages and CLI from local sources. The first installation and catalog download require a network connection.
+`npm run build` regenerates the model catalog, then builds the repository's packages and the CLI, so it needs a network connection. `npm run build:offline` skips the catalog step and uses the model data already in the checkout. Build from the checkout's real path rather than through a symbolic link to it: TypeScript otherwise resolves the workspace packages twice.
 
 ## Check your local CLI
 
@@ -32,7 +31,7 @@ The linked executable resolves to this checkout's `packages/coding-agent/dist/bu
 node ~/RoboAgentLab/packages/coding-agent/dist/bundle/cli.js
 ```
 
-After pulling source updates, run `npm ci --ignore-scripts`, hydrate the pinned catalog, and rebuild. The global link continues to use the rebuilt CLI.
+After pulling source updates, run `npm ci --ignore-scripts` and `npm run build`. The global link continues to use the rebuilt CLI. Do not run `pi update` in this setup: it would replace the linked source build with a published release. Robot extensions load from the TypeScript sources, so changes under `packages/embodied` take effect at the next pi start without a rebuild.
 
 ## Install a backend manually
 

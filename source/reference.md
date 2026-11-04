@@ -34,22 +34,25 @@ Prerequisites:
 git clone https://github.com/RoboAgentLab/RoboAgentLab ~/RoboAgentLab
 cd ~/RoboAgentLab
 npm ci --ignore-scripts
-node scripts/hydrate-ci-models.mjs
-npm run build:offline
+npm run build
 npm link --ignore-scripts --workspace @earendil-works/pi-coding-agent
 pi install ./packages/embodied
 mkdir -p ~/robot-runs && cd ~/robot-runs && pi        # a notice points to /embodied-setup
 ```
 
-`/embodied-setup` asks for the robot or benchmark (and what it needs: GPU, Isaac Sim, real hardware
-and an operator), the mode (tools, units, fine-tuned, flash), where the services run (here, or a
-remote GPU box over ssh), the planner model (tools and units modes) and the experiment directory
-(`Experiment directory (empty: <cwd>/embodied-<robot>)`). Without a model it says how to add one
+`/embodied-setup` asks whether the target is a simulator or a real robot, then the robot or
+benchmark, its cell in the observation × execution grid ([agent interfaces](modes.md)), optionally a
+reproduced work's setting in that cell, where the services run (here, or a remote GPU box over ssh),
+the planner model (a searchable list that includes the [self-hosted planners](services.md#self-hosted-planners))
+and the experiment directory (`Experiment directory (empty: <cwd>/embodied-<robot>)`). A request
+after the command, such as `/embodied-setup reproduce RPent on LIBERO-PRO`, settles what it names.
+What a robot needs (GPU, Isaac Sim, real hardware and an operator) appears in the confirmation. Without a model it says how to add one
 (`/login`, or `~/.pi/agent/models.json`) and exits without writing anything. After you confirm, it
 writes the experiment directory's `.pi/settings.json` and asks the agent to follow the
 `embodied-quickstart` skill: run `services/setup.sh <robot>` (venv, pyproject extra, assets,
 `--weights` for checkpoints), then the preflight (`node src/infra/check.ts <robot>`; `/robot-check`
-inside a robot session), and report the launch command. The agent runs each step with its bash
+inside a robot session), and report the launch command; it does not start an episode, which
+`/embodied-run` does. The agent runs each step with its bash
 tool; pi does not ask per step, so your confirmation covers the install, and the agent asks before
 sudo, real hardware or a download the plan does not list.
 
@@ -66,8 +69,9 @@ declares, so they cannot add a robot):
 }
 ```
 
-Settings cannot carry extension flags, so the task, the mode and the budget stay on the command
-line. The launch command `/embodied-setup` prints for LIBERO in units mode (with absolute paths):
+Settings cannot carry extension flags, so the task, the setting and the budget stay on the command
+line; the wizard records the setting in `.pi/embodied-setup.json` for `/embodied-run`. The launch
+command `/embodied-setup` prints for LIBERO in O1 × A1 Code (with absolute paths):
 
 ```bash
 cd ~/robot-runs/embodied-libero && source ~/RoboAgentLab/services/.venv-libero/pi-embodied.env && pi --libero-type standard --suite libero_10 --task 0 --seed 0 --units=true --max-turns 40 --time-limit 900 --dashboard=true
@@ -78,7 +82,8 @@ levels).
 
 The robot resets the scene and waits for a prompt: type `Solve the task.` to start the episode. In
 print mode the prompt goes on the command line:
-`pi -a -p <the same flags> "Solve the task."`. Every turn sends camera images to the planner, and
+`pi -a -p <the same flags> "Solve the task." < /dev/null` (close stdin: `pi -p` reads a piped stdin to its
+end first, and over ssh that pipe never closes). Every turn sends camera images to the planner, and
 without `--max-turns` / `--time-limit` (default 0, no limit) an episode runs until the model calls
 `finish`, so give every run against a paid API a budget.
 The first pi there asks to trust the project; `pi -p` cannot ask, so it runs without the robot unless
