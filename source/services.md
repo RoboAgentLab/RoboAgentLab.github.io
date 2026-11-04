@@ -48,7 +48,7 @@ Describe where each one runs in the deployment's `selfhost` entry, keyed by mode
     "default": {
       "selfhost": {
         "qwen3.8-27b-bf16": {
-          "base_url": "http://127.0.0.1:18100/v1",
+          "base_url": "http://127.0.0.1:18180/v1",
           "start": "selfhost-planner vllm start",
           "stop": "selfhost-planner vllm stop",
           "run_on": "the workstation that reaches the GPU host"
@@ -71,7 +71,7 @@ A registered self-hosted model looks like this in `models.json`:
       "apiKey": "none",
       "compat": { "supportsDeveloperRole": false, "maxTokensField": "max_tokens", "thinkingFormat": "qwen-chat-template" },
       "models": [
-        { "id": "qwen3.8-27b-bf16", "baseUrl": "http://127.0.0.1:18100/v1", "input": ["text", "image"],
+        { "id": "qwen3.8-27b-bf16", "baseUrl": "http://127.0.0.1:18180/v1", "input": ["text", "image"],
           "reasoning": true, "contextWindow": 65536, "maxTokens": 8192 }
       ]
     }
@@ -93,8 +93,8 @@ NInfer builds only for RTX 5090 and DGX Spark, and its artifacts are quantized. 
 When the GPU host and the robot machine cannot reach each other, forward the port through a machine that reaches both:
 
 ```bash
-ssh -f -N -L 18100:127.0.0.1:8000 <gpu-host>
-ssh -f -N -R 18100:127.0.0.1:18100 <robot-host>
+ssh -f -N -L 18180:127.0.0.1:8000 <gpu-host>
+ssh -f -N -R 18180:127.0.0.1:18180 <robot-host>
 ```
 
 ## Start or attach
