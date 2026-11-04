@@ -23,9 +23,21 @@ The `robot_result` entry stores the robot's outcome, timing, and configuration. 
 
 Planner failures and environment errors are distinct from valid task failures. Keep them visible when reporting evaluation results.
 
+## Start a single episode
+
+`/embodied-run` starts one episode of an experiment created by `/embodied-setup`. Run it from the directory that holds the experiment directories. It reads each experiment's recorded setting, asks for the task flags, a GPU, the budget, and the panels, then runs the episode in the terminal, in the background through the agent, or prints the command. A request selects the robot or overrides the setting, for example `/embodied-run metaworld privileged code`.
+
 ## Inspect a session
 
 Add `--dashboard=true` to an interactive run and open the URL printed at startup. The dashboard shows the session's observations, tool calls, and robot state. It follows pi's session history, including resumed or forked sessions.
+
+`--dashboard-port 8765` fixes the port; `/embodied-run` uses 8765, or the next free port when it is taken. The dashboard listens on `127.0.0.1`, so forward the port to view it from another computer:
+
+```bash
+ssh -N -L 8765:127.0.0.1:8765 <gpu-host>
+```
+
+Some integrations also serve their own panel. CaP-X's Viser 3D view (`--viser --viser-port 8080`) shows point clouds, camera frustums, the end effector, and grasp candidates for LIBERO and Franka. `/embodied-run` offers a reproduced work's own panel first.
 
 Use `/export` in pi to export the session. With this fork's export hook, the dashboard also offers JSONL and HTML downloads.
 
