@@ -59,7 +59,7 @@ Describe where each one runs in the deployment's `selfhost` entry, keyed by mode
 }
 ```
 
-`base_url` is the address as the robot machine reaches the server. `start` and `stop` are shell commands, and `run_on` names the machine where they must run when it is not the robot machine. When you pick a self-hosted planner, the setup agent starts the server if `base_url` does not answer (with `run_on`, it gives you the command to run there), registers the model under the `selfhost` provider in `~/.pi/agent/models.json`, and checks one image request and one tool call. Without a deployment entry, it sets the engine up on a machine you name. `/embodied-run` checks that the server answers before an episode and prints its start command when it does not.
+`base_url` is the address as the robot machine reaches the server. Requests carry the episode's camera images, often more than a megabyte each, so route the tunnel through a host with a fast link to the GPU host rather than through a slow uplink. `start` and `stop` are shell commands, and `run_on` names the machine where they must run when it is not the robot machine. When you pick a self-hosted planner, the setup agent starts the server if `base_url` does not answer (with `run_on`, it gives you the command to run there), registers the model under the `selfhost` provider in `~/.pi/agent/models.json`, and checks one image request and one tool call. Without a deployment entry, it sets the engine up on a machine you name. `/embodied-run` checks that the server answers before an episode and prints its start command when it does not.
 
 A registered self-hosted model looks like this in `models.json`:
 
