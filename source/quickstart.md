@@ -64,7 +64,17 @@ Exit the setup session, start pi in the same directory where you ran the wizard,
 /embodied-run
 ```
 
-It finds the experiment directories there and reads their recorded setting. Then it asks for the task flags, a GPU (the one with the most free memory is listed first), the episode budget, and how to run:
+It finds the experiment directories there and reads their recorded setting. Then it asks for the task flags, a GPU (the one with the most free memory is listed first), the episode budget, and how to run.
+
+`/embodied-run` also takes the text you gave `/embodied-setup`, and words for the episode answer its questions:
+
+```text
+/embodied-run reproduce Show-Harness on LIBERO task 3 seed 1 gpu 2 20 turns headless
+```
+
+The robot and setting in the text select the installed experiment. `task`, `seed`, a LIBERO suite such as `libero_90`, `gpu`, `turns`, and `headless` or `print` apply to this episode only, and `/embodied-setup` ignores them. A planner named in the text is used for this episode. `/embodied-run` never installs anything. If nothing installed matches the text, it says so and offers to run `/embodied-setup` with the same text.
+
+The ways to run:
 
 | Choice | What happens |
 |---|---|
