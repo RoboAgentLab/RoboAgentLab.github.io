@@ -9611,5 +9611,34 @@
     "project_url": "https://umishra.me/TAMPAgent/",
     "code_status": "pending_release",
     "scope_note": "The real-robot configuration orchestrates a task planner and supplied perception, grasping and motion tools, revising hypotheses and plans after feedback (Sections 3.1–3.2 and Appendices E–G). O2/A2 refers to that configuration. The separate T9 experiment retains memory and lessons across attempts (Section 4); standard episodes start with empty memory. Python API-call scripts alone do not establish A3. The project page announces code release as pending."
+  },
+  {
+    "id": "chen2026behaviorspatial",
+    "short_name": "BEHAVIOR-Spatial",
+    "title": "BEHAVIOR-Spatial Benchmark: Evaluating Spatial Understanding for Robotics",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.34051",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3",
+      "Self-Evolver / Programs and Skills"
+    ],
+    "project_url": "https://arielchen07.github.io/behavior-spatial/",
+    "code_url": "https://github.com/arielchen07/BEHAVIOR-Spatial-benchmark",
+    "scope_note": "The CaP configuration develops Python robot programs using supplied pointing and VLM perception tools. Execution feedback drives program revision and validation before the selected program is frozen for held-out evaluation (Section 4.4 and Appendix F.5). Released code covers benchmark evaluation; release of the CaP writer is not established."
+  },
+  {
+    "id": "apex2026apex35b",
+    "short_name": "Apex-35B",
+    "title": "Introducing Apex-35B-V1.0",
+    "year": 2026,
+    "url": "https://apexin.com/apex-35b/",
+    "source_type": "Technical blog",
+    "categories": [
+      "O2 / A3",
+      "Infrastructure / Environment Generation"
+    ],
+    "project_url": "https://huggingface.co/Apexintelligence-AI/Apex-35B-V1.0",
+    "scope_note": "In RoboRSI, the text-based model uses a supplied Vision MCP service to inspect images, generates robot control code, and revises it after simulation feedback. Its Real2Sim configuration reconstructs physics-enabled robot environments from photographs. Model weights are public; the linked GitHub repository contains documentation and assets, not the robotics implementation."
   }
 ]
