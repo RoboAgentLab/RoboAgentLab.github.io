@@ -9596,5 +9596,20 @@
     "project_url": "https://garfield-kh.github.io/TinyAstral/",
     "code_url": "https://github.com/Garfield-kh/TinyAstral",
     "scope_note": "The manipulation planner selects supplied tools using SAM3-depth perception and execution feedback (Appendix G). Master coding agents revise retained tool code, tool interfaces and recovery workflows from failure trajectories, with paired acceptance tests (Section 3.2 and Appendix E). Subsequent student SFT is a fixed distillation procedure, not agent-directed model training."
+  },
+  {
+    "id": "mishra2026tampagent",
+    "short_name": "TAMPAgent",
+    "title": "TAMPAgent: Agentic Belief-Space Planning for Mobile Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2611.03584",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2",
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "project_url": "https://umishra.me/TAMPAgent/",
+    "code_status": "pending_release",
+    "scope_note": "The real-robot configuration orchestrates a task planner and supplied perception, grasping and motion tools, revising hypotheses and plans after feedback (Sections 3.1–3.2 and Appendices E–G). O2/A2 refers to that configuration. The separate T9 experiment retains memory and lessons across attempts (Section 4); standard episodes start with empty memory. Python API-call scripts alone do not establish A3. The project page announces code release as pending."
   }
 ]
