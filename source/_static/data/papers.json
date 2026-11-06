@@ -9682,5 +9682,17 @@
     ],
     "code_url": "https://github.com/stacx-lab/kinex",
     "scope_note": "Coding-agent configurations: RGB/depth and robot-state reads with agent-written geometric/control logic (O1/A3); supplied locate_object_3d detection/segmentation and geometric perception tools with generated execution logic (O2/A3)."
+  },
+  {
+    "id": "chou2026vflash",
+    "short_name": "VFlash",
+    "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+    "year": 2026,
+    "url": "https://research.nvidia.com/labs/lpr/vflash/",
+    "source_type": "Technical report",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "scope_note": "Robot configurations generate subtask and visual trajectory plans from camera observations; a fixed WAM or flow-matching action head executes the plan-conditioned actions. Classification concerns the planning configuration, not the decoding algorithm alone."
   }
 ]
