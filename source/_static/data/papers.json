@@ -9640,5 +9640,18 @@
     ],
     "project_url": "https://huggingface.co/Apexintelligence-AI/Apex-35B-V1.0",
     "scope_note": "In RoboRSI, the text-based model uses a supplied Vision MCP service to inspect images, generates robot control code, and revises it after simulation feedback. Its Real2Sim configuration reconstructs physics-enabled robot environments from photographs. Model weights are public; the linked GitHub repository contains documentation and assets, not the robotics implementation."
+  },
+  {
+    "id": "gong2026roboticsweightediting",
+    "short_name": "Robotics Weight Editing",
+    "title": "We Asked Opus-5.5 to Edit π0.5’s Weights. AutoResearch Made It Happen.",
+    "year": 2026,
+    "url": "https://cuzyoung.github.io/robotics-weight-editing/en/",
+    "source_type": "Technical blog",
+    "categories": [
+      "Infrastructure / Training",
+      "Self-Evolver / Model"
+    ],
+    "scope_note": "An offline coding agent diagnoses a pretrained robot policy, chooses experiments and closed-form weight edits, and retains an edited checkpoint. The authors subsequently evaluate the checkpoint on hardware."
   }
 ]
