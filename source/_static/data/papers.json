@@ -3180,9 +3180,11 @@
     "url": "https://arxiv.org/abs/2610.06306",
     "source_type": "Paper",
     "categories": [
-      "O1 / A1 Code"
+      "O1 / A1 Code",
+      "O2 / A3"
     ],
-    "code_url": "https://github.com/robocurve/inspect-robots"
+    "code_url": "https://github.com/robocurve/inspect-robots",
+    "scope_note": "The language-model motion-target adapter is O1/A1 Code. The released CaP-X plugin generates Python logic with supplied SAM3 segmentation and grasp-planning services (O2/A3); this is an implementation configuration, not a claim about all policies or the original paper experiments."
   },
   {
     "id": "ishibashi2025selfdeveloping",
@@ -9653,5 +9655,18 @@
       "Self-Evolver / Model"
     ],
     "scope_note": "An offline coding agent diagnoses a pretrained robot policy, chooses experiments and closed-form weight edits, and retains an edited checkpoint. The authors subsequently evaluate the checkpoint on hardware."
+  },
+  {
+    "id": "roboharm2026",
+    "short_name": "RoboHarm",
+    "title": "RoboHarm",
+    "year": 2026,
+    "url": "https://github.com/robocurve/roboharm",
+    "source_type": "Software repository",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "code_url": "https://github.com/robocurve/roboharm",
+    "scope_note": "Safety benchmark with a documented LLM-agent configuration: camera images, rendered depth and robot state inform end-effector or joint targets executed by fixed controllers. Classification refers to this configuration, not the benchmark grader or VLA baselines."
   }
 ]
