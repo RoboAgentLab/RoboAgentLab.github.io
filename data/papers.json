@@ -9668,5 +9668,19 @@
     ],
     "code_url": "https://github.com/robocurve/roboharm",
     "scope_note": "Safety benchmark with a documented LLM-agent configuration: camera images, rendered depth and robot state inform end-effector or joint targets executed by fixed controllers. Classification refers to this configuration, not the benchmark grader or VLA baselines."
+  },
+  {
+    "id": "kinex2026",
+    "short_name": "Kinex",
+    "title": "Kinex: One Agent for Any Robot",
+    "year": 2026,
+    "url": "https://kinex-agent.org/",
+    "source_type": "Project / software",
+    "categories": [
+      "O1 / A3",
+      "O2 / A3"
+    ],
+    "code_url": "https://github.com/stacx-lab/kinex",
+    "scope_note": "Coding-agent configurations: RGB/depth and robot-state reads with agent-written geometric/control logic (O1/A3); supplied locate_object_3d detection/segmentation and geometric perception tools with generated execution logic (O2/A3)."
   }
 ]
