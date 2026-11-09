@@ -9694,5 +9694,32 @@
       "O1 / A1 Model"
     ],
     "scope_note": "Robot configurations generate subtask and visual trajectory plans from camera observations; a fixed WAM or flow-matching action head executes the plan-conditioned actions. Classification concerns the planning configuration, not the decoding algorithm alone."
+  },
+  {
+    "id": "feng2026metarobot",
+    "short_name": "META-Robot",
+    "title": "META-Robot: Self-Cognition and Capability Scaling in Agentic Robots",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.41868",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3",
+      "Self-Evolver / Programs and Skills"
+    ],
+    "scope_note": "In the R1 Lite configuration, SAM3 supplies segmentation for generated manipulation programs. Validated predicate-guided repairs enter reusable skill and predicate libraries."
+  },
+  {
+    "id": "lyu2026codeactionbench",
+    "short_name": "CodeActionBench",
+    "title": "CodeActionBench: Evaluating Agentic Code-as-Policy for Embodied Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.33807",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A3"
+    ],
+    "scope_note": "Agents choose correspondences in RGB images, use calibrated geometry, and generate and revise executable Python manipulation programs from robot feedback.",
+    "project_url": "https://codeactionbench.org/",
+    "code_url": "https://github.com/lyhkk/CodeActionBench"
   }
 ]
