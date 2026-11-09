@@ -9721,5 +9721,20 @@
     "scope_note": "Agents choose correspondences in RGB images, use calibrated geometry, and generate and revise executable Python manipulation programs from robot feedback.",
     "project_url": "https://codeactionbench.org/",
     "code_url": "https://github.com/lyhkk/CodeActionBench"
+  },
+  {
+    "id": "sharma2026roboarcade",
+    "short_name": "RoboARCade",
+    "title": "RoboARCade: Benchmarking Agentic Robot Control",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2611.08209",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code",
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "scope_note": "The RGBD and VIA configurations use camera-derived observations to specify end-effector commands or waypoints for a fixed motion controller. In a separate experiment a fresh session reuses a task-specific strategy file distilled from a demonstration and revised after graded rollouts.",
+    "project_url": "https://roboarcade.org/",
+    "code_url": "https://github.com/Satvik1701/RoboARCade"
   }
 ]
