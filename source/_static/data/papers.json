@@ -40,7 +40,7 @@
     "short_name": "AgenticROS",
     "title": "AgenticROS",
     "year": null,
-    "url": "https://github.com/agenticros/agenticros",
+    "url": "https://github.com/Corebrum/corebrum-synapse",
     "source_type": "Software",
     "categories": [
       "O2 / A2"
@@ -81,7 +81,9 @@
     "categories": [
       "O2 / A3"
     ],
-    "short_name": "NeSyRo"
+    "short_name": "NeSyRo",
+    "publication_status": "Accepted to NeurIPS 2025",
+    "venue": "NeurIPS 2025"
   },
   {
     "id": "ali2026jevarm",
@@ -139,14 +141,26 @@
   },
   {
     "id": "art2026",
-    "title": "Evolve Vision-Language-Action Model into an Agent with On-the-fly Tool-use",
+    "title": "Evolve Vision-Language-Action Model into an Agent with On-the-Fly Tool-Use",
     "year": 2026,
-    "url": "https://arxiv.org/abs/2608.14047",
+    "url": "https://doi.org/10.1109/cvprf71909.2026.00134",
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code"
     ],
-    "short_name": "ART"
+    "short_name": "ART",
+    "authors": [
+      "Yi Ding",
+      "Yanzhao Yu",
+      "Xili Dai",
+      "Xianbiao Qi",
+      "Peiwen Sun",
+      "Xueqian Wang",
+      "Xiangyu Yue",
+      "Jianan Wang"
+    ],
+    "venue": "2026 IEEE/CVF Conference on Computer Vision and Pattern Recognition- FINDINGS Track (CVPRF)",
+    "publication_status": "Published"
   },
   {
     "id": "articraft2026",
@@ -188,13 +202,15 @@
     "short_name": "Lang2LTL",
     "title": "Grounding Complex Natural Language Commands for Temporal Tasks in Unseen Environments",
     "year": 2023,
-    "url": "https://arxiv.org/abs/2302.11649",
+    "url": "https://proceedings.mlr.press/v229/liu23d.html",
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code"
     ],
     "code_url": "https://github.com/h2r/Lang2LTL",
-    "project_url": "https://lang2ltl.github.io/"
+    "project_url": "https://lang2ltl.github.io/",
+    "venue": "Proceedings of The 7th Conference on Robot Learning",
+    "publication_status": "Published"
   },
   {
     "id": "audit230300855",
@@ -212,24 +228,28 @@
     "short_name": "PaLM-E",
     "title": "PaLM-E: An Embodied Multimodal Language Model",
     "year": 2023,
-    "url": "https://arxiv.org/abs/2303.03378v1",
+    "url": "https://proceedings.mlr.press/v202/driess23a.html",
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Model"
     ],
-    "project_url": "https://palm-e.github.io"
+    "project_url": "https://palm-e.github.io",
+    "venue": "Proceedings of the 40th International Conference on Machine Learning",
+    "publication_status": "Published"
   },
   {
     "id": "audit230303480",
     "short_name": "LGX",
-    "title": "Can an Embodied Agent Find Your \"Cat-shaped Mug\"? LLM-Guided Exploration for Zero-Shot Object Navigation",
-    "year": 2023,
-    "url": "https://arxiv.org/abs/2303.03480",
+    "title": "Can an Embodied Agent Find Your “Cat-shaped Mug”? LLM-Based Zero-Shot Object Navigation",
+    "year": 2024,
+    "url": "https://doi.org/10.1109/lra.2023.3346800",
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code"
     ],
-    "project_url": "https://gamma.umd.edu/LGX/"
+    "project_url": "https://gamma.umd.edu/LGX/",
+    "venue": "IEEE Robotics and Automation Letters",
+    "publication_status": "Published"
   },
   {
     "id": "audit230516744",
@@ -247,13 +267,15 @@
   {
     "id": "audit230904316",
     "short_name": "Incremental Humanoid Learning",
-    "title": "Incremental Learning of Humanoid Robot Behavior from Natural Interaction and Large Language Models",
-    "year": 2023,
-    "url": "https://arxiv.org/html/2309.04316",
+    "title": "Incremental learning of humanoid robot behavior from natural interaction and large language models",
+    "year": 2024,
+    "url": "https://doi.org/10.3389/frobt.2024.1455375",
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Knowledge and Memory"
-    ]
+    ],
+    "venue": "Frontiers in Robotics and AI",
+    "publication_status": "Published"
   },
   {
     "id": "audit230909919",
@@ -282,24 +304,28 @@
     "short_name": "BOSS",
     "title": "Bootstrap Your Own Skills: Learning to Solve New Tasks with Large Language Model Guidance",
     "year": 2023,
-    "url": "https://arxiv.org/html/2310.10021",
+    "url": "https://proceedings.mlr.press/v229/zhang23a.html",
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Training"
-    ]
+    ],
+    "venue": "Proceedings of The 7th Conference on Robot Learning",
+    "publication_status": "Published"
   },
   {
     "id": "audit231011604",
     "short_name": "Zero-Shot Trajectories",
     "title": "Language Models as Zero-Shot Trajectory Generators",
-    "year": 2023,
-    "url": "https://arxiv.org/html/2310.11604",
+    "year": 2024,
+    "url": "https://doi.org/10.1109/lra.2024.3410155",
     "source_type": "Paper",
     "categories": [
       "O2 / A3"
     ],
     "code_url": "https://github.com/kwonathan/language-models-trajectory-generators",
-    "project_url": "https://www.robot-learning.uk/language-models-trajectory-generators"
+    "project_url": "https://www.robot-learning.uk/language-models-trajectory-generators",
+    "venue": "IEEE Robotics and Automation Letters",
+    "publication_status": "Published"
   },
   {
     "id": "audit231012020",
@@ -363,25 +389,29 @@
   {
     "id": "audit240218796",
     "short_name": "MOSAIC",
-    "title": "MOSAIC: A Modular System for Assistive and Interactive Cooking",
+    "title": "MOSAIC: Modular Foundation Models for Assistive and Interactive Cooking",
     "year": 2024,
-    "url": "https://arxiv.org/html/2402.18796v1",
+    "url": "https://arxiv.org/abs/2402.18796",
     "source_type": "Paper",
     "categories": [
       "O2 / A2"
     ],
-    "project_url": "https://portal-cornell.github.io/MOSAIC/"
+    "project_url": "https://portal-cornell.github.io/MOSAIC/",
+    "publication_status": "Accepted to CoRL 2024",
+    "venue": "CoRL 2024"
   },
   {
     "id": "audit240605572",
     "short_name": "PRoC3S",
     "title": "Trust the PRoC3S: Solving Long-Horizon Robotics Problems with LLMs and Constraint Satisfaction",
-    "year": 2024,
-    "url": "https://arxiv.org/abs/2406.05572v1",
+    "year": 2025,
+    "url": "https://proceedings.mlr.press/v270/curtis25a.html",
     "source_type": "Paper",
     "categories": [
       "O3 / A3"
-    ]
+    ],
+    "venue": "Proceedings of The 8th Conference on Robot Learning",
+    "publication_status": "Published"
   },
   {
     "id": "audit241006108",
@@ -429,7 +459,9 @@
       "O2 / A1 Code"
     ],
     "project_url": "https://qizekun.github.io/sofar/",
-    "code_url": "https://github.com/qizekun/SoFar"
+    "code_url": "https://github.com/qizekun/SoFar",
+    "publication_status": "Accepted to NeurIPS 2025",
+    "venue": "NeurIPS 2025"
   },
   {
     "id": "audit250216707",
@@ -479,7 +511,9 @@
     "categories": [
       "Infrastructure / Training"
     ],
-    "project_url": "https://windylab.github.io/LAMARL/"
+    "project_url": "https://windylab.github.io/LAMARL/",
+    "publication_status": "Accepted to IEEE Robotics and Automation Letters",
+    "venue": "IEEE Robotics and Automation Letters"
   },
   {
     "id": "audit250712644",
@@ -540,7 +574,9 @@
     "categories": [
       "O3 / A3"
     ],
-    "code_url": "https://github.com/robiemusketeer/faea-sim"
+    "code_url": "https://github.com/robiemusketeer/faea-sim",
+    "publication_status": "Accepted to IROS 2026",
+    "venue": "IROS 2026"
   },
   {
     "id": "audit260120577",
@@ -581,13 +617,15 @@
   {
     "id": "audit260213081",
     "short_name": "Flexible but Fragile",
-    "title": "Agentic AI for Robot Control: Flexible but still Fragile",
+    "title": "Agentic AI for Robot Control: Flexible but Still Fragile",
     "year": 2026,
-    "url": "https://arxiv.org/abs/2602.13081v1",
+    "url": "https://doi.org/10.1609/aaaiss.v8i1.42578",
     "source_type": "Paper",
     "categories": [
       "O2 / A2"
-    ]
+    ],
+    "venue": "Proceedings of the AAAI Symposium Series",
+    "publication_status": "Published"
   },
   {
     "id": "audit260213193",
@@ -639,9 +677,9 @@
   {
     "id": "audit260302772",
     "short_name": "SERP",
-    "title": "Agentic Self-Evolutionary Replanning for Embodied Navigation",
+    "title": "Self-Evolutionary Replanning for Failure-Aware Motion Planning",
     "year": 2026,
-    "url": "https://arxiv.org/html/2603.02772v1",
+    "url": "https://arxiv.org/abs/2603.02772",
     "source_type": "Paper",
     "categories": [
       "O2 / A2"
@@ -657,7 +695,9 @@
     "categories": [
       "O3 / A2"
     ],
-    "code_url": "https://github.com/ShinasShaji/llm-robot-cognition"
+    "code_url": "https://github.com/ShinasShaji/llm-robot-cognition",
+    "publication_status": "Accepted to ICRA 2026",
+    "venue": "ICRA 2026"
   },
   {
     "id": "audit260310682",
@@ -702,7 +742,10 @@
     "source_type": "Paper",
     "categories": [
       "O2 / A2"
-    ]
+    ],
+    "publication_status": "Accepted to ICRA 2026 Workshop on Semantics for Reliable Robot Autonomy",
+    "venue": "ICRA 2026 Workshop on Semantics for Reliable Robot Autonomy",
+    "code_url": "https://github.com/erdemuysalx/PEACE"
   },
   {
     "id": "audit260610267",
@@ -721,10 +764,18 @@
     "short_name": "AgenticNav",
     "title": "AgenticNav: Zero-Shot Vision-and-Language Navigation as a Tool-Calling Harness",
     "year": 2026,
-    "url": "https://arxiv.org/html/2606.10577v1",
+    "url": "https://arxiv.org/abs/2606.10577",
     "source_type": "Paper",
     "categories": [
       "O2 / A2"
+    ],
+    "authors": [
+      "Yijian Li",
+      "Changze Li",
+      "Han Zheng",
+      "Jiyuan Cai",
+      "Tong Qin",
+      "Ming Yang"
     ]
   },
   {
@@ -732,10 +783,47 @@
     "short_name": "Qwen-RobotNav",
     "title": "Qwen-RobotNav Technical Report: A Scalable Navigation Model Designed for an Agentic Navigation System",
     "year": 2026,
-    "url": "https://arxiv.org/html/2606.18112v1",
+    "url": "https://arxiv.org/abs/2606.18112",
     "source_type": "Paper",
     "categories": [
       "O2 / A2"
+    ],
+    "authors": [
+      "Jiazhao Zhang",
+      "Gengze Zhou",
+      "Hale Yin",
+      "Yiyang Huang",
+      "Zixing Lei",
+      "Qihang Peng",
+      "Haoqi Yuan",
+      "Jie Zhang",
+      "Xudong Guo",
+      "Xiaoyue Chen",
+      "An Yang",
+      "Fei Huang",
+      "Zhibo Yang",
+      "Junyang Lin",
+      "Dayiheng Liu",
+      "Jingren Zhou",
+      "Zhuoyuan Yu",
+      "Jingyang Fan",
+      "Zhixuan Liang",
+      "Pei Lin",
+      "Ye Wang",
+      "Haoyang Li",
+      "Anzhe Chen",
+      "Kun Yan",
+      "Xiao Xu",
+      "Jiahao Li",
+      "Lulu Hu",
+      "Minying Zhang",
+      "Shurui Li",
+      "Wenhu Xiao",
+      "Shuai Bai",
+      "Xuancheng Ren",
+      "Chenxu Lv",
+      "Chenfei Wu",
+      "Xiong-Hui Chen"
     ]
   },
   {
@@ -755,12 +843,14 @@
     "short_name": "HiMe",
     "title": "HiMe: Hierarchical Embodied Memory for Long-Horizon Vision-Language-Action Control",
     "year": 2026,
-    "url": "https://arxiv.org/abs/2607.03449v1",
+    "url": "https://proceedings.mlr.press/v306/ji26k.html",
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Model"
     ],
-    "code_url": "https://github.com/HappyWaterXP/HiMe"
+    "code_url": "https://github.com/HappyWaterXP/HiMe",
+    "venue": "Proceedings of the 43rd International Conference on Machine Learning",
+    "publication_status": "Published"
   },
   {
     "id": "audit260704162",
@@ -784,7 +874,9 @@
       "O2 / A1 Code"
     ],
     "code_url": "https://github.com/threefruits/HUME",
-    "project_url": "https://open-world-planning.github.io"
+    "project_url": "https://open-world-planning.github.io",
+    "publication_status": "Accepted to RSS 2026",
+    "venue": "RSS 2026"
   },
   {
     "id": "audit260706990",
@@ -795,7 +887,9 @@
     "source_type": "Paper",
     "categories": [
       "O2 / A2"
-    ]
+    ],
+    "publication_status": "Accepted to RSS 2026",
+    "venue": "RSS 2026"
   },
   {
     "id": "audit260722014",
@@ -824,15 +918,20 @@
   {
     "id": "audit260727599",
     "short_name": "World Action Planner",
-    "title": "World Action Planner: Generalizable Decision-Making with Action-Conditioned World Models",
+    "title": "World Action Planner: Generalizable Robot Decision-Making with Action-Conditioned World Models",
     "year": 2026,
-    "url": "https://arxiv.org/abs/2607.27599v1",
+    "url": "https://arxiv.org/abs/2607.27599",
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Model"
     ],
     "project_url": "https://worldactionplanner.github.io/",
-    "code_url": "https://github.com/XiangchengZhang/world-action-planner"
+    "code_url": "https://github.com/XiangchengZhang/world-action-planner",
+    "authors": [
+      "Xiangcheng Zhang",
+      "Runhan Huang",
+      "Yilun Du"
+    ]
   },
   {
     "id": "audit260729600",
@@ -848,7 +947,7 @@
   {
     "id": "audit260816885",
     "short_name": "τ0-VLA",
-    "title": "$\\tau_0$-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation",
+    "title": "τ₀-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation",
     "year": 2026,
     "url": "https://arxiv.org/abs/2608.16885",
     "source_type": "Paper",
@@ -861,13 +960,25 @@
   {
     "id": "audit260817129",
     "short_name": "PROBE",
-    "title": "PROBE: Manipulation-Grounded Visual Question Answering with VLM Agents",
+    "title": "MG-VQA: Manipulation Grounded Visual Question Answering with VLMs",
     "year": 2026,
-    "url": "https://arxiv.org/html/2608.17129v1",
+    "url": "https://arxiv.org/abs/2608.17129",
     "source_type": "Paper",
     "categories": [
       "O2 / A2"
-    ]
+    ],
+    "authors": [
+      "Vineet Bhat",
+      "Mikaela Angelina Uy",
+      "Siyi Chen",
+      "Chan Hee Song",
+      "Alex Zook",
+      "Xuning Yang",
+      "Stan Birchfield",
+      "Valts Blukis",
+      "Jonathan Tremblay"
+    ],
+    "code_url": "https://github.com/vineet2104/MG-VQA"
   },
   {
     "id": "audit260826645",
@@ -879,7 +990,9 @@
     "categories": [
       "Infrastructure / Dataset Construction",
       "Infrastructure / Diagnosis"
-    ]
+    ],
+    "publication_status": "Accepted to CVPR 2026",
+    "venue": "CVPR 2026"
   },
   {
     "id": "audit260828300",
@@ -939,7 +1052,9 @@
       "O2 / A2"
     ],
     "code_url": "https://github.com/lty759/SafeMem",
-    "project_url": "https://sites.google.com/view/safemem"
+    "project_url": "https://sites.google.com/view/safemem",
+    "publication_status": "Accepted to CoRL 2026",
+    "venue": "CoRL 2026"
   },
   {
     "id": "audit260909808",
@@ -1114,7 +1229,8 @@
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code"
-    ]
+    ],
+    "code_url": "https://github.com/liujy25/NavProbe"
   },
   {
     "id": "audit260930233",
@@ -1140,7 +1256,9 @@
     "categories": [
       "O2 / A2"
     ],
-    "project_url": "https://zacravichandran.github.io/CLUE"
+    "project_url": "https://zacravichandran.github.io/CLUE",
+    "publication_status": "Accepted to ISRR 2026",
+    "venue": "ISRR 2026"
   },
   {
     "id": "audit260931418",
@@ -1188,7 +1306,7 @@
     "categories": [
       "O1 / A1 Code"
     ],
-    "code_url": "https://github.com/aditya-ramabadran/drivingbench_harness_v1",
+    "code_url": "https://github.com/aditya-ramabadran/drivingbench_harness_code",
     "short_name": "DrivingBench"
   },
   {
@@ -1223,7 +1341,9 @@
     "source_type": "Paper",
     "categories": [
       "O2 / A2"
-    ]
+    ],
+    "publication_status": "Accepted to IEEE Consumer Communications & Networking Conference 2027",
+    "venue": "IEEE Consumer Communications & Networking Conference 2027"
   },
   {
     "id": "audit261002161",
@@ -1273,7 +1393,9 @@
       "Self-Evolver / Model"
     ],
     "code_url": "https://github.com/kaiknower/MobiAgent",
-    "short_name": "MobiAgent"
+    "short_name": "MobiAgent",
+    "publication_status": "Accepted to CoRL 2026",
+    "venue": "CoRL 2026"
   },
   {
     "id": "audit261003615",
@@ -1378,7 +1500,38 @@
     "categories": [
       "Infrastructure / Dataset Construction"
     ],
-    "short_name": "AutoRT"
+    "short_name": "AutoRT",
+    "authors": [
+      "Michael Ahn",
+      "Debidatta Dwibedi",
+      "Chelsea Finn",
+      "Montse Gonzalez Arenas",
+      "Keerthana Gopalakrishnan",
+      "Karol Hausman",
+      "Brian Ichter",
+      "Alex Irpan",
+      "Nikhil Joshi",
+      "Ryan Julian",
+      "Sean Kirmani",
+      "Isabel Leal",
+      "Edward Lee",
+      "Sergey Levine",
+      "Yao Lu",
+      "Sharath Maddineni",
+      "Kanishka Rao",
+      "Dorsa Sadigh",
+      "Pannag Sanketi",
+      "Pierre Sermanet",
+      "Quan Vuong",
+      "Stefan Welker",
+      "Fei Xia",
+      "Ted Xiao",
+      "Peng Xu",
+      "Steve Xu",
+      "Zhuo Xu"
+    ],
+    "publication_status": "Accepted to ICRA 2024 VLMNM Workshop",
+    "venue": "ICRA 2024 VLMNM Workshop"
   },
   {
     "id": "bai2026skillrsi",
@@ -1403,7 +1556,9 @@
     "categories": [
       "Self-Evolver / Knowledge and Memory"
     ],
-    "short_name": "MessyMem"
+    "short_name": "MessyMem",
+    "publication_status": "Accepted to CoRL 2026",
+    "venue": "CoRL 2026"
   },
   {
     "id": "benamor2025sasprompt",
@@ -1414,7 +1569,9 @@
     "categories": [
       "Self-Evolver / Programs and Skills"
     ],
-    "short_name": "SAS-Prompt"
+    "short_name": "SAS-Prompt",
+    "publication_status": "Accepted to ICRA 2025",
+    "venue": "ICRA 2025"
   },
   {
     "id": "berman2026embody",
@@ -1474,14 +1631,16 @@
   {
     "id": "bumble",
     "title": "BUMBLE: Unifying Reasoning and Acting with Vision-Language Models for Building-wide Mobile Manipulation",
-    "year": 2024,
-    "url": "https://arxiv.org/abs/2410.06237",
+    "year": 2025,
+    "url": "https://doi.org/10.1109/icra55743.2025.11128444",
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code"
     ],
     "code_url": "https://github.com/UT-Austin-RobIn/BUMBLE",
-    "short_name": "BUMBLE"
+    "short_name": "BUMBLE",
+    "venue": "2025 IEEE International Conference on Robotics and Automation (ICRA)",
+    "publication_status": "Published"
   },
   {
     "id": "cai2026artisan",
@@ -1500,7 +1659,7 @@
     "id": "capx",
     "title": "CaP-X: A Framework for Benchmarking and Improving Coding Agents for Robot Manipulation",
     "year": 2026,
-    "url": "https://arxiv.org/abs/2603.22435",
+    "url": "https://proceedings.mlr.press/v306/fu26u.html",
     "source_type": "Paper",
     "categories": [
       "O2 / A3",
@@ -1508,7 +1667,25 @@
       "Self-Evolver / Programs and Skills"
     ],
     "code_url": "https://github.com/capgym/cap-x",
-    "short_name": "CaP-X"
+    "short_name": "CaP-X",
+    "authors": [
+      "Letian Fu",
+      "Justin Yu",
+      "Karim El-Refai",
+      "Ethan Kou",
+      "Haoru Xue",
+      "Huang Huang",
+      "Wenli Xiao",
+      "Fei-Fei Li",
+      "Guanya Shi",
+      "Jiajun Wu",
+      "S. Shankar Sastry",
+      "Yuke Zhu",
+      "Ken Goldberg",
+      "Linxi Fan"
+    ],
+    "venue": "Proceedings of the 43rd International Conference on Machine Learning",
+    "publication_status": "Published"
   },
   {
     "id": "card2024",
@@ -1575,14 +1752,16 @@
   {
     "id": "chen2023autotamp",
     "title": "AutoTAMP: Autoregressive Task and Motion Planning with LLMs as Translators and Checkers",
-    "year": 2023,
-    "url": "https://arxiv.org/abs/2306.06531",
+    "year": 2024,
+    "url": "https://doi.org/10.1109/icra57147.2024.10611163",
     "source_type": "Paper",
     "categories": [
       "O3 / A1 Code"
     ],
     "code_url": "https://github.com/yongchao98/AutoTAMP",
-    "short_name": "AutoTAMP"
+    "short_name": "AutoTAMP",
+    "venue": "IEEE International Conference on Robotics and Automation",
+    "publication_status": "Published"
   },
   {
     "id": "chen2026agps",
@@ -1645,7 +1824,35 @@
       "Self-Evolver / Programs and Skills"
     ],
     "code_url": "https://github.com/graph-robots/graph-as-policy",
-    "short_name": "GaP"
+    "short_name": "GaP",
+    "authors": [
+      "Kaiyuan Chen",
+      "Shuangyu Xie",
+      "Letian Fu",
+      "Justin Yu",
+      "William Pacini",
+      "Sandeep Bajamahal",
+      "Hudson Kim",
+      "Jaimyn Drake",
+      "Daehwa Kim",
+      "Haoru Xue",
+      "Jonathan Francis",
+      "Christian Juette",
+      "Peter Schaldenbrand",
+      "Muhammet Yunus Seker",
+      "Ruwan Wickramarachchi",
+      "Uksang Yoo",
+      "Guanzhi Wang",
+      "Adithyavairavan Murali",
+      "Balakumar Sundaralingam",
+      "S. Shankar Sastry",
+      "Yuke Zhu",
+      "Linxi \"Jim\" Fan",
+      "Spencer Huang",
+      "Ken Goldberg"
+    ],
+    "publication_status": "Accepted to CoRL 2026",
+    "venue": "CoRL 2026"
   },
   {
     "id": "chen2026harnessvln",
@@ -1780,14 +1987,16 @@
   {
     "id": "codebotler2026",
     "title": "Deploying and Evaluating LLMs to Program Service Mobile Robots",
-    "year": 2023,
-    "url": "https://arxiv.org/abs/2311.11183",
+    "year": 2024,
+    "url": "https://doi.org/10.1109/lra.2024.3360020",
     "source_type": "Paper",
     "categories": [
       "O2 / A3"
     ],
     "code_url": "https://github.com/ut-amrl/codebotler",
-    "short_name": "CodeBotler"
+    "short_name": "CodeBotler",
+    "venue": "IEEE Robotics and Automation Letters",
+    "publication_status": "Published"
   },
   {
     "id": "coela",
@@ -1800,18 +2009,22 @@
       "O3 / A1 Code"
     ],
     "code_url": "https://github.com/UMass-Embodied-AGI/CoELA",
-    "short_name": "CoELA"
+    "short_name": "CoELA",
+    "publication_status": "Accepted to ICLR 2024",
+    "venue": "ICLR 2024"
   },
   {
     "id": "copal2023",
     "title": "CoPAL: Corrective Planning of Robot Actions with Large Language Models",
-    "year": 2023,
-    "url": "https://arxiv.org/abs/2310.07263",
+    "year": 2024,
+    "url": "https://doi.org/10.1109/icra57147.2024.10610434",
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code"
     ],
-    "short_name": "CoPAL"
+    "short_name": "CoPAL",
+    "venue": "2024 IEEE International Conference on Robotics and Automation (ICRA)",
+    "publication_status": "Published"
   },
   {
     "id": "coral2026",
@@ -1823,20 +2036,24 @@
     "categories": [
       "O2 / A3"
     ],
-    "project_url": "https://sites.google.com/view/lira-coral"
+    "project_url": "https://sites.google.com/view/lira-coral",
+    "publication_status": "Accepted to RSS 2026",
+    "venue": "RSS 2026"
   },
   {
     "id": "core2026",
     "title": "CoRe: Combined Rewards with Vision-Language Model Feedback for Preference-Aligned Reinforcement Learning",
     "year": 2026,
-    "url": "https://arxiv.org/abs/2607.01721",
+    "url": "https://proceedings.mlr.press/v306/ni26d.html",
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Training",
       "Self-Evolver / Rewards"
     ],
     "code_url": "https://github.com/nihx9919/CoRe",
-    "short_name": "CoRe"
+    "short_name": "CoRe",
+    "venue": "Proceedings of the 43rd International Conference on Machine Learning",
+    "publication_status": "Published"
   },
   {
     "id": "cunningham2026economicsrsi",
@@ -1859,7 +2076,9 @@
       "Infrastructure / Training"
     ],
     "code_url": "https://github.com/labicon/CurricuLLM",
-    "short_name": "CurricuLLM"
+    "short_name": "CurricuLLM",
+    "publication_status": "Accepted to ICRA 2025",
+    "venue": "ICRA 2025"
   },
   {
     "id": "demo2reward2026",
@@ -1934,7 +2153,26 @@
       "O3 / A2"
     ],
     "project_url": "https://embodied-agent-interface.github.io/",
-    "code_url": "https://github.com/embodied-agent-interface/embodied-agent-interface"
+    "code_url": "https://github.com/embodied-agent-interface/embodied-agent-interface",
+    "authors": [
+      "Manling Li",
+      "Shiyu Zhao",
+      "Qineng Wang",
+      "Kangrui Wang",
+      "Yu Zhou",
+      "Sanjana Srivastava",
+      "Cem Gokmen",
+      "Tony Lee",
+      "Li Erran Li",
+      "Ruohan Zhang",
+      "Weiyu Liu",
+      "Percy Liang",
+      "Fei-Fei Li",
+      "Jiayuan Mao",
+      "Jiajun Wu"
+    ],
+    "publication_status": "Accepted to NeurIPS 2024",
+    "venue": "NeurIPS 2024"
   },
   {
     "id": "elemental2025",
@@ -1965,13 +2203,15 @@
     "id": "embodiedbench",
     "title": "EmbodiedBench: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents",
     "year": 2025,
-    "url": "https://arxiv.org/abs/2502.09560",
+    "url": "https://proceedings.mlr.press/v267/yang25f.html",
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Code"
     ],
     "code_url": "https://github.com/EmbodiedBench/EmbodiedBench",
-    "short_name": "EmbodiedBench"
+    "short_name": "EmbodiedBench",
+    "venue": "Proceedings of the 42nd International Conference on Machine Learning",
+    "publication_status": "Published"
   },
   {
     "id": "embodiedclaw2026",
@@ -2107,7 +2347,17 @@
       "O1 / A2"
     ],
     "code_url": "https://github.com/ESI-Bench/ESI-Bench",
-    "project_url": "https://esi-bench.github.io/"
+    "project_url": "https://esi-bench.github.io/",
+    "authors": [
+      "Yining Hong",
+      "Jiageng Liu",
+      "Han Yin",
+      "Manling Li",
+      "Leonidas Guibas",
+      "Fei-Fei Li",
+      "Jiajun Wu",
+      "Yejin Choi"
+    ]
   },
   {
     "id": "espinola2026llmlibero",
@@ -2194,7 +2444,7 @@
   },
   {
     "id": "gao2026hexashell",
-    "title": "HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents",
+    "title": "HexaShell: A Universal Harness for Robot Coding Agents in Simulation and the Real World",
     "year": 2026,
     "url": "https://arxiv.org/abs/2610.23479",
     "source_type": "Paper",
@@ -2207,6 +2457,24 @@
     "short_name": "HexaShell",
     "aliases": [
       "HexaShell (released tools)"
+    ],
+    "authors": [
+      "Hongcheng Gao",
+      "Jianshu Zeng",
+      "Alex Zhou",
+      "Shijia Ge",
+      "Xuan Shangguan",
+      "Yazhe Wang",
+      "Yexing Wan",
+      "Zelin Zheng",
+      "Jay Zhu",
+      "Xiping Li",
+      "Di Wu",
+      "Yongli Wang",
+      "Lingyu He",
+      "Zhiqi Jia",
+      "Sihang Wu",
+      "Xiao He"
     ]
   },
   {
@@ -2231,6 +2499,180 @@
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Model"
+    ],
+    "authors": [
+      "Gemini Robotics Team",
+      "Abbas Abdolmaleki",
+      "Saminda Abeyruwan",
+      "Joshua Ainslie",
+      "Jean-Baptiste Alayrac",
+      "Montserrat Gonzalez Arenas",
+      "Ashwin Balakrishna",
+      "Nathan Batchelor",
+      "Alex Bewley",
+      "Jeff Bingham",
+      "Michael Bloesch",
+      "Konstantinos Bousmalis",
+      "Philemon Brakel",
+      "Anthony Brohan",
+      "Thomas Buschmann",
+      "Arunkumar Byravan",
+      "Serkan Cabi",
+      "Ken Caluwaerts",
+      "Federico Casarini",
+      "Christine Chan",
+      "Oscar Chang",
+      "London Chappellet-Volpini",
+      "Jose Enrique Chen",
+      "Xi Chen",
+      "Hao-Tien Lewis Chiang",
+      "Krzysztof Choromanski",
+      "Adrian Collister",
+      "David B. D'Ambrosio",
+      "Sudeep Dasari",
+      "Todor Davchev",
+      "Meet Kirankumar Dave",
+      "Coline Devin",
+      "Norman Di Palo",
+      "Tianli Ding",
+      "Carl Doersch",
+      "Adil Dostmohamed",
+      "Yilun Du",
+      "Debidatta Dwibedi",
+      "Sathish Thoppay Egambaram",
+      "Michael Elabd",
+      "Tom Erez",
+      "Xiaolin Fang",
+      "Claudio Fantacci",
+      "Cody Fong",
+      "Erik Frey",
+      "Chuyuan Fu",
+      "Ruiqi Gao",
+      "Marissa Giustina",
+      "Keerthana Gopalakrishnan",
+      "Laura Graesser",
+      "Oliver Groth",
+      "Agrim Gupta",
+      "Roland Hafner",
+      "Steven Hansen",
+      "Leonard Hasenclever",
+      "Sam Haves",
+      "Nicolas Heess",
+      "Brandon Hernaez",
+      "Alex Hofer",
+      "Jasmine Hsu",
+      "Lu Huang",
+      "Sandy H. Huang",
+      "Atil Iscen",
+      "Mithun George Jacob",
+      "Deepali Jain",
+      "Sally Jesmonth",
+      "Abhishek Jindal",
+      "Ryan Julian",
+      "Dmitry Kalashnikov",
+      "M. Emre Karagozler",
+      "Stefani Karp",
+      "Matija Kecman",
+      "J. Chase Kew",
+      "Donnie Kim",
+      "Frank Kim",
+      "Junkyung Kim",
+      "Thomas Kipf",
+      "Sean Kirmani",
+      "Ksenia Konyushkova",
+      "Li Yang Ku",
+      "Yuheng Kuang",
+      "Thomas Lampe",
+      "Antoine Laurens",
+      "Tuan Anh Le",
+      "Isabel Leal",
+      "Alex X. Lee",
+      "Tsang-Wei Edward Lee",
+      "Guy Lever",
+      "Jacky Liang",
+      "Li-Heng Lin",
+      "Fangchen Liu",
+      "Shangbang Long",
+      "Caden Lu",
+      "Sharath Maddineni",
+      "Anirudha Majumdar",
+      "Kevis-Kokitsi Maninis",
+      "Andrew Marmon",
+      "Sergio Martinez",
+      "Assaf Hurwitz Michaely",
+      "Niko Milonopoulos",
+      "Joss Moore",
+      "Robert Moreno",
+      "Michael Neunert",
+      "Francesco Nori",
+      "Joy Ortiz",
+      "Kenneth Oslund",
+      "Carolina Parada",
+      "Emilio Parisotto",
+      "Amaris Paryag",
+      "Acorn Pooley",
+      "Thomas Power",
+      "Alessio Quaglino",
+      "Haroon Qureshi",
+      "Rajkumar Vasudeva Raju",
+      "Helen Ran",
+      "Dushyant Rao",
+      "Kanishka Rao",
+      "Isaac Reid",
+      "David Rendleman",
+      "Krista Reymann",
+      "Miguel Rivas",
+      "Francesco Romano",
+      "Yulia Rubanova",
+      "Peter Pastor Sampedro",
+      "Pannag R Sanketi",
+      "Dhruv Shah",
+      "Mohit Sharma",
+      "Kathryn Shea",
+      "Mohit Shridhar",
+      "Charles Shu",
+      "Vikas Sindhwani",
+      "Sumeet Singh",
+      "Radu Soricut",
+      "Rachel Sterneck",
+      "Ian Storz",
+      "Razvan Surdulescu",
+      "Jie Tan",
+      "Jonathan Tompson",
+      "Saran Tunyasuvunakool",
+      "Jake Varley",
+      "Grace Vesom",
+      "Giulia Vezzani",
+      "Maria Bauza Villalonga",
+      "Oriol Vinyals",
+      "René Wagner",
+      "Ayzaan Wahid",
+      "Stefan Welker",
+      "Paul Wohlhart",
+      "Chengda Wu",
+      "Markus Wulfmeier",
+      "Fei Xia",
+      "Ted Xiao",
+      "Annie Xie",
+      "Jinyu Xie",
+      "Peng Xu",
+      "Sichun Xu",
+      "Ying Xu",
+      "Zhuo Xu",
+      "Jimmy Yan",
+      "Sherry Yang",
+      "Skye Yang",
+      "Yuxiang Yang",
+      "Hiu Hong Yu",
+      "Wenhao Yu",
+      "Wentao Yuan",
+      "Yuan Yuan",
+      "Jingwei Zhang",
+      "Tingnan Zhang",
+      "Zhiyuan Zhang",
+      "Allan Zhou",
+      "Guangyao Zhou",
+      "Yuxiang Zhou"
     ]
   },
   {
@@ -2262,7 +2704,7 @@
   {
     "id": "gensim2023",
     "title": "GenSim: Generating Robotic Simulation Tasks via Large Language Models",
-    "year": 2023,
+    "year": 2024,
     "url": "https://arxiv.org/abs/2310.01361",
     "source_type": "Paper",
     "categories": [
@@ -2270,7 +2712,9 @@
       "Infrastructure / Dataset Construction"
     ],
     "code_url": "https://github.com/liruiw/GenSim",
-    "short_name": "GenSim"
+    "short_name": "GenSim",
+    "venue": "International Conference on Learning Representations",
+    "publication_status": "Published"
   },
   {
     "id": "gigaworldpolicy052026",
@@ -2312,12 +2756,31 @@
     "id": "grid22",
     "title": "Hi Robot: Open-Ended Instruction Following with Hierarchical Vision-Language-Action Models",
     "year": 2025,
-    "url": "https://arxiv.org/abs/2502.19417",
+    "url": "https://proceedings.mlr.press/v267/shi25d.html",
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Model"
     ],
-    "short_name": "Hi Robot"
+    "short_name": "Hi Robot",
+    "authors": [
+      "Lucy Xiaoyang Shi",
+      "Brian Ichter",
+      "Michael Robert Equi",
+      "Liyiming Ke",
+      "Karl Pertsch",
+      "Quan Vuong",
+      "James Tanner",
+      "Anna Walling",
+      "Haohuan Wang",
+      "Niccolo Fusai",
+      "Adrian Li-Bell",
+      "Danny Driess",
+      "Lachy Groom",
+      "Sergey Levine",
+      "Chelsea Finn"
+    ],
+    "venue": "Proceedings of the 42nd International Conference on Machine Learning",
+    "publication_status": "Published"
   },
   {
     "id": "grid23",
@@ -2334,8 +2797,8 @@
   {
     "id": "grid24",
     "title": "DeCo: Task Decomposition and Skill Composition for Zero-Shot Generalization in Long-Horizon 3D Manipulation",
-    "year": 2025,
-    "url": "https://arxiv.org/abs/2505.00527",
+    "year": 2026,
+    "url": "https://doi.org/10.1109/lra.2026.3666363",
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Model"
@@ -2344,7 +2807,9 @@
     "short_name": "DeCo",
     "aliases": [
       "RoboHiMan"
-    ]
+    ],
+    "venue": "IEEE Robotics and Automation Letters",
+    "publication_status": "Published"
   },
   {
     "id": "grid25",
@@ -2359,7 +2824,7 @@
   },
   {
     "id": "grid26",
-    "title": "Guava: Distilling Frontier VLM Agents into a Compact Model with a Manipulation Harness",
+    "title": "Guava: Distilling Frontier VLMs into a Compact Agent through a Robotic Manipulation Harness",
     "year": 2026,
     "url": "https://arxiv.org/abs/2606.18363",
     "source_type": "Paper",
@@ -2383,7 +2848,20 @@
     "short_name": "RoboHarness (Huang)",
     "aliases": [
       "RoboHarness-H"
-    ]
+    ],
+    "authors": [
+      "Jinbang Huang",
+      "Zhiyuan Li",
+      "Yuanzhao Hu",
+      "Ran Qi",
+      "Yixin Xiao",
+      "Mark Coates",
+      "Tongtong Cao",
+      "Zhanguang Zhang",
+      "Yingxue Zhang"
+    ],
+    "publication_status": "Accepted to ECCV 2026 Agent in the World Workshop",
+    "venue": "ECCV 2026 Agent in the World Workshop"
   },
   {
     "id": "grid28",
@@ -2406,7 +2884,34 @@
       "O1 / A1 Code"
     ],
     "code_url": "https://github.com/FluxVLA/FluxVLA",
-    "short_name": "FluxVLA"
+    "short_name": "FluxVLA",
+    "authors": [
+      "Yinhao Li",
+      "Weixin Mao",
+      "Zihan Lan",
+      "Jikun Rong",
+      "Qirui Hu",
+      "Yiming Zhang",
+      "Weipeng Deng",
+      "Bowen Shen",
+      "Minzhao Zhu",
+      "Yiming Mao",
+      "Yan Yang",
+      "Chenguang Cui",
+      "Hongyuan Chen",
+      "Xu Huang",
+      "Zheyi Zhao",
+      "Pinxi Shen",
+      "Bozhen He",
+      "Zhen Fu",
+      "Yifan Wang",
+      "Zexin Zhang",
+      "Ang Gao",
+      "Haoyu Chen",
+      "Chengqi Shi",
+      "Wenda Wu",
+      "Hua Chen"
+    ]
   },
   {
     "id": "grid30",
@@ -2428,13 +2933,15 @@
     "id": "grid31",
     "title": "AgentVLN: Towards Agentic Vision-and-Language Navigation",
     "year": 2026,
-    "url": "https://arxiv.org/abs/2603.17670",
+    "url": "https://doi.org/10.1007/978-3-032-37167-6_7",
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code"
     ],
     "code_url": "https://github.com/Allenxinn/AgentVLN",
-    "short_name": "AgentVLN"
+    "short_name": "AgentVLN",
+    "venue": "Lecture Notes in Computer Science",
+    "publication_status": "Published"
   },
   {
     "id": "grid32",
@@ -2451,13 +2958,15 @@
     "id": "grid33",
     "title": "SysNav: Multi-Level Systematic Cooperation Enables Real-World, Cross-Embodiment Object Navigation",
     "year": 2026,
-    "url": "https://arxiv.org/abs/2603.06914",
+    "url": "https://doi.org/10.1109/lra.2026.3713730",
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code"
     ],
     "code_url": "https://github.com/zwandering/SysNav",
-    "short_name": "SysNav"
+    "short_name": "SysNav",
+    "venue": "IEEE Robotics and Automation Letters",
+    "publication_status": "Published"
   },
   {
     "id": "grid34",
@@ -2476,21 +2985,23 @@
   },
   {
     "id": "grid35",
-    "title": "Co-NavGPT: Multi-Robot Cooperative Visual Semantic Navigation Using Vision Language Models",
-    "year": 2023,
-    "url": "https://arxiv.org/abs/2310.07937",
+    "title": "Co-NavGPT: Multirobot Cooperative Visual Semantic Navigation Using Vision Language Models",
+    "year": 2026,
+    "url": "https://doi.org/10.1109/lra.2025.3645650",
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code"
     ],
     "code_url": "https://github.com/ybgdgh/Co-NavGPT2",
-    "short_name": "Co-NavGPT"
+    "short_name": "Co-NavGPT",
+    "venue": "IEEE Robotics and Automation Letters",
+    "publication_status": "Published"
   },
   {
     "id": "grid37",
     "title": "SPINE: Online Semantic Planning for Missions with Incomplete Natural Language Specifications in Unstructured Environments",
-    "year": 2024,
-    "url": "https://arxiv.org/abs/2410.03035",
+    "year": 2025,
+    "url": "https://doi.org/10.1109/icra55743.2025.11128238",
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code"
@@ -2499,32 +3010,38 @@
     "short_name": "SPINE (2024)",
     "aliases": [
       "SPINE"
-    ]
+    ],
+    "venue": "2025 IEEE International Conference on Robotics and Automation (ICRA)",
+    "publication_status": "Published"
   },
   {
     "id": "grid38",
-    "title": "Language-Grounded Dynamic Scene Graphs for Interactive Object Search with Mobile Manipulation",
+    "title": "Language-Grounded Dynamic Scene Graphs for Interactive Object Search With Mobile Manipulation",
     "year": 2024,
-    "url": "https://arxiv.org/abs/2403.08605",
+    "url": "https://doi.org/10.1109/lra.2024.3441495",
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code",
       "O3 / A1 Code"
     ],
     "code_url": "https://github.com/robot-learning-freiburg/MoMa-LLM",
-    "short_name": "MoMa-LLM"
+    "short_name": "MoMa-LLM",
+    "venue": "IEEE Robotics and Automation Letters",
+    "publication_status": "Published"
   },
   {
     "id": "grid39",
     "title": "SMART-LLM: Smart Multi-Agent Robot Task Planning using Large Language Models",
-    "year": 2023,
-    "url": "https://arxiv.org/abs/2309.10062",
+    "year": 2024,
+    "url": "https://doi.org/10.1109/iros58592.2024.10802322",
     "source_type": "Paper",
     "categories": [
       "O3 / A3"
     ],
-    "code_url": "https://github.com/SMARTlab-Purdue/SMART-LLM",
-    "short_name": "SMART-LLM"
+    "code_url": "https://github.com/SMARTlab-IU/SMART-LLM",
+    "short_name": "SMART-LLM",
+    "venue": "2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+    "publication_status": "Published"
   },
   {
     "id": "grid40",
@@ -2552,9 +3069,9 @@
   },
   {
     "id": "grid42",
-    "title": "ROS-LLM: A ROS framework for embodied AI with task feedback and structured reasoning",
-    "year": 2024,
-    "url": "https://arxiv.org/abs/2406.19741",
+    "title": "A robot operating system framework for using large language models in embodied AI",
+    "year": 2026,
+    "url": "https://doi.org/10.1038/s42256-026-01186-z",
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code",
@@ -2562,7 +3079,9 @@
       "O2 / A3"
     ],
     "code_url": "https://github.com/huawei-noah/HEBO/tree/master/ROSLLM",
-    "short_name": "ROS-LLM"
+    "short_name": "ROS-LLM",
+    "venue": "Nature Machine Intelligence",
+    "publication_status": "Published"
   },
   {
     "id": "grid43",
@@ -2580,76 +3099,88 @@
     "id": "grid44",
     "title": "RoBridge: A Hierarchical Architecture Bridging Cognition and Execution for General Robotic Manipulation",
     "year": 2025,
-    "url": "https://arxiv.org/abs/2505.01709",
+    "url": "https://doi.org/10.1109/iccv51701.2025.01354",
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Model"
     ],
     "code_url": "https://github.com/abliao/RoBridge",
-    "short_name": "RoBridge"
+    "short_name": "RoBridge",
+    "venue": "2025 IEEE/CVF International Conference on Computer Vision (ICCV)",
+    "publication_status": "Published"
   },
   {
     "id": "grid45",
     "title": "CLEA: Closed-Loop Embodied Agent for Enhancing Task Execution in Dynamic Environments",
     "year": 2025,
-    "url": "https://arxiv.org/abs/2503.00729",
+    "url": "https://doi.org/10.1109/iros60139.2025.11246638",
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code"
     ],
     "code_url": "https://github.com/SP4595/CLEA-Closed-Loop-Embodied-Agent",
-    "short_name": "CLEA"
+    "short_name": "CLEA",
+    "venue": "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+    "publication_status": "Published"
   },
   {
     "id": "grid46",
     "title": "DoReMi: Grounding Language Model by Detecting and Recovering from Plan-Execution Misalignment",
-    "year": 2023,
-    "url": "https://arxiv.org/abs/2307.00329",
+    "year": 2024,
+    "url": "https://doi.org/10.1109/iros58592.2024.10802284",
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code",
       "O2 / A1 Model"
     ],
-    "short_name": "DoReMi"
+    "short_name": "DoReMi",
+    "venue": "2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+    "publication_status": "Published"
   },
   {
     "id": "grid47",
     "title": "REFLECT: Summarizing Robot Experiences for Failure Explanation and Correction",
     "year": 2023,
-    "url": "https://arxiv.org/abs/2306.15724",
+    "url": "https://proceedings.mlr.press/v229/liu23g.html",
     "source_type": "Paper",
     "categories": [
       "O3 / A1 Code",
       "Infrastructure / Diagnosis"
     ],
-    "code_url": "https://github.com/columbia-ai-robotics/reflect",
-    "short_name": "REFLECT"
+    "code_url": "https://github.com/real-stanford/reflect",
+    "short_name": "REFLECT",
+    "venue": "Proceedings of The 7th Conference on Robot Learning",
+    "publication_status": "Published"
   },
   {
     "id": "grid49",
     "title": "Robots That Ask For Help: Uncertainty Alignment for Large Language Model Planners",
     "year": 2023,
-    "url": "https://arxiv.org/abs/2307.01928",
+    "url": "https://proceedings.mlr.press/v229/ren23a.html",
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Model",
       "O3 / A1 Code"
     ],
     "code_url": "https://github.com/google-research/google-research/tree/master/language_model_uncertainty",
-    "short_name": "KnowNo"
+    "short_name": "KnowNo",
+    "venue": "Proceedings of The 7th Conference on Robot Learning",
+    "publication_status": "Published"
   },
   {
     "id": "grid50",
-    "title": "LLM3:Large Language Model-based Task and Motion Planning with Motion Failure Reasoning",
+    "title": "LLM³: Large Language Model-based Task and Motion Planning with Motion Failure Reasoning",
     "year": 2024,
-    "url": "https://arxiv.org/abs/2403.11552",
+    "url": "https://doi.org/10.1109/iros58592.2024.10801328",
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code",
       "O3 / A1 Code"
     ],
     "code_url": "https://github.com/AssassinWS/LLM-TAMP",
-    "short_name": "LLM3"
+    "short_name": "LLM3",
+    "venue": "2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+    "publication_status": "Published"
   },
   {
     "id": "grid52",
@@ -2668,15 +3199,17 @@
   },
   {
     "id": "grid53",
-    "title": "Multi-Modal Grounded Planning and Efficient Replanning For Learning Embodied Agents with A Few Examples",
-    "year": 2024,
-    "url": "https://arxiv.org/abs/2412.17288",
+    "title": "Multi-Modal Grounded Planning and Efficient Replanning for Learning Embodied Agents with a Few Examples",
+    "year": 2025,
+    "url": "https://doi.org/10.1609/aaai.v39i4.32455",
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code"
     ],
     "code_url": "https://github.com/snumprlab/flare",
-    "short_name": "FLARE (2024)"
+    "short_name": "FLARE (2024)",
+    "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "publication_status": "Published"
   },
   {
     "id": "grid54",
@@ -2693,15 +3226,17 @@
   {
     "id": "grid56",
     "title": "LLM-Planner: Few-Shot Grounded Planning for Embodied Agents with Large Language Models",
-    "year": 2022,
-    "url": "https://arxiv.org/abs/2212.04088",
+    "year": 2023,
+    "url": "https://doi.org/10.1109/iccv51070.2023.00280",
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code",
       "O2 / A1 Model"
     ],
     "code_url": "https://github.com/OSU-NLP-Group/LLM-Planner",
-    "short_name": "LLM-Planner"
+    "short_name": "LLM-Planner",
+    "venue": "2023 IEEE/CVF International Conference on Computer Vision (ICCV)",
+    "publication_status": "Published"
   },
   {
     "id": "grid57",
@@ -2731,15 +3266,17 @@
   {
     "id": "grid59",
     "title": "Robi Butler: Multimodal Remote Interaction with a Household Robot Assistant",
-    "year": 2024,
-    "url": "https://arxiv.org/abs/2409.20548",
+    "year": 2025,
+    "url": "https://doi.org/10.1109/icra55743.2025.11128329",
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code",
       "O2 / A1 Model"
     ],
     "code_url": "https://github.com/threefruits/zoom_robot_interface",
-    "short_name": "RobiButler"
+    "short_name": "RobiButler",
+    "venue": "2025 IEEE International Conference on Robotics and Automation (ICRA)",
+    "publication_status": "Published"
   },
   {
     "id": "grid60",
@@ -2756,13 +3293,15 @@
     "id": "grid61",
     "title": "Large Language Models for Orchestrating Bimanual Robots",
     "year": 2024,
-    "url": "https://arxiv.org/abs/2404.02018",
+    "url": "https://doi.org/10.1109/humanoids58906.2024.10769891",
     "source_type": "Paper",
     "categories": [
       "O3 / A1 Code"
     ],
     "code_url": "https://github.com/Kchu/LABOR-Agent",
-    "short_name": "LABOR Agent"
+    "short_name": "LABOR Agent",
+    "venue": "2024 IEEE-RAS 23rd International Conference on Humanoid Robots (Humanoids)",
+    "publication_status": "Published"
   },
   {
     "id": "grid62",
@@ -2794,65 +3333,75 @@
     "id": "grid64",
     "title": "Scaling Up and Distilling Down: Language-Guided Robot Skill Acquisition",
     "year": 2023,
-    "url": "https://arxiv.org/abs/2307.14535",
+    "url": "https://proceedings.mlr.press/v229/ha23a.html",
     "source_type": "Paper",
     "categories": [
       "O3 / A1 Code",
       "Infrastructure / Dataset Construction"
     ],
-    "code_url": "https://github.com/columbia-ai-robotics/scalingup",
+    "code_url": "https://github.com/real-stanford/scalingup",
     "short_name": "Scaling Up",
     "aliases": [
       "Scaling Up and Distilling Down"
-    ]
+    ],
+    "venue": "Proceedings of The 7th Conference on Robot Learning",
+    "publication_status": "Published"
   },
   {
     "id": "grid65",
     "title": "ProgPrompt: Generating Situated Robot Task Plans using Large Language Models",
-    "year": 2022,
-    "url": "https://arxiv.org/abs/2209.11302",
+    "year": 2023,
+    "url": "https://doi.org/10.1109/icra48891.2023.10161317",
     "source_type": "Paper",
     "categories": [
       "O2 / A3",
       "O3 / A3"
     ],
-    "short_name": "ProgPrompt"
+    "short_name": "ProgPrompt",
+    "venue": "2023 IEEE International Conference on Robotics and Automation (ICRA)",
+    "publication_status": "Published"
   },
   {
     "id": "grid66",
     "title": "Code as Policies: Language Model Programs for Embodied Control",
-    "year": 2022,
-    "url": "https://arxiv.org/abs/2209.07753",
+    "year": 2023,
+    "url": "https://doi.org/10.1109/icra48891.2023.10160591",
     "source_type": "Paper",
     "categories": [
       "O2 / A3",
       "O3 / A3"
     ],
     "code_url": "https://github.com/google-research/google-research/tree/master/code_as_policies",
-    "short_name": "Code as Policies"
+    "short_name": "Code as Policies",
+    "venue": "2023 IEEE International Conference on Robotics and Automation (ICRA)",
+    "publication_status": "Published"
   },
   {
     "id": "grid67",
-    "title": "Text2Motion: From Natural Language Instructions to Feasible Plans",
+    "title": "Text2Motion: from natural language instructions to feasible plans",
     "year": 2023,
-    "url": "https://arxiv.org/abs/2303.12153",
+    "url": "https://doi.org/10.1007/s10514-023-10131-7",
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Model"
     ],
-    "short_name": "Text2Motion"
+    "short_name": "Text2Motion",
+    "venue": "Autonomous Robots",
+    "publication_status": "Published"
   },
   {
     "id": "grid68",
-    "title": "TidyBot: Personalized Robot Assistance with Large Language Models",
+    "title": "TidyBot: personalized robot assistance with large language models",
     "year": 2023,
-    "url": "https://arxiv.org/abs/2305.05658",
+    "url": "https://doi.org/10.1007/s10514-023-10139-z",
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code"
     ],
     "code_url": "https://github.com/jimmyyhwu/tidybot",
-    "short_name": "TidyBot"
+    "short_name": "TidyBot",
+    "venue": "Autonomous Robots",
+    "publication_status": "Published"
   },
   {
     "id": "grid79",
@@ -2938,7 +3487,9 @@
       "Self-Evolver / Code"
     ],
     "code_url": "https://github.com/hmz-15/interactive-predicate-learning",
-    "short_name": "InterPreT"
+    "short_name": "InterPreT",
+    "publication_status": "Accepted to RSS 2024",
+    "venue": "RSS 2024"
   },
   {
     "id": "harnessvla",
@@ -3017,7 +3568,9 @@
       "Infrastructure / Environment Generation"
     ],
     "project_url": "https://yueyang.ai/holodeck/",
-    "code_url": "https://github.com/allenai/Holodeck"
+    "code_url": "https://github.com/allenai/Holodeck",
+    "publication_status": "Accepted to CVPR 2024",
+    "venue": "CVPR 2024"
   },
   {
     "id": "hu20262am",
@@ -3078,8 +3631,8 @@
   {
     "id": "hua2024gensim2",
     "title": "GenSim2: Scaling Robot Data Generation with Multi-modal and Reasoning LLMs",
-    "year": 2024,
-    "url": "https://arxiv.org/abs/2410.03645",
+    "year": 2025,
+    "url": "https://proceedings.mlr.press/v270/hua25a.html",
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Environment Generation",
@@ -3087,7 +3640,9 @@
       "Infrastructure / Training"
     ],
     "code_url": "https://github.com/GenSim2/GenSim2",
-    "short_name": "GenSim2"
+    "short_name": "GenSim2",
+    "venue": "Proceedings of The 8th Conference on Robot Learning",
+    "publication_status": "Published"
   },
   {
     "id": "huang2026rax",
@@ -3193,18 +3748,51 @@
       "Infrastructure / Training"
     ],
     "project_url": "https://iker-robot.github.io/",
-    "code_url": "https://github.com/shivanshpatel35/IKER"
+    "code_url": "https://github.com/shivanshpatel35/IKER",
+    "authors": [
+      "Shivansh Patel",
+      "Xinchen Yin",
+      "Wenlong Huang",
+      "Shubham Garg",
+      "Hooshang Nayyeri",
+      "Fei-Fei Li",
+      "Svetlana Lazebnik",
+      "Yunzhu Li"
+    ],
+    "publication_status": "Accepted to ICRA 2025",
+    "venue": "ICRA 2025"
   },
   {
     "id": "innermonologue",
     "title": "Inner Monologue: Embodied Reasoning through Planning with Language Models",
-    "year": 2022,
-    "url": "https://arxiv.org/abs/2207.05608",
+    "year": 2023,
+    "url": "https://proceedings.mlr.press/v205/huang23c.html",
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Model"
     ],
-    "short_name": "Inner Monologue"
+    "short_name": "Inner Monologue",
+    "authors": [
+      "Wenlong Huang",
+      "Fei Xia",
+      "Ted Xiao",
+      "Harris Chan",
+      "Jacky Liang",
+      "Pete Florence",
+      "Andy Zeng",
+      "Jonathan Tompson",
+      "Igor Mordatch",
+      "Yevgen Chebotar",
+      "Pierre Sermanet",
+      "Tomas Jackson",
+      "Noah Brown",
+      "Linda Luu",
+      "Sergey Levine",
+      "Karol Hausman",
+      "brian ichter"
+    ],
+    "venue": "Proceedings of The 6th Conference on Robot Learning",
+    "publication_status": "Published"
   },
   {
     "id": "inspectrobots2026",
@@ -3316,7 +3904,9 @@
     "categories": [
       "Self-Evolver / Robot morphology"
     ],
-    "short_name": "Efficient Robot Design"
+    "short_name": "Efficient Robot Design",
+    "venue": "IEEE Access",
+    "publication_status": "Published"
   },
   {
     "id": "khandelwal2026agentrl",
@@ -3374,7 +3964,12 @@
     "categories": [
       "Self-Evolver / Programs and Skills"
     ],
-    "short_name": "Closed-Loop Robot Software"
+    "short_name": "Closed-Loop Robot Software",
+    "authors": [
+      "So Kuroki",
+      "Kento Kawaharazuka",
+      "Yujin Tang"
+    ]
   },
   {
     "id": "lange2025arna",
@@ -3391,7 +3986,7 @@
     "id": "language2rewards2023",
     "title": "Language to Rewards for Robotic Skill Synthesis",
     "year": 2023,
-    "url": "https://arxiv.org/abs/2306.08647",
+    "url": "https://proceedings.mlr.press/v229/yu23a.html",
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code",
@@ -3401,7 +3996,31 @@
     "short_name": "Language to Rewards",
     "aliases": [
       "Language2Reward"
-    ]
+    ],
+    "authors": [
+      "Wenhao Yu",
+      "Nimrod Gileadi",
+      "Chuyuan Fu",
+      "Sean Kirmani",
+      "Kuang-Huei Lee",
+      "Montserrat Gonzalez Arenas",
+      "Hao-Tien Lewis Chiang",
+      "Tom Erez",
+      "Leonard Hasenclever",
+      "Jan Humplik",
+      "Brian Ichter",
+      "Ted Xiao",
+      "Peng Xu",
+      "Andy Zeng",
+      "Tingnan Zhang",
+      "Nicolas Heess",
+      "Dorsa Sadigh",
+      "Jie Tan",
+      "Yuval Tassa",
+      "Fei Xia"
+    ],
+    "venue": "Proceedings of The 7th Conference on Robot Learning",
+    "publication_status": "Published"
   },
   {
     "id": "le2024articulateanything",
@@ -3452,7 +4071,9 @@
       "Infrastructure / Training",
       "Self-Evolver / Rewards"
     ],
-    "short_name": "RDA"
+    "short_name": "RDA",
+    "publication_status": "Accepted to Reinforcement Learning Conference 2026",
+    "venue": "Reinforcement Learning Conference 2026"
   },
   {
     "id": "leet2026bitter",
@@ -3625,11 +4246,13 @@
     "short_name": "Sentinel-VLA",
     "title": "Sentinel-VLA: A Metacognitive VLA Model with Active Status Monitoring for Dynamic Reasoning and Error Recovery",
     "year": 2026,
-    "url": "https://arxiv.org/abs/2605.01191",
+    "url": "https://proceedings.mlr.press/v306/li26fm.html",
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Model"
-    ]
+    ],
+    "venue": "Proceedings of the 43rd International Conference on Machine Learning",
+    "publication_status": "Published"
   },
   {
     "id": "li2026spotter",
@@ -3667,7 +4290,59 @@
     "title": "Learning to Learn Faster from Human Feedback with Language Model Predictive Control",
     "year": 2024,
     "url": "https://arxiv.org/abs/2402.11450",
-    "source_type": "Paper"
+    "source_type": "Paper",
+    "authors": [
+      "Jacky Liang",
+      "Fei Xia",
+      "Wenhao Yu",
+      "Andy Zeng",
+      "Montserrat Gonzalez Arenas",
+      "Maria Attarian",
+      "Maria Bauza",
+      "Matthew Bennice",
+      "Alex Bewley",
+      "Adil Dostmohamed",
+      "Chuyuan Kelly Fu",
+      "Nimrod Gileadi",
+      "Marissa Giustina",
+      "Keerthana Gopalakrishnan",
+      "Leonard Hasenclever",
+      "Jan Humplik",
+      "Jasmine Hsu",
+      "Nikhil Joshi",
+      "Ben Jyenis",
+      "Chase Kew",
+      "Sean Kirmani",
+      "Tsang-Wei Edward Lee",
+      "Kuang-Huei Lee",
+      "Assaf Hurwitz Michaely",
+      "Joss Moore",
+      "Ken Oslund",
+      "Dushyant Rao",
+      "Allen Ren",
+      "Baruch Tabanpour",
+      "Quan Vuong",
+      "Ayzaan Wahid",
+      "Ted Xiao",
+      "Ying Xu",
+      "Vincent Zhuang",
+      "Peng Xu",
+      "Erik Frey",
+      "Ken Caluwaerts",
+      "Tingnan Zhang",
+      "Brian Ichter",
+      "Jonathan Tompson",
+      "Leila Takayama",
+      "Vincent Vanhoucke",
+      "Izhak Shafran",
+      "Maja Mataric",
+      "Dorsa Sadigh",
+      "Nicolas Heess",
+      "Kanishka Rao",
+      "Nik Stewart",
+      "Jie Tan",
+      "Carolina Parada"
+    ]
   },
   {
     "id": "liang2026robofoundry",
@@ -3697,7 +4372,9 @@
       "Infrastructure / Dataset Construction"
     ],
     "code_url": "https://github.com/tether-research/tether",
-    "short_name": "Tether"
+    "short_name": "Tether",
+    "publication_status": "Accepted to ICLR 2026",
+    "venue": "ICLR 2026"
   },
   {
     "id": "lim2026lithe",
@@ -3820,7 +4497,9 @@
     "categories": [
       "O3 / A2"
     ],
-    "code_url": "https://github.com/lbaa2022/LLMTaskPlanning"
+    "code_url": "https://github.com/lbaa2022/LLMTaskPlanning",
+    "publication_status": "Accepted to ICLR 2024",
+    "venue": "ICLR 2024"
   },
   {
     "id": "lou2026knowbody",
@@ -3871,7 +4550,9 @@
       "Infrastructure / Diagnosis"
     ],
     "code_url": "https://github.com/robolineage/robolineage",
-    "short_name": "RoboLineage"
+    "short_name": "RoboLineage",
+    "publication_status": "Accepted to CoRL 2026",
+    "venue": "CoRL 2026"
   },
   {
     "id": "ma2023eureka",
@@ -3884,20 +4565,33 @@
       "Self-Evolver / Rewards"
     ],
     "code_url": "https://github.com/eureka-research/Eureka",
-    "short_name": "Eureka"
+    "short_name": "Eureka",
+    "publication_status": "Accepted to ICLR 2024",
+    "venue": "ICLR 2024"
   },
   {
     "id": "ma2024dreureka",
     "title": "DrEureka: Language Model Guided Sim-To-Real Transfer",
     "year": 2024,
-    "url": "https://arxiv.org/abs/2406.01967",
+    "url": "https://doi.org/10.15607/rss.2024.xx.094",
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Training",
       "Self-Evolver / Rewards"
     ],
     "code_url": "https://github.com/eureka-research/DrEureka",
-    "short_name": "DrEureka"
+    "short_name": "DrEureka",
+    "authors": [
+      "Yecheng Ma",
+      "William Liang",
+      "Hung-Ju Wang",
+      "Yuke Zhu",
+      "Linxi Fan",
+      "Osbert Bastani",
+      "Dinesh Jayaraman"
+    ],
+    "venue": "Robotics: Science and Systems XX",
+    "publication_status": "Published"
   },
   {
     "id": "ma2026cyclevla",
@@ -3974,18 +4668,22 @@
       "O2 / A3"
     ],
     "project_url": "https://sites.google.com/view/robocodexplus",
-    "code_url": "https://github.com/RoboCodeX-source/RoboCodeX_code"
+    "code_url": "https://github.com/RoboCodeX-source/RoboCodeX_code",
+    "venue": "Proceedings of the 41st International Conference on Machine Learning",
+    "publication_status": "Published"
   },
   {
     "id": "nasiriany2024pivot",
     "title": "PIVOT: Iterative Visual Prompting Elicits Actionable Knowledge for VLMs",
     "year": 2024,
-    "url": "https://arxiv.org/abs/2402.07872",
+    "url": "https://proceedings.mlr.press/v235/nasiriany24a.html",
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Code"
     ],
-    "short_name": "PIVOT"
+    "short_name": "PIVOT",
+    "venue": "Proceedings of the 41st International Conference on Machine Learning",
+    "publication_status": "Published"
   },
   {
     "id": "nebiusphysicalai2026",
@@ -4237,7 +4935,9 @@
     "categories": [
       "Infrastructure / Environment Generation"
     ],
-    "short_name": "PhyScensis"
+    "short_name": "PhyScensis",
+    "publication_status": "Accepted to ICLR 2026",
+    "venue": "ICLR 2026"
   },
   {
     "id": "physicalcoding2026",
@@ -4280,7 +4980,33 @@
       "Infrastructure / Environment Generation",
       "Infrastructure / Dataset Construction"
     ],
-    "short_name": "Awomo-SimDataEngine"
+    "short_name": "Awomo-SimDataEngine",
+    "authors": [
+      "Awomo-PhysicalRSI Team",
+      "Danjiao Ma",
+      "Enhui Ma",
+      "Haohan Liu",
+      "Heng Jia",
+      "Hui Shan",
+      "Jianhua Xu",
+      "Jiahuan Zhang",
+      "Jiangdi Xu",
+      "Kaiwen Guo",
+      "Kaicheng Yu",
+      "Linwei Zhang",
+      "Liyang Jin",
+      "Maochun Luo",
+      "Pengyao Niu",
+      "Shiwen Li",
+      "Shuangyu Feng",
+      "Tong Zhang",
+      "Tianheng Wang",
+      "Xin Wang",
+      "Xiangru Huang",
+      "Yongqiang Huang",
+      "Zhaozhi Wang",
+      "Zijian Ma"
+    ]
   },
   {
     "id": "pigey",
@@ -4355,7 +5081,9 @@
       "Self-Evolver / Knowledge and Memory"
     ],
     "code_url": "https://github.com/leggedrobotics/pragmabot",
-    "short_name": "PragmaBot"
+    "short_name": "PragmaBot",
+    "publication_status": "Accepted to IEEE Robotics and Automation Letters",
+    "venue": "IEEE Robotics and Automation Letters"
   },
   {
     "id": "racap2026",
@@ -4379,24 +5107,28 @@
     "id": "rai",
     "title": "RAI: Flexible Agent Framework for Embodied AI",
     "year": 2025,
-    "url": "https://arxiv.org/abs/2505.07532",
+    "url": "https://doi.org/10.1007/978-3-032-05925-3_16",
     "source_type": "Paper",
     "categories": [
       "O2 / A2"
     ],
     "code_url": "https://github.com/RobotecAI/rai",
-    "short_name": "RAI"
+    "short_name": "RAI",
+    "venue": "Communications in Computer and Information Science",
+    "publication_status": "Published"
   },
   {
     "id": "rank2026posttrainbench",
     "title": "PostTrainBench: Can LLM Agents Automate LLM Post-Training?",
     "year": 2026,
-    "url": "https://arxiv.org/abs/2603.08640",
+    "url": "https://proceedings.mlr.press/v306/rank26a.html",
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Successor AI R&D"
     ],
-    "short_name": "PostTrainBench"
+    "short_name": "PostTrainBench",
+    "venue": "Proceedings of the 43rd International Conference on Machine Learning",
+    "publication_status": "Published"
   },
   {
     "id": "rao2026argon",
@@ -4461,14 +5193,16 @@
     "id": "real2026",
     "title": "Exploratory, Communicative, and Deployable: Vision-Driven Embodied Agents for Open-World Mobile Manipulation",
     "year": 2026,
-    "url": "https://arxiv.org/abs/2607.13653",
+    "url": "https://doi.org/10.1007/978-3-032-37422-6_36",
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code",
       "O2 / A1 Model"
     ],
     "code_url": "https://github.com/InternRobotics/REAL",
-    "short_name": "REAL"
+    "short_name": "REAL",
+    "venue": "Lecture Notes in Computer Science",
+    "publication_status": "Published"
   },
   {
     "id": "real2gym2026",
@@ -4503,28 +5237,39 @@
   {
     "id": "regot2025",
     "title": "Reward Evolution with Graph-of-Thoughts: A Bi-Level Language Model Framework for Reinforcement Learning",
-    "year": 2025,
-    "url": "https://arxiv.org/abs/2509.16136",
+    "year": 2026,
+    "url": "https://doi.org/10.1109/icra57385.2026.11696350",
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Training",
       "Self-Evolver / Rewards"
     ],
-    "short_name": "RE-GoT"
+    "short_name": "RE-GoT",
+    "venue": "IEEE International Conference on Robotics and Automation",
+    "publication_status": "Published"
   },
   {
     "id": "rekep2024",
     "short_name": "ReKep",
     "title": "ReKep: Spatio-Temporal Reasoning of Relational Keypoint Constraints for Robotic Manipulation",
-    "year": 2024,
-    "url": "https://arxiv.org/abs/2409.01652",
+    "year": 2025,
+    "url": "https://proceedings.mlr.press/v270/huang25g.html",
     "source_type": "Paper",
     "categories": [
       "O2 / A3",
       "O3 / A3"
     ],
     "project_url": "https://rekep-robot.github.io/",
-    "code_url": "https://github.com/huangwl18/ReKep"
+    "code_url": "https://github.com/huangwl18/ReKep",
+    "authors": [
+      "Wenlong Huang",
+      "Chen Wang",
+      "Yunzhu Li",
+      "Ruohan Zhang",
+      "Fei-Fei Li"
+    ],
+    "venue": "Proceedings of The 8th Conference on Robot Learning",
+    "publication_status": "Published"
   },
   {
     "id": "revolve2024",
@@ -4541,7 +5286,9 @@
     "aliases": [
       "REvolve Reward Design",
       "REvolve"
-    ]
+    ],
+    "publication_status": "Accepted to ICLR 2025",
+    "venue": "ICLR 2025"
   },
   {
     "id": "revolvecollection2026",
@@ -4603,14 +5350,34 @@
     "id": "roboclaw",
     "title": "RoboClaw: An Agentic Framework for Scalable Long-Horizon Robotic Tasks",
     "year": 2026,
-    "url": "https://arxiv.org/abs/2603.11558",
+    "url": "https://doi.org/10.1007/978-3-032-36987-1_17",
     "source_type": "Paper",
     "categories": [
       "O2 / A2",
       "Infrastructure / Dataset Construction"
     ],
     "code_url": "https://github.com/RoboClaw-Robotics/RoboClaw",
-    "short_name": "RoboClaw"
+    "short_name": "RoboClaw",
+    "authors": [
+      "Ruiying Li",
+      "Yunlang Zhou",
+      "Yuyao Zhu",
+      "Kylin Chen",
+      "Sukai Wang",
+      "Kongtao Hu",
+      "Minhui Yu",
+      "Bowen Jiang",
+      "Zhan Su",
+      "Jiayao Ma",
+      "Yongjian Shen",
+      "Yang Yang",
+      "Guanghui Ren",
+      "Maoqing Yao",
+      "Wenhao Wang",
+      "Yao Mu"
+    ],
+    "venue": "Lecture Notes in Computer Science",
+    "publication_status": "Published"
   },
   {
     "id": "robocoliseum2026agent2act",
@@ -4626,14 +5393,16 @@
   },
   {
     "id": "robogene2026",
-    "title": "RoboGene: Boosting VLA Pre-training via Diversity-Driven Agentic Framework for Real-World Task Generation",
+    "title": "RoboGene: Diversity-Driven Agentic Task Generation Framework for VLA Pre-training",
     "year": 2026,
     "url": "https://arxiv.org/abs/2602.16444",
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Dataset Construction"
     ],
-    "short_name": "RoboGene"
+    "short_name": "RoboGene",
+    "publication_status": "Accepted to CoRL 2026",
+    "venue": "CoRL 2026"
   },
   {
     "id": "roboharnevo2026",
@@ -4726,14 +5495,16 @@
   {
     "id": "robotwin2agent2025",
     "title": "RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation",
-    "year": 2025,
-    "url": "https://arxiv.org/abs/2506.18088",
+    "year": 2026,
+    "url": "https://proceedings.mlr.press/v306/chen26j.html",
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Dataset Construction"
     ],
     "code_url": "https://github.com/RoboTwin-Platform/RoboTwin",
-    "short_name": "RoboTwin 2.0"
+    "short_name": "RoboTwin 2.0",
+    "venue": "Proceedings of the 43rd International Conference on Machine Learning",
+    "publication_status": "Published"
   },
   {
     "id": "robowits2026",
@@ -4750,28 +5521,32 @@
   {
     "id": "roco",
     "title": "RoCo: Dialectic Multi-Robot Collaboration with Large Language Models",
-    "year": 2023,
-    "url": "https://arxiv.org/abs/2307.04738",
+    "year": 2024,
+    "url": "https://doi.org/10.1109/icra57147.2024.10610855",
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code",
       "O3 / A1 Code"
     ],
     "code_url": "https://github.com/MandiZhao/robot-collab",
-    "short_name": "RoCo"
+    "short_name": "RoCo",
+    "venue": "2024 IEEE International Conference on Robotics and Automation (ICRA)",
+    "publication_status": "Published"
   },
   {
     "id": "rosapaper2024",
     "short_name": "ROSA",
     "title": "Enabling Novel Mission Operations and Interactions with ROSA: The Robot Operating System Agent",
-    "year": 2024,
-    "url": "https://arxiv.org/abs/2410.06472",
+    "year": 2025,
+    "url": "https://doi.org/10.1109/aero63441.2025.11068426",
     "source_type": "Paper",
     "categories": [
       "O2 / A2"
     ],
     "project_url": "https://github.com/nasa-jpl/rosa",
-    "code_url": "https://github.com/nasa-jpl/rosa"
+    "code_url": "https://github.com/nasa-jpl/rosa",
+    "venue": "2025 IEEE Aerospace Conference",
+    "publication_status": "Published"
   },
   {
     "id": "roshelpdesk2025",
@@ -4808,7 +5583,9 @@
     "categories": [
       "O1 / A1 Model"
     ],
-    "short_name": "Semantic Handoff"
+    "short_name": "Semantic Handoff",
+    "publication_status": "Presented at RSS 2026 SemRob Workshop",
+    "venue": "RSS 2026 SemRob Workshop"
   },
   {
     "id": "sage2026",
@@ -4835,25 +5612,76 @@
   {
     "id": "saycan2022",
     "title": "Do As I Can, Not As I Say: Grounding Language in Robotic Affordances",
-    "year": 2022,
-    "url": "https://arxiv.org/abs/2204.01691",
+    "year": 2023,
+    "url": "https://proceedings.mlr.press/v205/ichter23a.html",
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Model"
     ],
     "code_url": "https://github.com/google-research/google-research/tree/master/saycan",
-    "short_name": "SayCan"
+    "short_name": "SayCan",
+    "authors": [
+      "brian ichter",
+      "Anthony Brohan",
+      "Yevgen Chebotar",
+      "Chelsea Finn",
+      "Karol Hausman",
+      "Alexander Herzog",
+      "Daniel Ho",
+      "Julian Ibarz",
+      "Alex Irpan",
+      "Eric Jang",
+      "Ryan Julian",
+      "Dmitry Kalashnikov",
+      "Sergey Levine",
+      "Yao Lu",
+      "Carolina Parada",
+      "Kanishka Rao",
+      "Pierre Sermanet",
+      "Alexander T Toshev",
+      "Vincent Vanhoucke",
+      "Fei Xia",
+      "Ted Xiao",
+      "Peng Xu",
+      "Mengyuan Yan",
+      "Noah Brown",
+      "Michael Ahn",
+      "Omar Cortes",
+      "Nicolas Sievers",
+      "Clayton Tan",
+      "Sichun Xu",
+      "Diego Reyes",
+      "Jarek Rettinghouse",
+      "Jornell Quiambao",
+      "Peter Pastor",
+      "Linda Luu",
+      "Kuang-Huei Lee",
+      "Yuheng Kuang",
+      "Sally Jesmonth",
+      "Nikhil J. Joshi",
+      "Kyle Jeffrey",
+      "Rosario Jauregui Ruano",
+      "Jasmine Hsu",
+      "Keerthana Gopalakrishnan",
+      "Byron David",
+      "Andy Zeng",
+      "Chuyuan Kelly Fu"
+    ],
+    "venue": "Proceedings of The 6th Conference on Robot Learning",
+    "publication_status": "Published"
   },
   {
     "id": "sayplan2023",
     "title": "SayPlan: Grounding Large Language Models using 3D Scene Graphs for Scalable Robot Task Planning",
     "year": 2023,
-    "url": "https://arxiv.org/abs/2307.06135",
+    "url": "https://proceedings.mlr.press/v229/rana23a.html",
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code"
     ],
-    "short_name": "SayPlan"
+    "short_name": "SayPlan",
+    "venue": "Proceedings of The 7th Conference on Robot Learning",
+    "publication_status": "Published"
   },
   {
     "id": "scalinggenerativevlarl2026",
@@ -4865,20 +5693,24 @@
     "categories": [
       "Infrastructure / Environment Generation"
     ],
-    "project_url": "https://horizonrobotics.github.io/gail/scale-vla-rl/"
+    "project_url": "https://horizonrobotics.github.io/gail/scale-vla-rl/",
+    "publication_status": "Accepted to CoRL 2026",
+    "venue": "CoRL 2026"
   },
   {
     "id": "scenesmith2026",
     "title": "SceneSmith: Agentic Generation of Simulation-Ready Indoor Scenes",
     "year": 2026,
-    "url": "https://arxiv.org/abs/2602.09153",
+    "url": "https://proceedings.mlr.press/v306/pfaff26a.html",
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Environment Generation",
       "Infrastructure / Evaluation"
     ],
     "code_url": "https://github.com/nepfaff/scenesmith",
-    "short_name": "SceneSmith"
+    "short_name": "SceneSmith",
+    "venue": "Proceedings of the 43rd International Conference on Machine Learning",
+    "publication_status": "Published"
   },
   {
     "id": "sceneweaver2025",
@@ -4891,7 +5723,9 @@
       "Infrastructure / Environment Generation"
     ],
     "project_url": "https://scene-weaver.github.io/",
-    "code_url": "https://github.com/Scene-Weaver/SceneWeaver"
+    "code_url": "https://github.com/Scene-Weaver/SceneWeaver",
+    "publication_status": "Accepted to NeurIPS 2025",
+    "venue": "NeurIPS 2025"
   },
   {
     "id": "schakkal2025hierarchical",
@@ -4902,7 +5736,9 @@
     "categories": [
       "O1 / A1 Model"
     ],
-    "short_name": "H-VLP"
+    "short_name": "H-VLP",
+    "publication_status": "Accepted to RSS 2025 Workshop on Robot Planning in the Era of Foundation Models",
+    "venue": "RSS 2025 Workshop on Robot Planning in the Era of Foundation Models"
   },
   {
     "id": "sds2024",
@@ -4921,14 +5757,16 @@
     "id": "self240618746",
     "title": "Lifelong Robot Library Learning: Bootstrapping Composable and Generalizable Skills for Embodied Control with Language Models",
     "year": 2024,
-    "url": "https://arxiv.org/abs/2406.18746",
+    "url": "https://doi.org/10.1109/icra57147.2024.10611448",
     "source_type": "Paper",
     "categories": [
       "O2 / A3",
       "O3 / A3",
       "Self-Evolver / Programs and Skills"
     ],
-    "short_name": "LRLL"
+    "short_name": "LRLL",
+    "venue": "2024 IEEE International Conference on Robotics and Automation (ICRA)",
+    "publication_status": "Published"
   },
   {
     "id": "self260509423",
@@ -4970,7 +5808,25 @@
       "Self-Evolver / Knowledge and Memory"
     ],
     "code_url": "https://github.com/NVlabs/ASPIRE",
-    "short_name": "ASPIRE"
+    "short_name": "ASPIRE",
+    "authors": [
+      "Runyu Lu",
+      "Yubo Wu",
+      "Ethan Kou",
+      "Haotian Lin",
+      "Letian Fu",
+      "Wenli Xiao",
+      "Ajay Mandlekar",
+      "Yinzhen Xu",
+      "Guanya Shi",
+      "Ken Goldberg",
+      "Ang Chen",
+      "Mosharaf Chowdhury",
+      "Jan Kautz",
+      "Yuke Zhu",
+      "Linxi \"Jim\" Fan",
+      "Guanzhi Wang"
+    ]
   },
   {
     "id": "selfrefinedreward2023",
@@ -4987,14 +5843,16 @@
   {
     "id": "selp2024",
     "title": "SELP: Generating Safe and Efficient Task Plans for Robot Agents with Large Language Models",
-    "year": 2024,
-    "url": "https://arxiv.org/abs/2409.19471",
+    "year": 2025,
+    "url": "https://doi.org/10.1109/icra55743.2025.11128420",
     "source_type": "Paper",
     "categories": [
       "O3 / A1 Code"
     ],
     "code_url": "https://github.com/lt-asset/selp",
-    "short_name": "SELP"
+    "short_name": "SELP",
+    "venue": "2025 IEEE International Conference on Robotics and Automation (ICRA)",
+    "publication_status": "Published"
   },
   {
     "id": "sensenova2026embodied",
@@ -5011,11 +5869,75 @@
     "aliases": [
       "SenseNova-RoboRSI (released LIBERO)",
       "SenseNova"
+    ],
+    "authors": [
+      "SenseNova",
+      "Joint Research Team",
+      "Zhongang Cai",
+      "Ziang Cao",
+      "Tailai Chen",
+      "Han Chong Chua",
+      "Linjun Dai",
+      "Hanming Deng",
+      "Hokin Deng",
+      "Haiwen Diao",
+      "Chenjing Ding",
+      "Weichen Fan",
+      "Xiao Fu",
+      "Zerui Gong",
+      "Chenyang Gu",
+      "Zexin He",
+      "Zhi Hou",
+      "Bo Li",
+      "Qinyue Li",
+      "Quanzhou Li",
+      "Xiaowan Li",
+      "Zhichao Liao",
+      "Dahua Lin",
+      "Zilong Lin",
+      "Bo Liu",
+      "Chunxiao Liu",
+      "Pengfei Liu",
+      "Tianqi Liu",
+      "Ziwei Liu",
+      "Chen Change Loy",
+      "Lewei Lu",
+      "Jiapeng Luo",
+      "Yuexiao Ma",
+      "Liang Pan",
+      "Xingang Pan",
+      "Oscar Qian",
+      "Ziyi Shang",
+      "Yuyao Shao",
+      "Dawei Su",
+      "Dacheng Tao",
+      "Qingyi Tao",
+      "Quan Wang",
+      "Ruisi Wang",
+      "Xiaogang Wang",
+      "Ziyi Wang",
+      "Beichen Wen",
+      "Donghao Wu",
+      "Jiaxu Wu",
+      "Silei Wu",
+      "Xiaoming Wu",
+      "Zhonghua Wu",
+      "Hongcan Xiao",
+      "Weiye Xu",
+      "Atsushi Yamashita",
+      "Lei Yang",
+      "Zhe Yang",
+      "Baiqiao Yin",
+      "Wanqi Yin",
+      "Hanfei Zhao",
+      "Tianbo Zhong",
+      "Long Zhuo",
+      "Jing Zuo"
     ]
   },
   {
     "id": "shi2025maestro",
-    "title": "Maestro: Orchestrating Robotics Modules with Vision-Language Models for Zero-Shot Generalist Robots",
+    "title": "MAESTRO: Orchestrating Robotics Modules with Coding Agents for Zero-Shot Generalist Robots",
     "year": 2025,
     "url": "https://arxiv.org/abs/2511.00917",
     "source_type": "Paper",
@@ -5023,7 +5945,10 @@
       "O2 / A3",
       "Self-Evolver / Programs and Skills"
     ],
-    "short_name": "MAESTRO"
+    "short_name": "MAESTRO",
+    "publication_status": "Accepted to CoRL 2026",
+    "venue": "CoRL 2026",
+    "code_url": "https://github.com/penn-pal-lab/maestro"
   },
   {
     "id": "showharness",
@@ -5083,8 +6008,10 @@
     "categories": [
       "Self-Evolver / Rewards"
     ],
-    "code_url": "https://github.com/NextMyLove/ROSKA",
-    "short_name": "ROSKA"
+    "code_url": "https://github.com/Yanbin-Chang/ROSKA",
+    "short_name": "ROSKA",
+    "publication_status": "Accepted to AAAI 2025",
+    "venue": "AAAI 2025"
   },
   {
     "id": "si250600276",
@@ -5108,19 +6035,23 @@
       "O1 / A1 Model"
     ],
     "code_url": "https://github.com/brown-palm/silvr",
-    "short_name": "SILVR"
+    "short_name": "SILVR",
+    "publication_status": "Accepted to ICLR 2026",
+    "venue": "ICLR 2026"
   },
   {
     "id": "si250921543",
     "title": "Self-CriTeach: LLM Self-Teaching and Self-Critiquing for Improving Robotic Planning via Automated Domain Generation",
-    "year": 2025,
-    "url": "https://arxiv.org/abs/2509.21543",
+    "year": 2026,
+    "url": "https://proceedings.mlr.press/v306/huang26v.html",
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Environments and Datasets"
     ],
     "code_url": "https://github.com/markli1hoshipu/Plan_LLM",
-    "short_name": "Self-CriTeach"
+    "short_name": "Self-CriTeach",
+    "venue": "Proceedings of the 43rd International Conference on Machine Learning",
+    "publication_status": "Published"
   },
   {
     "id": "si260206366",
@@ -5132,7 +6063,9 @@
       "Infrastructure / Environment Generation",
       "Self-Evolver / Environments and Datasets"
     ],
-    "short_name": "Adaptive Environment Generation"
+    "short_name": "Adaptive Environment Generation",
+    "publication_status": "Accepted to AAAI 2026 Bridge Program: Making Embodied AI Reliable with Testing and Formal Verification",
+    "venue": "AAAI 2026 Bridge Program: Making Embodied AI Reliable with Testing and Formal Verification"
   },
   {
     "id": "si260221198",
@@ -5144,7 +6077,16 @@
     "categories": [
       "Infrastructure / Environment Generation"
     ],
-    "project_url": "https://reflective-test-time-planning.github.io"
+    "project_url": "https://reflective-test-time-planning.github.io",
+    "authors": [
+      "Yining Hong",
+      "Huang Huang",
+      "Manling Li",
+      "Fei-Fei Li",
+      "Leonidas Guibas",
+      "Jiajun Wu",
+      "Yejin Choi"
+    ]
   },
   {
     "id": "si260302623",
@@ -5156,7 +6098,9 @@
       "O2 / A1 Code",
       "Infrastructure / Dataset Construction"
     ],
-    "short_name": "Uni-Skill"
+    "short_name": "Uni-Skill",
+    "publication_status": "Accepted to ICRA 2026",
+    "venue": "ICRA 2026"
   },
   {
     "id": "si260319461",
@@ -5181,7 +6125,9 @@
     "categories": [
       "Self-Evolver / Knowledge and Memory"
     ],
-    "short_name": "EEAgent"
+    "short_name": "EEAgent",
+    "publication_status": "Accepted to IJCNN 2026",
+    "venue": "IJCNN 2026"
   },
   {
     "id": "si260414399",
@@ -5228,7 +6174,9 @@
       "Self-Evolver / Robot morphology"
     ],
     "code_url": "https://github.com/wangyf9/Auto-Robotist",
-    "short_name": "Auto-Robotist"
+    "short_name": "Auto-Robotist",
+    "publication_status": "Accepted to EMNLP 2026",
+    "venue": "EMNLP 2026"
   },
   {
     "id": "si260603509",
@@ -5496,14 +6444,24 @@
   {
     "id": "soar2024",
     "title": "Autonomous Improvement of Instruction Following Skills via Foundation Models",
-    "year": 2024,
-    "url": "https://arxiv.org/abs/2407.20635",
+    "year": 2025,
+    "url": "https://proceedings.mlr.press/v270/zhou25b.html",
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Dataset Construction"
     ],
     "code_url": "https://github.com/rail-berkeley/soar",
-    "short_name": "SOAR"
+    "short_name": "SOAR",
+    "authors": [
+      "Zhiyuan Zhou",
+      "Pranav Atreya",
+      "Abraham Lee",
+      "Homer Rich Walke",
+      "Oier Mees",
+      "Sergey Levine"
+    ],
+    "venue": "Proceedings of The 8th Conference on Robot Learning",
+    "publication_status": "Published"
   },
   {
     "id": "song2025robospatial",
@@ -5543,7 +6501,9 @@
       "Self-Evolver / Programs and Skills",
       "Self-Evolver / Code"
     ],
-    "short_name": "GLIDE"
+    "short_name": "GLIDE",
+    "publication_status": "Accepted to CoRL 2026",
+    "venue": "CoRL 2026"
   },
   {
     "id": "sref251221220",
@@ -5566,7 +6526,8 @@
     "categories": [
       "O3 / A1 Code"
     ],
-    "short_name": "DV-VLN"
+    "short_name": "DV-VLN",
+    "code_url": "https://github.com/PlumJun/DV-VLN"
   },
   {
     "id": "sref260201662",
@@ -5610,7 +6571,9 @@
     "categories": [
       "O2 / A1 Code"
     ],
-    "short_name": "RoboStream"
+    "short_name": "RoboStream",
+    "publication_status": "Accepted to ECCV 2026",
+    "venue": "ECCV 2026"
   },
   {
     "id": "sref260407774",
@@ -5621,7 +6584,10 @@
     "categories": [
       "O1 / A1 Code"
     ],
-    "short_name": "RoboAgent"
+    "short_name": "RoboAgent",
+    "publication_status": "Accepted to CVPR 2026",
+    "venue": "CVPR 2026",
+    "code_url": "https://github.com/woyut/RoboAgent_CVPR26"
   },
   {
     "id": "sref260411975",
@@ -5649,14 +6615,17 @@
   },
   {
     "id": "sref260602951",
-    "title": "SCOPE: Real-Time Natural Language Camera Agent at the Edge",
+    "title": "SCOPE: Real-Time Natural Language Camera Agent at the Edge: A Sim-to-Real Benchmark and Analysis of Open-Source Vision and Language Agents for PTZ Camera Tasks",
     "year": 2026,
-    "url": "https://arxiv.org/abs/2606.02951",
+    "url": "https://doi.org/10.1145/3757279.3785641",
     "source_type": "Paper",
     "categories": [
       "O2 / A2"
     ],
-    "short_name": "SCOPE"
+    "short_name": "SCOPE",
+    "venue": "Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction",
+    "publication_status": "Published",
+    "code_url": "https://github.com/HindsboNikolaj/SCOPE"
   },
   {
     "id": "sref260612299",
@@ -5667,7 +6636,9 @@
     "categories": [
       "O1 / A1 Model"
     ],
-    "short_name": "VLA Steering"
+    "short_name": "VLA Steering",
+    "publication_status": "Accepted to CoRL 2026",
+    "venue": "CoRL 2026"
   },
   {
     "id": "sref260623280",
@@ -5810,7 +6781,9 @@
       "Infrastructure / Dataset Construction",
       "Infrastructure / Diagnosis"
     ],
-    "project_url": "https://tangtaogo.github.io/RoboPearls/"
+    "project_url": "https://tangtaogo.github.io/RoboPearls/",
+    "publication_status": "Accepted to ICCV 2025",
+    "venue": "ICCV 2025"
   },
   {
     "id": "tang2026video2world",
@@ -5848,7 +6821,9 @@
       "Self-Evolver / Rewards"
     ],
     "code_url": "https://github.com/xlang-ai/text2reward",
-    "short_name": "Text2Reward"
+    "short_name": "Text2Reward",
+    "publication_status": "Accepted to ICLR 2024",
+    "venue": "ICLR 2024"
   },
   {
     "id": "thea2026",
@@ -5956,13 +6931,15 @@
     "id": "video2reward2024",
     "title": "Video2Reward: Generating Reward Function from Videos for Legged Robot Behavior Learning",
     "year": 2024,
-    "url": "https://arxiv.org/abs/2412.05515",
+    "url": "https://doi.org/10.3233/faia241014",
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Training",
       "Self-Evolver / Rewards"
     ],
-    "short_name": "Video2Reward"
+    "short_name": "Video2Reward",
+    "venue": "Frontiers in Artificial Intelligence and Applications",
+    "publication_status": "Published"
   },
   {
     "id": "vlaastools2026",
@@ -5996,14 +6973,24 @@
     "short_name": "VoxPoser",
     "title": "VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models",
     "year": 2023,
-    "url": "https://arxiv.org/abs/2307.05973",
+    "url": "https://proceedings.mlr.press/v229/huang23b.html",
     "source_type": "Paper",
     "categories": [
       "O2 / A3",
       "O3 / A3"
     ],
     "project_url": "https://voxposer.github.io/",
-    "code_url": "https://github.com/huangwl18/VoxPoser"
+    "code_url": "https://github.com/huangwl18/VoxPoser",
+    "authors": [
+      "Wenlong Huang",
+      "Chen Wang",
+      "Ruohan Zhang",
+      "Yunzhu Li",
+      "Jiajun Wu",
+      "Fei-Fei Li"
+    ],
+    "venue": "Proceedings of The 7th Conference on Robot Learning",
+    "publication_status": "Published"
   },
   {
     "id": "waa",
@@ -6037,8 +7024,8 @@
   {
     "id": "wang2023robogen",
     "title": "RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation",
-    "year": 2023,
-    "url": "https://arxiv.org/abs/2311.01455",
+    "year": 2024,
+    "url": "https://proceedings.mlr.press/v235/wang24cc.html",
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Environment Generation",
@@ -6046,7 +7033,9 @@
       "Infrastructure / Training"
     ],
     "code_url": "https://github.com/Genesis-Embodied-AI/RoboGen",
-    "short_name": "RoboGen"
+    "short_name": "RoboGen",
+    "venue": "Proceedings of the 41st International Conference on Machine Learning",
+    "publication_status": "Published"
   },
   {
     "id": "wang2026adarsi",
@@ -6081,7 +7070,14 @@
       "Self-Evolver / Code"
     ],
     "code_url": "https://github.com/dexagent1/DexAgent",
-    "short_name": "DexAgent"
+    "short_name": "DexAgent",
+    "authors": [
+      "Youhui Wang",
+      "Yunzhu Li",
+      "Fei-Fei Li",
+      "Jiajun Wu",
+      "Huang Huang"
+    ]
   },
   {
     "id": "wang2026embodiedgenv2",
@@ -6242,7 +7238,13 @@
       "Self-Evolver / Tool Interface",
       "Self-Evolver / Execution Workflows"
     ],
-    "short_name": "Scale and Selection"
+    "short_name": "Scale and Selection",
+    "authors": [
+      "Zhijie Wei",
+      "Ferris Tan",
+      "Jinghui Wang",
+      "Hao Zhou"
+    ]
   },
   {
     "id": "wen2026automatedw2s",
@@ -6269,14 +7271,40 @@
   },
   {
     "id": "wijk2024rebench",
-    "title": "RE-Bench: Evaluating frontier AI R&D capabilities of language model agents against human experts",
-    "year": 2024,
-    "url": "https://arxiv.org/abs/2411.15114",
+    "title": "RE-Bench: Evaluating Frontier AI R&D Capabilities of Language Model Agents against Human Experts",
+    "year": 2025,
+    "url": "https://proceedings.mlr.press/v267/wijk25a.html",
     "source_type": "Paper",
     "categories": [
       "Self-Evolver / Successor AI R&D"
     ],
-    "short_name": "RE-Bench"
+    "short_name": "RE-Bench",
+    "authors": [
+      "Hjalmar Wijk",
+      "Tao Roa Lin",
+      "Joel Becker",
+      "Sami Jawhar",
+      "Neev Parikh",
+      "Thomas Broadley",
+      "Lawrence Chan",
+      "Michael Chen",
+      "Joshua M Clymer",
+      "Jai Dhyani",
+      "Elena Ericheva",
+      "Katharyn Garcia",
+      "Brian Goodrich",
+      "Nikola Jurkovic",
+      "Megan Kinniment",
+      "Aron Lajko",
+      "Seraphina Nix",
+      "Lucas Jun Koba Sato",
+      "William Saunders",
+      "Maksym Taran",
+      "Ben West",
+      "Elizabeth Barnes"
+    ],
+    "venue": "Proceedings of the 42nd International Conference on Machine Learning",
+    "publication_status": "Published"
   },
   {
     "id": "woods2026skillcomposer",
@@ -6314,7 +7342,9 @@
       "Infrastructure / Dataset Construction"
     ],
     "code_url": "https://github.com/GeWu-Lab/Motion-based-Self-Reflection-Framework",
-    "short_name": "Phoenix"
+    "short_name": "Phoenix",
+    "publication_status": "Accepted to CVPR 2025",
+    "venue": "CVPR 2025"
   },
   {
     "id": "xie2026codimrecon",
@@ -6420,8 +7450,8 @@
   {
     "id": "xref230915943",
     "title": "Scalable Multi-Robot Collaboration with Large Language Models: Centralized or Decentralized Systems?",
-    "year": 2023,
-    "url": "https://arxiv.org/abs/2309.15943",
+    "year": 2024,
+    "url": "https://doi.org/10.1109/icra57147.2024.10610676",
     "source_type": "Paper",
     "categories": [
       "O3 / A1 Code"
@@ -6430,7 +7460,9 @@
     "short_name": "HMAS",
     "aliases": [
       "Scalable Multi-Robot Collaboration"
-    ]
+    ],
+    "venue": "IEEE International Conference on Robotics and Automation",
+    "publication_status": "Published"
   },
   {
     "id": "xref240104157",
@@ -6453,19 +7485,23 @@
       "O3 / A1 Code"
     ],
     "code_url": "https://github.com/chen-judge/MapGPT",
-    "short_name": "MapGPT"
+    "short_name": "MapGPT",
+    "publication_status": "Accepted to ACL 2024",
+    "venue": "ACL 2024"
   },
   {
     "id": "xref240208546",
     "short_name": "BrainBody-LLM",
-    "title": "Grounding LLMs For Robot Task Planning Using Closed-loop State Feedback",
-    "year": 2024,
-    "url": "https://arxiv.org/abs/2402.08546",
+    "title": "Grounding Large Language Models for Robot Task Planning Using Closed‐Loop State Feedback",
+    "year": 2025,
+    "url": "https://doi.org/10.1002/adrr.202500072",
     "code_url": "",
     "source_type": "Paper",
     "categories": [
       "O3 / A2"
-    ]
+    ],
+    "venue": "Advanced Robotics Research",
+    "publication_status": "Published"
   },
   {
     "id": "xref240308833",
@@ -6515,15 +7551,17 @@
   {
     "id": "xref240618915",
     "title": "Manipulate-Anything: Automating Real-World Robots using Vision-Language Models",
-    "year": 2024,
-    "url": "https://arxiv.org/abs/2406.18915",
+    "year": 2025,
+    "url": "https://proceedings.mlr.press/v270/duan25a.html",
     "source_type": "Paper",
     "categories": [
       "O1 / A3",
       "Infrastructure / Dataset Construction"
     ],
     "code_url": "https://github.com/Robot-MA/manipulate-anything",
-    "short_name": "Manipulate-Anything"
+    "short_name": "Manipulate-Anything",
+    "venue": "Proceedings of The 8th Conference on Robot Learning",
+    "publication_status": "Published"
   },
   {
     "id": "xref240721762",
@@ -6561,7 +7599,9 @@
     "categories": [
       "O2 / A3"
     ],
-    "code_url": "https://github.com/ProNeverFake/kios"
+    "code_url": "https://github.com/ProNeverFake/kios",
+    "publication_status": "Accepted to ICRA 2025",
+    "venue": "ICRA 2025"
   },
   {
     "id": "xref240913682",
@@ -6585,7 +7625,9 @@
       "O2 / A1 Code"
     ],
     "code_url": "https://github.com/MrKeee/COHERENT",
-    "short_name": "COHERENT"
+    "short_name": "COHERENT",
+    "publication_status": "Accepted to ICRA 2025",
+    "venue": "ICRA 2025"
   },
   {
     "id": "xref240918794",
@@ -6597,7 +7639,9 @@
       "O2 / A1 Code"
     ],
     "code_url": "https://github.com/YanyuanQiao/Open-Nav",
-    "short_name": "Open-Nav"
+    "short_name": "Open-Nav",
+    "publication_status": "Accepted to ICRA 2025",
+    "venue": "ICRA 2025"
   },
   {
     "id": "xref241011387",
@@ -6609,7 +7653,9 @@
     "categories": [
       "Infrastructure / Diagnosis"
     ],
-    "code_url": "https://github.com/Pold87/LLM2Swarm"
+    "code_url": "https://github.com/Pold87/LLM2Swarm",
+    "publication_status": "Accepted to NeurIPS 2024 Workshop on Open-World Agents",
+    "venue": "NeurIPS 2024 Workshop on Open-World Agents"
   },
   {
     "id": "xref241117636",
@@ -6662,7 +7708,7 @@
     "id": "xref250301700",
     "title": "Code-as-Symbolic-Planner: Foundation Model-Based Robot Planning via Symbolic Code Generation",
     "year": 2025,
-    "url": "https://arxiv.org/abs/2503.01700",
+    "url": "https://doi.org/10.1109/iros60139.2025.11247174",
     "source_type": "Paper",
     "categories": [
       "O2 / A3"
@@ -6671,19 +7717,23 @@
     "short_name": "CaSP",
     "aliases": [
       "Code-as-Symbolic-Planner"
-    ]
+    ],
+    "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+    "publication_status": "Published"
   },
   {
     "id": "xref250302247",
     "title": "WMNav: Integrating Vision-Language Models into World Models for Object Goal Navigation",
     "year": 2025,
-    "url": "https://arxiv.org/abs/2503.02247",
+    "url": "https://doi.org/10.1109/iros60139.2025.11246684",
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Code"
     ],
     "code_url": "https://github.com/B0B8K1ng/WMNavigation",
-    "short_name": "WMNav"
+    "short_name": "WMNav",
+    "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+    "publication_status": "Published"
   },
   {
     "id": "xref250302698",
@@ -6730,7 +7780,9 @@
       "O2 / A3"
     ],
     "code_url": "https://github.com/Ghiara/DAHLIA",
-    "short_name": "DAHLIA"
+    "short_name": "DAHLIA",
+    "publication_status": "Accepted to IROS 2026",
+    "venue": "IROS 2026"
   },
   {
     "id": "xref250322122",
@@ -6758,7 +7810,9 @@
     "short_name": "IDRA-H",
     "aliases": [
       "IDRA-H (chat-hsr)"
-    ]
+    ],
+    "publication_status": "Accepted to Austrian Robotics Workshop 2025",
+    "venue": "Austrian Robotics Workshop 2025"
   },
   {
     "id": "xref250801415",
@@ -6770,7 +7824,31 @@
       "O2 / A1 Code",
       "Self-Evolver / Knowledge and Memory"
     ],
-    "short_name": "RoboMemory"
+    "short_name": "RoboMemory",
+    "authors": [
+      "Mingcong Lei",
+      "Honghao Cai",
+      "Yuyuan Yang",
+      "Yimou Wu",
+      "Jinke Ren",
+      "Zezhou Cui",
+      "Liangchen Tan",
+      "Junkun Hong",
+      "Gehan Hu",
+      "Shuangyu Zhu",
+      "Shaohan Jiang",
+      "Ge Wang",
+      "Junyuan Tan",
+      "Zhenglin Wan",
+      "Zhongkai Xue",
+      "Zheng Li",
+      "Zhen Li",
+      "Shuguang Cui",
+      "Yiming Zhao",
+      "Yatong Han"
+    ],
+    "publication_status": "Accepted to CoRL 2026",
+    "venue": "CoRL 2026"
   },
   {
     "id": "xref250924160",
@@ -6797,7 +7875,9 @@
     "source_type": "Paper",
     "categories": [
       "O3 / A2"
-    ]
+    ],
+    "publication_status": "Accepted to ICRA 2026",
+    "venue": "ICRA 2026"
   },
   {
     "id": "xref260220119",
@@ -6809,19 +7889,23 @@
       "O1 / A1 Code"
     ],
     "code_url": "https://github.com/jiahui-fu/NovaPlan",
-    "short_name": "NovaPlan"
+    "short_name": "NovaPlan",
+    "publication_status": "Accepted to CoRL 2026",
+    "venue": "CoRL 2026"
   },
   {
     "id": "xref260303897",
     "short_name": "IROSA",
-    "title": "IROSA: Interactive Robot Skill Adaptation using Natural Language",
+    "title": "IROSA: Interactive Robot Skill Adaptation Using Natural Language",
     "year": 2026,
-    "url": "https://arxiv.org/abs/2603.03897",
+    "url": "https://doi.org/10.1109/lra.2026.3671560",
     "source_type": "Paper",
     "categories": [
       "O2 / A2"
     ],
-    "code_url": "https://github.com/DLR-RM/IROSA"
+    "code_url": "https://github.com/DLR-RM/IROSA",
+    "venue": "IEEE Robotics and Automation Letters",
+    "publication_status": "Published"
   },
   {
     "id": "xref260305621",
@@ -6930,7 +8014,9 @@
       "Infrastructure / Dataset Construction"
     ],
     "code_url": "https://github.com/EDEM-AI/AgentChord",
-    "short_name": "AgentChord"
+    "short_name": "AgentChord",
+    "publication_status": "Accepted to RSS 2026",
+    "venue": "RSS 2026"
   },
   {
     "id": "xu2026gif",
@@ -6968,6 +8054,15 @@
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Model"
+    ],
+    "authors": [
+      "Sherry Yang",
+      "Yilun Du",
+      "Kamyar Ghasemipour",
+      "Jonathan Tompson",
+      "Leslie Kaelbling",
+      "Dale Schuurmans",
+      "Pieter Abbeel"
     ]
   },
   {
@@ -6986,12 +8081,14 @@
     "id": "yang2026robolabhighfidelitysimulationbenchmark",
     "title": "RoboLab: A High-Fidelity Simulation Benchmark for Analysis of Task Generalist Policies",
     "year": 2026,
-    "url": "https://arxiv.org/abs/2604.09860",
+    "url": "https://doi.org/10.15607/rss.2026.xxii.096",
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Environment Generation"
     ],
-    "short_name": "RoboLab"
+    "short_name": "RoboLab",
+    "venue": "Robotics: Science and Systems XXII",
+    "publication_status": "Published"
   },
   {
     "id": "yang2026robotworld",
@@ -7010,8 +8107,8 @@
     "id": "yang2026tactalent",
     "title": "GPT-6 Astra Is a Native Visuo-Tactile Policy for Contact-Rich Manipulation",
     "year": 2026,
-    "url": "https://tactalent.github.io/",
-    "source_type": "Project / report",
+    "url": "https://arxiv.org/abs/2610.26846",
+    "source_type": "Paper",
     "categories": [
       "O1 / A1 Code"
     ],
@@ -7040,7 +8137,16 @@
       "Infrastructure / Diagnosis"
     ],
     "code_url": "https://github.com/MINT-SJTU/RoboFAC",
-    "short_name": "RoboFAC"
+    "short_name": "RoboFAC",
+    "authors": [
+      "Zewei Ye",
+      "Weifeng Lu",
+      "Minghao Ye",
+      "Tao Lin",
+      "Shuo Yang",
+      "Junchi Yan",
+      "Bo Zhao"
+    ]
   },
   {
     "id": "ye2025video2policy",
@@ -7090,7 +8196,9 @@
       "O2 / A3"
     ],
     "code_url": "https://github.com/ripl/statler",
-    "short_name": "Statler"
+    "short_name": "Statler",
+    "publication_status": "Accepted to ICRA 2024",
+    "venue": "ICRA 2024"
   },
   {
     "id": "yu2026maniskillformer",
@@ -7115,14 +8223,16 @@
       "Self-Evolver / Knowledge and Memory"
     ],
     "code_url": "https://github.com/yuzihaowashu/MEMORA",
-    "short_name": "MEMORA"
+    "short_name": "MEMORA",
+    "publication_status": "Accepted to EMNLP 2026",
+    "venue": "EMNLP 2026"
   },
   {
     "id": "yu2026robodoctor",
     "title": "RoboDoctor: Training-Free Recursive Self-Improvement for Robot Policies",
     "year": 2026,
-    "url": "https://robodoctor-rsi.github.io/",
-    "source_type": "Project / report",
+    "url": "https://arxiv.org/abs/2610.35604",
+    "source_type": "Paper",
     "categories": [
       "O2 / A2",
       "Infrastructure / Diagnosis",
@@ -7218,7 +8328,9 @@
       "O1 / A1 Model"
     ],
     "code_url": "https://github.com/zhanglk9/AtomicVLA",
-    "short_name": "AtomicVLA"
+    "short_name": "AtomicVLA",
+    "publication_status": "Accepted to CVPR 2026",
+    "venue": "CVPR 2026"
   },
   {
     "id": "zhang2026benchmend",
@@ -7390,7 +8502,9 @@
     "categories": [
       "O2 / A3"
     ],
-    "short_name": "COME-robot"
+    "short_name": "COME-robot",
+    "publication_status": "Accepted to ICRA 2025",
+    "venue": "ICRA 2025"
   },
   {
     "id": "zhong2026discoveryrsi",
@@ -7401,7 +8515,33 @@
     "categories": [
       "Self-Evolver / Successor AI R&D"
     ],
-    "short_name": "DiscoveryRSI"
+    "short_name": "DiscoveryRSI",
+    "authors": [
+      "Jianyuan Zhong",
+      "Chenwei Wu",
+      "Zhaochen Yu",
+      "Xixian Jiang",
+      "Xuewei Li",
+      "Hao Xiao",
+      "Xilin Dai",
+      "Junyang Wang",
+      "Jiaru Zou",
+      "Zhiqing Cui",
+      "Boyuan Zheng",
+      "Jing Xiong",
+      "Zhen Zhang",
+      "Qiang Gao",
+      "Michael Morley",
+      "Luis Nakayama",
+      "Qiang Xu",
+      "Liyue Shen",
+      "Tao Gui",
+      "Leo Anthony Celi",
+      "Zhenfei Yin",
+      "Yingcheng Wu",
+      "Ling Yang"
+    ],
+    "code_url": "https://github.com/Gen-Verse/DiscoveryRSI"
   },
   {
     "id": "zhou2024codeasmonitor",
@@ -7431,7 +8571,9 @@
     "aliases": [
       "KDLoop",
       "AgentCanvas / KDLoop"
-    ]
+    ],
+    "publication_status": "Accepted to CoRL 2026",
+    "venue": "CoRL 2026"
   },
   {
     "id": "zhou2026embodiedtool",
@@ -7562,7 +8704,9 @@
       "O1 / A1 Code"
     ],
     "source_type": "Paper",
-    "scope_note": "The RGB-to-pixel-goal/trace decision configuration, followed by fixed depth backprojection and motion execution."
+    "scope_note": "The RGB-to-pixel-goal/trace decision configuration, followed by fixed depth backprojection and motion execution.",
+    "publication_status": "Accepted to ICLR 2026",
+    "venue": "ICLR 2026"
   },
   {
     "id": "audit250617561",
@@ -7590,7 +8734,127 @@
       "O1 / A1 Code"
     ],
     "source_type": "Paper",
-    "scope_note": "Only Gemini Robotics-ER few-shot end-effector trajectory decisions with a fixed executor; ordinary Gemini Robotics VLA inference is outside this assignment."
+    "scope_note": "Only Gemini Robotics-ER few-shot end-effector trajectory decisions with a fixed executor; ordinary Gemini Robotics VLA inference is outside this assignment.",
+    "authors": [
+      "Gemini Robotics Team",
+      "Saminda Abeyruwan",
+      "Joshua Ainslie",
+      "Jean-Baptiste Alayrac",
+      "Montserrat Gonzalez Arenas",
+      "Travis Armstrong",
+      "Ashwin Balakrishna",
+      "Robert Baruch",
+      "Maria Bauza",
+      "Michiel Blokzijl",
+      "Steven Bohez",
+      "Konstantinos Bousmalis",
+      "Anthony Brohan",
+      "Thomas Buschmann",
+      "Arunkumar Byravan",
+      "Serkan Cabi",
+      "Ken Caluwaerts",
+      "Federico Casarini",
+      "Oscar Chang",
+      "Jose Enrique Chen",
+      "Xi Chen",
+      "Hao-Tien Lewis Chiang",
+      "Krzysztof Choromanski",
+      "David D'Ambrosio",
+      "Sudeep Dasari",
+      "Todor Davchev",
+      "Coline Devin",
+      "Norman Di Palo",
+      "Tianli Ding",
+      "Adil Dostmohamed",
+      "Danny Driess",
+      "Yilun Du",
+      "Debidatta Dwibedi",
+      "Michael Elabd",
+      "Claudio Fantacci",
+      "Cody Fong",
+      "Erik Frey",
+      "Chuyuan Fu",
+      "Marissa Giustina",
+      "Keerthana Gopalakrishnan",
+      "Laura Graesser",
+      "Leonard Hasenclever",
+      "Nicolas Heess",
+      "Brandon Hernaez",
+      "Alexander Herzog",
+      "R. Alex Hofer",
+      "Jan Humplik",
+      "Atil Iscen",
+      "Mithun George Jacob",
+      "Deepali Jain",
+      "Ryan Julian",
+      "Dmitry Kalashnikov",
+      "M. Emre Karagozler",
+      "Stefani Karp",
+      "Chase Kew",
+      "Jerad Kirkland",
+      "Sean Kirmani",
+      "Yuheng Kuang",
+      "Thomas Lampe",
+      "Antoine Laurens",
+      "Isabel Leal",
+      "Alex X. Lee",
+      "Tsang-Wei Edward Lee",
+      "Jacky Liang",
+      "Yixin Lin",
+      "Sharath Maddineni",
+      "Anirudha Majumdar",
+      "Assaf Hurwitz Michaely",
+      "Robert Moreno",
+      "Michael Neunert",
+      "Francesco Nori",
+      "Carolina Parada",
+      "Emilio Parisotto",
+      "Peter Pastor",
+      "Acorn Pooley",
+      "Kanishka Rao",
+      "Krista Reymann",
+      "Dorsa Sadigh",
+      "Stefano Saliceti",
+      "Pannag Sanketi",
+      "Pierre Sermanet",
+      "Dhruv Shah",
+      "Mohit Sharma",
+      "Kathryn Shea",
+      "Charles Shu",
+      "Vikas Sindhwani",
+      "Sumeet Singh",
+      "Radu Soricut",
+      "Jost Tobias Springenberg",
+      "Rachel Sterneck",
+      "Razvan Surdulescu",
+      "Jie Tan",
+      "Jonathan Tompson",
+      "Vincent Vanhoucke",
+      "Jake Varley",
+      "Grace Vesom",
+      "Giulia Vezzani",
+      "Oriol Vinyals",
+      "Ayzaan Wahid",
+      "Stefan Welker",
+      "Paul Wohlhart",
+      "Fei Xia",
+      "Ted Xiao",
+      "Annie Xie",
+      "Jinyu Xie",
+      "Peng Xu",
+      "Sichun Xu",
+      "Ying Xu",
+      "Zhuo Xu",
+      "Yuxiang Yang",
+      "Rui Yao",
+      "Sergey Yaroshenko",
+      "Wenhao Yu",
+      "Wentao Yuan",
+      "Jingwei Zhang",
+      "Tingnan Zhang",
+      "Allan Zhou",
+      "Yuxiang Zhou"
+    ]
   },
   {
     "id": "audit260313528",
@@ -7662,7 +8926,9 @@
       "O1 / A1 Code"
     ],
     "source_type": "Paper",
-    "scope_note": "The image-conditioned language-action model selects pick/place coordinates for a fixed executor. The prescribed language-cycle consistency filter and retraining do not independently establish self-evolution."
+    "scope_note": "The image-conditioned language-action model selects pick/place coordinates for a fixed executor. The prescribed language-cycle consistency filter and retraining do not independently establish self-evolution.",
+    "publication_status": "Accepted to ICRA 2026",
+    "venue": "ICRA 2026"
   },
   {
     "id": "audit230902561",
@@ -7676,7 +8942,9 @@
       "O2 / A2"
     ],
     "source_type": "Paper",
-    "scope_note": "The robot planner receives detected objects and queried physical attributes, then chooses existing pick/place primitives. The physical-attribute predictor alone is not an agent-policy configuration."
+    "scope_note": "The robot planner receives detected objects and queried physical attributes, then chooses existing pick/place primitives. The physical-attribute predictor alone is not an agent-policy configuration.",
+    "publication_status": "Accepted to ICRA 2024",
+    "venue": "ICRA 2024"
   },
   {
     "id": "audit250111858",
@@ -7718,7 +8986,9 @@
       "O2 / A3"
     ],
     "source_type": "Paper",
-    "scope_note": "The LLM generates navigation code with conditionals, loops and arithmetic over supplied map-query and navigation APIs. The map representation alone is not the agent configuration."
+    "scope_note": "The LLM generates navigation code with conditionals, loops and arithmetic over supplied map-query and navigation APIs. The map representation alone is not the agent configuration.",
+    "publication_status": "Accepted to ICRA 2023",
+    "venue": "ICRA 2023"
   },
   {
     "id": "zhang2024lammap",
@@ -7733,7 +9003,9 @@
       "O3 / A3"
     ],
     "source_type": "Paper",
-    "scope_note": "O3/A2: the paper coordinates existing actions using simulator object information and a fixed plan converter. O3/A3: the current official implementation separately generates and repairs executable task functions and thread synchronization; this code path is not attributed to every paper experiment."
+    "scope_note": "O3/A2: the paper coordinates existing actions using simulator object information and a fixed plan converter. O3/A3: the current official implementation separately generates and repairs executable task functions and thread synchronization; this code path is not attributed to every paper experiment.",
+    "publication_status": "Accepted to ICRA 2025",
+    "venue": "ICRA 2025"
   },
   {
     "id": "zhang2026commcp",
@@ -7747,7 +9019,9 @@
       "O1 / A1 Code"
     ],
     "source_type": "Paper",
-    "scope_note": "RGB-D observations feed model-directed exploration preferences and peer communication; an internally constructed semantic map guides a fixed frontier/TSDF navigation executor. Fixed conformal calibration is not a separate agent decision. Simulator localization and map bounds remain implementation assumptions."
+    "scope_note": "RGB-D observations feed model-directed exploration preferences and peer communication; an internally constructed semantic map guides a fixed frontier/TSDF navigation executor. Fixed conformal calibration is not a separate agent decision. Simulator localization and map bounds remain implementation assumptions.",
+    "publication_status": "Accepted to ICRA 2026",
+    "venue": "ICRA 2026"
   },
   {
     "id": "gupta2026scaleplan",
@@ -7783,8 +9057,8 @@
     "short_name": "ResearchBoost",
     "title": "ResearchBoost-Agent: An autonomous agent that profiles, optimizes, and validates AI training code",
     "year": 2026,
-    "url": "https://github.com/AI4AI-for-Anything/ResearchBoost-Agent",
-    "code_url": "https://github.com/AI4AI-for-Anything/ResearchBoost-Agent",
+    "url": "https://github.com/DAGroup-PKU/ResearchBoost-Agent",
+    "code_url": "https://github.com/DAGroup-PKU/ResearchBoost-Agent",
     "categories": [
       "Infrastructure / Training",
       "Self-Evolver / Code"
@@ -7816,7 +9090,9 @@
       "O1 / A1 Code"
     ],
     "source_type": "Paper",
-    "scope_note": "O1/A1 Code applies to the physical bimanual alignment experiment: main and wrist images guide directional motion commands with metric distances. The released repository implements VQA evaluation; the physical alignment executor is not verified as released. Static VQA scoring is not classified as an agent infrastructure decision."
+    "scope_note": "O1/A1 Code applies to the physical bimanual alignment experiment: main and wrist images guide directional motion commands with metric distances. The released repository implements VQA evaluation; the physical alignment executor is not verified as released. Static VQA scoring is not classified as an agent infrastructure decision.",
+    "publication_status": "Accepted to RSS 2026",
+    "venue": "RSS 2026"
   },
   {
     "id": "ma2026atpvpdsg",
@@ -7860,7 +9136,9 @@
       "Infrastructure / Diagnosis"
     ],
     "source_type": "Paper",
-    "scope_note": "The LLM cause analyzer diagnoses robot execution failures and proposes missing preconditions in the PyRep kitchen configuration. Exact Policy and cross-task retained-memory assignments are not inferred from the symbolic planner or recursive within-task repair."
+    "scope_note": "The LLM cause analyzer diagnoses robot execution failures and proposes missing preconditions in the PyRep kitchen configuration. Exact Policy and cross-task retained-memory assignments are not inferred from the symbolic planner or recursive within-task repair.",
+    "publication_status": "Accepted to RSS 2024",
+    "venue": "RSS 2024"
   },
   {
     "id": "robocerebra2025",
@@ -7875,7 +9153,9 @@
       "Infrastructure / Dataset Construction"
     ],
     "source_type": "Paper",
-    "scope_note": "The image-conditioned HPE planner generates and revises explicit subgoals for a fixed OpenVLA executor (O1/A1 Model). GPT designs tasks and subtask constraints used to construct executable simulator environments and guide human demonstration collection. Scene compilation and trajectory annotation include fixed rules and human operations; they are not all attributed to the agent. Released OpenVLA benchmark execution code verified; the complete HPE planner release is not verified. Fixed evaluation and within-episode memory do not establish additional roles."
+    "scope_note": "The image-conditioned HPE planner generates and revises explicit subgoals for a fixed OpenVLA executor (O1/A1 Model). GPT designs tasks and subtask constraints used to construct executable simulator environments and guide human demonstration collection. Scene compilation and trajectory annotation include fixed rules and human operations; they are not all attributed to the agent. Released OpenVLA benchmark execution code verified; the complete HPE planner release is not verified. Fixed evaluation and within-episode memory do not establish additional roles.",
+    "publication_status": "Accepted to NeurIPS 2025",
+    "venue": "NeurIPS 2025"
   },
   {
     "id": "mu2025robotwin",
@@ -7889,19 +9169,37 @@
       "Infrastructure / Dataset Construction"
     ],
     "source_type": "Paper",
-    "scope_note": "The original RoboTwin generates executable robot task programs using simulator actor geometry and pose APIs, including conditional arm selection and intermediate pose calculations (O3/A3; Appendix D). These programs generate expert demonstrations. The official gpt branch includes the LLM generation, execution, and error-feedback implementation. This original paper is distinct from RoboTwin 2.0; ordinary imitation policies and fixed benchmark scoring are not additional agent roles."
+    "scope_note": "The original RoboTwin generates executable robot task programs using simulator actor geometry and pose APIs, including conditional arm selection and intermediate pose calculations (O3/A3; Appendix D). These programs generate expert demonstrations. The official gpt branch includes the LLM generation, execution, and error-feedback implementation. This original paper is distinct from RoboTwin 2.0; ordinary imitation policies and fixed benchmark scoring are not additional agent roles.",
+    "publication_status": "Accepted to CVPR 2025",
+    "venue": "CVPR 2025"
   },
   {
     "id": "pikus2026pretrainingknowswhatsimulation",
     "short_name": "ZAP",
-    "title": "Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent",
+    "title": "Pretraining Knows What, Simulation Teaches How: Compositional Generalization for Agentic Robotics",
     "year": 2026,
     "url": "https://arxiv.org/abs/2610.35817",
     "source_type": "Paper",
     "categories": [
       "O2 / A2"
     ],
-    "scope_note": "The complete harness configuration uses supplied SAM 3.1 annotations and geometric readouts. The agent selects and sequences existing motion and perception tools, including move_to, set_gripper and change_query, using controller feedback. Motion tools accept end-effector pose and gripper arguments; the controller executes them. Preset SFT and GRPO do not establish agent-directed training or retained self-revision."
+    "scope_note": "The complete harness configuration uses supplied SAM 3.1 annotations and geometric readouts. The agent selects and sequences existing motion and perception tools, including move_to, set_gripper and change_query, using controller feedback. Motion tools accept end-effector pose and gripper arguments; the controller executes them. Preset SFT and GRPO do not establish agent-directed training or retained self-revision.",
+    "authors": [
+      "Benjamin Pikus",
+      "Daniel Saunders",
+      "Mircea Mironenco",
+      "Salman Mohammadi",
+      "Mathew Mathew",
+      "Sirou Zhu",
+      "Divya Makkar",
+      "Xuhua Huang",
+      "Qinbo Li",
+      "Supreeth Narasimhaswamy",
+      "Siyuan Cen",
+      "Dejia Xu",
+      "Shyamal Buch",
+      "Thomas Neff"
+    ]
   },
   {
     "id": "lu2025isbench",
@@ -7955,7 +9253,9 @@
       "Self-Evolver / Programs and Skills"
     ],
     "scope_note": "The Designer revises robot programs using compiler errors and user feedback; confirmed successful code is saved and retrieved for future tasks. This supports Programs and Skills with human approval. Fixed RAG storage itself is not classified as agent-authored memory revision, and the Policy observation axis remains unresolved.",
-    "code_url": "https://github.com/WangXiaoShawn/AutoMisty"
+    "code_url": "https://github.com/WangXiaoShawn/AutoMisty",
+    "publication_status": "Accepted to IROS 2025",
+    "venue": "IROS 2025"
   },
   {
     "id": "chen2026roboevolve",
@@ -8044,7 +9344,9 @@
     "categories": [
       "Self-Evolver / Execution Workflows"
     ],
-    "scope_note": "The appendix documents failure-driven revisions to a shared planning meta-prompt, with accepted rules reused on subsequent tasks. This supports retained Execution Workflows; the Policy observation axis is not inferred."
+    "scope_note": "The appendix documents failure-driven revisions to a shared planning meta-prompt, with accepted rules reused on subsequent tasks. This supports retained Execution Workflows; the Policy observation axis is not inferred.",
+    "publication_status": "Accepted to ICRA 2026",
+    "venue": "ICRA 2026"
   },
   {
     "id": "chen2025exoskeleton",
@@ -8069,7 +9371,9 @@
       "O1 / A1 Code"
     ],
     "scope_note": "The official implementation grounds a requested placement relation from an RGB image into a pixel goal, then uses fixed depth/calibration and MoveIt execution (O1/A1 Code). Human approval remains in the execution workflow; object detection alone is not the inclusion basis.",
-    "code_url": "https://github.com/cogrob-tuni/franka-llm"
+    "code_url": "https://github.com/cogrob-tuni/franka-llm",
+    "publication_status": "Accepted to IEEE RO-MAN 2026",
+    "venue": "IEEE RO-MAN 2026"
   },
   {
     "id": "kachaev2025kitchenr",
@@ -8137,7 +9441,9 @@
     ],
     "scope_note": "Agents reconstruct simulation-ready robot workspaces from observed images and visual/physics feedback. Scene-code edits are validated and retained or undone by the agent, and accepted scene artifacts support later robot-policy evaluation and trajectory replay. Fixed numerical pose-search acceptance is a separate backend operation. Official agent, scene-editing and simulator implementations are available; integration and reproduction remain unassessed.",
     "code_url": "https://github.com/Red-Fairy/SceneRig",
-    "project_url": "https://red-fairy.github.io/SceneRig/"
+    "project_url": "https://red-fairy.github.io/SceneRig/",
+    "publication_status": "Accepted to CoRL 2026 Agentic Robotics Workshop",
+    "venue": "CoRL 2026 Agentic Robotics Workshop"
   },
   {
     "id": "audit260822657",
@@ -8210,7 +9516,7 @@
   {
     "id": "yu2026physladder",
     "short_name": "PhysLadder",
-    "title": "How High Can GPT-6 Astra Climb in Contact-Rich Manipulation? PhysLadder: A Hierarchical, Matched Sim-Real Benchmark for Physical Interaction",
+    "title": "LLM4Robot-Bench: How Far Can GPT-6 Astra Go in Robotic Manipulation? A Hierarchical, Paired Sim-Real Benchmark",
     "year": 2026,
     "url": "https://arxiv.org/abs/2610.34527",
     "source_type": "Paper",
@@ -8272,8 +9578,8 @@
     "short_name": "Astra on RoboMME",
     "title": "Can Astra Solve RoboMME without Breaking the Bank?",
     "year": 2026,
-    "url": "https://bingaochen.github.io/Astra-on-RoboMME/",
-    "source_type": "Technical report",
+    "url": "https://arxiv.org/abs/2611.06184",
+    "source_type": "Paper",
     "categories": [
       "O1 / A1 Model"
     ],
@@ -8758,14 +10064,24 @@
   {
     "id": "zhang2025responsiblerobotbench",
     "short_name": "ResponsibleRobotBench",
-    "title": "ResponsibleRobotBench: Benchmarking Responsible Robot Manipulation using Multi-modal Large Language Models",
+    "title": "ResponsibleRobotBench: Benchmarking Risk-Aware Task-Level Decision Making for Robotic Manipulation with Large Multimodal Models",
     "year": 2025,
     "url": "https://arxiv.org/abs/2512.04308",
     "source_type": "Paper",
     "categories": [
       "O2 / A2"
     ],
-    "scope_note": "The bounding-box-assisted skill configuration supplies YOLO detections to an agent that selects from the task's skill library, including requests for assistance."
+    "scope_note": "The bounding-box-assisted skill configuration supplies YOLO detections to an agent that selects from the task's skill library, including requests for assistance.",
+    "authors": [
+      "Lei Zhang",
+      "Ju Dong",
+      "Kaixin Bai",
+      "Minheng Ni",
+      "Yu Fu",
+      "Zoltan-Csaba Marton",
+      "Zhaopeng Chen",
+      "Jianwei Zhang"
+    ]
   },
   {
     "id": "wang2025imaginenav",
@@ -8802,7 +10118,9 @@
     "categories": [
       "O1 / A1 Model"
     ],
-    "scope_note": "The visual planner decomposes laboratory protocols, specifies visual goals and checks execution by a learned manipulation policy."
+    "scope_note": "The visual planner decomposes laboratory protocols, specifies visual goals and checks execution by a learned manipulation policy.",
+    "publication_status": "Accepted to CoRL 2025",
+    "venue": "CoRL 2025"
   },
   {
     "id": "zhang2025adadrive",
@@ -8814,7 +10132,9 @@
     "categories": [
       "O1 / A1 Model"
     ],
-    "scope_note": "The slow model reasons over an encoded history of onboard camera and lidar observations. Its intentions condition the learned fast trajectory planner."
+    "scope_note": "The slow model reasons over an encoded history of onboard camera and lidar observations. Its intentions condition the learned fast trajectory planner.",
+    "publication_status": "Accepted to ICCV 2025",
+    "venue": "ICCV 2025"
   },
   {
     "id": "chen2025gendexhand",
@@ -9021,7 +10341,7 @@
       "O2 / A2"
     ],
     "scope_note": "The language model calls robot skills and updates its plan when execution fails.",
-    "code_url": "https://github.com/RLC-Lab/DaDu-E-codes"
+    "code_url": "https://github.com/RLC-Lab/DaDu_E"
   },
   {
     "id": "liu2025robodexvlm",
@@ -9046,7 +10366,9 @@
     "categories": [
       "O1 / A1 Model"
     ],
-    "scope_note": "The slow visual reasoning module clarifies an instruction or decomposes it into subtasks for a learned manipulation policy."
+    "scope_note": "The slow visual reasoning module clarifies an instruction or decomposes it into subtasks for a learned manipulation policy.",
+    "publication_status": "Accepted to ICRA 2024",
+    "venue": "ICRA 2024"
   },
   {
     "id": "chen2025robohorizon",
@@ -9137,13 +10459,15 @@
     "id": "dong2024zeroshotdriving",
     "short_name": "Zero-Shot Driving",
     "title": "Generalizing End-To-End Autonomous Driving In Real-World Environments Using Zero-Shot LLMs",
-    "year": 2024,
-    "url": "https://arxiv.org/abs/2411.14256",
+    "year": 2025,
+    "url": "https://proceedings.mlr.press/v270/dong25a.html",
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Model"
     ],
-    "scope_note": "The VLM periodically reads the raw camera observation and issues a high-level driving instruction to the learned end-to-end controller."
+    "scope_note": "The VLM periodically reads the raw camera observation and issues a high-level driving instruction to the learned end-to-end controller.",
+    "venue": "Proceedings of The 8th Conference on Robot Learning",
+    "publication_status": "Published"
   },
   {
     "id": "song2024navgen",
@@ -9156,7 +10480,9 @@
       "Infrastructure / Dataset Construction"
     ],
     "scope_note": "GPT-4 constructs and composes navigation instructions from scenes and routes for long-horizon training and evaluation.",
-    "code_url": "https://github.com/HCPLab-SYSU/LH-VLN"
+    "code_url": "https://github.com/HCPLab-SYSU/LH-VLN",
+    "publication_status": "Accepted to CVPR 2025",
+    "venue": "CVPR 2025"
   },
   {
     "id": "jiang2024senna",
@@ -9218,7 +10544,26 @@
     "categories": [
       "O2 / A3"
     ],
-    "scope_note": "In the CaP experiment the prompt includes text descriptions of objects detected by a VLM. The LLM writes executable code that computes 3D poses for the trajectory sketch."
+    "scope_note": "In the CaP experiment the prompt includes text descriptions of objects detected by a VLM. The LLM writes executable code that computes 3D poses for the trajectory sketch.",
+    "authors": [
+      "Jiayuan Gu",
+      "Sean Kirmani",
+      "Paul Wohlhart",
+      "Yao Lu",
+      "Montserrat Gonzalez Arenas",
+      "Kanishka Rao",
+      "Wenhao Yu",
+      "Chuyuan Fu",
+      "Keerthana Gopalakrishnan",
+      "Zhuo Xu",
+      "Priya Sundaresan",
+      "Peng Xu",
+      "Hao Su",
+      "Karol Hausman",
+      "Chelsea Finn",
+      "Quan Vuong",
+      "Ted Xiao"
+    ]
   },
   {
     "id": "chen2023robogpt",
@@ -9244,7 +10589,9 @@
     ],
     "scope_note": "The planner prompt is specified as a task description, supported stage-termination conditions and output-format instructions. Pose estimation is downstream.",
     "code_url": "https://github.com/mihdalal/planseqlearn",
-    "execution_authority": "A1"
+    "execution_authority": "A1",
+    "publication_status": "Accepted to ICLR 2024",
+    "venue": "ICLR 2024"
   },
   {
     "id": "shin2024socraticplanner",
@@ -9256,7 +10603,9 @@
     "categories": [
       "O1 / A2"
     ],
-    "scope_note": "During visual replanning the multimodal model inspects the failure image and revises action–object pairs from the controller's available commands."
+    "scope_note": "During visual replanning the multimodal model inspects the failure image and revises action–object pairs from the controller's available commands.",
+    "publication_status": "Accepted to ICRA 2025",
+    "venue": "ICRA 2025"
   },
   {
     "id": "jiang2024koma",
@@ -9276,12 +10625,14 @@
     "short_name": "Multimodal Driving Tokens",
     "title": "Prompting Multi-Modal Tokens to Enhance End-to-End Autonomous Driving Imitation Learning with LLMs",
     "year": 2024,
-    "url": "https://arxiv.org/abs/2404.04869",
+    "url": "https://doi.org/10.1109/icra57147.2024.10611614",
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Code"
     ],
-    "scope_note": "In the safety re-query configuration, the model consumes camera and lidar tokens and revises the waypoint decision for the driving controller."
+    "scope_note": "In the safety re-query configuration, the model consumes camera and lidar tokens and revises the waypoint decision for the driving controller.",
+    "venue": "IEEE International Conference on Robotics and Automation",
+    "publication_status": "Published"
   },
   {
     "id": "nguyen2024texttodrive",
@@ -9306,7 +10657,7 @@
       "O3 / A1 Code"
     ],
     "scope_note": "The CARLA implementation queries nearby vehicle actors and their locations. The driver agent specifies behavior for the CARLA control stack.",
-    "code_url": "https://github.com/AIR-DISCOVER/Multi-alignment-Drivng-Agent"
+    "code_url": "https://github.com/AIR-DISCOVER/Multi-alignment-Driving-Agent"
   },
   {
     "id": "hu2024agentscodriver",
@@ -9344,19 +10695,23 @@
       "Infrastructure / Environment Generation"
     ],
     "scope_note": "Language agents translate scene-editing requests into changes to traffic actors and assets before rendering new views.",
-    "code_url": "https://github.com/yifanlu0227/ChatSim"
+    "code_url": "https://github.com/yifanlu0227/ChatSim",
+    "publication_status": "Accepted to CVPR 2024",
+    "venue": "CVPR 2024"
   },
   {
     "id": "tian2024drivevlmdual",
     "short_name": "DriveVLM-Dual",
     "title": "DriveVLM: The Convergence of Autonomous Driving and Large Vision-Language Models",
-    "year": 2024,
-    "url": "https://arxiv.org/abs/2402.12289",
+    "year": 2025,
+    "url": "https://proceedings.mlr.press/v270/tian25c.html",
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Code"
     ],
-    "scope_note": "The optimization-based DriveVLM-Dual variant supplies 3D detections and tracked trajectories. The VLM plan seeds a conventional trajectory optimizer."
+    "scope_note": "The optimization-based DriveVLM-Dual variant supplies 3D detections and tracked trajectories. The VLM plan seeds a conventional trajectory optimizer.",
+    "venue": "Proceedings of The 8th Conference on Robot Learning",
+    "publication_status": "Published"
   },
   {
     "id": "fu2024limsim",
@@ -9369,7 +10724,9 @@
       "O1 / A1 Code"
     ],
     "scope_note": "The camera-based GPT-4V driver selects maneuvers for the simulator's driving controller.",
-    "code_url": "https://github.com/PJLab-ADG/LimSim"
+    "code_url": "https://github.com/PJLab-ADG/LimSim",
+    "publication_status": "Accepted to IEEE Intelligent Vehicles Symposium 2024",
+    "venue": "IEEE Intelligent Vehicles Symposium 2024"
   },
   {
     "id": "sun2023interactiveplanning",
@@ -9394,7 +10751,9 @@
       "O2 / A1 Code"
     ],
     "scope_note": "Grounding DINO boxes and BLIP-2 captions support generation of initial and goal predicates. The fixed symbolic planner solves the resulting problem.",
-    "code_url": "https://github.com/omron-sinicx/ViLaIn"
+    "code_url": "https://github.com/omron-sinicx/ViLaIn",
+    "publication_status": "Accepted to ICRA 2024",
+    "venue": "ICRA 2024"
   },
   {
     "id": "micelibarone2023dialoguebasedscenarios",
@@ -9411,14 +10770,16 @@
   {
     "id": "cui2023drivemlm",
     "short_name": "DriveMLM",
-    "title": "DriveMLM: Aligning Multi-Modal Large Language Models with Behavioral Planning States for Autonomous Driving",
-    "year": 2023,
-    "url": "https://arxiv.org/abs/2312.09245",
+    "title": "DriveMLM: aligning multi-modal large language models with behavioral planning states for autonomous driving",
+    "year": 2025,
+    "url": "https://doi.org/10.1007/s44267-025-00095-w",
     "source_type": "Paper",
     "categories": [
       "O1 / A1 Code"
     ],
-    "scope_note": "The multimodal model chooses behavioral planning states for the conventional motion planning stack in closed-loop driving."
+    "scope_note": "The multimodal model chooses behavioral planning states for the conventional motion planning stack in closed-loop driving.",
+    "venue": "Visual Intelligence",
+    "publication_status": "Published"
   },
   {
     "id": "tanahashi2023tanahashietal",
@@ -9430,7 +10791,9 @@
     "categories": [
       "O2 / A1 Code"
     ],
-    "scope_note": "In the vehicle prototype, detected object coordinates and human instructions condition the LLM's driving decision, which the vehicle executes."
+    "scope_note": "In the vehicle prototype, detected object coordinates and human instructions condition the LLM's driving decision, which the vehicle executes.",
+    "publication_status": "Accepted to 2023 Symposium on Machine Learning for Autonomous Driving",
+    "venue": "2023 Symposium on Machine Learning for Autonomous Driving"
   },
   {
     "id": "ma2023lampilot",
@@ -9443,7 +10806,9 @@
       "O3 / A3"
     ],
     "scope_note": "LaMPilot writes executable driving logic. Its HighwayEnv interface exposes simulated lane and vehicle data via perception and vehicle-state functions.",
-    "code_url": "https://github.com/PurdueDigitalTwin/LaMPilot"
+    "code_url": "https://github.com/PurdueDigitalTwin/LaMPilot",
+    "publication_status": "Accepted to CVPR 2024",
+    "venue": "CVPR 2024"
   },
   {
     "id": "wang2023safetyawaredriving",
@@ -9455,7 +10820,9 @@
     "categories": [
       "O3 / A1 Code"
     ],
-    "scope_note": "The closed-loop HighwayEnv safety configuration conditions behavior planning and MPC on simulator vehicle states and computes safety intervals."
+    "scope_note": "The closed-loop HighwayEnv safety configuration conditions behavior planning and MPC on simulator vehicle states and computes safety intervals.",
+    "publication_status": "Accepted to ICLR 2024 LLMAgents Workshop",
+    "venue": "ICLR 2024 LLMAgents Workshop"
   },
   {
     "id": "mao2023agentdriver",
@@ -9493,7 +10860,9 @@
       "O3 / A1 Code"
     ],
     "scope_note": "The released scene descriptor reads the simulator's ego vehicle, road and surrounding vehicles. The agent chooses a discrete maneuver for HighwayEnv.",
-    "code_url": "https://github.com/PJLab-ADG/DiLu"
+    "code_url": "https://github.com/PJLab-ADG/DiLu",
+    "publication_status": "Accepted to ICLR 2024",
+    "venue": "ICLR 2024"
   },
   {
     "id": "sha2023languagempc",
@@ -9543,21 +10912,41 @@
       "O2 / A2"
     ],
     "scope_note": "The embodied brain consumes shared spatial memory and reconstructed scene information and dispatches device-specific skills to robot executors.",
-    "code_url": "https://github.com/FlagOpen/RoboOS"
+    "code_url": "https://github.com/FlagOpen/RoboOS",
+    "authors": [
+      "Huajie Tan",
+      "Xiaoshuai Hao",
+      "Cheng Chi",
+      "Minglan Lin",
+      "Yaoxu Lyu",
+      "Mingyu Cao",
+      "Dong Liang",
+      "Zhuo Chen",
+      "Mengsi Lyu",
+      "Cheng Peng",
+      "Chenrui He",
+      "Yulong Ao",
+      "Yonghua Lin",
+      "Pengwei Wang",
+      "Zhongyuan Wang",
+      "Shanghang Zhang"
+    ]
   },
   {
     "id": "shah2022lmnav",
     "short_name": "LM-Nav",
     "title": "LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action",
-    "year": 2022,
-    "url": "https://arxiv.org/abs/2207.04429",
+    "year": 2023,
+    "url": "https://proceedings.mlr.press/v205/shah23b.html",
     "source_type": "Paper",
     "categories": [
       "Policy"
     ],
     "scope_note": "GPT-3 extracts landmarks from language alone. Image-to-landmark matching uses CLIP and route execution uses ViNG after this planning step.",
     "code_url": "https://github.com/blazejosinski/lm_nav",
-    "execution_authority": "A1"
+    "execution_authority": "A1",
+    "venue": "Proceedings of The 6th Conference on Robot Learning",
+    "publication_status": "Published"
   },
   {
     "id": "huang2026embodiedclbench",
@@ -9661,7 +11050,17 @@
     ],
     "project_url": "https://arielchen07.github.io/behavior-spatial/",
     "code_url": "https://github.com/arielchen07/BEHAVIOR-Spatial-benchmark",
-    "scope_note": "The CaP configuration develops Python robot programs using supplied pointing and VLM perception tools. Execution feedback drives program revision and validation before the selected program is frozen for held-out evaluation (Section 4.4 and Appendix F.5). Released code covers benchmark evaluation; release of the CaP writer is not established."
+    "scope_note": "The CaP configuration develops Python robot programs using supplied pointing and VLM perception tools. Execution feedback drives program revision and validation before the selected program is frozen for held-out evaluation (Section 4.4 and Appendix F.5). Released code covers benchmark evaluation; release of the CaP writer is not established.",
+    "authors": [
+      "Sirui Chen",
+      "Huang Huang",
+      "Qineng Wang",
+      "Wenlong Huang",
+      "Manling Li",
+      "Ruohan Zhang",
+      "Fei-Fei Li",
+      "Jiajun Wu"
+    ]
   },
   {
     "id": "apex2026apex35b",
@@ -9722,8 +11121,8 @@
     "short_name": "VFlash",
     "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
     "year": 2026,
-    "url": "https://research.nvidia.com/labs/lpr/vflash/",
-    "source_type": "Technical report",
+    "url": "https://arxiv.org/abs/2611.08449",
+    "source_type": "Paper",
     "categories": [
       "O1 / A1 Model"
     ],
