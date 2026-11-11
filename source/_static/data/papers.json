@@ -9736,5 +9736,22 @@
     "scope_note": "The RGBD and VIA configurations use camera-derived observations to specify end-effector commands or waypoints for a fixed motion controller. In a separate experiment a fresh session reuses a task-specific strategy file distilled from a demonstration and revised after graded rollouts.",
     "project_url": "https://roboarcade.org/",
     "code_url": "https://github.com/Satvik1701/RoboARCade"
+  },
+  {
+    "id": "liang2026a2meas",
+    "short_name": "A²-MEAS",
+    "title": "Toward the Era of Agentic Embodied Intelligence",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2611.09124",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Model",
+      "O2 / A2",
+      "Infrastructure / Dataset Construction",
+      "Infrastructure / Diagnosis"
+    ],
+    "code_url": "https://github.com/AutoLab-SAI-SJTU/A2MEAS",
+    "project_url": "https://a2-meas.github.io/",
+    "scope_note": "MetaBrain specifies recovery guidance to a fixed learned action executor and requests supplied diagnostic tools. Its correction code is a learned latent representation, not executable program synthesis. Offline MetaBrain annotations supply correction supervision. Deployment freezes model parameters; fixed adapter training alone does not establish self-evolution. Public evaluation release omits some adapter configurations and task-specific execution strategies."
   }
 ]
