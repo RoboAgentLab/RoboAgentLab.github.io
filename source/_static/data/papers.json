@@ -11186,5 +11186,43 @@
     "code_url": "https://github.com/AutoLab-SAI-SJTU/A2MEAS",
     "project_url": "https://a2-meas.github.io/",
     "scope_note": "MetaBrain specifies recovery guidance to a fixed learned action executor and requests supplied diagnostic tools. Its correction code is a learned latent representation, not executable program synthesis. Offline MetaBrain annotations supply correction supervision. Deployment freezes model parameters; fixed adapter training alone does not establish self-evolution. Public evaluation release omits some adapter configurations and task-specific execution strategies."
+  },
+  {
+    "id": "huang2025thinkact",
+    "short_name": "ThinkAct",
+    "title": "ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2507.16815",
+    "project_url": "https://jasper0314-huang.github.io/thinkact-vla/",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "scope_note": "§§3.3–3.4 and self-correction examples (Fig. 6 and Appendix B.3/Fig. A8): reasoning MLLM uses RGB observation/history, detects a dropped/missed object and produces a revised plan guiding a separate fixed learned action model. O1 / A1 Model. The interface is a plan latent, not executable code; fixed RL/IL is not agent-directed self-evolution. Official project page independently presents reflection/self-correction demonstrations. No substantive code link verified."
+  },
+  {
+    "id": "audit260908402",
+    "short_name": "AGOS-Agent",
+    "title": "Towards Embodied Air-Ground Cooperative Object Search: Benchmark, Dataset and Agentic Method",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.08402",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A2"
+    ],
+    "scope_note": "Task/Sensors/Action Space, §AGOS-Agent, Appendices A.1 and A.4: VLM selects motion, candidate annotation, handoff, inspection and confirmation actions. Prompts include map/coordinates and feasible waypoint options constructed from CARLA OpenDRIVE topology and map spawn-point extents. O3 / A2 for this evaluated simulator configuration. Fixed expert trajectory generation is not a separate agentic data-generation contribution. No substantive code link verified."
+  },
+  {
+    "id": "rosmcp2026",
+    "short_name": "ROS MCP Server",
+    "title": "ROS MCP Server",
+    "year": 2026,
+    "url": "https://github.com/robotmcp/ros-mcp-server",
+    "code_url": "https://github.com/robotmcp/ros-mcp-server",
+    "source_type": "Software",
+    "categories": [
+      "Infrastructure / Diagnosis"
+    ],
+    "scope_note": "Official industrial end-effector demonstration: Claude discovers custom ROS interfaces, reads technician manuals, chooses gripper tests and diagnoses an anomaly. Include Infrastructure / Diagnosis only; do not extrapolate observation/action axes from other demos. Implementations inspected: ros_mcp/tools/topics.py and services.py at 476591ac058f58cae810cc775e50b51f8d3d757c."
   }
 ]
