@@ -11385,5 +11385,226 @@
     "categories": [
       "O1 / A1 Code"
     ]
+  },
+  {
+    "id": "dai2026mira",
+    "short_name": "MIRA",
+    "title": "When to Think, What to Remember: Mixed-Initiative Hierarchical Robot Control with Procedural Memory",
+    "year": 2026,
+    "url": "https://corl2026-memory.github.io/papers/004.pdf",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ]
+  },
+  {
+    "id": "jedlicki2026occ4m",
+    "short_name": "OCC4M",
+    "title": "OCC4M: Object-Centric 4D Memory as an Action Interface for Robot Foundation Models",
+    "year": 2026,
+    "url": "https://corl2026-memory.github.io/papers/032.pdf",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Model"
+    ]
+  },
+  {
+    "id": "zhang2026simplearm",
+    "short_name": "SimpleARM",
+    "title": "Simple Agentic Memory for Generalist Robot Policies",
+    "year": 2026,
+    "url": "https://corl2026-memory.github.io/papers/054.pdf",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ]
+  },
+  {
+    "id": "li2026gema",
+    "short_name": "GEMA",
+    "title": "GEMA: Generative Memory for Robotic Manipulation",
+    "year": 2026,
+    "url": "https://corl2026-memory.github.io/papers/030.pdf",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "scope_note": "High-level subtask selection and progress assessment around a fixed WAM (Appendix B); standalone VLA/WAM inference is not the basis for inclusion."
+  },
+  {
+    "id": "lee2026beyondcse",
+    "short_name": "BeyondCSe",
+    "title": "Beyond the Current Scene: Event-Referential Grasping with Active View Selection",
+    "year": 2026,
+    "url": "https://corl2026-memory.github.io/papers/022.pdf",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ]
+  },
+  {
+    "id": "buchner2026momasg",
+    "short_name": "MoMa-SG",
+    "title": "Articulated 3D Scene Graphs for Open-World Mobile Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2602.16356",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Model"
+    ],
+    "code_url": "https://github.com/robot-learning-freiburg/MoMa-SG",
+    "scope_note": "Agent-driven mobile manipulation using the articulated scene graph; released scene-graph implementation, with downstream planner release coverage not verified."
+  },
+  {
+    "id": "wang2026homememory",
+    "short_name": "Home Robot Memory Update",
+    "title": "How Should a Home Robot Update Its Memories When Human Routines Change?",
+    "year": 2026,
+    "url": "https://corl2026-memory.github.io/papers/046.pdf",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Evaluation"
+    ],
+    "code_url": "https://github.com/nesl/memory-for-home-robots"
+  },
+  {
+    "id": "liu2026elevate",
+    "short_name": "ELEVATE",
+    "title": "ELEVATE: Agentic Controller Acquisition from Task Failure for Quadrupedal Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.38388",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training",
+      "Self-Evolver / Programs and Skills"
+    ]
+  },
+  {
+    "id": "dong2026agentguidedrl",
+    "short_name": "Agent-Guided RL",
+    "title": "Agent-Guided Reinforcement Learning for Robot Policy Improvement",
+    "year": 2026,
+    "url": "https://openreview.net/forum?id=Necql1OWWV",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training",
+      "Infrastructure / Diagnosis"
+    ]
+  },
+  {
+    "id": "nayak2026mimicagent",
+    "short_name": "MimicAgent",
+    "title": "MimicAgent: Quadruped Skills via Prompt-to-Trajectory Generation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.24145",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Dataset Construction"
+    ],
+    "code_url": "https://github.com/Luckykantnayak/mimicagent-humnaoid",
+    "scope_note": "Public code is the project-linked humanoid extension; the separate quadruped data-generation repository remains a placeholder."
+  },
+  {
+    "id": "fay2026l2d",
+    "short_name": "L2D",
+    "title": "Language to Design (L2D): Towards Self-Evolving Robots",
+    "year": 2026,
+    "url": "https://openreview.net/forum?id=fi5UmvIKPo",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Robot morphology"
+    ]
+  },
+  {
+    "id": "chang2026scip",
+    "short_name": "SCIP",
+    "title": "Self-Correcting Imaginative Planning for VLM Embodied Agents",
+    "year": 2026,
+    "url": "https://openreview.net/forum?id=aPS3938Wc2",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ]
+  },
+  {
+    "id": "yoo2026onestepplanner",
+    "short_name": "One-Step Planner",
+    "title": "One-Step Planner: Unified Observation and Decision-Making with Vision-Language Models",
+    "year": 2026,
+    "url": "https://icra2026-rigorous-perception.github.io/pdf/yoo2026.pdf",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ]
+  },
+  {
+    "id": "jung2026groundedplanbench",
+    "short_name": "GroundedPlanBench",
+    "title": "GroundedPlanBench: Spatially Grounded Long-Horizon Task Planning",
+    "year": 2026,
+    "url": "https://icra2026-rigorous-perception.github.io/pdf/jung2026b.pdf",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Evaluation"
+    ]
+  },
+  {
+    "id": "zhang2026eflux",
+    "short_name": "EFLUX",
+    "title": "EFLUX: Elastic Multi-Robot Formation Navigation and Adaptation with Agentic LLMs",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2607.12050",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A1 Code"
+    ]
+  },
+  {
+    "id": "shi2025pipllm",
+    "short_name": "PIP-LLM",
+    "title": "PIP-LLM: Integrating PDDL-Integer Programming with LLMs for Coordinating Multi-Robot Teams Using Natural Language",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2510.22784",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A1 Code"
+    ]
+  },
+  {
+    "id": "khatana2026verifier",
+    "short_name": "Verifier-Mediated Coordination",
+    "title": "Verifier-Mediated Multi-LLM Coordination for Multi-Robot Path Planning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.12761",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A1 Code"
+    ]
+  },
+  {
+    "id": "gao2026dreamcan",
+    "short_name": "DreamCan",
+    "title": "Dream What I Can: Sparse Visual Planning for Long-Horizon Robot Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.24981",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3"
+    ],
+    "code_url": "https://github.com/HeegerGao/DreamCan",
+    "scope_note": "Language-guided configuration in Section V-D: VLM-generated task-progress functions over supplied detections. Released planner/progress code is verified; the VLM function-generation pipeline is not verified."
+  },
+  {
+    "id": "shen2026openarmhandoffs",
+    "short_name": "OpenArm Handoffs",
+    "title": "Representation Handoffs for OpenArm-Based Laboratory Mobile Manipulation",
+    "year": 2026,
+    "url": "https://openreview.net/forum?id=aecUusZZ4H",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A2"
+    ],
+    "code_url": "https://github.com/yshenfab/xEI",
+    "scope_note": "Software integration and dry-run configuration with declared/mock state; not evidence of validated end-to-end physical manipulation."
   }
 ]
