@@ -10585,9 +10585,10 @@
     "url": "https://arxiv.org/abs/2405.01534",
     "source_type": "Paper",
     "categories": [
-      "Policy"
+      "Policy",
+      "Infrastructure / Training"
     ],
-    "scope_note": "The planner prompt is specified as a task description, supported stage-termination conditions and output-format instructions. Pose estimation is downstream.",
+    "scope_note": "The language model supplies a sequential task plan that guides motion planning and reinforcement learning of fixed execution policies.",
     "code_url": "https://github.com/mihdalal/planseqlearn",
     "execution_authority": "A1",
     "publication_status": "Accepted to ICLR 2024",
@@ -11619,5 +11620,220 @@
     ],
     "code_status": "pending_release",
     "scope_note": "Agent-directed weight edits selected using simulator feedback and retained in the robot policy; evaluated lexical grounding repairs in simulation."
+  },
+  {
+    "id": "song2025rationalvla",
+    "short_name": "RationalVLA",
+    "title": "RationalVLA: A Rational Vision-Language-Action Model with Dual System",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2506.10826",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "scope_note": "The vision-language model explicitly selects ACT or REJ from images and instructions; accepted requests use a fixed learned 3D Diffuser Actor."
+  },
+  {
+    "id": "tan2025roboosnext",
+    "short_name": "RoboOS-NeXT",
+    "title": "RoboOS-NeXT: A Unified Memory-based Framework for Lifelong, Scalable, and Robust Multi-Robot Collaboration",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2510.26536",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
+    ],
+    "scope_note": "The brain coordinates robot tools using supplied STEM scene representations and execution feedback. The original RoboOS repository is not evidence of a released NeXT implementation."
+  },
+  {
+    "id": "zhao2025vla2",
+    "short_name": "VLA²",
+    "title": "VLA²: Empowering Vision-Language-Action Models with an Agentic Framework for Unseen Concept Manipulation",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2510.14902",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Model"
+    ],
+    "scope_note": "The concept-understanding agent receives supplied detections, crops and retrieved visual information, and revises instructions for a fixed OpenVLA executor."
+  },
+  {
+    "id": "zhou2026roboaware",
+    "short_name": "RoboAware",
+    "title": "RoboAware: Learning to Coordinate Embodied Skills from Counterfactual Outcomes",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.11480",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3"
+    ],
+    "scope_note": "A frozen coding agent generates local execution logic using supplied perception and manipulation services; fixed coordinator training is not classified as agent-directed training."
+  },
+  {
+    "id": "zhu2026skillweaver",
+    "short_name": "SkillWeaver",
+    "title": "SkillWeaver: Agentic Exploration over Neural Interaction Skills for Scalable Robot Data Generation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.36171",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A2",
+      "Infrastructure / Dataset Construction"
+    ],
+    "scope_note": "The exploration agent selects neural interaction skills and parameters with simulator-derived verifier feedback. Released skill and policy training components do not yet include the full agentic exploration loop.",
+    "code_url": "https://github.com/Ada4321/SkillWeaver-openpi"
+  },
+  {
+    "id": "gu2024colada",
+    "short_name": "COLADA",
+    "title": "Continual Robot Skill and Task Learning via Dialogue",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2409.03166",
+    "source_type": "Paper",
+    "categories": [
+      "Policy",
+      "Self-Evolver / Programs and Skills"
+    ],
+    "scope_note": "Dialogue-guided acquisition retains new ACT-LoRA skills for later use. The policy observation category is not assigned from the low-level policy camera inputs."
+  },
+  {
+    "id": "nam2026ontoplan",
+    "short_name": "OntoPlan",
+    "title": "OntoPlan: An Ontology-Grounded Scene Representation and Agentic Framework for Scalable Robot Task Planning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.07649",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A2"
+    ],
+    "scope_note": "Agentic scene queries, goal formalization and PDDL planning use an annotated symbolic world model. Reported planning experiments do not establish real-robot execution.",
+    "code_url": "https://github.com/namhyeongwoo/OntoPlan"
+  },
+  {
+    "id": "wake2026sharedkvbt",
+    "short_name": "SharedKV-BT",
+    "title": "SharedKV-BT: Node-Local Typed Decisions for Behavior-Tree Agents",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.07327",
+    "source_type": "Paper",
+    "categories": [
+      "O3 / A1 Code"
+    ],
+    "scope_note": "Robot manipulation configurations expose simulator-derived structured state to node-local action selection through fixed behavior-tree executors."
+  },
+  {
+    "id": "gao2025arcadia",
+    "short_name": "Arcadia",
+    "title": "Arcadia: Toward a Full-Lifecycle Framework for Embodied Lifelong Learning",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2512.00076",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "scope_note": "The navigation configuration uses a vision-language agent to choose robot motion through fixed APIs. Other fixed VLA and data-generation configurations are not classified as agent decisions.",
+    "code_url": "https://github.com/Embodied-Arcadia/EmbodiedKit"
+  },
+  {
+    "id": "wang2026atlasva",
+    "short_name": "AtlasVA",
+    "title": "AtlasVA: Self-Evolving Visual Skill Memory for Teacher-Free VLM Agents",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2605.17933",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "scope_note": "The deployed agent selects fixed motor skills from RGB observations and visual skill memory; privileged training signals are not its deployed observation interface.",
+    "code_url": "https://github.com/wangpan-ustc/AtlasVA"
+  },
+  {
+    "id": "dipalo2025daag",
+    "short_name": "DAAG",
+    "title": "Diffusion Augmented Agents: A Framework for Efficient Exploration and Transfer Learning",
+    "year": 2025,
+    "url": "https://proceedings.mlr.press/v274/palo25a.html",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Dataset Construction",
+      "Infrastructure / Training"
+    ],
+    "scope_note": "An LLM decides and orchestrates diffusion-based relabeling of robot experience for reward learning and reinforcement learning.",
+    "venue": "CoLLAs 2025"
+  },
+  {
+    "id": "zhang2025omnivic",
+    "short_name": "OmniVIC",
+    "title": "OmniVIC: A Self-Improving Variable Impedance Controller with Vision-Language In-Context Learning for Safe Robotic Manipulation",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2510.17150",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "scope_note": "A vision-language agent selects impedance parameters from visual and force-motion feedback for a fixed variable-impedance controller."
+  },
+  {
+    "id": "xu2024sinvig",
+    "short_name": "SInViG",
+    "title": "SInViG: A Self-Evolving Interactive Visual Agent for Human-Robot Interaction",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2402.11792",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "scope_note": "The visual dialogue agent requests clarification and selects a grasp target for the fixed learned Contact-GraspNet executor."
+  },
+  {
+    "id": "ao2026smart",
+    "short_name": "SMART",
+    "title": "SMART: Zero-Shot Sim-to-Real Articulated Object Manipulation via Large-Scale Synthetic Pretraining",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.07652",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Dataset Construction"
+    ],
+    "scope_note": "Agents select and configure assets, robot embodiments, initial states, tasks and success criteria for synthetic manipulation experience."
+  },
+  {
+    "id": "soni2024videoagent",
+    "short_name": "VideoAgent",
+    "title": "VideoAgent: Self-Improving Video Generation",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2410.10076",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Diagnosis"
+    ],
+    "scope_note": "The Suggestive configuration uses a vision-language model to diagnose robot-task videos and provide corrective feedback; fixed video-policy inference alone is not the included agent configuration.",
+    "code_url": "https://github.com/Video-as-Agent/VideoAgent"
+  },
+  {
+    "id": "turcato2025archie",
+    "short_name": "ARCHIE",
+    "title": "Towards Autonomous Reinforcement Learning for Real-World Robotic Manipulation with Large Language Models",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2503.04280",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ],
+    "scope_note": "LLM agents construct reward programs and success criteria for robot reinforcement learning.",
+    "code_url": "https://github.com/turcato-niccolo/towardsARL"
+  },
+  {
+    "id": "periasami2026frames",
+    "short_name": "FRAMES",
+    "title": "FRAMES: Failure Recovery And Monitoring of Embodied Skills for Humanoid Loco-Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.22538",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Diagnosis"
+    ],
+    "scope_note": "The documented humanoid monitoring configuration diagnoses skill outcomes; a complete autonomous recovery harness is not established by the reported monitoring results."
   }
 ]
