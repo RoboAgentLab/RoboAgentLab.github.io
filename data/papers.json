@@ -11606,5 +11606,18 @@
     ],
     "code_url": "https://github.com/yshenfab/xEI",
     "scope_note": "Software integration and dry-run configuration with declared/mock state; not evidence of validated end-to-end physical manipulation."
+  },
+  {
+    "id": "zhang2026debugweights",
+    "short_name": "LLM Weight Editing",
+    "title": "Can LLMs Debug Robots by Editing Their Weights?",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2611.09376",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Model"
+    ],
+    "code_status": "pending_release",
+    "scope_note": "Agent-directed weight edits selected using simulator feedback and retained in the robot policy; evaluated lexical grounding repairs in simulation."
   }
 ]
