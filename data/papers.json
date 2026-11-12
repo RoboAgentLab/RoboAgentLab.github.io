@@ -5010,9 +5010,9 @@
   },
   {
     "id": "pigey",
-    "title": "Addressing the Orchestration Gap in Generalist Robots via Physical Agency",
+    "title": "Physical Agency: Better Robot Performance Through Better Interfaces",
     "year": 2026,
-    "url": "https://arxiv.org/abs/2607.21725",
+    "url": "https://openreview.net/forum?id=SlmaqmaqW0",
     "source_type": "Paper",
     "categories": [
       "O2 / A2"
@@ -11224,5 +11224,166 @@
       "Infrastructure / Diagnosis"
     ],
     "scope_note": "Official industrial end-effector demonstration: Claude discovers custom ROS interfaces, reads technician manuals, chooses gripper tests and diagnoses an anomaly. Include Infrastructure / Diagnosis only; do not extrapolate observation/action axes from other demos. Implementations inspected: ros_mcp/tools/topics.py and services.py at 476591ac058f58cae810cc775e50b51f8d3d757c."
+  },
+  {
+    "id": "weng2026metactrl",
+    "short_name": "Meta-Ctrl",
+    "title": "Meta-Ctrl: Guaranteed Plan Generation by Decoupling Syntactic and Semantic Constraints",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2608.22149",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code",
+      "O3 / A1 Code"
+    ]
+  },
+  {
+    "id": "benaharon2026coadaptive",
+    "short_name": "Adversarial Co-Adaptive Self-Play",
+    "title": "Program-Level Adversarial Co-Adaptive Self-Play for Robotic Security",
+    "year": 2026,
+    "url": "https://openreview.net/forum?id=LkW6BOlHMY",
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Programs and Skills"
+    ]
+  },
+  {
+    "id": "wu2026topology",
+    "short_name": "Topology-Informed Prompting",
+    "title": "Topology-Informed Visual Prompting for Hierarchical Vision-Language-Action Control",
+    "year": 2026,
+    "url": "https://openreview.net/forum?id=RkzWx9Sfcz",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ]
+  },
+  {
+    "id": "lin2026physcap",
+    "short_name": "PhysCaP",
+    "title": "PhysCaP: Grounding Code-as-Policy Agent with Physics-Informed Exploration",
+    "year": 2026,
+    "url": "https://openreview.net/forum?id=JprkI7JQDW",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3"
+    ]
+  },
+  {
+    "id": "agarwal2026feijoa",
+    "short_name": "FEIJOA",
+    "title": "FEIJOA: Task-Driven Grounding and Execution for Mobile Manipulation",
+    "year": 2026,
+    "url": "https://openreview.net/forum?id=Eq3xq6KZDC",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
+    ]
+  },
+  {
+    "id": "liu2026geometricabstraction",
+    "short_name": "Geometric Abstraction",
+    "title": "Do Agentic Policies Need to Look at Every Step? Geometric Abstraction for Reasoning and Action",
+    "year": 2026,
+    "url": "https://openreview.net/forum?id=CQFstcjx1Z",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A1 Code",
+      "O2 / A3",
+      "Self-Evolver / Programs and Skills"
+    ],
+    "code_url": "https://github.com/Spectraorder/geometric-abstraction"
+  },
+  {
+    "id": "zandonati2026sprout",
+    "short_name": "SPROUT",
+    "title": "Generalized Planning Interfaces for Agentic Robotics",
+    "year": 2026,
+    "url": "https://openreview.net/forum?id=sU18hA2zbD",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2"
+    ]
+  },
+  {
+    "id": "han2026comdex",
+    "short_name": "ComDex",
+    "title": "ComDex: A Compositional Framework for Dexterity Learning from Offline Human Manipulation Videos",
+    "year": 2026,
+    "url": "https://openreview.net/forum?id=l0BBYNeW4A",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Training"
+    ]
+  },
+  {
+    "id": "chen2026impossibletwins",
+    "short_name": "Impossible Twins",
+    "title": "Impossible Twins: Judge-Free Measurement of Verifier False Positives in Agentic Robot Controller Search",
+    "year": 2026,
+    "url": "https://openreview.net/forum?id=uMkXmX3mAy",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Evaluation"
+    ]
+  },
+  {
+    "id": "halim2026embodiedxai",
+    "short_name": "Embodied XAI",
+    "title": "Embodied XAI: Tracing Hierarchical Agent Decisions via 4D Spatio-Temporal Saliency",
+    "year": 2026,
+    "url": "https://openreview.net/forum?id=9HKnVoy6O0",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ]
+  },
+  {
+    "id": "lin2026acdc",
+    "short_name": "ACDC",
+    "title": "Agentic Aerial Cinematography: From Dialogue Cues to Cinematic Trajectories",
+    "year": 2026,
+    "url": "https://openreview.net/forum?id=AVqVpgtKYF",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ]
+  },
+  {
+    "id": "wu2026contactcode",
+    "short_name": "Contact Code",
+    "title": "Contact Code: A Typed Program Interface for Measurable and Repairable Contact-Rich Manipulation",
+    "year": 2026,
+    "url": "https://openreview.net/forum?id=78L8T5nsLM",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code",
+      "O3 / A1 Code",
+      "O3 / A3",
+      "Self-Evolver / Programs and Skills"
+    ]
+  },
+  {
+    "id": "rudra2026suto",
+    "short_name": "SUTO",
+    "title": "SUTO: Failure-Localized Reasoning for Robot Task Planning and Execution",
+    "year": 2026,
+    "url": "https://openreview.net/forum?id=BCdDYO0jo9",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3"
+    ]
+  },
+  {
+    "id": "wu2026memoryharnesses",
+    "short_name": "Robot Memory Benchmarks",
+    "title": "How Hard Are Current Robot Memory Benchmarks for Agentic Harnesses?",
+    "year": 2026,
+    "url": "https://openreview.net/forum?id=z5FsJD37Dj",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ]
   }
 ]
