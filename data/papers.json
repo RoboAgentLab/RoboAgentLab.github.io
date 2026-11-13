@@ -11851,5 +11851,385 @@
       "Self-Evolver / Execution Workflows"
     ],
     "scope_note": "The task-specification agent receives demonstration frames and supplied reference-motion measurements and selects closed-vocabulary behaviors for a frozen whole-body tracker. Feedback-informed revisions to perception phrases and completion checks are retained after replay validation. The separate online residual learner does not itself establish agent-directed model optimization."
+  },
+  {
+    "id": "bjorck2026vesta",
+    "short_name": "Vesta",
+    "title": "Vesta: A Generalist Embodied Reasoning Model",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.20905",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "scope_note": "The visual planner selects subtasks for frozen GR00T N1.6 on YAM and pixel goals for the SONIC-based G1 controller. Localization-only and fixed SFT configurations are not independently classified.",
+    "project_url": "https://research.nvidia.com/labs/gear/vesta/",
+    "source_type": "Paper"
+  },
+  {
+    "id": "chen2025safemind",
+    "short_name": "SafeMind",
+    "title": "SafeMind: Benchmarking and Mitigating Safety Risks in Embodied LLM Agents",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2509.25885",
+    "categories": [
+      "Infrastructure / Evaluation"
+    ],
+    "scope_note": "The interactive SafeMindAgent configuration in Appendix A.4 is evaluated in SafeAgentBench; static safety question answering alone is not the admitted configuration.",
+    "source_type": "Paper"
+  },
+  {
+    "id": "dao2026direct",
+    "short_name": "DIRECT",
+    "title": "DIRECT: When and Where Should You Allocate Test-Time Compute in Embodied Planners?",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.12402",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "scope_note": "A VLM selects subskills and reallocates planning computation from visual execution evidence; a fixed VLA executes the selected subskill.",
+    "project_url": "https://jadee-dao.github.io/direct/",
+    "source_type": "Paper"
+  },
+  {
+    "id": "me2026vlm",
+    "short_name": "ME-VLM",
+    "title": "ME-VLM: A Unified VLM for Embodied Cognition and Agent Coordination",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.24526",
+    "categories": [
+      "O1 / A2"
+    ],
+    "scope_note": "Sections 7.3.1–7.3.2 document robot skill invocation, error correction, compound-task decomposition and visual-event-triggered manipulation. Driving QA and digital-only tools are excluded.",
+    "source_type": "Paper"
+  },
+  {
+    "id": "han2026embodiedskillbench",
+    "short_name": "EmbodiedSkillBench",
+    "title": "Embodied Skill Bench: Benchmarking How Well Agents with Embodied Skills Perform on Physical Tasks",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.16238",
+    "categories": [
+      "Infrastructure / Evaluation"
+    ],
+    "scope_note": "The benchmark evaluates embodied agents using native capabilities, supplied skills and adaptation of skills in physical-task environments.",
+    "code_url": "https://github.com/HanZhi306/EmbodiedSkill-Bench",
+    "source_type": "Paper"
+  },
+  {
+    "id": "huang2022zeroshotplanner",
+    "short_name": "LM Zero-Shot Planner",
+    "title": "Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents",
+    "year": 2022,
+    "url": "https://arxiv.org/abs/2201.07207",
+    "categories": [
+      "Policy"
+    ],
+    "scope_note": "The language model generates admissible VirtualHome action sequences for a fixed executor. The paper explicitly omits environment observation and feedback; A1 Code is supported, but O1/O2/O3 is not assigned.",
+    "project_url": "https://huangwl18.github.io/language-planner",
+    "code_url": "https://github.com/huangwl18/language-planner",
+    "source_type": "Paper"
+  },
+  {
+    "id": "izzo2026multimodalbt",
+    "short_name": "Multimodal BT",
+    "title": "Multimodal Behavior Tree Generation: A Small Vision-Language Model for Robot Task Planning",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2603.06084",
+    "categories": [
+      "O1 / A3",
+      "Infrastructure / Dataset Construction"
+    ],
+    "scope_note": "Visual observations and instructions condition executable BehaviorTree.CPP control-flow generation. A teacher pipeline generates the multimodal behavior-tree supervision. The repository announces a future code release.",
+    "source_type": "Paper"
+  },
+  {
+    "id": "jin2026philia",
+    "short_name": "PHILIA",
+    "title": "A Glimpse into Long-term Physical Coexistence with Intelligent Robots",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2607.11377",
+    "categories": [
+      "O2 / A2"
+    ],
+    "scope_note": "The agent composes robot-local observation, navigation, manipulation, speech and status/cancellation tools; semantic places and gateway results provide the supplied perception interface.",
+    "source_type": "Paper"
+  },
+  {
+    "id": "kwon2025memento",
+    "short_name": "MEMENTO-Personal",
+    "title": "Embodied Agents Meet Personalization: Investigating Challenges and Solutions Through the Lens of Memory Utilization",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2505.16348",
+    "categories": [
+      "O3 / A1 Code",
+      "Infrastructure / Evaluation"
+    ],
+    "scope_note": "Personalized rearrangement planning uses oracle perception and motor skills in Habitat; the benchmark isolates user-memory utilization. This is distinct from MEMENTO code evolution (Sygkounas et al.).",
+    "project_url": "https://connoriginal.github.io/MEMENTO",
+    "code_url": "https://github.com/Connoriginal/MEMENTO",
+    "source_type": "Paper"
+  },
+  {
+    "id": "lee2026robotuse",
+    "short_name": "RobotUse",
+    "title": "RobotUse: Allocating Computation, Context, and Decisions",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.04929",
+    "categories": [
+      "O2 / A2",
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "scope_note": "Agents select measured targets, grasp candidates and manipulation tools using supplied geometry; a playbook retains feedback-derived guidance across episodes. This is distinct from Robo Use.",
+    "project_url": "https://robotuse-team.github.io/",
+    "code_url": "https://github.com/robotuse-team/RobotUse",
+    "source_type": "Paper"
+  },
+  {
+    "id": "li2026joyinside",
+    "short_name": "JoyInside-VLM",
+    "title": "JoyInside-VLM-Agent: Product-Conditioned Multimodal Policy Learning for Embodied Agents",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.12957",
+    "categories": [
+      "O1 / A2"
+    ],
+    "scope_note": "The quadruped case studies document image-conditioned search, robot tool use, replanning and failure reporting. General smart-device and digital-tool evaluations are excluded.",
+    "source_type": "Paper"
+  },
+  {
+    "id": "lim2026prism",
+    "short_name": "PRISM",
+    "title": "PRISM: Planning and Reasoning with Intent in Simulated Embodied Environments",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2605.11534",
+    "categories": [
+      "Infrastructure / Evaluation"
+    ],
+    "scope_note": "The simulated embodied benchmark evaluates intent-sensitive planning and long-horizon execution, with deterministic state-based checks; oracle-observation baselines are kept distinct from deployment sensing.",
+    "source_type": "Paper"
+  },
+  {
+    "id": "lin2026miracompanion",
+    "short_name": "MIRA-Companion",
+    "title": "MIRA: Real-Time Full-Duplex Human-Robot Interaction for Embodied Companions",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.24547",
+    "categories": [
+      "O2 / A1 Code",
+      "O2 / A1 Model"
+    ],
+    "scope_note": "Speech transcription and affect cues condition high-level embodiment selection: validated social behaviors use fixed code, while the speaking pathway uses the learned ROSCO motion generator. This is distinct from mixed-initiative MIRA.",
+    "project_url": "https://gagajian.github.io/MIRA/",
+    "source_type": "Paper"
+  },
+  {
+    "id": "ramrakhya2025autoask",
+    "short_name": "AutoAsk",
+    "title": "Grounding Multimodal LLMs to Embodied Agents that Ask for Help with Reinforcement Learning",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2504.00907",
+    "categories": [
+      "O1 / A1 Code",
+      "Infrastructure / Evaluation"
+    ],
+    "scope_note": "The multimodal policy observes images/history/user responses and selects among 125 fixed oracle motor skills or asks for clarification. Ask-to-Act is the associated evaluation setting.",
+    "source_type": "Paper"
+  },
+  {
+    "id": "sun2026pi05callastra",
+    "short_name": "Pi0.5-CALL",
+    "title": "Make π0.5 Learn to Call Astra for Reliable Robot Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.14117",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "scope_note": "During takeover Astra observes RGB, robot state and the policy proposal, then emits end-effector correction chunks for a fixed adapter. The learned CALL gate alone is not an agentic or Evolver contribution.",
+    "project_url": "https://kykgeek.github.io/Pi05_CALL_Astra/",
+    "source_type": "Paper"
+  },
+  {
+    "id": "tang2026vlmdewm",
+    "short_name": "VLM-DEWM",
+    "title": "VLM-DEWM: Dynamic External World Model for Verifiable and Resilient Vision-Language Planning in Manufacturing",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2602.15549",
+    "categories": [
+      "O2 / A2",
+      "Infrastructure / Diagnosis"
+    ],
+    "scope_note": "Supplied semantic/geometric world memory supports action-tool proposals and validation. The VLM uses execution discrepancies for targeted diagnosis and replanning; fixed world-memory updates are not retained self-improvement.",
+    "source_type": "Paper"
+  },
+  {
+    "id": "wang2024karma",
+    "short_name": "KARMA",
+    "title": "KARMA: Augmenting Embodied AI Agents with Long-and-short Term Memory Systems",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2409.14908",
+    "categories": [
+      "O3 / A1 Code"
+    ],
+    "scope_note": "The evaluated AI2-THOR configuration provides simulator-derived object attributes and scene-graph state to an LLM that selects actions for a fixed executor. The paper explicitly lacks real-world evaluation; the suggested detector-based deployment is not classified.",
+    "source_type": "Paper"
+  },
+  {
+    "id": "xie2026fastplans",
+    "short_name": "Fast Plans",
+    "title": "Fast Plans, Faithful Actions: Closing the Planning-Execution Gap in Hierarchical Vision-Language-Action Models",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.30833",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "scope_note": "A visual-language planner emits explicit waypoint/pose/gripper/duration plans for a fixed learned action expert. Fixed training does not independently establish an Evolver.",
+    "source_type": "Paper"
+  },
+  {
+    "id": "xu2026chunkact",
+    "short_name": "ChunkAct",
+    "title": "ChunkAct: Action Chunking for Agentic Robotics",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.18874",
+    "categories": [
+      "O2 / A2"
+    ],
+    "scope_note": "The online planner grounds targets through supplied perception and invokes precompiled executable chunks, returning to planning on typed failures. The frozen runtime library does not by itself establish an Evolver.",
+    "source_type": "Paper"
+  },
+  {
+    "id": "xu2026rtsafe",
+    "short_name": "RT-Safe",
+    "title": "RT-Safe: Benchmarking Agent Safety in Real-Time Embodied Environment",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.09294",
+    "categories": [
+      "Infrastructure / Evaluation"
+    ],
+    "scope_note": "The live-clock simulated city benchmark evaluates embodied delivery agents choosing among 16 actions, using supplied movement candidates and safety-sensitive execution outcomes.",
+    "project_url": "https://xtrose29.github.io/RT-SAFE/",
+    "code_url": "https://github.com/XTRose29/RT-SAFE",
+    "source_type": "Paper"
+  },
+  {
+    "id": "yang20243dmem",
+    "short_name": "3D-Mem",
+    "title": "3D-Mem: 3D Scene Memory for Embodied Exploration and Reasoning",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2411.17735",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "scope_note": "The VLM selects memory snapshots and exploration frontiers using supplied object/scene-memory processing, with a fixed navigation executor. This record follows arXiv 2411.17735 and its official code, rather than creating a separate SnapMem alias.",
+    "project_url": "https://umass-embodied-agi.github.io/3D-Mem/",
+    "code_url": "https://github.com/UMass-Foundation-Model/3D-Mem",
+    "source_type": "Paper"
+  },
+  {
+    "id": "yang2026proagentphysical",
+    "short_name": "ProAgent-Physical",
+    "title": "Proactive Physical AI through Continuous Observation and Timely Intervention",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.16967",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "scope_note": "The Reachy Mini configuration uses continuous visual observations and standing responsibilities to choose intervention timing and robot responses through an existing executor. Video-only QA and speculative future skill evolution are excluded.",
+    "source_type": "Paper"
+  },
+  {
+    "id": "yao2025homesafebench",
+    "short_name": "HomeSafeBench",
+    "title": "HomeSafeBench: Benchmarking Embodied Vision-Language Models in Free-Exploration Home Safety Inspection",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2509.23690",
+    "categories": [
+      "Infrastructure / Evaluation"
+    ],
+    "scope_note": "Interactive VirtualHome inspection requires agents to choose exploration, viewpoint changes, reports and termination; this is distinct from passive image safety classification.",
+    "code_url": "https://github.com/BITHLP/HomeSafeBench",
+    "source_type": "Paper"
+  },
+  {
+    "id": "yin2024safeagentbench",
+    "short_name": "SafeAgentBench",
+    "title": "SafeAgentBench: A Benchmark for Safe Task Planning of Embodied LLM Agents",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2412.13178",
+    "categories": [
+      "Infrastructure / Evaluation"
+    ],
+    "scope_note": "AI2-THOR task-planning evaluation exercises LLM planners through a fixed action interface and separately checks task completion and unsafe behavior.",
+    "project_url": "https://safeagentbench.github.io/",
+    "code_url": "https://github.com/shengyin1224/SafeAgentBench",
+    "source_type": "Paper"
+  },
+  {
+    "id": "yuan2026embodiedr15",
+    "short_name": "Embodied-R1.5",
+    "title": "Embodied-R1.5: Evolving Physical Intelligence via Embodied Foundation Models",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.11324",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "scope_note": "Only the Planner-Grounder-Corrector real-robot configuration is classified: model-based task decomposition, visual grounding and correction direct a supplied grasp/motion executor. Ordinary action-head inference and fixed training are not independent agent configurations.",
+    "project_url": "https://embodied-r.github.io/",
+    "code_url": "https://github.com/pickxiguapi/Embodied-R1.5",
+    "source_type": "Paper"
+  },
+  {
+    "id": "zeng2025vifailback",
+    "short_name": "ViFailback",
+    "title": "Diagnose, Correct, and Learn from Manipulation Failures via Visual Symbols",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2512.02787",
+    "categories": [
+      "Infrastructure / Diagnosis"
+    ],
+    "scope_note": "Visual-symbol diagnosis and corrective feedback for manipulation failures are the admitted configuration, including the pi0.5/ALOHA feedback experiment; the released diagnosis implementation is substantive code.",
+    "project_url": "https://x1nyuzhou.github.io/vifailback.github.io/",
+    "code_url": "https://github.com/x1nyuzhou/ViFailback",
+    "source_type": "Paper"
+  },
+  {
+    "id": "zeng2026lexp",
+    "short_name": "LEXP",
+    "title": "Learning from Physical Experience: Context-Space Adaptation for Robotic Manipulation",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.41320",
+    "categories": [
+      "O1 / A1 Code",
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "scope_note": "RGB and robot-state-conditioned decisions specify motion commands for a fixed execution layer. An experience module extracts, revises and retains evidence-backed lessons across attempts while weights and the action interface stay fixed.",
+    "project_url": "https://hatty-z.github.io/LearnFromExperience/",
+    "source_type": "Paper"
+  },
+  {
+    "id": "zhan2025sentinel",
+    "short_name": "SENTINEL-Formal",
+    "title": "SENTINEL: A Multi-Level Formal Framework for Safety Evaluation of Foundation Model-based Embodied Agents",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2510.12985",
+    "categories": [
+      "Infrastructure / Evaluation"
+    ],
+    "scope_note": "The robot-domain evaluation checks semantic, plan and trajectory safety using temporal-logic specifications in VirtualHome/ALFRED configurations. This is distinct from Sentinel VLA.",
+    "source_type": "Paper"
+  },
+  {
+    "id": "zhang2026despite",
+    "short_name": "DESPITE",
+    "title": "Using large language models for embodied planning introduces systematic safety risks",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2604.18463",
+    "categories": [
+      "Infrastructure / Evaluation"
+    ],
+    "scope_note": "Robot-domain embodied plans are evaluated with executable constraint checks; the benchmark does not establish real-robot deployment.",
+    "project_url": "https://despite-safety.github.io/",
+    "code_url": "https://github.com/taozhang1004/DESPITE",
+    "source_type": "Paper"
   }
 ]
