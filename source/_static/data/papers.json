@@ -11835,5 +11835,21 @@
       "Infrastructure / Diagnosis"
     ],
     "scope_note": "The documented humanoid monitoring configuration diagnoses skill outcomes; a complete autonomous recovery harness is not established by the reported monitoring results."
+  },
+  {
+    "id": "ren2026atlas",
+    "short_name": "ATLAS",
+    "title": "ATLAS: Agentic Harness for Whole-Body Intelligence from Human Video",
+    "year": 2026,
+    "url": "https://atlas-humanoid.github.io/blog/",
+    "project_url": "https://atlas-humanoid.github.io/",
+    "source_type": "Project report",
+    "publication_status": "Early release",
+    "categories": [
+      "O2 / A1 Model",
+      "Self-Evolver / Representation",
+      "Self-Evolver / Execution Workflows"
+    ],
+    "scope_note": "The task-specification agent receives demonstration frames and supplied reference-motion measurements and selects closed-vocabulary behaviors for a frozen whole-body tracker. Feedback-informed revisions to perception phrases and completion checks are retained after replay validation. The separate online residual learner does not itself establish agent-directed model optimization."
   }
 ]
