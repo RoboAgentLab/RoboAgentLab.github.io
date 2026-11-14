@@ -12313,5 +12313,24 @@
       "O1 / A1 Code"
     ],
     "scope_note": "The model uses camera images and arm state to select the next end-effector pose. Fixed inverse kinematics and a controller execute each target before the next observation."
+  },
+  {
+    "id": "ora2026",
+    "short_name": "ORA",
+    "title": "ORA: Open Robot-Use Agents",
+    "authors": [
+      "Yuanbo Yang",
+      "Siyi Chen",
+      "Jun Gao",
+      "Hao Zhang"
+    ],
+    "year": 2026,
+    "url": "https://haoailab.com/blogs/ora/",
+    "code_url": "https://github.com/hao-ai-lab/ORA",
+    "source_type": "Technical blog",
+    "categories": [
+      "O2 / A2"
+    ],
+    "scope_note": "The agent uses visual grounding and geometric tool outputs to select and parameterize motion calls during manipulation."
   }
 ]
