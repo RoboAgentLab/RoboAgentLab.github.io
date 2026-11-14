@@ -12246,5 +12246,45 @@
     "project_url": "https://openmoss.ai/FRoM-W1/",
     "code_url": "https://github.com/OpenMOSS/FRoM-W1",
     "source_type": "Paper"
+  },
+  {
+    "id": "huaweinoah2026hiphysrsi",
+    "short_name": "HiPhys-RSI",
+    "title": "Scaling by Structure: What Forms Can Scaling Take in Embodied AI?",
+    "authors": [
+      "Huawei Noah EAI Team"
+    ],
+    "year": 2026,
+    "url": "https://behavior1k-champion.com/assets/HiPhys-RSI_tech_report.pdf",
+    "project_url": "https://behavior1k-champion.com/",
+    "source_type": "Technical report",
+    "categories": [
+      "O2 / A3",
+      "Self-Evolver / Programs and Skills"
+    ],
+    "scope_note": "During development the coding agent uses perception and SLAM outputs to compose task programs. Rollout feedback guides revisions, and tested procedures are retained as callable tools for later runs. At inference a separate routing decision selects a pipeline or VLA for each task instance."
+  },
+  {
+    "id": "huang2026stageguard",
+    "short_name": "StageGuard",
+    "title": "StageGuard: Learning Stage Transitions for Long-Horizon Robot Tasks via Agentic Distillation",
+    "authors": [
+      "Jinbang Huang",
+      "Yuanzhao Hu",
+      "Zhiyuan Li",
+      "Ran Qi",
+      "Yixin Xiao",
+      "Yangzheng Wu",
+      "Tengyue Ba",
+      "Zhanguang Zhang",
+      "Yingxue Zhang"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.20791",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A2"
+    ],
+    "scope_note": "Given visual observations, the task plan and its own running history, the deployed VLM decides whether to continue, advance or skip the current subtask. This decision controls the handoff between policies."
   }
 ]
