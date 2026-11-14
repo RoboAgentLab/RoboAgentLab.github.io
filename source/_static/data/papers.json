@@ -12231,5 +12231,20 @@
     "project_url": "https://despite-safety.github.io/",
     "code_url": "https://github.com/taozhang1004/DESPITE",
     "source_type": "Paper"
+  },
+  {
+    "id": "li2026fromw1",
+    "short_name": "FRoM-W1",
+    "title": "FRoM-W1: Towards General Humanoid Whole-Body Control with Language Instructions",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2601.12799",
+    "categories": [
+      "Policy"
+    ],
+    "execution_authority": "A1",
+    "scope_note": "A1 Model. Given a language instruction, H-GPT generates a motion decomposition and a whole-body reference motion. After retargeting, a fixed learned H-ACT controller tracks that reference. The planner receives no environmental observation.",
+    "project_url": "https://openmoss.ai/FRoM-W1/",
+    "code_url": "https://github.com/OpenMOSS/FRoM-W1",
+    "source_type": "Paper"
   }
 ]
