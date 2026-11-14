@@ -1975,14 +1975,14 @@
     "url": "https://arxiv.org/abs/2603.13966",
     "source_type": "Paper",
     "categories": [
-      "Infrastructure / Evaluation",
-      "Infrastructure / Diagnosis"
+      "Infrastructure / Evaluation"
     ],
     "code_url": "https://github.com/allenai/vla-evaluation-harness",
     "short_name": "vla-eval",
     "aliases": [
       "VLAEval"
-    ]
+    ],
+    "scope_note": "The published leaderboard uses Claude Code to extract and normalize results for human review. The released run-evaluation skill also guides evaluation jobs. The paper does not attribute its reported adapter fault discoveries to the agent."
   },
   {
     "id": "codebotler2026",
@@ -2880,9 +2880,7 @@
     "year": 2026,
     "url": "https://arxiv.org/abs/2609.17210",
     "source_type": "Paper",
-    "categories": [
-      "O1 / A1 Code"
-    ],
+    "categories": [],
     "code_url": "https://github.com/FluxVLA/FluxVLA",
     "short_name": "FluxVLA",
     "authors": [
@@ -2911,7 +2909,9 @@
       "Chengqi Shi",
       "Wenda Wu",
       "Hua Chen"
-    ]
+    ],
+    "supporting_list": "policy",
+    "scope_note": "The GPT-controlled robot adapter is one configuration of the broader platform."
   },
   {
     "id": "grid30",
@@ -6471,10 +6471,10 @@
     "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Song_RoboSpatial_Teaching_Spatial_Understanding_to_2D_and_3D_Vision-Language_Models_CVPR_2025_paper.html",
     "code_url": "https://github.com/NVlabs/RoboSpatial",
     "source_type": "Paper",
-    "categories": [
-      "O1 / A1 Code"
-    ],
-    "project_url": "https://chanh.ee/RoboSpatial/"
+    "categories": [],
+    "project_url": "https://chanh.ee/RoboSpatial/",
+    "supporting_list": "policy",
+    "scope_note": "The placement experiment illustrates downstream use of the spatially trained model."
   },
   {
     "id": "song2026embodiedrsiactivecontinualrobot",
@@ -6753,10 +6753,10 @@
       "Infrastructure / Environment Generation",
       "Infrastructure / Dataset Construction",
       "Infrastructure / Training",
-      "Infrastructure / Evaluation",
-      "Infrastructure / Diagnosis"
+      "Infrastructure / Evaluation"
     ],
-    "short_name": "TacHarness"
+    "short_name": "TacHarness",
+    "scope_note": "The infrastructure entries cover agent-operated environment setup, data collection, training and evaluation. Rule-based rollout diagnosis and checkpoint selection are outside these assignments."
   },
   {
     "id": "tanaka2026taczero",
@@ -8672,11 +8672,10 @@
     "url": "https://arxiv.org/abs/2403.12910",
     "project_url": "https://yay-robot.github.io/",
     "code_url": "https://github.com/yay-robot/yay_robot",
-    "categories": [
-      "O1 / A1 Model"
-    ],
+    "categories": [],
     "source_type": "Paper",
-    "scope_note": "Only the evaluated GPT-4V visual high-level planner with a fixed language-conditioned policy; the main learned instructor and human correction training are not generalized to this assignment."
+    "scope_note": "The GPT-4V high-level planner is an experimental comparison with the learned instructor.",
+    "supporting_list": "policy"
   },
   {
     "id": "he2025omnih2o",
@@ -8686,11 +8685,10 @@
     "url": "https://proceedings.mlr.press/v270/he25b.html",
     "project_url": "https://omni.human2humanoid.com/",
     "code_url": "https://github.com/LeCAR-Lab/human2humanoid",
-    "categories": [
-      "O1 / A1 Model"
-    ],
+    "categories": [],
     "source_type": "Paper",
-    "scope_note": "Only the GPT-4o head-camera configuration that selects motion primitives for a fixed learned humanoid controller; teleoperation, RL and distillation alone are outside this agent-role assignment."
+    "scope_note": "In the head-camera demonstration GPT-4o selects motion primitives for a learned humanoid controller.",
+    "supporting_list": "policy"
   },
   {
     "id": "audit250508548",
@@ -8888,7 +8886,7 @@
   },
   {
     "id": "audit260604172",
-    "short_name": "Affordance2Action",
+    "short_name": "A2A-AffordGen",
     "title": "Affordance2Action: Task-Conditioned Scene-level Affordance Grounding for Real-Time Manipulation",
     "year": 2026,
     "url": "https://arxiv.org/abs/2606.04172",
@@ -8898,11 +8896,14 @@
       "Infrastructure / Dataset Construction"
     ],
     "source_type": "Paper",
-    "scope_note": "Only A2A-AffordGen: a VLM proposes corrective mask clicks for a frozen segmenter with iterative correction and human final acceptance. The main latent VLA is outside this assignment."
+    "scope_note": "Only A2A-AffordGen: a VLM proposes corrective mask clicks for a frozen segmenter with iterative correction and human final acceptance. The main latent VLA is outside this assignment.",
+    "aliases": [
+      "Affordance2Action"
+    ]
   },
   {
     "id": "audit260425788",
-    "short_name": "KinDER",
+    "short_name": "KinDER LM planners",
     "title": "KinDER: A Physical Reasoning Benchmark for Robot Learning and Planning",
     "year": 2026,
     "url": "https://arxiv.org/abs/2604.25788",
@@ -8912,7 +8913,10 @@
       "O3 / A2"
     ],
     "source_type": "Paper",
-    "scope_note": "Only LLMPlan, VLMPlan, LLMCon and VLMCon baselines selecting existing skills with object-centric simulator state; additional RGB does not remove privileged-state access."
+    "scope_note": "Only LLMPlan, VLMPlan, LLMCon and VLMCon baselines selecting existing skills with object-centric simulator state; additional RGB does not remove privileged-state access.",
+    "aliases": [
+      "KinDER"
+    ]
   },
   {
     "id": "audit251102239",
@@ -9328,11 +9332,10 @@
     "year": 2025,
     "url": "https://arxiv.org/abs/2501.04595",
     "source_type": "Paper",
-    "categories": [
-      "Infrastructure / Dataset Construction"
-    ],
-    "scope_note": "Appendix A.1 uses GPT-4 to choose object-specific human activities/postures that condition motion synthesis for robot handover demonstration construction. Fixed downstream motion optimization is not Self-Evolver. The project code link points to the earlier GenH2R implementation, not a verified MobileH2R release.",
-    "project_url": "https://mobileh2r.github.io/"
+    "categories": [],
+    "scope_note": "GPT-4 selects activities and postures for synthesizing human motion in the handover dataset (Appendix A.1).",
+    "project_url": "https://mobileh2r.github.io/",
+    "supporting_list": "infrastructure"
   },
   {
     "id": "audit260221670",
@@ -9394,11 +9397,10 @@
     "year": 2026,
     "url": "https://arxiv.org/abs/2602.22474",
     "source_type": "Paper",
-    "categories": [
-      "O2 / A1 Model"
-    ],
-    "scope_note": "The paper's distinct FOREWARN baseline selects among narrated candidate behavior outcomes using an explicit model choice, followed by a fixed learned executor (O2/A1 Model). The main calibrated UPS rule and prescribed residual training do not independently establish agent-directed adaptation. The repository has substantive policy/world-model implementation; release of the exact baseline is not verified.",
-    "code_url": "https://github.com/CMU-IntentLab/uncertainty_aware_policy_steering"
+    "categories": [],
+    "scope_note": "FOREWARN directly selects among candidate behaviors as a comparison. In UPS, calibrated scores trigger clarification and the VLM formulates the question and updates the instruction.",
+    "code_url": "https://github.com/CMU-IntentLab/uncertainty_aware_policy_steering",
+    "supporting_list": "policy"
   },
   {
     "id": "petkov2026ladder",
@@ -9501,7 +9503,7 @@
   },
   {
     "id": "luo2026handson",
-    "short_name": "HandsOn",
+    "short_name": "HandsOn GPT-6",
     "title": "HandsOn: A Large-Scale Simulation Benchmark for Generalizable Dexterous Manipulation",
     "year": 2026,
     "url": "https://arxiv.org/abs/2610.26765",
@@ -9511,7 +9513,10 @@
     ],
     "code_url": "https://github.com/TsinghuaC3I/HandsOn",
     "project_url": "https://llltttwww.github.io/HandsOn-website/",
-    "scope_note": "The reported GPT-6 move_eef baseline consumes three RGB views and measured robot proprioception, then specifies palm poses and finger-joint targets for a fixed kinematic executor (O1/A1 Code). Hidden object states and task-checker signals are withheld. This classification concerns the documented agent baseline; fixed benchmark scoring is not an Infrastructure agent. Simulation pauses during model deliberation. Official benchmark, action-adapter and evaluation code is public; the exact GPT baseline runner has not been independently verified. Integration and reproduction unassessed."
+    "scope_note": "The reported GPT-6 move_eef baseline consumes three RGB views and measured robot proprioception, then specifies palm poses and finger-joint targets for a fixed kinematic executor (O1/A1 Code). Hidden object states and task-checker signals are withheld. This classification concerns the documented agent baseline; fixed benchmark scoring is not an Infrastructure agent. Simulation pauses during model deliberation. Official benchmark, action-adapter and evaluation code is public; the exact GPT baseline runner has not been independently verified. Integration and reproduction unassessed.",
+    "aliases": [
+      "HandsOn"
+    ]
   },
   {
     "id": "yu2026physladder",
@@ -9833,13 +9838,11 @@
     "year": 2026,
     "url": "https://arxiv.org/abs/2610.36250",
     "source_type": "Paper",
-    "categories": [
-      "O2 / A3",
-      "O3 / A3"
-    ],
+    "categories": [],
     "project_url": "https://cuarms.github.io/",
     "code_status": "not_verified",
-    "scope_note": "Include only the coding-agent configurations documented in Appendix D/E, not the standalone planner. Agents synthesize and refine skills, schedule skeletons and cost programs. Appendix D supplies geometric scene models (O3/A3); Appendix E provides a SAM 3 endpoint and known robot/camera/shape geometry for perception and scheduling (O2/A3), followed by human inspection before physical execution. Fresh per-problem sandboxes do not establish cross-task retained self-evolution. Cite the public arXiv author record; agent evidence is in the project-page supplement, Appendix D/E. No public implementation verified."
+    "scope_note": "Supplementary Appendices D and E demonstrate coding agents generating multi-arm programs with the motion planner.",
+    "supporting_list": "policy"
   },
   {
     "id": "fan2026captain",
@@ -10541,9 +10544,7 @@
     "year": 2023,
     "url": "https://arxiv.org/abs/2311.01977",
     "source_type": "Paper",
-    "categories": [
-      "O2 / A3"
-    ],
+    "categories": [],
     "scope_note": "In the CaP experiment the prompt includes text descriptions of objects detected by a VLM. The LLM writes executable code that computes 3D poses for the trajectory sketch.",
     "authors": [
       "Jiayuan Gu",
@@ -10563,7 +10564,8 @@
       "Chelsea Finn",
       "Quan Vuong",
       "Ted Xiao"
-    ]
+    ],
+    "supporting_list": "policy"
   },
   {
     "id": "chen2023robogpt",
@@ -11326,8 +11328,9 @@
     "url": "https://openreview.net/forum?id=uMkXmX3mAy",
     "source_type": "Paper",
     "categories": [
-      "Infrastructure / Evaluation"
-    ]
+      "Self-Evolver / Programs and Skills"
+    ],
+    "scope_note": "A coding agent revises a controller from rollout feedback. A candidate replaces the incumbent only when its verifier score improves, and retained code conditions later iterations. The benchmark independently checks the verifier on matched tasks."
   },
   {
     "id": "halim2026embodiedxai",
@@ -11336,9 +11339,9 @@
     "year": 2026,
     "url": "https://openreview.net/forum?id=9HKnVoy6O0",
     "source_type": "Paper",
-    "categories": [
-      "O1 / A1 Model"
-    ]
+    "categories": [],
+    "supporting_list": "policy",
+    "scope_note": "Qwen directs a PPO executor in the configuration used to study visual attribution."
   },
   {
     "id": "lin2026acdc",
@@ -11464,9 +11467,11 @@
     "url": "https://corl2026-memory.github.io/papers/046.pdf",
     "source_type": "Paper",
     "categories": [
-      "Infrastructure / Evaluation"
+      "O3 / A1 Code",
+      "Self-Evolver / Knowledge and Memory"
     ],
-    "code_url": "https://github.com/nesl/memory-for-home-robots"
+    "code_url": "https://github.com/nesl/memory-for-home-robots",
+    "scope_note": "The room selector chooses a room for a fixed inspection routine. Each visit exposes exact identities and locations of all objects in that room from the simulated household; unvisited rooms and the resident’s illness are hidden. The ACE-style configuration separately reviews search feedback and checks proposed note merges before later searches reuse them."
   },
   {
     "id": "liu2026elevate",
@@ -11545,9 +11550,9 @@
     "year": 2026,
     "url": "https://icra2026-rigorous-perception.github.io/pdf/jung2026b.pdf",
     "source_type": "Paper",
-    "categories": [
-      "Infrastructure / Evaluation"
-    ]
+    "categories": [],
+    "supporting_list": "infrastructure",
+    "scope_note": "Models produce spatially grounded action plans that are compared with annotated references. The benchmark supplies evidence about planning outputs."
   },
   {
     "id": "zhang2026eflux",
@@ -11589,11 +11594,10 @@
     "year": 2026,
     "url": "https://arxiv.org/abs/2610.24981",
     "source_type": "Paper",
-    "categories": [
-      "O2 / A3"
-    ],
+    "categories": [],
     "code_url": "https://github.com/HeegerGao/DreamCan",
-    "scope_note": "Language-guided configuration in Section V-D: VLM-generated task-progress functions over supplied detections. Released planner/progress code is verified; the VLM function-generation pipeline is not verified."
+    "scope_note": "In the language-guided experiment (§V-D), a VLM writes the task-progress function used by the visual planner.",
+    "supporting_list": "policy"
   },
   {
     "id": "shen2026openarmhandoffs",
@@ -11909,9 +11913,9 @@
     "year": 2026,
     "url": "https://arxiv.org/abs/2610.16238",
     "categories": [
-      "Infrastructure / Evaluation"
+      "O2 / A2"
     ],
-    "scope_note": "The benchmark evaluates embodied agents using native capabilities, supplied skills and adaptation of skills in physical-task environments.",
+    "scope_note": "In the selected-resource configuration the agent can use supplied perception services and chooses between bounded skill invocations and native robot controls. The evaluator records outcomes after execution.",
     "code_url": "https://github.com/HanZhi306/EmbodiedSkill-Bench",
     "source_type": "Paper"
   },
@@ -12104,9 +12108,9 @@
     "year": 2026,
     "url": "https://arxiv.org/abs/2610.09294",
     "categories": [
-      "Infrastructure / Evaluation"
+      "O2 / A1 Code"
     ],
-    "scope_note": "The live-clock simulated city benchmark evaluates embodied delivery agents choosing among 16 actions, using supplied movement candidates and safety-sensitive execution outcomes.",
+    "scope_note": "The policy receives RGB frames with supplied numbered movement targets and navigation context and selects one of 16 move, turn or wait requests for a fixed executor. Privileged route geometry and pedestrian velocities are reserved for the expert.",
     "project_url": "https://xtrose29.github.io/RT-SAFE/",
     "code_url": "https://github.com/XTRose29/RT-SAFE",
     "source_type": "Paper"

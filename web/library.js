@@ -29,7 +29,8 @@ function render() {
     title.append(link);
     const tags = document.createElement("div");
     tags.className = "paper-tags";
-    tags.textContent = [...paper.categories, ...(paper.execution_authority ? [paper.execution_authority] : [])].join(" · ");
+    tags.textContent = paper.supporting_list ? "Supporting reference"
+      : [...paper.categories, ...(paper.execution_authority ? [paper.execution_authority] : [])].join(" · ");
     const links = document.createElement("div");
     links.className = "paper-links";
     if (paper.project_url && safeURL(paper.project_url)) {
@@ -83,7 +84,7 @@ function render() {
 function filter() {
   limit = 40;
   const query = search.value.toLowerCase().trim();
-  matched = papers.filter(p => (role.value === "all" || p.categories.some(c=>roleOf(c)===role.value))
+  matched = papers.filter(p => (role.value === "all" || (role.value === "supporting" && p.supporting_list) || p.categories.some(c=>roleOf(c)===role.value))
     && (!category.value || p.categories.includes(category.value))
     && (!code.checked || p.code_url)
     && (!query || `${p.id} ${p.short_name || ""} ${p.title} ${(p.aliases || []).join(" ")} ${p.url} ${p.project_url || ""} ${p.code_url || ""} ${p.categories.join(" ")}`.toLowerCase().includes(query)));
@@ -100,7 +101,7 @@ fetch("data/papers.json").then(r => { if (!r.ok) throw new Error(); return r.jso
   papers = data.sort((a,b)=>b.year-a.year||a.title.localeCompare(b.title));
   const params = new URLSearchParams(location.search);
   const requested = params.get("role");
-  if (["policy","infrastructure","evolver"].includes(requested)) role.value = requested;
+  if (["policy","infrastructure","evolver","supporting"].includes(requested)) role.value = requested;
   const requestedCategory = params.get("category");
   if (requestedCategory && papers.some(p=>p.categories.includes(requestedCategory))) {
     role.value = roleOf(requestedCategory);
