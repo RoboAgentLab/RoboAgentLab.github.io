@@ -12286,5 +12286,32 @@
       "O1 / A2"
     ],
     "scope_note": "Given visual observations, the task plan and its own running history, the deployed VLM decides whether to continue, advance or skip the current subtask. This decision controls the handoff between policies."
+  },
+  {
+    "id": "pear2026",
+    "short_name": "PEAR",
+    "title": "Training Reasoning Models in Simulation to Natively Use Real Robots",
+    "authors": [
+      "Jiaming Tang",
+      "Zhuoyang Zhang",
+      "Junxian Guo",
+      "Fangzhou Zhao",
+      "Yilong Zhao",
+      "Zekai Li",
+      "Xingyang Li",
+      "Yuyang Zhao",
+      "Song Bian",
+      "Zhijian Liu",
+      "Song Han"
+    ],
+    "year": 2026,
+    "url": "https://mit-han-lab.github.io/pear-blog/paper.pdf",
+    "project_url": "https://mit-han-lab.github.io/pear-blog/",
+    "code_url": "https://github.com/mit-han-lab/pear",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "scope_note": "The model uses camera images and arm state to select the next end-effector pose. Fixed inverse kinematics and a controller execute each target before the next observation."
   }
 ]
