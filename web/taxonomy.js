@@ -40,7 +40,9 @@ function renderTaxonomyPapers() {
     const title = document.createElement('h3');
     const link = document.createElement('a');
     link.href = taxonomySafeURL(paper.url) || 'library.html';
-    link.textContent = paper.short_name ? `${paper.short_name}: ${paper.title}` : paper.title;
+    const shortName = paper.category_short_names?.[taxonomyTrigger.dataset.category] || paper.short_name;
+    link.textContent = shortName && !paper.title.toLowerCase().startsWith(shortName.toLowerCase() + ':') && paper.title !== shortName
+      ? `${shortName}: ${paper.title}` : paper.title;
     title.append(link);
     article.append(meta,title);
     if (taxonomySafeURL(paper.project_url)) {

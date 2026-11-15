@@ -66,11 +66,11 @@
     "url": "https://arxiv.org/abs/2410.00371",
     "source_type": "Paper",
     "categories": [
-      "Infrastructure / Training",
-      "Self-Evolver / Rewards"
+      "Infrastructure / Diagnosis"
     ],
     "code_url": "https://github.com/NVlabs/AHA",
-    "short_name": "AHA"
+    "short_name": "AHA",
+    "scope_note": "AHA explains robot manipulation failures. Downstream systems can use these explanations to revise rewards or plans."
   },
   {
     "id": "ahn2025nesyro",
@@ -329,13 +329,16 @@
   },
   {
     "id": "audit231012020",
-    "short_name": "LoHoRavens",
+    "short_name": "LoHoRavens Caption",
     "title": "LoHoRavens: A Long-Horizon Language-Conditioned Benchmark for Robotic Tabletop Manipulation",
     "year": 2023,
     "url": "https://arxiv.org/abs/2310.12020",
     "source_type": "Paper",
     "categories": [
       "O2 / A1 Model"
+    ],
+    "aliases": [
+      "LoHoRavens"
     ]
   },
   {
@@ -1583,8 +1586,12 @@
     "categories": [
       "O1 / A1 Code",
       "O1 / A1 Model",
+      "O1 / A3",
       "Infrastructure / Training"
-    ]
+    ],
+    "category_short_names": {
+      "O1 / A3": "Embody Code"
+    }
   },
   {
     "id": "bincequ2026roboharness",
@@ -2034,11 +2041,13 @@
     "url": "https://arxiv.org/html/2605.02600",
     "source_type": "Paper",
     "categories": [
-      "O2 / A3"
+      "O2 / A3",
+      "Self-Evolver / Knowledge and Memory"
     ],
     "project_url": "https://sites.google.com/view/lira-coral",
     "publication_status": "Accepted to RSS 2026",
-    "venue": "RSS 2026"
+    "venue": "RSS 2026",
+    "scope_note": "The planner writes contact-aware costs. Successful contact strategies and physical parameters are stored and retrieved on later runs."
   },
   {
     "id": "core2026",
@@ -2725,7 +2734,10 @@
     "categories": [
       "Infrastructure / Training"
     ],
-    "short_name": "GigaWorld-Policy 0.5"
+    "short_name": "GigaWorld AutoResearch",
+    "aliases": [
+      "GigaWorld-Policy 0.5"
+    ]
   },
   {
     "id": "gong2026abotn1",
@@ -3448,7 +3460,10 @@
       "O2 / A1 Code"
     ],
     "code_url": "https://github.com/concept-graphs/concept-graphs",
-    "short_name": "ConceptGraphs"
+    "short_name": "ConceptGraphs Planner",
+    "aliases": [
+      "ConceptGraphs"
+    ]
   },
   {
     "id": "gu2026harnesswam",
@@ -3623,10 +3638,10 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Training",
-      "Infrastructure / Diagnosis",
-      "Self-Evolver / Model"
+      "Infrastructure / Diagnosis"
     ],
-    "short_name": "ReCoVLA"
+    "short_name": "ReCoVLA",
+    "scope_note": "A VLM identifies failures and produces a structured description. A reward compiler and a prescribed residual reinforcement learning procedure use that description to train recovery policies."
   },
   {
     "id": "hua2024gensim2",
@@ -4460,7 +4475,10 @@
     "categories": [
       "O1 / A1 Code"
     ],
-    "short_name": "Robota-Embed"
+    "short_name": "Embed2Evolve",
+    "aliases": [
+      "Robota-Embed"
+    ]
   },
   {
     "id": "liu2026scene2demo",
@@ -4755,24 +4773,6 @@
     "project_url": "https://robo-rsi.com/blog/2-roborsi/"
   },
   {
-    "id": "nvlabs2026aspirecode",
-    "title": "ASPIRE: Public Robot Skill Discovery Implementation",
-    "year": 2026,
-    "url": "https://github.com/NVlabs/ASPIRE/tree/fa00f0ef2bc1d91d594b9aa502c22133c9f538f7",
-    "source_type": "Repository",
-    "categories": [
-      "O2 / A1 Code",
-      "O2 / A3",
-      "Self-Evolver / Programs and Skills",
-      "Self-Evolver / Knowledge and Memory"
-    ],
-    "code_url": "https://github.com/NVlabs/ASPIRE",
-    "short_name": "ASPIRE-CaP",
-    "aliases": [
-      "ASPIRE"
-    ]
-  },
-  {
     "id": "oikawa2026wetrobo",
     "title": "WetRobo: A Reproducible Robot Kit for Coding Agents in Biological Laboratories",
     "year": 2026,
@@ -4908,22 +4908,12 @@
     "categories": [
       "Self-Evolver / Knowledge and Memory"
     ],
-    "code_url": "https://github.com/PhyAgentOS/PhyAgentOS-core",
-    "short_name": "PhyAgentOS"
-  },
-  {
-    "id": "phyagentos2026core",
-    "title": "PhyAgentOS-core: Public Runtime and Robot Configuration Documentation",
-    "year": 2026,
-    "url": "https://github.com/PhyAgentOS/PhyAgentOS-core/tree/74546aba45733cf102211e2f13dbf2c80ff6df8b",
-    "source_type": "Repository",
-    "categories": [
-      "Self-Evolver / Knowledge and Memory"
-    ],
-    "code_url": "https://github.com/PhyAgentOS/PhyAgentOS-core",
-    "short_name": "PhyAgentOS Core",
+    "code_url": "https://github.com/PhyAgentOS/PhyAgentOS-core/tree/74546aba45733cf102211e2f13dbf2c80ff6df8b",
+    "short_name": "PhyAgentOS",
     "aliases": [
-      "PhyAgentOS-core"
+      "PhyAgentOS Core",
+      "PhyAgentOS-core",
+      "phyagentos2026core"
     ]
   },
   {
@@ -5805,9 +5795,10 @@
     "categories": [
       "O2 / A3",
       "Self-Evolver / Programs and Skills",
-      "Self-Evolver / Knowledge and Memory"
+      "Self-Evolver / Knowledge and Memory",
+      "O2 / A1 Code"
     ],
-    "code_url": "https://github.com/NVlabs/ASPIRE",
+    "code_url": "https://github.com/NVlabs/ASPIRE/tree/fa00f0ef2bc1d91d594b9aa502c22133c9f538f7",
     "short_name": "ASPIRE",
     "authors": [
       "Runyu Lu",
@@ -5826,7 +5817,15 @@
       "Yuke Zhu",
       "Linxi \"Jim\" Fan",
       "Guanzhi Wang"
-    ]
+    ],
+    "category_short_names": {
+      "O2 / A1 Code": "ASPIRE-CaP"
+    },
+    "aliases": [
+      "ASPIRE-CaP",
+      "nvlabs2026aspirecode"
+    ],
+    "scope_note": "ASPIRE-CaP identifies the released O2/A1 Code configuration. The paper describes code synthesis and the retention of programs, skills and memory."
   },
   {
     "id": "selfrefinedreward2023",
@@ -6075,7 +6074,7 @@
     "url": "https://arxiv.org/html/2602.21198",
     "source_type": "Paper",
     "categories": [
-      "Infrastructure / Environment Generation"
+      "O1 / A2"
     ],
     "project_url": "https://reflective-test-time-planning.github.io",
     "authors": [
@@ -6086,7 +6085,8 @@
       "Leonidas Guibas",
       "Jiajun Wu",
       "Yejin Choi"
-    ]
+    ],
+    "scope_note": "In the Franka cupboard experiment, an overhead camera supplies RGB observations. The planner selects pick and place commands and receives execution feedback."
   },
   {
     "id": "si260302623",
@@ -6225,7 +6225,7 @@
   },
   {
     "id": "si260621406",
-    "short_name": "DGAC",
+    "short_name": "DGAC Task Proposals",
     "title": "Robot Self-Improvement via Human-Video Dynamics Models",
     "year": 2026,
     "url": "https://arxiv.org/abs/2606.21406",
@@ -6233,7 +6233,11 @@
     "source_type": "Paper",
     "categories": [
       "Infrastructure / Dataset Construction"
-    ]
+    ],
+    "aliases": [
+      "DGAC"
+    ],
+    "scope_note": "A vision-language model proposes atomic interaction tasks for the initial data collection. Using a VLM to select a corrective action is a separate ablation."
   },
   {
     "id": "si260629871",
@@ -6423,9 +6427,10 @@
     "url": "https://arxiv.org/abs/2610.02788",
     "source_type": "Paper",
     "categories": [
-      "Self-Evolver / Knowledge and Memory"
+      "Self-Evolver / Programs and Skills"
     ],
-    "short_name": "Skill2Real"
+    "short_name": "Skill2Real",
+    "scope_note": "The agent validates executable skills, retains them in a two-level library, and composes the frozen skills in later runs."
   },
   {
     "id": "skillclaw2026",
@@ -7404,12 +7409,11 @@
     "year": 2026,
     "url": "https://arxiv.org/abs/2608.09892",
     "source_type": "Paper",
-    "categories": [
-      "Infrastructure / Evaluation",
-      "Infrastructure / Diagnosis"
-    ],
+    "categories": [],
     "code_url": "https://github.com/XPolicyLab/XPolicyLab",
-    "short_name": "XPolicyLab"
+    "short_name": "XPolicyLab",
+    "supporting_list": "infrastructure",
+    "scope_note": "XPolicyLab studies policy integration. A coding agent builds and audits adapters against an interface contract."
   },
   {
     "id": "xref230516986",
@@ -7613,7 +7617,10 @@
       "O2 / A1 Code"
     ],
     "code_url": "https://github.com/NVIDIA-AI-IOT/remembr",
-    "short_name": "ReMEmbR"
+    "short_name": "ReMEmbR Nav",
+    "aliases": [
+      "ReMEmbR"
+    ]
   },
   {
     "id": "xref240915146",
@@ -8052,9 +8059,7 @@
     "url": "https://arxiv.org/abs/2310.06114",
     "code_url": "",
     "source_type": "Paper",
-    "categories": [
-      "O1 / A1 Model"
-    ],
+    "categories": [],
     "authors": [
       "Sherry Yang",
       "Yilun Du",
@@ -8063,7 +8068,9 @@
       "Leslie Kaelbling",
       "Dale Schuurmans",
       "Pieter Abbeel"
-    ]
+    ],
+    "supporting_list": "policy",
+    "scope_note": "UniSim learns an action-conditioned video simulator. Training a high-level robot policy and transferring it to hardware is one downstream application."
   },
   {
     "id": "yang2026astranomy",
@@ -8243,7 +8250,7 @@
   },
   {
     "id": "yuan2025robopoint",
-    "short_name": "RoboPoint",
+    "short_name": "RoboPoint Goals",
     "title": "RoboPoint: A Vision-Language Model for Spatial Affordance Prediction in Robotics",
     "year": 2025,
     "url": "https://proceedings.mlr.press/v270/yuan25c.html",
@@ -8252,7 +8259,10 @@
     "categories": [
       "O1 / A1 Code"
     ],
-    "project_url": "https://robo-point.github.io/"
+    "project_url": "https://robo-point.github.io/",
+    "aliases": [
+      "RoboPoint"
+    ]
   },
   {
     "id": "zeng2024selfalignment",
@@ -9090,13 +9100,12 @@
     "year": 2026,
     "url": "https://arxiv.org/abs/2607.04610",
     "code_url": "https://github.com/ehehee/robovista",
-    "categories": [
-      "O1 / A1 Code"
-    ],
+    "categories": [],
     "source_type": "Paper",
-    "scope_note": "O1/A1 Code applies to the physical bimanual alignment experiment: main and wrist images guide directional motion commands with metric distances. The released repository implements VQA evaluation; the physical alignment executor is not verified as released. Static VQA scoring is not classified as an agent infrastructure decision.",
+    "scope_note": "RoboVista evaluates visual question answering for robotics. Its bimanual alignment experiment tests how benchmark performance relates to physical execution. The released code covers the question-answering evaluation.",
     "publication_status": "Accepted to RSS 2026",
-    "venue": "RSS 2026"
+    "venue": "RSS 2026",
+    "supporting_list": "policy"
   },
   {
     "id": "ma2026atpvpdsg",
@@ -9593,7 +9602,7 @@
   },
   {
     "id": "guo2026agenticreal2sim",
-    "short_name": "Agentic System-ID",
+    "short_name": "Real2Sim System-ID",
     "title": "Agentic real-to-sim reconstruction from robot demonstrations",
     "year": 2026,
     "url": "https://x.com/Lingxiao234/status/2096992059731443923",
@@ -9601,11 +9610,14 @@
     "categories": [
       "Infrastructure / Environment Generation"
     ],
-    "scope_note": "Author documents agent-proposed physical parameters, model edits, simulation and comparison against demonstration video. Includes camera calibration and scene construction. The microphone example is explicitly kinematic replay with failed dynamics, not a validated physical world. No released implementation verified."
+    "scope_note": "Author documents agent-proposed physical parameters, model edits, simulation and comparison against demonstration video. Includes camera calibration and scene construction. The microphone example is explicitly kinematic replay with failed dynamics, not a validated physical world. No released implementation verified.",
+    "aliases": [
+      "Agentic System-ID"
+    ]
   },
   {
     "id": "guo2026physicalretarget",
-    "short_name": "Physical Retargeting",
+    "short_name": "Wuji Video Retargeting",
     "title": "Agentic physical retargeting of human videos to Wuji hands",
     "year": 2026,
     "url": "https://x.com/Lingxiao234/status/2097717020540481630",
@@ -9613,7 +9625,10 @@
     "categories": [
       "Infrastructure / Dataset Construction"
     ],
-    "scope_note": "Author describes agent-selected contact points and search against physical tests to generate robot replay data. One correction uses supplied MapAnything/MANO outputs; no blanket observation-axis classification. Simulation-only demonstration, no hardware transfer or released implementation verified."
+    "scope_note": "Author describes agent-selected contact points and search against physical tests to generate robot replay data. One correction uses supplied MapAnything/MANO outputs; no blanket observation-axis classification. Simulation-only demonstration, no hardware transfer or released implementation verified.",
+    "aliases": [
+      "Physical Retargeting"
+    ]
   },
   {
     "id": "hu2026dexgpt",
@@ -9623,8 +9638,7 @@
     "url": "https://github.com/Hu-xiao-max/dexgpt",
     "source_type": "Software / demo",
     "categories": [
-      "O1 / A3",
-      "Infrastructure / Dataset Construction"
+      "O1 / A3"
     ],
     "scope_note": "Development-time coding configuration: author reports a coding agent building hand tracking, retargeting and grasp-refinement code from video; released final code produces robot controls and physical replay. Perception built by the agent remains O1. Runtime is a fixed pipeline, not a live LLM policy. Released replay fails its penetration acceptance threshold and is not validated for hardware.",
     "code_url": "https://github.com/Hu-xiao-max/dexgpt"
@@ -9650,10 +9664,9 @@
     "url": "https://x.com/walterzhu8/status/2100212420840989112",
     "source_type": "Demonstration report",
     "categories": [
-      "Infrastructure / Environment Generation",
-      "Infrastructure / Training"
+      "Infrastructure / Environment Generation"
     ],
-    "scope_note": "Author report credits Chengyang Li and documents an autonomous coding-agent run creating the pen mesh, robot task and PPO training experiment. Membership concerns development-time agent decisions, not the trained PPO inference. No public implementation or reproducible training trace verified."
+    "scope_note": "The author reports that a coding agent built the pen asset and the simulated task for a Sharpa hand. The development prompt specified RL training in Isaac Lab."
   },
   {
     "id": "memmel2026sphere",
@@ -9944,7 +9957,7 @@
   },
   {
     "id": "cheng2024trace",
-    "short_name": "Trace",
+    "short_name": "OptoPrime",
     "title": "Trace is the Next AutoDiff: Generative Optimization with Rich Feedback, Execution Traces, and LLMs",
     "year": 2024,
     "url": "https://arxiv.org/abs/2406.16218",
@@ -9953,7 +9966,10 @@
       "Self-Evolver / Programs and Skills"
     ],
     "code_url": "https://github.com/microsoft/Trace",
-    "scope_note": "In the MetaWorld manipulation experiment, OptoPrime uses feedback and execution traces to revise robot control programs."
+    "scope_note": "In the MetaWorld manipulation experiment, OptoPrime uses feedback and execution traces to revise robot control programs.",
+    "aliases": [
+      "Trace"
+    ]
   },
   {
     "id": "anthropic2026mhs",
@@ -9969,7 +9985,7 @@
   },
   {
     "id": "knowin2026knowinagent",
-    "short_name": "KnowinAgent",
+    "short_name": "GLOW Teacup",
     "title": "GLOW: A Generative Learning Framework for General-Purpose Embodied Intelligence",
     "year": 2026,
     "url": "https://www.knowinai.com/en/tech.html",
@@ -9977,7 +9993,10 @@
     "categories": [
       "O1 / A1 Model"
     ],
-    "scope_note": "Teacup sequence. External and wrist views ground the subtask chain for the learned GLOW action generator."
+    "scope_note": "Teacup sequence. External and wrist views ground the subtask chain for the learned GLOW action generator.",
+    "aliases": [
+      "KnowinAgent"
+    ]
   },
   {
     "id": "chen2026typego",
@@ -10514,7 +10533,7 @@
   },
   {
     "id": "yang2024diffusiones",
-    "short_name": "Diffusion-ES",
+    "short_name": "Diffusion-ES Rewards",
     "title": "Diffusion-ES: Gradient-free Planning with Diffusion for Autonomous Driving and Zero-Shot Instruction Following",
     "year": 2024,
     "url": "https://arxiv.org/abs/2402.06559",
@@ -10523,7 +10542,10 @@
       "O2 / A3"
     ],
     "scope_note": "The language model generates executable Python reward logic against the supplied road-scene API in the nuPlan instruction-following configuration.",
-    "code_url": "https://github.com/bhyang/diffusion-es"
+    "code_url": "https://github.com/bhyang/diffusion-es",
+    "aliases": [
+      "Diffusion-ES"
+    ]
   },
   {
     "id": "wu2024rapiddriving",
@@ -10996,7 +11018,7 @@
   },
   {
     "id": "memmel2026dna",
-    "short_name": "D&A",
+    "short_name": "D&A Feedback",
     "title": "D&A: Decoupling Description and Assessment Enables VLMs as Zero-Shot Robotic Reward Models",
     "year": 2026,
     "url": "https://arxiv.org/abs/2611.03622",
@@ -11006,7 +11028,10 @@
     ],
     "project_url": "https://weirdlabuw.github.io/dna/",
     "code_url": "https://github.com/memmelma/dna",
-    "scope_note": "Failure analysis and corrective language feedback guide subsequent robot Code-as-Policies attempts (Sections IV-C/IV-D and Appendix XIII). The separate fixed reward-estimation and RL pipelines do not establish agent-directed training or reward revision."
+    "scope_note": "Failure analysis and corrective language feedback guide subsequent robot Code-as-Policies attempts (Sections IV-C/IV-D and Appendix XIII). The separate fixed reward-estimation and RL pipelines do not establish agent-directed training or reward revision.",
+    "aliases": [
+      "D&A"
+    ]
   },
   {
     "id": "gong2026tinyastral",
@@ -11047,13 +11072,10 @@
     "year": 2026,
     "url": "https://arxiv.org/abs/2610.34051",
     "source_type": "Paper",
-    "categories": [
-      "O2 / A3",
-      "Self-Evolver / Programs and Skills"
-    ],
+    "categories": [],
     "project_url": "https://arielchen07.github.io/behavior-spatial/",
     "code_url": "https://github.com/arielchen07/BEHAVIOR-Spatial-benchmark",
-    "scope_note": "The CaP configuration develops Python robot programs using supplied pointing and VLM perception tools. Execution feedback drives program revision and validation before the selected program is frozen for held-out evaluation (Section 4.4 and Appendix F.5). Released code covers benchmark evaluation; release of the CaP writer is not established.",
+    "scope_note": "The benchmark studies spatial understanding and instruction following. Its Code as Policies baseline tests robot programs on held-out configurations. The repository contains the benchmark evaluation.",
     "authors": [
       "Sirui Chen",
       "Huang Huang",
@@ -11063,7 +11085,8 @@
       "Ruohan Zhang",
       "Fei-Fei Li",
       "Jiajun Wu"
-    ]
+    ],
+    "supporting_list": "policy"
   },
   {
     "id": "apex2026apex35b",
@@ -11072,12 +11095,10 @@
     "year": 2026,
     "url": "https://apexin.com/apex-35b/",
     "source_type": "Technical blog",
-    "categories": [
-      "O2 / A3",
-      "Infrastructure / Environment Generation"
-    ],
+    "categories": [],
     "project_url": "https://huggingface.co/Apexintelligence-AI/Apex-35B-V1.0",
-    "scope_note": "In RoboRSI, the text-based model uses a supplied Vision MCP service to inspect images, generates robot control code, and revises it after simulation feedback. Its Real2Sim configuration reconstructs physics-enabled robot environments from photographs. Model weights are public; the linked GitHub repository contains documentation and assets, not the robotics implementation."
+    "scope_note": "The Apex-35B report illustrates robot programming and reconstruction of simulation environments in two application demos.",
+    "supporting_list": "policy"
   },
   {
     "id": "gong2026roboticsweightediting",
@@ -11223,10 +11244,9 @@
     "url": "https://github.com/robotmcp/ros-mcp-server",
     "code_url": "https://github.com/robotmcp/ros-mcp-server",
     "source_type": "Software",
-    "categories": [
-      "Infrastructure / Diagnosis"
-    ],
-    "scope_note": "Official industrial end-effector demonstration: Claude discovers custom ROS interfaces, reads technician manuals, chooses gripper tests and diagnoses an anomaly. Include Infrastructure / Diagnosis only; do not extrapolate observation/action axes from other demos. Implementations inspected: ros_mcp/tools/topics.py and services.py at 476591ac058f58cae810cc775e50b51f8d3d757c."
+    "categories": [],
+    "scope_note": "The server exposes ROS interfaces to agents. An industrial gripper demonstration illustrates how an agent can use these interfaces to diagnose an anomaly.",
+    "supporting_list": "infrastructure"
   },
   {
     "id": "weng2026metactrl",
@@ -11453,11 +11473,10 @@
     "year": 2026,
     "url": "https://arxiv.org/abs/2602.16356",
     "source_type": "Paper",
-    "categories": [
-      "O2 / A1 Model"
-    ],
+    "categories": [],
     "code_url": "https://github.com/robot-learning-freiburg/MoMa-SG",
-    "scope_note": "Agent-driven mobile manipulation using the articulated scene graph; released scene-graph implementation, with downstream planner release coverage not verified."
+    "scope_note": "MoMa-SG builds articulated 3D scene graphs. Experiments on a quadruped and a mobile manipulator demonstrate how a planner can use the graph.",
+    "supporting_list": "policy"
   },
   {
     "id": "wang2026homememory",
@@ -11896,7 +11915,7 @@
   },
   {
     "id": "me2026vlm",
-    "short_name": "ME-VLM",
+    "short_name": "ME-VLM Skills",
     "title": "ME-VLM: A Unified VLM for Embodied Cognition and Agent Coordination",
     "year": 2026,
     "url": "https://arxiv.org/abs/2609.24526",
@@ -11904,7 +11923,10 @@
       "O1 / A2"
     ],
     "scope_note": "Sections 7.3.1–7.3.2 document robot skill invocation, error correction, compound-task decomposition and visual-event-triggered manipulation. Driving QA and digital-only tools are excluded.",
-    "source_type": "Paper"
+    "source_type": "Paper",
+    "aliases": [
+      "ME-VLM"
+    ]
   },
   {
     "id": "han2026embodiedskillbench",
@@ -12034,9 +12056,9 @@
     "url": "https://arxiv.org/abs/2504.00907",
     "categories": [
       "O1 / A1 Code",
-      "Infrastructure / Evaluation"
+      "Infrastructure / Training"
     ],
-    "scope_note": "The multimodal policy observes images/history/user responses and selects among 125 fixed oracle motor skills or asks for clarification. Ask-to-Act is the associated evaluation setting.",
+    "scope_note": "The policy selects a motor skill or asks for clarification. During training, an LLM scores its actions and questions to provide per-step reinforcement learning rewards.",
     "source_type": "Paper"
   },
   {
