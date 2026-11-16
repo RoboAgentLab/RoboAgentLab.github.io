@@ -12358,5 +12358,93 @@
       "O2 / A2"
     ],
     "scope_note": "The agent uses visual grounding and geometric tool outputs to select and parameterize motion calls during manipulation."
+  },
+  {
+    "id": "cai2026esi",
+    "short_name": "ESI",
+    "title": "ESI: A Self-Improving Flywheel for LLM–VLA Agents",
+    "authors": [
+      "Yundi Cai",
+      "Zihan Wang",
+      "Chenxi Han",
+      "Yi Cheng",
+      "Houde Liu",
+      "Zilei Wang"
+    ],
+    "year": 2026,
+    "url": "https://www.zerith.com/blog/esi/reports/ESI.pdf",
+    "project_url": "https://zerith.com/blog/esi/",
+    "source_type": "Technical report",
+    "categories": [
+      "O1 / A2",
+      "Self-Evolver / Model"
+    ],
+    "scope_note": "The teacher reviews proposed motions against images, robot state and the proposed kinematic trajectory, then accepts, corrects or takes over. Effective segments supervise the VLA deployed in later rounds. The reported three-round experiment fixes the prompt and skill catalog."
+  },
+  {
+    "id": "xu2026theharness",
+    "short_name": "The Harness",
+    "title": "The Harness: One Agent Harness for Anything that Acts",
+    "authors": [
+      "Sihan Xu",
+      "Zilin Wang",
+      "Hui Shen",
+      "Zhengjie Xu",
+      "Weiyang Jin",
+      "Yuwei Niu",
+      "Ye Li",
+      "Jiechen Zhang",
+      "Yinpei Dai",
+      "Yunhao Luo",
+      "Wenhao Chai",
+      "Xuweiyi Chen",
+      "Ziwei Liu",
+      "Stella X. Yu"
+    ],
+    "year": 2026,
+    "url": "https://web.eecs.umich.edu/~stellayu/publication/doc/2026harnessCoRLL.pdf",
+    "project_url": "https://harness.lmms-lab.com/",
+    "code_url": "https://github.com/EvolvingLMMs-Lab/the-harness",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3"
+    ],
+    "scope_note": "In RoboDojo, the coding agent uses supplied localization and motion skills, writes programs that call a VLA, and defines guards that respond during execution."
+  },
+  {
+    "id": "nvidia2026gr00t2",
+    "short_name": "Agentic GR00T 2",
+    "title": "GR00T 2: Scaling Robot Foundation Models for Generalization, Dexterity, and Adaptation",
+    "authors": [
+      "NVIDIA et al."
+    ],
+    "year": 2026,
+    "url": "https://research.nvidia.com/labs/gear/gr00t-2/assets/gr00t2_whitepaper.pdf",
+    "project_url": "https://research.nvidia.com/labs/gear/gr00t-2/",
+    "source_type": "Technical report",
+    "categories": [
+      "O2 / A2",
+      "Infrastructure / Training"
+    ],
+    "category_short_names": {
+      "O2 / A2": "GR00T 2 Assist",
+      "Infrastructure / Training": "GR00T 2 AutoRL"
+    },
+    "scope_note": "Assist monitors real-robot execution through observation and localization tools, invokes a recovery skill and hands control back to GR00T 2 (§3.4, App. G.1). AutoRL analyzes failures, edits RL algorithms and tests candidate training recipes in simulation (App. F.2)."
+  },
+  {
+    "id": "embodiedanalysis2026physical",
+    "short_name": "Embodied Analysis",
+    "title": "Physical Agent Evaluation",
+    "authors": [
+      "Embodied Analysis"
+    ],
+    "year": 2026,
+    "url": "https://embodiedanalysis.com/articles/action-model-eval-method",
+    "project_url": "https://embodiedanalysis.com/",
+    "source_type": "Evaluation report",
+    "categories": [],
+    "supporting_list": "infrastructure",
+    "scope_note": "Human judges compare paired execution videos by progress and efficiency. Published simulation results aggregate pairwise preferences into Elo scores."
   }
 ]
