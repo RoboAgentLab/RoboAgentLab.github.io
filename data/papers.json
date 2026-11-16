@@ -12507,5 +12507,82 @@
       "Infrastructure / Dataset Construction"
     ],
     "scope_note": "The retrieval agent selects clips from indexed human demonstrations. With verification and refinement enabled, a critic inspects proposed action segments and requests re-annotation when the visual evidence disagrees."
+  },
+  {
+    "id": "manifold2026r2si",
+    "short_name": "WorldScape-R²SI",
+    "title": "WorldScape R²SI",
+    "authors": [
+      "Manifold AI"
+    ],
+    "year": 2026,
+    "url": "https://r2si.worldscape.io/",
+    "code_url": "https://github.com/manifoldai-research/R2SI",
+    "source_type": "Project",
+    "categories": [
+      "O2 / A3",
+      "Self-Evolver / Programs and Skills"
+    ],
+    "scope_note": "The robot agent writes Python over supplied segmentation, geometry and motion tools. The outer agent validates skill revisions against the previous version and activates accepted changes for later episodes."
+  },
+  {
+    "id": "qoo2026q0preview",
+    "short_name": "Q0-Preview",
+    "title": "Q0-Preview",
+    "authors": [
+      "Qoo Tech"
+    ],
+    "year": 2026,
+    "url": "https://robodojo-benchmark.com/leaderboard/rollouts/Q0_Preview?bench=sim",
+    "code_url": "https://github.com/XPolicyLab/XPolicyLab/tree/main/policy/Q0_Preview",
+    "source_type": "Benchmark submission",
+    "categories": [
+      "O2 / A2"
+    ],
+    "scope_note": "In checkpoint-enabled runs, the model uses camera views and geometry helpers to select motion calls. A visual reviewer checks whether the next planned group may proceed. RoboDojo flags task-specific context and additional scoring information."
+  },
+  {
+    "id": "agibot2026go3nano",
+    "short_name": "GO-3 Nano Preview",
+    "title": "Recursive Self-Improvement for Robotic Manipulation in RoboDojo",
+    "authors": [
+      "AgiBot Research Team"
+    ],
+    "year": 2026,
+    "url": "https://github.com/StevenWang30/XPolicyLab/blob/e4178ee754413cd792d3a37e0411ea45c58761c3/policy/GO_3_Nano_preview/go3_agent_preview/docs/Appendix_Recursive_Self-Improvement_for_Robotic_Manipulation_in_RoboDojo.pdf",
+    "code_url": "https://github.com/StevenWang30/XPolicyLab/tree/e4178ee754413cd792d3a37e0411ea45c58761c3/policy/GO_3_Nano_preview/go3_agent_preview",
+    "source_type": "Technical report",
+    "categories": [
+      "Self-Evolver / Programs and Skills"
+    ],
+    "scope_note": "During development, a coding agent revises programs from execution records and compares parent and candidate versions under matched conditions. A human approves the version used in later runs. The benchmark submission executes frozen task-specific programs."
+  },
+  {
+    "id": "robodojo2026solve",
+    "short_name": "SOLVE",
+    "title": "SOLVE on RoboDojo-Sim",
+    "authors": [
+      "NVIDIA"
+    ],
+    "year": 2026,
+    "url": "https://robodojo-benchmark.com/leaderboard/rollouts/nvidia?bench=sim",
+    "source_type": "Benchmark submission",
+    "categories": [],
+    "supporting_list": "policy",
+    "scope_note": "The benchmark review documents task-specific guides and checker tolerances supplied to the agent."
+  },
+  {
+    "id": "robodojo2026joyaivl",
+    "short_name": "JoyAI-VL",
+    "title": "JoyAI-VL on RoboDojo-Sim",
+    "authors": [
+      "Joy Future Academy"
+    ],
+    "year": 2026,
+    "url": "https://robodojo-benchmark.com/leaderboard/rollouts/JoyAI-VL?bench=sim",
+    "source_type": "Benchmark submission",
+    "categories": [],
+    "supporting_list": "policy",
+    "scope_note": "The benchmark review documents tools that prescribe task-specific action order and arm assignments."
   }
 ]
