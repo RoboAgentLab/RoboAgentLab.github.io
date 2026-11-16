@@ -12446,5 +12446,66 @@
     "categories": [],
     "supporting_list": "infrastructure",
     "scope_note": "Human judges compare paired execution videos by progress and efficiency. Published simulation results aggregate pairwise preferences into Elo scores."
+  },
+  {
+    "id": "shi2026atomicwam",
+    "short_name": "Atomic-WAM",
+    "title": "Atomic-WAM: Execution-Grounded Atomic-Motion Reasoning for World Action Models",
+    "authors": [
+      "Shijun Shi",
+      "Zhe Liu",
+      "Zhi Hou",
+      "Yinan Chen",
+      "Tao Zhang",
+      "Kai Hu",
+      "Yong Liu",
+      "Jiangning Zhang"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.20157",
+    "project_url": "https://ssj9596.github.io/Atomic-WAM-project/",
+    "code_url": "https://github.com/ssj9596/Atomic-WAM",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model",
+      "Infrastructure / Dataset Construction"
+    ],
+    "scope_note": "The reasoner selects a motion description from recent images for the learned executor. During dataset construction, models merge multi-view action clips and check and revise their annotations."
+  },
+  {
+    "id": "wu2026gator",
+    "short_name": "GATOR",
+    "title": "GATOR: Generative and Agentic 3D Object Reconstruction From Casual Images",
+    "authors": [
+      "Qirui Wu",
+      "Stan Birchfield",
+      "Hesam Rabeti",
+      "Angel X. Chang",
+      "Bowen Wen"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.11215",
+    "project_url": "https://research.nvidia.com/labs/lpr/gator/",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation"
+    ],
+    "scope_note": "The reconstruction agent compares renders to the input photos and edits scene-aligned object meshes and materials in Blender for simulation."
+  },
+  {
+    "id": "nvidia2026v2dingestion",
+    "short_name": "V2D Ingestion Agent",
+    "title": "Video to Data: Video Ingestion Agent",
+    "authors": [
+      "NVIDIA"
+    ],
+    "year": 2026,
+    "url": "https://nvidia-isaac.github.io/video_to_data/",
+    "code_url": "https://github.com/nvidia-isaac/video_to_data",
+    "source_type": "Project",
+    "categories": [
+      "Infrastructure / Dataset Construction"
+    ],
+    "scope_note": "The retrieval agent selects clips from indexed human demonstrations. With verification and refinement enabled, a critic inspects proposed action segments and requests re-annotation when the visual evidence disagrees."
   }
 ]
