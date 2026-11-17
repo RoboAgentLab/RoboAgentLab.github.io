@@ -12584,5 +12584,53 @@
     "categories": [],
     "supporting_list": "policy",
     "scope_note": "The benchmark review documents tools that prescribe task-specific action order and arm assignments."
+  },
+  {
+    "id": "xie2026vabar",
+    "short_name": "VABAR",
+    "title": "VABAR: A Variational Automation Benchmark for Agentic Robotics",
+    "authors": [
+      "Shuangyu Xie",
+      "Kaiyuan Chen",
+      "Uksang Yoo",
+      "Xinyue Zhu",
+      "Meadow Shen",
+      "Jaimyn Drake",
+      "Eugen Solowjow",
+      "Lionel Gulich",
+      "Alexander Millane",
+      "Rafael Cathomen",
+      "Tuur Stuyck",
+      "Sangeeta Subramanian",
+      "Yichao Pan",
+      "Bruce McGowan",
+      "Michael Benedict",
+      "Linxi Fan",
+      "Yuke Zhu",
+      "Spencer Huang",
+      "Ken Goldberg"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2611.06881",
+    "project_url": "https://berkeleyautomation.github.io/vabar-website/",
+    "code_url": "https://github.com/BerkeleyAutomation/VABAR",
+    "source_type": "Benchmark paper",
+    "categories": [],
+    "supporting_list": "infrastructure",
+    "scope_note": "An evaluation benchmark for agent-generated robot programs across six manipulation task classes with controlled variations. Shared skills, human-authored reference graphs and physical execution records support comparison and failure analysis."
+  },
+  {
+    "id": "lightwheel2026robofinalsrl",
+    "short_name": "RoboFinals RL-Env",
+    "title": "Introducing RoboFinals RL-Env",
+    "authors": [
+      "Lightwheel"
+    ],
+    "year": 2026,
+    "url": "https://lightwheel.ai/robofinals-rl-env",
+    "source_type": "Technical blog",
+    "categories": [],
+    "supporting_list": "infrastructure",
+    "scope_note": "Lightwheel describes agents extracting task structure from human demonstrations and constructing, calibrating and assembling robot simulation environments, with expert review at each stage. The public description leaves the foundation-model configuration and agent implementation unspecified."
   }
 ]
