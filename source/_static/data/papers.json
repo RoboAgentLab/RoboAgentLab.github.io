@@ -6967,11 +6967,11 @@
     "year": 2024,
     "url": "https://arxiv.org/abs/2412.18194",
     "source_type": "Paper",
-    "categories": [
-      "O3 / A2"
-    ],
+    "categories": [],
     "project_url": "https://vlabench.github.io/",
-    "code_url": "https://github.com/OpenMOSS/VLABench"
+    "code_url": "https://github.com/OpenMOSS/VLABench",
+    "supporting_list": "policy",
+    "scope_note": "A benchmark for language-conditioned manipulation, including evaluations of VoxPoser, CoPA, and VLM-generated skill sequences. It provides tasks, datasets, and interactive and non-interactive evaluation protocols."
   },
   {
     "id": "voxposer2023",
