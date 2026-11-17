@@ -12632,5 +12632,29 @@
     "categories": [],
     "supporting_list": "infrastructure",
     "scope_note": "Lightwheel describes agents extracting task structure from human demonstrations and constructing, calibrating and assembling robot simulation environments, with expert review at each stage. The public description leaves the foundation-model configuration and agent implementation unspecified."
+  },
+  {
+    "id": "zhu2026leash",
+    "short_name": "LEASH",
+    "title": "LEASH: Stay Safe in Agentic Robotics",
+    "authors": [
+      "Qinfeng Zhu",
+      "Weiguang Zhao",
+      "Ke Sun",
+      "Xihao Guo",
+      "Yunxi Jiang",
+      "Rui Zhang",
+      "Lei Fan",
+      "Kaizhu Huang"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2611.14115",
+    "project_url": "https://zhuqinfeng1999.github.io/LEASH/",
+    "code_url": "https://github.com/zhuqinfeng1999/LEASH",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A2"
+    ],
+    "scope_note": "The physical-robot configuration combines camera-grounded task, action and commit gates with a planner that selects tools and arguments and replans after a denial. RoboRisk is the accompanying safety benchmark; final outcome labels are assigned by human reviewers."
   }
 ]
