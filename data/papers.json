@@ -12656,5 +12656,48 @@
       "O1 / A2"
     ],
     "scope_note": "The physical-robot configuration combines camera-grounded task, action and commit gates with a planner that selects tools and arguments and replans after a denial. RoboRisk is the accompanying safety benchmark; final outcome labels are assigned by human reviewers."
+  },
+  {
+    "id": "zhu2024earbench",
+    "short_name": "EARBench",
+    "title": "EARBench: Towards Evaluating Physical Risk Awareness for Task Planning of Foundation Model-based Embodied AI Agents",
+    "authors": [
+      "Zihao Zhu",
+      "Bingzhe Wu",
+      "Zhengyou Zhang",
+      "Lei Han",
+      "Qingshan Liu",
+      "Baoyuan Wu"
+    ],
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2408.04449",
+    "project_url": "https://github.com/zihao-ai/EARBench",
+    "code_url": "https://github.com/zihao-ai/EARBench",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Evaluation"
+    ],
+    "scope_note": "Models generate risky scenarios and judge proposed robot plans against scene-specific safety guidelines."
+  },
+  {
+    "id": "sermanet2025asimov",
+    "short_name": "ASIMOV",
+    "title": "Generating Robot Constitutions & Benchmarks for Semantic Safety",
+    "authors": [
+      "Pierre Sermanet",
+      "Anirudha Majumdar",
+      "Alex Irpan",
+      "Dmitry Kalashnikov",
+      "Vikas Sindhwani"
+    ],
+    "year": 2025,
+    "url": "https://proceedings.mlr.press/v305/sermanet25a.html",
+    "project_url": "https://asimov-benchmark.github.io/v1/",
+    "code_url": "https://github.com/asimov-benchmark/code",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Evaluation"
+    ],
+    "scope_note": "Evaluation covers the model generating counterexamples to robot behavior rules and turning them into benchmark questions. The linked notebook loads and displays released datasets."
   }
 ]
