@@ -183,7 +183,8 @@
     "categories": [
       "O1 / A3"
     ],
-    "short_name": "AA-Robotics"
+    "short_name": "AA-Robotics",
+    "scope_note": "In v0.1, coding agents inspect four camera views and write and run code that plans and sends robot-arm movements through an HTTP API. The entry covers the zero-shot robot-execution configuration on a real Hiwonder NexArm."
   },
   {
     "id": "audit220400598",
@@ -12699,5 +12700,23 @@
       "Infrastructure / Evaluation"
     ],
     "scope_note": "Evaluation covers the model generating counterexamples to robot behavior rules and turning them into benchmark questions. The linked notebook loads and displays released datasets."
+  },
+  {
+    "id": "googledeepmind2026roboticsantigravity",
+    "short_name": "Robotics Antigravity Plugin",
+    "title": "Google DeepMind Robotics Plugin for Antigravity",
+    "authors": [
+      "Google DeepMind"
+    ],
+    "year": 2026,
+    "url": "https://github.com/google-deepmind/robotics-antigravity-plugin",
+    "project_url": "https://developers.googleblog.com/gemini-hydrogen-for-robotics/",
+    "code_url": "https://github.com/google-deepmind/robotics-antigravity-plugin",
+    "source_type": "Repository",
+    "categories": [
+      "O1 / A3",
+      "Infrastructure / Environment Generation"
+    ],
+    "scope_note": "The documented snack-sorting workflow starts from a task prompt and images of the real scene: the coding agent constructs a MuJoCo scene, writes and tests a controller, and deploys the same code to an I2RT YAM Pro arm. O1/A3 describes this development-time controller synthesis; the demonstration does not establish continuous foundation-model control after deployment."
   }
 ]
