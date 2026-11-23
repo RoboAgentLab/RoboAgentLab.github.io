@@ -12718,5 +12718,60 @@
       "Infrastructure / Environment Generation"
     ],
     "scope_note": "The documented snack-sorting workflow starts from a task prompt and images of the real scene: the coding agent constructs a MuJoCo scene, writes and tests a controller, and deploys the same code to an I2RT YAM Pro arm. O1/A3 describes this development-time controller synthesis; the demonstration does not establish continuous foundation-model control after deployment."
+  },
+  {
+    "id": "xlanglab2026robowild",
+    "short_name": "RoboWild",
+    "title": "RoboWild: Can Frontier Models Generalize to Robot Use in the Wild?",
+    "authors": [
+      "XLANG LAB",
+      "Yimo Cai",
+      "Delin Chen",
+      "Junhao Chen",
+      "Kaiqian Cui",
+      "Zicheng Gong",
+      "Zhewei Kang",
+      "Yitao Liu",
+      "Jiamin Song",
+      "Haoyuan Wu",
+      "Weiming Wu",
+      "Yingming Zheng",
+      "Zilong Zhou",
+      "Yitong Li",
+      "Haikong Lu",
+      "Taiye Lu",
+      "Zhao Pu",
+      "Yuxiang Wan",
+      "Tao Yu"
+    ],
+    "year": 2026,
+    "url": "https://huggingface.co/datasets/xlangai/RoboWild/blob/main/RoboWild.pdf",
+    "project_url": "https://robowild.xlang.ai/",
+    "code_url": "https://github.com/xlang-ai/RoboWild",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A2"
+    ],
+    "scope_note": "The default RGB ReAct configuration selects move_robot targets and parameters from images, robot state and camera calibration, then uses returned observations for the next decision. Coding-agent and privileged configurations are not included in this placement."
+  },
+  {
+    "id": "huang2026clothdojo",
+    "short_name": "ClothDojo",
+    "title": "ClothDojo: Learned Data Generation and Benchmarking for Bimanual Garment Flattening and Folding",
+    "authors": [
+      "Zilong Huang",
+      "Zipeng Ye",
+      "Caicheng Wang",
+      "Yuchen Xie",
+      "Jiaxiang Luo"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2611.01190",
+    "project_url": "https://clothdojo.github.io/",
+    "code_url": "https://github.com/clothdojo/clothdojo.github.io",
+    "source_type": "Paper",
+    "categories": [],
+    "supporting_list": "infrastructure",
+    "scope_note": "A garment manipulation simulation and data-generation resource. A fine-tuned VLA uses NOCS observations to generate trajectories that are filtered by task-specific success criteria and re-rendered as RGB; these fixed policy and filtering stages do not establish agent-directed workflow decisions."
   }
 ]
