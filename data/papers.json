@@ -12773,5 +12773,185 @@
     "categories": [],
     "supporting_list": "infrastructure",
     "scope_note": "A garment manipulation simulation and data-generation resource. A fine-tuned VLA uses NOCS observations to generate trajectories that are filtered by task-specific success criteria and re-rendered as RGB; these fixed policy and filtering stages do not establish agent-directed workflow decisions."
+  },
+  {
+    "id": "li2026manipscope",
+    "short_name": "ManipScope",
+    "title": "ManipScope: A Diagnostic Benchmark for Instruction Following and Generalization in Robotic Manipulation",
+    "authors": [
+      "Jiacheng Li",
+      "Yaping Li",
+      "Congsheng Xu",
+      "Qingchen Liu",
+      "Haonan Wang",
+      "Zhijie Deng",
+      "Jiahu Qin"
+    ],
+    "year": 2026,
+    "url": "https://embodied-ai-research.github.io/ManipScope_webpage/",
+    "project_url": "https://embodied-ai-research.github.io/ManipScope_webpage/",
+    "code_url": "https://github.com/USTC-AIR-Lab/ManiScope",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Evaluation"
+    ],
+    "scope_note": "The matched agent track evaluates tool-using systems under a fixed controller and action budget."
+  },
+  {
+    "id": "ruan2026pyruadex",
+    "short_name": "PyRUA-Dex",
+    "title": "PyRUA-Dex: Learning Programmatic Policies for Dexterous Bimanual Manipulation with Coding Agents",
+    "authors": [
+      "Feixiang Ruan",
+      "Kewei Zhang",
+      "Guodong Lv",
+      "Wenbo Huang",
+      "Yintianrun Zhang",
+      "Ruiyang Si",
+      "Shunyu Yang",
+      "Lekai Wang",
+      "Rui Ni",
+      "Weicheng Duan",
+      "Jianxin Bi",
+      "Yuze Fan",
+      "Haobo Li",
+      "Zeliang Fu",
+      "Jiankun Zhang",
+      "Duomin Wang",
+      "Enze Xie",
+      "Daquan Zhou"
+    ],
+    "year": 2026,
+    "url": "https://vme0522.github.io/PyRUA-Dex/",
+    "project_url": "https://vme0522.github.io/PyRUA-Dex/",
+    "code_url": null,
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3"
+    ],
+    "scope_note": "In the Bench2Dex configuration, coding agents write and refine executable bimanual policies using supplied visual localization tools."
+  },
+  {
+    "id": "xsquare2026xrharness",
+    "short_name": "XR Harness",
+    "title": "XR Harness",
+    "authors": [
+      "X Square Robot"
+    ],
+    "year": 2026,
+    "url": "https://github.com/X-Square-Robot/xr-harness",
+    "project_url": "https://github.com/X-Square-Robot/xr-harness",
+    "code_url": "https://github.com/X-Square-Robot/xr-harness",
+    "source_type": "Repository",
+    "categories": [
+      "O1 / A2"
+    ],
+    "scope_note": "The RGB observation configuration exposes camera frames and device state to an agent that selects robot actions through existing tools and revises subsequent steps."
+  },
+  {
+    "id": "tan2026forca",
+    "short_name": "FORCA",
+    "title": "FORCA: A Force-Aware Coding Agent for Contact-Rich Robot Manipulation",
+    "authors": [
+      "Xiao Tan",
+      "Yixuan Wang",
+      "Zhexi Wang",
+      "Wenzhen Yuan"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.31841",
+    "project_url": "https://tanoom.github.io/forca/",
+    "code_url": null,
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3"
+    ],
+    "scope_note": "The agent uses supplied localization and grasp modules, writes force-responsive programs and revises control logic from physical execution traces."
+  },
+  {
+    "id": "wang2026pyruareal",
+    "short_name": "PyRUA-REAL",
+    "title": "PyRUA-REAL: Robot Exploration and Adaptive Learning through RSI in the Real World",
+    "authors": [
+      "Qiang Wang",
+      "Jianxin Bi",
+      "Shulong Jiang",
+      "Ruiyang Si",
+      "Wenbo Huang",
+      "Kaiqi Chen",
+      "Jiaxin Li",
+      "Liyun Li",
+      "Xuanyi Li",
+      "Daquan Zhou"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2611.06768",
+    "project_url": "https://dagroup-pku.github.io/PyRUA-Lean/real/",
+    "code_url": null,
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "scope_note": "Real-robot trials inform revised executable skills and persistent records of successful and failed approaches for subsequent tasks."
+  },
+  {
+    "id": "huang2026mind2actworld",
+    "short_name": "Mind2Act World",
+    "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
+    "authors": [
+      "Yuzhi Huang",
+      "Jie Wu",
+      "Fanding Huang",
+      "Junchao Lin",
+      "Weichen Zhang",
+      "Ziyi Xiong",
+      "Yang Li",
+      "Zhengwei Xie",
+      "Zhimin Wang",
+      "Zhen Liu",
+      "Jiazhen Huang",
+      "Yuzheng Zhang",
+      "Yuche Liu",
+      "Hongyi Yang",
+      "Chen Tang",
+      "Shixiang Tang",
+      "Hakan Aktas",
+      "Adam Wu",
+      "Duo Wu",
+      "Kangye Ji",
+      "Shuzhao Xie",
+      "Huanan Liu",
+      "Weijue Bu",
+      "Chenxin Li",
+      "Xinyuan Wang",
+      "Tianyi Bai",
+      "Yinan Mao",
+      "Jiawei Wang",
+      "Minglei Li",
+      "Heng Yu",
+      "Ehsan Adeli",
+      "Minchen Li",
+      "Yong-Lu Li",
+      "Cengiz Öztireli",
+      "Huazhe Xu",
+      "Chao Yu",
+      "Jing Zhang",
+      "Shanghang Zhang",
+      "Weitao Zhou",
+      "Wenwu Zhu",
+      "Cheng Chi",
+      "Jingyan Jiang",
+      "Zhi Wang"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2611.26444",
+    "project_url": "https://mind2act-world.com/",
+    "code_url": "https://github.com/Mind2Act/Mind2Act_World",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Evaluation"
+    ],
+    "scope_note": "The reported agent track measures embodied reasoning, physical action, and their composition during manipulation."
   }
 ]
