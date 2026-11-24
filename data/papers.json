@@ -12970,5 +12970,134 @@
       "O1 / A2"
     ],
     "scope_note": "In the first release, the 11 VLM/LLM agents receive camera images and robot state, issue target end-effector poses and gripper commands through tools, and use the next observation to choose their next action."
+  },
+  {
+    "id": "piperjev2026",
+    "short_name": "PiPER Astra/Jev",
+    "title": "PiPER Astra/Jev",
+    "authors": [
+      "RobotKitAI"
+    ],
+    "year": 2026,
+    "url": "https://github.com/RobotKitAI/piper-astra-jev",
+    "code_url": "https://github.com/RobotKitAI/piper-astra-jev",
+    "source_type": "Repository",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "scope_note": "In real-arm runs 2–8, Jev selects a skill from state produced with Grounding DINO or SAM 3. Fixed task code computes the motion targets."
+  },
+  {
+    "id": "canjevnav2026",
+    "short_name": "Can Jev Nav?",
+    "title": "Can Jev Nav?",
+    "authors": [
+      "Stash Pomichter",
+      "Ruthwik Dasyam",
+      "Henry Ventura"
+    ],
+    "year": 2026,
+    "url": "https://research.dimensional.org/system-one-navigation/",
+    "code_url": "https://github.com/dimensionalOS/dimos",
+    "source_type": "Technical Report",
+    "categories": [
+      "O3 / A1 Code"
+    ],
+    "scope_note": "In the Habitat configuration, Jev reads a WorldState derived from scene geometry and returns typed choices that fixed code maps to velocity at 2 Hz."
+  },
+  {
+    "id": "mossjev2026",
+    "short_name": "MOSS × Jev",
+    "title": "MOSS × Jev",
+    "authors": [
+      "metrox-eth"
+    ],
+    "year": 2026,
+    "url": "https://github.com/metrox-eth/moss-jev",
+    "code_url": "https://github.com/metrox-eth/moss-jev",
+    "source_type": "Repository",
+    "categories": [
+      "O3 / A1 Code"
+    ],
+    "scope_note": "Three MuJoCo missions record Jev choosing manipulation and recovery primitives from simulator state. The public browser view replays those choices."
+  },
+  {
+    "id": "smartrobotjev2026",
+    "short_name": "JEV Smart Robot Control",
+    "title": "JEV Smart Robot Control",
+    "authors": [
+      "mahajanparth"
+    ],
+    "year": 2026,
+    "url": "https://github.com/mahajanparth/JEV_SMARTROBOTCONTROL",
+    "code_url": "https://github.com/mahajanparth/JEV_SMARTROBOTCONTROL",
+    "source_type": "Repository",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "scope_note": "Jev selects mission and localization-recovery actions from AMCL and navigation telemetry. Nav2 drives the simulated TurtleBot3."
+  },
+  {
+    "id": "jevduck2026",
+    "short_name": "Jevduck",
+    "title": "Jevduck",
+    "authors": [
+      "amazedsaint"
+    ],
+    "year": 2026,
+    "url": "https://github.com/amazedsaint/jevduck",
+    "code_url": "https://github.com/amazedsaint/jevduck",
+    "source_type": "Repository",
+    "categories": [
+      "O3 / A1 Model"
+    ],
+    "scope_note": "In the four-robot simulation, Jev uses measured group state and previous outcomes to select admissible behaviors executed through fixed ONNX policies."
+  },
+  {
+    "id": "px4jevroom2026",
+    "short_name": "PX4 Jev Room Search",
+    "title": "PX4 Jev Room Search",
+    "authors": [
+      "raghavpillai"
+    ],
+    "year": 2026,
+    "url": "https://github.com/raghavpillai/jev-drone",
+    "code_url": "https://github.com/raghavpillai/jev-drone",
+    "source_type": "Repository",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "scope_note": "Jev uses supplied RGB-D clearance and marker detections, a known room map and simulated external odometry to select search tasks and bounded control changes for a PX4 X500."
+  },
+  {
+    "id": "robotsworldjev2026",
+    "short_name": "Robots World",
+    "title": "Robots World",
+    "authors": [
+      "DanMcInerney"
+    ],
+    "year": 2026,
+    "url": "https://github.com/DanMcInerney/robots-world",
+    "code_url": "https://github.com/DanMcInerney/robots-world",
+    "source_type": "Repository",
+    "categories": [
+      "O2 / A1 Code"
+    ],
+    "scope_note": "In the camera-only control pilot, fixed perception extracts color regions and tracks. Jev selects bounded control options that map to simulated flight commands."
+  },
+  {
+    "id": "jevpickplacestudy2026",
+    "short_name": "Jev Pick-and-Place Study",
+    "title": "Jev Pick-and-Place Study",
+    "authors": [
+      "tryaksh"
+    ],
+    "year": 2026,
+    "url": "https://github.com/tryaksh/jev-pick-and-place-study",
+    "code_url": "https://github.com/tryaksh/jev-pick-and-place-study",
+    "source_type": "Repository",
+    "categories": [],
+    "scope_note": "Across 20 simulated episodes including mid-task target changes, Jev and a reactive rule controller selected identical action sequences given the same state and explicit task rules.",
+    "supporting_list": "policy"
   }
 ]
