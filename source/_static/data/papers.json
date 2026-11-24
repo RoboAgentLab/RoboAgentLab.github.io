@@ -12953,5 +12953,22 @@
       "Infrastructure / Evaluation"
     ],
     "scope_note": "The reported agent track measures embodied reasoning, physical action, and their composition during manipulation."
+  },
+  {
+    "id": "robochallengezero2026",
+    "short_name": "RoboChallenge Zero",
+    "title": "RoboChallenge Zero: A Continually Evolving Benchmark for Zero-Shot Evaluation on Real Robots",
+    "authors": [
+      "RoboChallenge Team"
+    ],
+    "year": 2026,
+    "url": "https://robochallenge.ai/docs/robochallenge_techreport_ZERO.pdf",
+    "project_url": "https://robochallenge.ai/benchmark_detail/zero",
+    "code_url": null,
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A2"
+    ],
+    "scope_note": "In the first release, the 11 VLM/LLM agents receive camera images and robot state, issue target end-effector poses and gripper commands through tools, and use the next observation to choose their next action."
   }
 ]
