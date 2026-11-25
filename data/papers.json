@@ -13123,5 +13123,116 @@
     "categories": [],
     "supporting_list": "infrastructure",
     "scope_note": "Evaluates bimanual policies on 80 tasks under visual, language and object perturbations. Contact-force and object-displacement metrics capture unsafe interactions beyond task completion."
+  },
+  {
+    "id": "shan2026contactharness",
+    "short_name": "Contact Harness",
+    "title": "Contact Harness: Enabling VLM Agents to Perform Contact-Rich Manipulation",
+    "authors": [
+      "Shilin Shan",
+      "Yuxuan Hu",
+      "Chuhao Zhou",
+      "Yimeng Dong",
+      "Bohan Hou",
+      "Jiaqi Bai",
+      "Boyu Ma",
+      "Jiahua Dong",
+      "Jianfei Yang"
+    ],
+    "year": 2026,
+    "url": "https://ntumars.github.io/ContactHarness/paper.pdf",
+    "project_url": "https://ntumars.github.io/ContactHarness/",
+    "code_url": "https://github.com/NTUMARS/Contact-Harness",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A2"
+    ],
+    "scope_note": "The Franka agent reads camera and wrench observations and selects the next motion command and arguments after each execution. A compliant controller regulates motion between decisions."
+  },
+  {
+    "id": "liu2026robouniverse",
+    "short_name": "RoboUniverse-10K",
+    "title": "RoboUniverse-10K: Toward the Scaling Era of Agentic Robotics via Real-to-Sim Environments",
+    "authors": [
+      "Jinkun Liu",
+      "Yingze Wang",
+      "Situ Wang",
+      "Deyao Hong",
+      "Mingju Gao",
+      "Wenyi Li",
+      "Yizhe Chi",
+      "Youjie Zheng",
+      "Kaisen Yang",
+      "Xiangyang Wang",
+      "Bingxiang He",
+      "Yuxin Zuo",
+      "Boyuan Chen",
+      "Yue Chen",
+      "Cheng Qian",
+      "Tianxing Chen",
+      "Huichi Zhou",
+      "Huaxiu Yao",
+      "Hao Tang",
+      "Hao Zhou",
+      "Ya-Qin Zhang",
+      "Calvin Xiao",
+      "Tiga Altman",
+      "Huan-ang Gao"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2611.31002",
+    "project_url": "https://lab.einsia.ai/robo-universe/",
+    "code_url": "https://github.com/Einsia/RoboUniverse-10K",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Evaluation"
+    ],
+    "scope_note": "A builder agent constructs executable robot environments from video. A separate QA agent checks task fidelity and execution evidence and returns failed environments for revision."
+  },
+  {
+    "id": "zhao2026roboace",
+    "short_name": "RoboACE",
+    "title": "RoboACE: Adversarial Co-Evolution for Robot Self-Improvement",
+    "authors": [
+      "Delin Zhao",
+      "Zhengrong Yue",
+      "Junlin He",
+      "Yali Wang"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2611.13034",
+    "project_url": "https://arxiv.org/html/2611.13034v1",
+    "code_url": null,
+    "source_type": "Paper",
+    "categories": [
+      "Self-Evolver / Execution Workflows",
+      "Self-Evolver / Tool Interface"
+    ],
+    "scope_note": "Validated changes to the curriculum and execution procedures persist across deployments. The drawer-skill case also revises the grounding contract of a callable skill."
+  },
+  {
+    "id": "sharrock2026dronebench",
+    "short_name": "Drone-Bench",
+    "title": "Drone-Bench: Tracking Simple Drone Surveillance Capabilities of Frontier Models",
+    "authors": [
+      "Callum Sharrock",
+      "Elias Aronsson",
+      "Lukas Petersson",
+      "Axel Backlund",
+      "Axel Wennström",
+      "Hanna Petersson",
+      "Kristoffer Nordström",
+      "Rickard Carlsson"
+    ],
+    "year": 2026,
+    "url": "https://andonlabs.com/docs/Drone_Bench.pdf",
+    "project_url": "https://andonlabs.com/evals/drone-bench",
+    "code_url": null,
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3"
+    ],
+    "scope_note": "In the navigation subtask, the agent authors an executable program for an interface with supplied localization. Evaluation uses simulation with selected sim-to-real checks."
   }
 ]
