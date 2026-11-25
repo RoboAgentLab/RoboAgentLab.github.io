@@ -39,6 +39,13 @@ function render() {
       project.textContent = "Project ↗";
       links.append(project);
     }
+    for (const item of paper.companion_links || []) {
+      if (!safeURL(item.url)) continue;
+      const companion = document.createElement("a");
+      companion.href = safeURL(item.url);
+      companion.textContent = item.label + " ↗";
+      links.append(companion);
+    }
     if (paper.source_type !== "Repository") {
       const source = document.createElement("a");
       source.href = link.href;

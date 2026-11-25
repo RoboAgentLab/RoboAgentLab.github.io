@@ -5935,6 +5935,13 @@
       "Tianbo Zhong",
       "Long Zhuo",
       "Jing Zuo"
+    ],
+    "scope_note": "The companion report shows how the teacher reviews, revises or rejects VLA proposals before execution, including rejecting a duplicate keypad press.",
+    "companion_links": [
+      {
+        "label": "Action-review experiments",
+        "url": "https://huggingface.co/blog/sensenova/roborsi"
+      }
     ]
   },
   {
@@ -11016,8 +11023,14 @@
       "O2 / A3"
     ],
     "project_url": "https://openrua.ai/",
-    "scope_note": "Supplied perception tools and motion APIs support orchestration; the tube-insertion case writes geometry code from multiview segmentation outputs.",
-    "code_url": "https://github.com/Open-RUA/uni-robot-agent"
+    "scope_note": "Supplied perception tools and motion APIs support orchestration; the tube-insertion case writes geometry code from multiview segmentation outputs. In Ishan Nagpal’s separate LIBERO distillation experiment (O2 / A2), Qwen3.5-4B selects one tool per turn, including pixel-to-3D lookup. It solved 9/40 held-out simulated scenes after training, versus 0/40 before training.",
+    "code_url": "https://github.com/Open-RUA/uni-robot-agent",
+    "companion_links": [
+      {
+        "label": "LIBERO distillation experiment",
+        "url": "https://www.ishannagpal.com/robot"
+      }
+    ]
   },
   {
     "id": "memmel2026dna",
@@ -13405,5 +13418,107 @@
       "O1 / A1 Code"
     ],
     "scope_note": "In the zero-shot configuration, the pretrained VLM observes images with a projected tool frame and selects a motion increment, gripper command and completion flag. A fixed controller executes the motion before the next observation."
+  },
+  {
+    "id": "hu2026applehalo",
+    "short_name": "HALO",
+    "title": "Perceptive Humanoid Motion from Simulation",
+    "authors": [
+      "Siyuan Hu",
+      "Abulikemu Abuduweili",
+      "Yue Meng",
+      "Shipeng Liu",
+      "Quentin Leboutet",
+      "Chen Chen",
+      "Matthias Müller",
+      "Vladlen Koltun"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2611.06908",
+    "project_url": "https://apple-aiml-research.github.io/ml-halo/",
+    "code_url": "https://github.com/apple-aiml-research/ml-halo",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "scope_note": "The onboard visual orchestrator advances or retries subtasks for a fixed motion generator and tracker."
+  },
+  {
+    "id": "he2026acap",
+    "short_name": "ACAP",
+    "title": "ACAP: Asynchronous Coding Agents for Efficient Robot Control",
+    "authors": [
+      "Zexin He",
+      "Rui Li",
+      "Yushi Lan",
+      "Chengkai Jin",
+      "Zhi Hou",
+      "Xingang Pan"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2611.31205",
+    "project_url": "https://projects.zxhezexin.com/acap/",
+    "code_url": null,
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A3"
+    ],
+    "scope_note": "In the basket task, agents write OpenCV and depth-backprojection code from camera observations. The lead coordinates or takes over coupled arm actions."
+  },
+  {
+    "id": "gu2026real2worlds2real",
+    "short_name": "Real2Worlds2Real",
+    "title": "Real2Worlds2Real: Scaling Self-Improving Agentic Real2Sim2Real for Robot Manipulation",
+    "authors": [
+      "Jinzhong Gu",
+      "Jiakai Chen",
+      "Xinyi Cao",
+      "Yan Shen",
+      "Hangke Sui",
+      "Shutian Zheng",
+      "Xiang Xiao",
+      "Haoran Lu",
+      "Fan Xu",
+      "Lu Shi",
+      "Daochen Shi",
+      "Ruihua Zhang",
+      "Wei Zhan",
+      "Masayoshi Tomizuka",
+      "Ruihai Wu"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2611.31098",
+    "project_url": "https://real2worlds2real.github.io/",
+    "code_url": null,
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Infrastructure / Training",
+      "Self-Evolver / Programs and Skills"
+    ],
+    "scope_note": "The agent revises simulator construction using visual and execution feedback, coordinates policy training, and retains validated procedures as skills for subsequent tasks."
+  },
+  {
+    "id": "tessler2026metatron",
+    "short_name": "Metatron",
+    "title": "METATRON: A Promptable Whole-Body Execution Layer for Humanoids",
+    "authors": [
+      "Chen Tessler",
+      "Yifeng Jiang",
+      "Alec Otto",
+      "Yi Shi",
+      "Umar Iqbal",
+      "Gal Chechik",
+      "Xue Bin Peng"
+    ],
+    "year": 2026,
+    "url": "https://research.nvidia.com/labs/par/projects/metatron/assets/metatron-paper.pdf",
+    "project_url": "https://research.nvidia.com/labs/par/projects/metatron/",
+    "code_url": "https://github.com/NVlabs/ProtoMotions",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A3"
+    ],
+    "scope_note": "For onboard walking, a coding agent develops a sensor-state-to-goal program offline and tests it in simulation. A human selects the deployed skill, which runs with the frozen whole-body controller."
   }
 ]
