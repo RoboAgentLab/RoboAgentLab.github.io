@@ -2282,7 +2282,9 @@
       "Manling Li"
     ],
     "arxiv_id": "2611.12177",
-    "doi": "10.48550/arXiv.2611.12177"
+    "doi": "10.48550/arXiv.2611.12177",
+    "project_url": "https://www.embodied-first-exam.ai/blogs/failure-analysis/",
+    "scope_note": "The companion failure analysis compares sensor-only, realtime and privileged settings and separates reset access from exact object state."
   },
   {
     "id": "embodiedjev",
@@ -13234,5 +13236,174 @@
       "O2 / A3"
     ],
     "scope_note": "In the navigation subtask, the agent authors an executable program for an interface with supplied localization. Evaluation uses simulation with selected sim-to-real checks."
+  },
+  {
+    "id": "chen2026ruibench",
+    "short_name": "RUIBench",
+    "title": "RUIBench: What Makes a Good Robot-Use Interface?",
+    "authors": [
+      "Yanzhe Chen",
+      "Zhijun Cao",
+      "Zechen Bai",
+      "Wenzheng Zeng",
+      "Kevin Yuchen Ma",
+      "Yiqi Lin",
+      "Guoqiang Liang",
+      "Xiaokang Liu",
+      "Ke Sun",
+      "Kevin Qinghong Lin",
+      "Mike Zheng Shou"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2611.31115",
+    "project_url": "https://showlab.github.io/RUIBench/",
+    "code_url": "https://github.com/showlab/RUIBench",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A2",
+      "O1 / A3"
+    ],
+    "scope_note": "With RGB-D and robot state, the per-action interface returns control after a command. The program interface allows the agent to compose actions and react to observations within executable task logic."
+  },
+  {
+    "id": "wang2026justrua",
+    "short_name": "JustRUA",
+    "title": "JustRUA: A Controlled Study of GPT-6 Robot-Use Agents",
+    "authors": [
+      "Zefan Wang",
+      "Yufan Dang",
+      "Xuanwei Shi",
+      "Mingqi Gao",
+      "Cheng Yin",
+      "SikYuen Tam",
+      "Hanyu Liu",
+      "Yasheng Wang",
+      "Yaxi Lu",
+      "Songyang Zhang",
+      "Xin Cong",
+      "Yuan Yao"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2611.16009",
+    "project_url": "https://zefanw.github.io/JustRUA/",
+    "code_url": "https://github.com/ZefanW/JustRUA",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A2"
+    ],
+    "scope_note": "In the basic closed-loop configuration, the agent selects target poses using current camera observations and robot state. The coordinate-solving ablation uses a different interface."
+  },
+  {
+    "id": "fan2026embodiedharness",
+    "short_name": "Embodied-Harness",
+    "title": "Embodied-Harness: Towards Recursive Self-Improvement for Robotic Manipulation",
+    "authors": [
+      "Zhenxuan Fan",
+      "Zhuoya Wang",
+      "Yuqian Yuan",
+      "Wenqiao Zhang",
+      "Juncheng Li",
+      "Jun Xiao",
+      "Siliang Tang",
+      "Yueting Zhuang"
+    ],
+    "year": 2026,
+    "url": "https://embodied-harness.github.io/assets/embodied-harness.pdf",
+    "project_url": "https://embodied-harness.github.io/",
+    "code_url": null,
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A2",
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "scope_note": "The Actor selects motion and gripper commands using images and robot state. After an attempt the Reflector revises conditional guidance and retains task-specific and cross-task experience for later attempts."
+  },
+  {
+    "id": "wu2026emboharness",
+    "short_name": "Embo-Harness",
+    "title": "Embo-Harness: Towards Understanding Frontier-Model-as-Policy Harness",
+    "authors": [
+      "Xiao-Ming Wu",
+      "Kang Liao",
+      "Yuexiao Ma",
+      "Taolin Zhang",
+      "Mingqian Zhou",
+      "Nuo Chen",
+      "Ziming Li",
+      "Yihang Luo",
+      "Rui Li",
+      "Zhonghua Wu",
+      "Tianyu Xie",
+      "Xiawu Zheng",
+      "Zhongang Cai",
+      "Zhi Hou",
+      "Chen Change Loy"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2611.31201",
+    "project_url": "https://dravenalg.github.io/projects/Embo-Harness/",
+    "code_url": "https://github.com/DravenALG/Embo-Harness",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Model"
+    ],
+    "scope_note": "In the VLA-selection ablation, the frontier model chooses at each step whether to delegate execution to a fixed VLA. The separate VLA-refinement configuration instead revises a proposed action."
+  },
+  {
+    "id": "guo2026nanoastra",
+    "short_name": "nanoAstra",
+    "title": "A Glimpse of Training VLMs as Foundation Models for Robotic Manipulation",
+    "authors": [
+      "Meng-Hao Guo",
+      "Yi Zhang",
+      "Zhe-Han Mo",
+      "Han-Zheng Wang",
+      "Jia-Jun Wang",
+      "Xin-Sheng Chen",
+      "Jiaxi Song",
+      "Yi-Xuan Deng",
+      "Jia-Ning Li",
+      "Xuanyu Chu",
+      "Hengrui Zhang",
+      "Huan-ang Gao",
+      "Yongming Rao",
+      "Shi-Min Hu"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2611.29338",
+    "project_url": "https://nanoastra.github.io/",
+    "code_url": null,
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "scope_note": "At inference the model reports progress and selects parameterized semantic motion or gripper primitives for a fixed executor. This placement concerns the deployed decision interface."
+  },
+  {
+    "id": "yi2026easg",
+    "short_name": "EASG",
+    "title": "VLMs are Native Action Models: Unleashing the Manipulation Capabilities of VLMs with Explicit Action-Space Grounding",
+    "authors": [
+      "Jingkun Yi",
+      "Shujie Zhang",
+      "Zirui Zhou",
+      "Haoxiao Wang",
+      "Haiyang Sun",
+      "Yuhang Dong",
+      "Xudong Xu",
+      "Xing Shen",
+      "Tao Zhang",
+      "Yong Liu",
+      "Jiangning Zhang"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.12832",
+    "project_url": "https://general-robo.github.io/EASG/",
+    "code_url": "https://github.com/General-Robo/EASG",
+    "source_type": "Paper",
+    "categories": [
+      "O1 / A1 Code"
+    ],
+    "scope_note": "In the zero-shot configuration, the pretrained VLM observes images with a projected tool frame and selects a motion increment, gripper command and completion flag. A fixed controller executes the motion before the next observation."
   }
 ]
