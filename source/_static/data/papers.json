@@ -1818,7 +1818,9 @@
       "O3 / A3"
     ],
     "code_url": null,
-    "short_name": "Embodied Playground"
+    "short_name": "Embodied Playground",
+    "project_url": "https://winniechen2002.github.io/Agent-bench-website/",
+    "scope_note": "O3/A3 applies to program policies with supplied privileged simulator state. The benchmark also studies other access levels."
   },
   {
     "id": "chen2026gap",
@@ -12859,14 +12861,15 @@
       "Daquan Zhou"
     ],
     "year": 2026,
-    "url": "https://vme0522.github.io/PyRUA-Dex/",
+    "url": "https://arxiv.org/abs/2611.33144",
     "project_url": "https://vme0522.github.io/PyRUA-Dex/",
-    "code_url": null,
+    "code_url": "https://github.com/DAGroup-PKU/PyRUA-Lean/tree/dex",
     "source_type": "Paper",
     "categories": [
       "O2 / A3"
     ],
-    "scope_note": "In the Bench2Dex configuration, coding agents write and refine executable bimanual policies using supplied visual localization tools."
+    "scope_note": "In the Bench2Dex configuration, coding agents write and refine executable bimanual policies using supplied visual localization tools. The linked dex branch currently contains a README and teaser image.",
+    "code_status": "pending_release"
   },
   {
     "id": "xsquare2026xrharness",
@@ -13629,10 +13632,147 @@
     "mechanisms": [
       "Direct Weight Editing"
     ],
-    "scope_note": "Direct weight editing. The agent uses failed LIBERO-Pro2.0 rollouts to identify and test a conditional lift correction, then folds it into one output row and bias of a retained π0.5 policy. Simulation only.",
+    "scope_note": "Direct weight editing. The agent uses failed LIBERO-Pro2.0 rollouts to identify and test a conditional lift correction, then folds it into one output row and bias of a retained π0.5 policy. Simulation only. On 80 simulated task–seed pairs: original 20/80, bias alone 31/80, conditional edit 37/80. On 40 held-out cases: original 6/40, conditional edit 13/40.",
     "aliases": [
       "Direct Weight Editing",
       "Weight-Space Programming"
     ]
+  },
+  {
+    "id": "huang2026criteria",
+    "short_name": "RSIJudge",
+    "title": "Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement",
+    "authors": [
+      "Wenbo Huang",
+      "Jianxin Bi",
+      "Shunyu Yang",
+      "Ruiyang Si",
+      "Rui Ni",
+      "Qiang Wang",
+      "Shulong Jiang",
+      "Yintianrun Zhang",
+      "Feixiang Ruan",
+      "Kewei Zhang",
+      "Ye Huang",
+      "Shukai Gong",
+      "Daquan Zhou"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2611.08318",
+    "categories": [
+      "Self-Evolver / Programs and Skills"
+    ],
+    "scope_note": "The agent revises a skill library for reuse across tasks. Across 16 criteria-limited tasks, the advantage of exposing the verifier disappeared under instruction-faithful criteria.",
+    "project_url": "https://dagroup-pku.github.io/PyRUA-Lean/RSIJudge/",
+    "code_url": "https://github.com/DAGroup-PKU/PyRUA-Lean/tree/RSIJudge",
+    "source_type": "Paper"
+  },
+  {
+    "id": "elsayed2026written",
+    "short_name": "LoopedWSP",
+    "title": "Looped Weight-Space Programming: LLM-Written Transformers for Long Algorithmic Reasoning",
+    "authors": [
+      "Abdelrahman Elsayed",
+      "Ahmed Heakl",
+      "Abdelrahman Shaker",
+      "Fahad Khan",
+      "Salman Khan",
+      "Claude Opus 5.5"
+    ],
+    "year": 2026,
+    "url": "https://mbzuai-oryx.github.io/LoopedWSP/",
+    "categories": [],
+    "supporting_list": "self-evolver",
+    "scope_note": "Method context. A coding agent writes a recurrent transformer’s weights from scratch for shortest-path reasoning on Maze-Hard.",
+    "source_type": "Technical blog"
+  },
+  {
+    "id": "zhou2026simuguard",
+    "short_name": "SimuGuard",
+    "title": "When the Simulator Fails, Not the Policy: Auditing Contact Artifacts in Simulated Robot Benchmarks",
+    "authors": [
+      "Alex Zhou",
+      "Junhao Wu",
+      "Xueyang Zhou",
+      "Yixiao Huo",
+      "Hongcheng Gao",
+      "Di Zhu",
+      "Zhenghao Zhang",
+      "Yongchao Chen"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.41857",
+    "categories": [],
+    "supporting_list": "infrastructure",
+    "scope_note": "Diagnosis and evaluation context. Physics-step records, deterministic contact checks and replay help distinguish simulator artifacts from policy failures.",
+    "project_url": "https://simuguard.github.io/",
+    "code_url": "https://github.com/simuguard/simuguard",
+    "source_type": "Paper"
+  },
+  {
+    "id": "li2026continualdrive",
+    "short_name": "ContinualDrive",
+    "title": "ContinualDrive: A Deployment-Anchored, Multi-Axis Benchmark for Continual Updates of Learned Driving Planners",
+    "authors": [
+      "Zirui Li",
+      "Zhiqi Mao",
+      "Yangang Ren",
+      "Heye Huang",
+      "Haohan Yang",
+      "Qihang Huang",
+      "Zhan Chen",
+      "Chen Lv"
+    ],
+    "year": 2026,
+    "url": "https://lzrbit.github.io/continualdrive/",
+    "categories": [],
+    "supporting_list": "self-evolver",
+    "scope_note": "Evaluation context. The benchmark compares continually updated planners against their deployed checkpoints on nuPlan logs, including closed-loop release criteria.",
+    "source_type": "Project / report"
+  },
+  {
+    "id": "chen2026physloop",
+    "short_name": "PhysLoop",
+    "title": "PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models",
+    "authors": [
+      "Yuxuan Chen",
+      "Xiaojie Li",
+      "Hao Chen",
+      "Juncheng Ma",
+      "Kewei Zhang",
+      "Zhongjing Du",
+      "Guoqiang Wei",
+      "Fangfang Wang",
+      "Zhen Dong",
+      "Zhiyang Dou",
+      "Liming Zhao",
+      "Yan Zeng",
+      "Jianwei Zhang",
+      "Daquan Zhou"
+    ],
+    "year": 2026,
+    "url": "https://chenyx24.github.io/PhysLoop-site/",
+    "categories": [],
+    "supporting_list": "infrastructure",
+    "scope_note": "Related work on generating and repairing physically plausible videos, including manipulation scenes. The documented update target is video generation.",
+    "source_type": "Project / report"
+  },
+  {
+    "id": "takehi2026weightspace",
+    "short_name": "Weight-Space Programming",
+    "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
+    "authors": [
+      "Rikiya Takehi",
+      "Jayden Teoh",
+      "Alex Zhang",
+      "Omar Khattab"
+    ],
+    "year": 2026,
+    "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+    "categories": [],
+    "supporting_list": "self-evolver",
+    "scope_note": "Method source. Experiment 4 edits a PPO car policy using a failed Kinetix rollout; all 1,024 reported tests succeed. The linked Qwen checkpoint belongs to a separate language-model experiment.",
+    "project_url": "https://huggingface.co/RikiyaT/Qwen3.5-0.8B-weight-space-programming",
+    "source_type": "Technical blog"
   }
 ]
