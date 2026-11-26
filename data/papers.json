@@ -13774,5 +13774,46 @@
     "scope_note": "Method source. Experiment 4 edits a PPO car policy using a failed Kinetix rollout; all 1,024 reported tests succeed. The linked Qwen checkpoint belongs to a separate language-model experiment.",
     "project_url": "https://huggingface.co/RikiyaT/Qwen3.5-0.8B-weight-space-programming",
     "source_type": "Technical blog"
+  },
+  {
+    "id": "pokeandwiggle2026pawgen10agentic",
+    "short_name": "PAW-GEN-10-Agentic",
+    "title": "Chapter 3: An agentic robotics fable",
+    "year": 2026,
+    "url": "https://pokeandwiggle.com/blog/agentic-robotics",
+    "source_type": "Technical report",
+    "categories": [
+      "Policy",
+      "Self-Evolver / Programs and Skills"
+    ],
+    "execution_authority": "A3",
+    "project_url": "https://pokeandwiggle.com/",
+    "companion_links": [
+      {
+        "label": "Leaderboard",
+        "url": "https://pokeandwiggle.com/leaderboard"
+      }
+    ],
+    "scope_note": "The agent writes executable Python skills with decision and recovery logic, then revises and retains the skills based on simulation and physical practice before final evaluation. Six agents are evaluated on ten physical bimanual tasks across nominal, interpolation, and extrapolation layouts. The supplied skill library, motion planner and additional practice differ from the end-to-end training protocol. The observation class is not assigned."
+  },
+  {
+    "id": "pokeandwiggle2026pokerreplication",
+    "short_name": "Poker / Research Replication",
+    "title": "Chapter 2: Towards an agent-native CERN of AI robotics",
+    "year": 2026,
+    "url": "https://pokeandwiggle.com/blog/agent-native-cern-of-ai-robotics",
+    "source_type": "Technical report",
+    "categories": [
+      "Infrastructure / Evaluation",
+      "Infrastructure / Training"
+    ],
+    "project_url": "https://pokeandwiggle.com/",
+    "companion_links": [
+      {
+        "label": "Replication results",
+        "url": "https://pokeandwiggle.com/research-replication"
+      }
+    ],
+    "scope_note": "The research agent selects comparable experiments, implements methods, configures and launches training, requests matched-placement robot evaluation, and analyzes the results. The Poker platform supplies the API; people prepare and reset stations and provide quality control, review and steering."
   }
 ]
