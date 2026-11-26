@@ -13835,5 +13835,24 @@
       }
     ],
     "scope_note": "A coding agent branches and revises executable robot control programs using simulator feedback, retaining useful program versions and skills for later trials. The transfer follow-up covers two robots and variants of one insertion workflow; the spiral-search approach was prompted by a human. Observation class is not assigned."
+  },
+  {
+    "id": "robocurve2026sixeasytasks",
+    "short_name": "SET",
+    "title": "Six Easy Tasks",
+    "year": 2026,
+    "url": "https://robocurve.org/blog/six-easy-tasks/",
+    "source_type": "Technical report",
+    "categories": [
+      "O1 / A3",
+      "Infrastructure / Evaluation"
+    ],
+    "companion_links": [
+      {
+        "label": "Run records",
+        "url": "https://robocurve.org/all-runs/"
+      }
+    ],
+    "scope_note": "The evaluated coding agents see overhead and wrist camera streams and write control code against the supplied I2RT driver, without Inspect Robots (O1/A3). A separate model assesses end states from before-and-after images under a human-defined rubric. Neither tested agent configuration completed a task in 36 trials per configuration at six minutes per trial; partial progress occurred. Human teleoperation used a different viewpoint and practice."
   }
 ]
