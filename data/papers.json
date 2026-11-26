@@ -13815,5 +13815,25 @@
       }
     ],
     "scope_note": "The research agent selects comparable experiments, implements methods, configures and launches training, requests matched-placement robot evaluation, and analyzes the results. The Poker platform supplies the API; people prepare and reset stations and provide quality control, review and steering."
+  },
+  {
+    "id": "blackai2026physicalrsi",
+    "short_name": "Black AI Physical RSI",
+    "title": "Physical RSI: Self-Improving Robot Control Programs via Tree Search",
+    "year": 2026,
+    "url": "https://www.blackai.co.jp/blog/physical-rsi-agent-as-a-policy",
+    "source_type": "Technical report",
+    "categories": [
+      "Policy",
+      "Self-Evolver / Programs and Skills"
+    ],
+    "execution_authority": "A3",
+    "companion_links": [
+      {
+        "label": "Cross-robot and cross-task transfer",
+        "url": "https://www.blackai.co.jp/blog/physical-rsi-new-robot-new-tasks"
+      }
+    ],
+    "scope_note": "A coding agent branches and revises executable robot control programs using simulator feedback, retaining useful program versions and skills for later trials. The transfer follow-up covers two robots and variants of one insertion workflow; the spiral-search approach was prompted by a human. Observation class is not assigned."
   }
 ]
