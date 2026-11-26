@@ -13581,5 +13581,22 @@
       "Infrastructure / Evaluation"
     ],
     "scope_note": "A visual-language judge assesses risk explanations and proposed responses against visual evidence and reference criteria. Its decisions are compared with human consensus for snapshots and trajectories."
+  },
+  {
+    "id": "artificialanalysis2026aaroboticssim",
+    "short_name": "AA-Robotics-Sim v0.1",
+    "title": "Can language models drive a humanoid robot? Introducing AA-Robotics-Sim v0.1",
+    "authors": [
+      "Artificial Analysis"
+    ],
+    "year": 2026,
+    "url": "https://artificialanalysis.ai/articles/aa-robotics-sim",
+    "project_url": null,
+    "code_url": null,
+    "source_type": "Project / report",
+    "categories": [
+      "O2 / A3"
+    ],
+    "scope_note": "On the simulated Unitree G1, the agent writes and runs Python using RGB-D, a supplied pixel-to-point helper and motion APIs. After five practice episodes per task, its notes, code and skills are frozen. Each of ten new evaluation scenes starts independently from a copy of those files."
   }
 ]
