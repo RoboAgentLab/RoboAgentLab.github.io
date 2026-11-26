@@ -11303,10 +11303,18 @@
     "short_name": "PhysCaP",
     "title": "PhysCaP: Grounding Code-as-Policy Agent with Physics-Informed Exploration",
     "year": 2026,
-    "url": "https://openreview.net/forum?id=JprkI7JQDW",
+    "url": "https://arxiv.org/abs/2608.21031",
     "source_type": "Paper",
     "categories": [
       "O2 / A3"
+    ],
+    "project_url": "https://physcap.github.io/",
+    "code_url": "https://github.com/physcap/physcap",
+    "companion_links": [
+      {
+        "label": "Workshop paper",
+        "url": "https://openreview.net/forum?id=JprkI7JQDW"
+      }
     ]
   },
   {
@@ -13520,5 +13528,58 @@
       "O1 / A3"
     ],
     "scope_note": "For onboard walking, a coding agent develops a sensor-state-to-goal program offline and tests it in simulation. A human selects the deployed skill, which runs with the frozen whole-body controller."
+  },
+  {
+    "id": "chen2026amp1",
+    "short_name": "AMP1",
+    "title": "On Agentic Manipulation Policies",
+    "authors": [
+      "Omid Bagherieh",
+      "Naveen Nikamanth Appiah Balaji",
+      "Chen Chen",
+      "Jesse T. Gonzalez",
+      "Negin Heravi",
+      "Fahad Islam",
+      "Xueting Li",
+      "Jean-Baptiste Regli",
+      "Kejia Ren",
+      "Petr Švec",
+      "David J. Yoon",
+      "Matthias Müller",
+      "Vladlen Koltun"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2611.09892",
+    "project_url": "https://apple-aiml-research.github.io/ml-amp/",
+    "code_url": "https://github.com/apple-aiml-research/ml-amp",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A3",
+      "Self-Evolver / Knowledge and Memory"
+    ],
+    "scope_note": "The basic harness supplies segmented and tracked objects; the agent writes Python to compute grasps and revise actions. In the separate RoboDojo practice configuration, persistent memory carries experience across episodes."
+  },
+  {
+    "id": "cui2026embodisafety",
+    "short_name": "EmbodiSafety",
+    "title": "EmbodiSafety: Benchmarking Risk Understanding and Response in Embodied AI",
+    "authors": [
+      "Erfei Cui",
+      "Shengjia Zhao",
+      "Yan Qin",
+      "Kaixuan Wang",
+      "Junming Chen",
+      "Ping Luo",
+      "Tianxing Chen"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2611.33054",
+    "project_url": "https://embodisafety.github.io/",
+    "code_url": "https://github.com/embodisafety/embodiSafety",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Evaluation"
+    ],
+    "scope_note": "A visual-language judge assesses risk explanations and proposed responses against visual evidence and reference criteria. Its decisions are compared with human consensus for snapshots and trajectories."
   }
 ]
