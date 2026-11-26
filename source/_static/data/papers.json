@@ -11127,7 +11127,14 @@
       "Infrastructure / Training",
       "Self-Evolver / Model"
     ],
-    "scope_note": "An offline coding agent diagnoses a pretrained robot policy, chooses experiments and closed-form weight edits, and retains an edited checkpoint. The authors subsequently evaluate the checkpoint on hardware."
+    "scope_note": "Direct weight editing. An offline coding agent diagnoses a pretrained robot policy, chooses experiments and closed-form weight edits, and retains an edited checkpoint. The authors subsequently evaluate the checkpoint on hardware.",
+    "mechanisms": [
+      "Direct Weight Editing"
+    ],
+    "aliases": [
+      "Direct Weight Editing",
+      "Weight-Space Programming"
+    ]
   },
   {
     "id": "roboharm2026",
@@ -11666,7 +11673,14 @@
       "Self-Evolver / Model"
     ],
     "code_status": "pending_release",
-    "scope_note": "Agent-directed weight edits selected using simulator feedback and retained in the robot policy; evaluated lexical grounding repairs in simulation."
+    "scope_note": "Direct weight editing. Agent-directed weight edits selected using simulator feedback and retained in the robot policy; evaluated lexical grounding repairs in simulation.",
+    "mechanisms": [
+      "Direct Weight Editing"
+    ],
+    "aliases": [
+      "Direct Weight Editing",
+      "Weight-Space Programming"
+    ]
   },
   {
     "id": "song2025rationalvla",
@@ -13598,5 +13612,27 @@
       "O2 / A3"
     ],
     "scope_note": "On the simulated Unitree G1, the agent writes and runs Python using RGB-D, a supplied pixel-to-point helper and motion APIs. After five practice episodes per task, its notes, code and skills are frozen. Each of ten new evaluation scenes starts independently from a copy of those files."
+  },
+  {
+    "id": "wang2026vlaweightediting",
+    "short_name": "VLA Weight Editing",
+    "title": "How Far Can an LLM Go by Editing VLA Weights?",
+    "authors": [
+      "Yubang Wang"
+    ],
+    "year": 2026,
+    "url": "https://no-518.github.io/no-518-blog/blog/vla-weight-space-programming/",
+    "source_type": "Technical blog",
+    "categories": [
+      "Self-Evolver / Model"
+    ],
+    "mechanisms": [
+      "Direct Weight Editing"
+    ],
+    "scope_note": "Direct weight editing. The agent uses failed LIBERO-Pro2.0 rollouts to identify and test a conditional lift correction, then folds it into one output row and bias of a retained π0.5 policy. Simulation only.",
+    "aliases": [
+      "Direct Weight Editing",
+      "Weight-Space Programming"
+    ]
   }
 ]
