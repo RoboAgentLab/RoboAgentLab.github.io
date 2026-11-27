@@ -13989,6 +13989,19 @@
       "Infrastructure / Evaluation"
     ],
     "code_url": "https://github.com/cxcscmu/AgentRoboCritic",
-    "scope_note": "A separate critic compares each executed action with the policy agent’s stated local intent and multi-view observations around execution. It assesses whether that action achieved its intent and assigns a failure mode when it did not. The main analysis is action-level assessment and diagnosis, not an episode-success judge."
+    "scope_note": "A separate critic compares each executed action with the policy agent’s stated local intent and multi-view observations around execution. It assesses whether that action achieved its intent and assigns a failure mode when it did not. The main analysis is action-level assessment and diagnosis, not an episode-success judge.",
+    "authors": [
+      "Yiyang Du",
+      "Yuxuan Kuang",
+      "Qitao Zhao",
+      "Yixuan Wang",
+      "Zhanqiu Guo",
+      "Yi Xu",
+      "Xin Li",
+      "Wenbin He",
+      "Liu Ren",
+      "Chenyan Xiong"
+    ],
+    "project_url": "https://adu2021.github.io/blog/AgentRoboCritic/"
   }
 ]
