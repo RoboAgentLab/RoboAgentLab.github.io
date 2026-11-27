@@ -12402,7 +12402,7 @@
   {
     "id": "cai2026esi",
     "short_name": "ESI",
-    "title": "ESI: A Self-Improving Flywheel for LLM–VLA Agents",
+    "title": "ESI: An Embodied Self-Improvement Flywheel for LLM-VLA Agents",
     "authors": [
       "Yundi Cai",
       "Zihan Wang",
@@ -12412,14 +12412,15 @@
       "Zilei Wang"
     ],
     "year": 2026,
-    "url": "https://www.zerith.com/blog/esi/reports/ESI.pdf",
+    "url": "https://arxiv.org/abs/2611.18176",
     "project_url": "https://zerith.com/blog/esi/",
     "source_type": "Technical report",
     "categories": [
       "O1 / A2",
       "Self-Evolver / Model"
     ],
-    "scope_note": "The teacher reviews proposed motions against images, robot state and the proposed kinematic trajectory, then accepts, corrects or takes over. Effective segments supervise the VLA deployed in later rounds. The reported three-round experiment fixes the prompt and skill catalog."
+    "scope_note": "The teacher reviews proposed motions against images, robot state and the proposed kinematic trajectory, then accepts, corrects or takes over. Effective segments supervise the VLA deployed in later rounds. The reported three-round experiment fixes the prompt and skill catalog.",
+    "code_url": "https://github.com/ZERITH-ZLab/ESI"
   },
   {
     "id": "xu2026theharness",
@@ -14003,5 +14004,25 @@
       "Chenyan Xiong"
     ],
     "project_url": "https://adu2021.github.io/blog/AgentRoboCritic/"
+  },
+  {
+    "id": "liu2026agenticlonglive",
+    "short_name": "Agentic LongLive",
+    "title": "Agentic LongLive: Asynchronous Agentic Memory for Long Video Generation",
+    "authors": [
+      "Shaoteng Liu",
+      "Shuai Yang",
+      "Wei Huang",
+      "Luozhou Wang",
+      "Song Han",
+      "Yukang Chen"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2611.34907",
+    "project_url": "https://nvlabs.github.io/LongLive/Agentic-LongLive/",
+    "source_type": "Paper",
+    "categories": [],
+    "supporting_list": "infrastructure",
+    "scope_note": "In robot video simulation, the memory agent selects reference images from earlier generated segments to preserve object appearance and location under scripted instructions. Evaluation measures visual consistency when an object returns to view."
   }
 ]
