@@ -13906,5 +13906,52 @@
     "supporting_list": "self-evolver",
     "project_url": "https://zhangce01.github.io/morse/",
     "scope_note": "An editor revises memory code and validates candidates on held-out video streams. The downstream evaluation measures video question answering, including driving footage."
+  },
+  {
+    "id": "robodiagharness2026",
+    "short_name": "RoboDiag Harness",
+    "title": "RoboDiag Harness",
+    "authors": [
+      "YueBit"
+    ],
+    "year": 2026,
+    "url": "https://github.com/YueBit/robodiag-harness",
+    "code_url": "https://github.com/YueBit/robodiag-harness",
+    "source_type": "Repository",
+    "categories": [
+      "Infrastructure / Diagnosis"
+    ],
+    "scope_note": "Jev selects the next read-only ROS 2 evidence tool, health test or topic. The harness checks that a health test and a live measurement support the diagnosis."
+  },
+  {
+    "id": "roverlab2026",
+    "short_name": "RoverLab",
+    "title": "RoverLab",
+    "authors": [
+      "juancamiloqhz"
+    ],
+    "year": 2026,
+    "url": "https://github.com/juancamiloqhz/roverlab",
+    "code_url": "https://github.com/juancamiloqhz/roverlab",
+    "source_type": "Repository",
+    "categories": [
+      "O3 / A1 Code"
+    ],
+    "scope_note": "In the simulated expedition, Jev chooses among available rover actions from range-limited facts read directly from simulator state. Fixed code executes each choice. The recorded run applied ten choices before the next request failed."
+  },
+  {
+    "id": "system1agents2026",
+    "short_name": "System1-Agents",
+    "title": "System1-Agents",
+    "authors": [
+      "ThinkFlowLab"
+    ],
+    "year": 2026,
+    "url": "https://github.com/ThinkFlowLab/system1-agents",
+    "code_url": "https://github.com/ThinkFlowLab/system1-agents",
+    "source_type": "Repository",
+    "categories": [],
+    "scope_note": "In the ALFWorld text configuration, Jev selects an admissible command from a textual observation. AI2-THOR visualizes the recorded commands during replay.",
+    "supporting_list": "policy"
   }
 ]
