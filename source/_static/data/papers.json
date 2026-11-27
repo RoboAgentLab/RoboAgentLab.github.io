@@ -13854,5 +13854,57 @@
       }
     ],
     "scope_note": "The evaluated coding agents see overhead and wrist camera streams and write control code against the supplied I2RT driver, without Inspect Robots (O1/A3). A separate model assesses end states from before-and-after images under a human-defined rubric. Neither tested agent configuration completed a task in 36 trials per configuration at six minutes per trial; partial progress occurred. Human teleoperation used a different viewpoint and practice."
+  },
+  {
+    "id": "zhang2026datafarm",
+    "title": "PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data",
+    "authors": [
+      "Kewei Zhang",
+      "Juncheng Ma",
+      "Guodong Lv",
+      "Duomin Wang",
+      "Feixiang Ruan",
+      "Ruiyang Si",
+      "Chuanrui Zhang",
+      "Yuxuan Chen",
+      "Hao Chen",
+      "Yichen Liu",
+      "Yintianrun Zhang",
+      "Yufan Deng",
+      "Enze Xie",
+      "Daquan Zhou"
+    ],
+    "short_name": "PyRUA-DataFarm",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2611.05320",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Dataset Construction"
+    ],
+    "project_url": "https://dagroup-pku.github.io/PyRUA-Lean/DataFarm/",
+    "code_url": "https://github.com/DAGroup-PKU/PyRUA-Lean/tree/DataFarm",
+    "scope_note": "A coding agent reconstructs a calibrated scene and writes a simulation expert. Accepted rollouts supply action-labelled demonstrations for downstream policy training."
+  },
+  {
+    "id": "zhang2026morse",
+    "title": "MORSE: Optimizing Streaming Memory Design via Open-World Auto-Research",
+    "authors": [
+      "Ce Zhang",
+      "Jianshu Zhang",
+      "Jinxi He",
+      "Xiyuan Yang",
+      "Pan Wang",
+      "Han Liu",
+      "Katia Sycara",
+      "Yaqi Xie"
+    ],
+    "short_name": "MORSE",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2611.30011",
+    "source_type": "Paper",
+    "categories": [],
+    "supporting_list": "self-evolver",
+    "project_url": "https://zhangce01.github.io/morse/",
+    "scope_note": "An editor revises memory code and validates candidates on held-out video streams. The downstream evaluation measures video question answering, including driving footage."
   }
 ]
