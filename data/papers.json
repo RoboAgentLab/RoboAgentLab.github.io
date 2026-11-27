@@ -13976,5 +13976,19 @@
     "project_url": "https://robbinw.github.io/DemoFoundry-Web/",
     "code_url": "https://github.com/RobbinW/DemoFoundry",
     "scope_note": "Coding agents reconstruct task geometry and write interaction programs. Successful simulated trajectories pair recorded actions with rendered observations for policy learning."
+  },
+  {
+    "id": "du2026agentrobocritic",
+    "short_name": "AgentRoboCritic",
+    "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2611.26613",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Diagnosis",
+      "Infrastructure / Evaluation"
+    ],
+    "code_url": "https://github.com/cxcscmu/AgentRoboCritic",
+    "scope_note": "A separate critic compares each executed action with the policy agent’s stated local intent and multi-view observations around execution. It assesses whether that action achieved its intent and assigns a failure mode when it did not. The main analysis is action-level assessment and diagnosis, not an episode-success judge."
   }
 ]
