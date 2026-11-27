@@ -13751,11 +13751,12 @@
       "Daquan Zhou"
     ],
     "year": 2026,
-    "url": "https://chenyx24.github.io/PhysLoop-site/",
+    "url": "https://arxiv.org/abs/2611.16748",
     "categories": [],
     "supporting_list": "infrastructure",
     "scope_note": "Related work on generating and repairing physically plausible videos, including manipulation scenes. The documented update target is video generation.",
-    "source_type": "Project / report"
+    "source_type": "Paper",
+    "project_url": "https://chenyx24.github.io/PhysLoop-site/"
   },
   {
     "id": "takehi2026weightspace",
@@ -13953,5 +13954,27 @@
     "categories": [],
     "scope_note": "In the ALFWorld text configuration, Jev selects an admissible command from a textual observation. AI2-THOR visualizes the recorded commands during replay.",
     "supporting_list": "policy"
+  },
+  {
+    "id": "wang2026demofoundry",
+    "title": "DemoFoundry: Toward Scalable Photorealistic Robot Data with Coding Agents and Generative Rendering",
+    "authors": [
+      "Ruixiang Wang",
+      "Xinyue Yao",
+      "Xuanning Zhou",
+      "Yueci Deng",
+      "Yongyi Su",
+      "Kui Jia"
+    ],
+    "short_name": "DemoFoundry",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2611.34671",
+    "source_type": "Paper",
+    "categories": [
+      "Infrastructure / Dataset Construction"
+    ],
+    "project_url": "https://robbinw.github.io/DemoFoundry-Web/",
+    "code_url": "https://github.com/RobbinW/DemoFoundry",
+    "scope_note": "Coding agents reconstruct task geometry and write interaction programs. Successful simulated trajectories pair recorded actions with rendered observations for policy learning."
   }
 ]
