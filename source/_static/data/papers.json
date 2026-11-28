@@ -14046,5 +14046,34 @@
     "categories": [],
     "supporting_list": "policy",
     "scope_note": "A vision-language model selects a set of grasp points for cooperating robots from numbered candidates. A fixed two-stage planner computes the motions."
+  },
+  {
+    "id": "lai2026xharness",
+    "short_name": "X-Harness",
+    "title": "Toward Agentic Robotics: A Large-Scale Study of Harness Design for Robot-Use Agents",
+    "authors": [
+      "Yuxiang Lai",
+      "Jike Zhong",
+      "Yu-Jhe Li",
+      "Lan Wang",
+      "Chengzhi Liu",
+      "Youbao Tang",
+      "Ming Li",
+      "Xi Xiao",
+      "Xiaofeng Yang",
+      "Liang Zhao",
+      "Zheda Mai",
+      "Ruixi Fan"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2611.34778",
+    "source_type": "Paper",
+    "categories": [
+      "O2 / A2",
+      "O2 / A3",
+      "Self-Evolver / Programs and Skills",
+      "Self-Evolver / Code"
+    ],
+    "scope_note": "With supplied perception, the live agent sequences tool calls or writes executable policy logic. In separate offline experiments, rollout feedback and regression checks guide revisions to task programs or shared helper implementations. The helper experiment holds the task policy fixed."
   }
 ]
