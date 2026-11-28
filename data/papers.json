@@ -14024,5 +14024,27 @@
     "categories": [],
     "supporting_list": "infrastructure",
     "scope_note": "In robot video simulation, the memory agent selects reference images from earlier generated segments to preserve object appearance and location under scripted instructions. Evaluation measures visual consistency when an object returns to view."
+  },
+  {
+    "id": "song2025collabot",
+    "short_name": "CollaBot",
+    "title": "CollaBot: Vision-Language Guided Simultaneous Collaborative Manipulation",
+    "authors": [
+      "Kun Song",
+      "Gaoming Chen",
+      "Shentao Ma",
+      "Ninglong Jin",
+      "Guangbao Zhao",
+      "Mingyu Ding",
+      "Zhenhua Xiong",
+      "Jia Pan"
+    ],
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2508.03526",
+    "code_url": "https://github.com/song-kun/CollaBot",
+    "source_type": "Paper",
+    "categories": [],
+    "supporting_list": "policy",
+    "scope_note": "A vision-language model selects a set of grasp points for cooperating robots from numbered candidates. A fixed two-stage planner computes the motions."
   }
 ]
