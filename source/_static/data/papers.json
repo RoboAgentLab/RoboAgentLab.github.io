@@ -14075,5 +14075,19 @@
       "Self-Evolver / Code"
     ],
     "scope_note": "With supplied perception, the live agent sequences tool calls or writes executable policy logic. In separate offline experiments, rollout feedback and regression checks guide revisions to task programs or shared helper implementations. The helper experiment holds the task policy fixed."
+  },
+  {
+    "id": "demo2skill2026",
+    "short_name": "Demo2Skill",
+    "title": "Demo2Skill: Equipping Robot-Use Agents with Dexterous Skills through Demonstration and Simulation",
+    "year": 2026,
+    "url": "https://orangerangeangenge.github.io/Demo2Skill/",
+    "project_url": "https://orangerangeangenge.github.io/Demo2Skill/",
+    "source_type": "Project",
+    "categories": [
+      "Infrastructure / Environment Generation",
+      "Self-Evolver / Programs and Skills"
+    ],
+    "scope_note": "The agent reconstructs interactive scenes from human demonstrations and checks the modeled mechanisms in simulation. It refines callable manipulation skills using rollout feedback across varied object geometries and retains the revised procedures for reuse."
   }
 ]
